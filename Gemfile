@@ -17,6 +17,8 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 # For feed.xml.builder
 gem "builder", "~> 3.0"
 
-group :development do
-  gem 'middleman-livereload'
-end
+gem 'middleman-livereload'
+
+gem 'bitters'
+gem 'bourbon'
+gem 'neat'
