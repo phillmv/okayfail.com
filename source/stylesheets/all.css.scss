@@ -1,6 +1,94 @@
 @charset "utf-8";
 
+@import "normalize.css";
 @import "bourbon";
 @import "bitters/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
-@import "partials/layout";
+
+body {
+  font-family: Georgia;
+}
+
+// 1.618, base 1.2 and 1em
+h1 {
+  font-size: 1.942em;
+}
+
+h2 {
+  font-size: 1.618em;
+}
+
+header {
+  h1 {
+    font-size: 2.618em;
+  }
+
+  h2 {
+    font-size: 1.942em;
+  }
+
+}
+
+iframe {
+  margin: 0 0 $small-spacing;
+}
+
+.footnotes {
+  width: 100%;
+  border-top: $base-border;
+  padding-top: $base-spacing;
+  margin-top: $base-spacing;
+  font-size: 0.85em;
+  ol {
+    max-width: 33em;
+    list-style-type: decimal;
+    list-style-position: inside;
+    li {
+      text-indent: -1em;
+      padding-left: 1em;
+    }
+  }
+}
+
+#main {
+  @include outer-container;
+}
+
+@mixin mobile-all {
+  @media only screen and (max-device-width: 736px) {
+    @content;
+  }
+}
+.entry {
+  @include span-columns(6 of 12);
+  @include shift(3);
+  .post {
+    max-width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+#intro {
+  @include outer-container;
+
+  .video {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+
+  .title {
+    @include span-columns(8);
+    @include shift(2);
+    text-align: center;
+  }
+
+  .preamble {
+    @include span-columns(6);
+    @include shift(3);
+
+    margin-top: 1em;
+  }
+}
