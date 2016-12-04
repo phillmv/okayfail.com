@@ -50,7 +50,7 @@ iframe {
   }
 }
 
-#main {
+section {
   @include outer-container;
 }
 
@@ -70,25 +70,65 @@ iframe {
 }
 
 
-#intro {
-  @include outer-container;
 
-  .video {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+.video {
+  @include span-columns(2 of 12);
+  @include shift(1);
+}
+
+
+.intro-header {
+  @include span-columns(6 of 12);
+  @include shift(3);
+}
+
+.pic {
+   @include span-columns(6 of 12);
+  // width: 24%;
+  // margin-left: auto;
+  // margin-right: auto;
+  // display: inline-block;
+  // @include span-columns(3 of 12);
+  // &:first-child {
+  //   @include shift(1);
+  // }
+
+}
+
+.preamble {
+  @include span-columns(6 of 12);
+  @include shift(3);
+  h1 {
+    margin-top: 0;
   }
+}
 
-  .title {
-    @include span-columns(8);
-    @include shift(2);
-    text-align: center;
-  }
+.recentwork {
+  @include span-columns(6 of 12);
+  @include shift(3);
 
-  .preamble {
-    @include span-columns(6);
-    @include shift(3);
+}
 
-    margin-top: 1em;
+
+.recentwork2 {
+  @include span-columns(6 of 12);
+  @include shift(3);
+
+}
+
+section#intro {
+  margin-top: 1.5em;
+}
+
+.phillmp4 {
+  @include span-columns(3 of 12);
+  // @include shift(1);
+}
+
+.bio {
+  @include span-columns(6 of 12);
+  // @include shift(1);
+  h1 {
+    // margin-top: 0;
   }
 }
