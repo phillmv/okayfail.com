@@ -5,6 +5,18 @@
 @import "bitters/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
 
+@mixin mobile-all {
+  @media only screen and (max-device-width: 736px) {
+    @content;
+  }
+}
+
+@mixin desktop-all {
+  @media only screen and (min-device-width: 736px) {
+    @content;
+  }
+}
+
 body {
   font-family: Georgia;
 }
@@ -19,12 +31,15 @@ h2 {
 }
 
 header {
-  h1 {
-    font-size: 2.618em;
-  }
 
-  h2 {
-    font-size: 1.942em;
+  @include desktop-all {
+    h1 {
+      font-size: 2.618em;
+    }
+
+    h2 {
+      font-size: 1.942em;
+    }
   }
 
 }
@@ -52,13 +67,12 @@ iframe {
 
 section {
   @include outer-container;
-}
-
-@mixin mobile-all {
-  @media only screen and (max-device-width: 736px) {
-    @content;
+  @include mobile-all {
+    padding: 20px;
   }
 }
+
+
 .entry {
   @include span-columns(6 of 12);
   @include shift(3);
@@ -69,59 +83,111 @@ section {
   }
 }
 
-// .pic {
-//    @include span-columns(6 of 12);
-//   // width: 24%;
-//   // margin-left: auto;
-//   // margin-right: auto;
-//   // display: inline-block;
-//   // @include span-columns(3 of 12);
-//   // &:first-child {
-//   //   @include shift(1);
-//   // }
-// 
-// }
-
-// .preamble {
-//   @include span-columns(6 of 12);
-//   @include shift(3);
-//   h1 {
-//     font-size: 2.618em;
-//     margin-top: 0;
-//   }
-// }
-// 
-
-.recentwork {
+.archive {
   @include span-columns(6 of 12);
   @include shift(3);
 
-  .logo {
-    max-width: 80%
+  ol {
+    max-width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+
+    li.article {
+      p:first-child {
+        margin-bottom: 0;
+      }
+    }
   }
 
 }
 
+.recentwork {
+
+  @include desktop-all {
+    @include span-columns(6 of 12);
+    @include shift(3);
+
+    .logo {
+      max-width: 80%
+    }
+
+  }
+
+  @include mobile-all {
+    @include span-columns(12);
+
+    iframe {
+      width: 100%;
+    }
+  }
+
+
+ 
+}
+
 header {
   @include outer-container;
-  margin-top: 1.5em;
+
+  @include desktop-all {
+    margin-top: 1.5em;
+  }
 
   .avatar {
-    @include span-columns(3 of 12);
+    @include desktop-all {
+      @include span-columns(3 of 12);
+    }
+
+    @include mobile-all {
+      @include span-columns(12);
+    }
+
     video {
       @include border-top-radius(5px);
       @include border-right-radius(5px);
       @include border-bottom-radius(5px);
       @include border-left-radius(5px);
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+      
+    @include mobile-all {
+      margin-top: 5%;
+    }
+
     }
   }
 
   .bio {
-    @include span-columns(6 of 12);
+    @include desktop-all {
+      @include span-columns(6 of 12);
+    }
+
+    @include mobile-all {
+      @include span-columns(12);
+      padding: 20px;
+    }
+
     h1 {
-      font-size: 2.618em;
       margin-top: 0;
     }
+  }
+
+  .shortbio {
+
+    @include desktop-all {
+      @include span-columns(6 of 12);
+      @include shift(3);
+    }
+
+    @include mobile-all {
+      @include span-columns(12);
+      padding: 20px;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
   }
 }
 

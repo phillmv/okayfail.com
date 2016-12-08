@@ -1,22 +1,10 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <%= stylesheet_link_tag "all" %>
+<% wrap_layout :layout do %>
 
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-  </head>
-  <body>
-    <div class="main">
-      <div class="entry">
-        <div class="post">
-          <h1><%= current_article.title %></h1>
-          <%= yield %>
-        </div>
-      </div>
+  <%= partial "shared/shortbio" %>
+  <div class="entry">
+    <div class="post">
+      <h1><%= current_article.title %></h1>
+      <%= yield %>
     </div>
-  </body>
-</html>
+  </div>
+<% end %>

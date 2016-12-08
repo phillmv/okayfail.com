@@ -5,104 +5,47 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag "all" %>
+    <%= yield_content :head %>
 
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <% if content_for?(:page_title) %>  
+      <%= yield_content :page_title %>
+    <% else %>
+      <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <% end %>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
 
+    <%= yield %>
 
-    <header>
-      <div class="avatar">
-        <video width="90%" autoplay loop muted>
-          <source src="assets/output.mp4" type="video/mp4" />
-          <!-- <source src="movie.ogg" type="video/ogg" /> -->
-          Your browser does not support the video tag.
-        </video>
+    <% if false %>
+      <div id="main" role="main">
       </div>
 
-      <div class="bio">
-        <h1>Phillip Mendonça-Vieira</h1>
-        <p>I am a software engineer by trade. I tell computers what to do. I make apps, I build products, I throw events. I think about people, and the internet.</p>
-      </div>
-    </header>
+      <aside>
+        <h2>Recent Articles</h2>
+        <ol>
+          <% blog.articles[0...10].each do |article| %>
+            <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+          <% end %>
+        </ol>
 
-    <section>
-       <div class="recentwork">
-        <h2>Recent work and projects:</h2>
+        <h2>Tags</h2>
+        <ol>
+          <% blog.tags.each do |tag, articles| %>
+            <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+          <% end %>
+        </ol>
 
-
-        <a href="https://appcanary.com"><img class="logo" title="Appcanary" src="/img/appcanary.logo.png" /></a>
-        <br/>
-        <br/>
-      <p>In 2015, we started <a href="https://appcanary.com">Appcanary</a>. We track security vulnerabilities in open source code and notify our customers when they have to take action.</p>
-      <p>We got into Y Combinator, it's been an interesting time. We're doing some cool stuff. Read more about us <a href="http://blog.appcanary.com">on our blog</a>.</p>
-
-
-      <h2 style="font-family: 'Courier New', monospace; font-weight: normal;"><a href="http://xvzf.io">xvzf</a></h2>
-      <p>Established in 2014, with a few co-conspirators, I organize and throw a regularly occurring storytelling night for Toronto tech workers. We produce a podcast, and a whole bunch of people show up. You should <a href="http://xvzf.io">check it out</a>.</p>
-      
-      <img class="logo" src="/img/stateio.logo.png" style="width: 80%" />
-      <p>Until early 2015, I ran <a href="http://state.io">State Machinery</a>, a security and development consultancy. We opened for business in November, 2012. We performed security audits, penetration tests, built mvps and advised teams on how to improve their software practice.</p>
-
-      <h2>Gemcanary</h2>
-      <p>
-        In February 2013, we built <a href="https://gemcanary.com">Gemcanary</a>, a tool for monitoring known security disclosures in Rails/Bundler enabled applications on Github. I wrote a little bit more about it <a href="http://finite.state.io/blog/2013/03/08/making-gemcanary/">on the State Machinery blog</a>. It eventually led to <a href="https://www.appcanary.com">Appcanary</a>.
-      </p>
-
-      <iframe width="640" height="360" src="//www.youtube.com/embed/R7pgAlCB3kU?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
-
-      <h2>Audiogram</h2>
-      <p>
-        Back in January 2012, I created an app for an dance party art installation. I combined the instagram api with some javascript and it was <a href="">a lot of fun</a>.
-      </p>
-
-      <h2>NYTimes Timelapse</h2>
-      <p>
-        In July 2011, I put together an <a href="/2011/nytimes-timelapse.html">eight month time lapse</a> of the front page of the nytimes.com. I wrote a <a href="/2011/howto-timelapse-nytimes.html">time lapse tutorial</a>, and I also happened to capture <a href="/2011/bbc-timelapse.html">the front page of the bbc</a>. It got a lot of attention, and it was pretty neat.
-      </p>
-
-      <h2>Undergraduate thesis</h2>
-      <p>
-        In lieu of course work, prior to graduating I wrote an undergraduate thesis on <a href="/2011/thoughts-on-building-a-feed-reader.html">applying a naïve bayesian classifier to rss feeds</a>.
-      </p>
-
-        
-      </div>
+        <h2>By Year</h2>
+        <ol>
+          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+            <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+          <% end %>
+        </ol>
+      </aside>
+    <% end %>
 
 
-    </section>
-
-
-    <div id="main" role="main">
-      <%# <%= yield %>
-    </div>
-
-    <aside>
-      <h2>Recent Articles</h2>
-      <ol>
-        <% blog.articles[0...10].each do |article| %>
-          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-        <% end %>
-      </ol>
-
-      <h2>Tags</h2>
-      <ol>
-        <% blog.tags.each do |tag, articles| %>
-          <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-        <% end %>
-      </ol>
-
-      <h2>By Year</h2>
-      <ol>
-        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-          <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-        <% end %>
-      </ol>
-    </aside>
-
-  </div>
-
-    </div>
   </body>
 </html>
