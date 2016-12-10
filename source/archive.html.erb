@@ -5,16 +5,17 @@
 
 <% wrap_layout :layout do %>
   <%= partial "shared/shortbio" %>
-  <div class="archive">
-    <ol>
-    <h1>Writing</h2>
-      <% blog.articles.each do |article| %>
-        <li class="article">
-          <p><%= article.date.strftime('%0e %b %Y') %></p>
-          <p><%= link_to article.title, article %></p>
-        </li>
-      <% end %>
-    </ol>
-  </div>
-
+  <section>
+    <div class="archive">
+      <ol>
+        <h1>Writing</h2>
+        <% blog.articles.each do |article| %>
+          <li class="article">
+            <p><%= article.date.strftime('%0e %b %Y') %></p>
+            <p><%= link_to article.title, article %></p>
+          </li>
+        <% end %>
+      </ol>
+    </div>
+  </section>
 <% end %>
