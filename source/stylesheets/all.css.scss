@@ -4,31 +4,8 @@
 @import "bourbon";
 @import "bitters/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
+@import "global_tweaks";
 
-@mixin mobile-all {
-  @media only screen and (max-device-width: 736px) {
-    @content;
-  }
-}
-
-@mixin desktop-all {
-  @media only screen and (min-device-width: 736px) {
-    @content;
-  }
-}
-
-body {
-  font-family: Georgia;
-}
-
-// 1.618, base 1.2 and 1em
-h1 {
-  font-size: 1.942em;
-}
-
-h2 {
-  font-size: 1.618em;
-}
 
 header {
 
@@ -42,10 +19,6 @@ header {
     }
   }
 
-}
-
-iframe {
-  margin: 0 0 $small-spacing;
 }
 
 .footnotes {
@@ -81,6 +54,12 @@ section {
     margin-left: auto;
     margin-right: auto;
   }
+
+  h1.title a {
+    color: black;
+  }
+
+  margin-bottom: 2em;
 }
 
 .archive {
@@ -102,7 +81,6 @@ section {
 }
 
 .recentwork {
-
   @include desktop-all {
     @include span-columns(6 of 12);
     @include shift(3);
@@ -121,6 +99,17 @@ section {
     }
   }
 
+   .project {
+    padding-top: 0.8em;
+  }
+
+   img.project {
+    padding-top: 0;
+  }
+
+  .xvzf {
+    font-size: 2em;
+  }
 
  
 }

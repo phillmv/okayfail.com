@@ -10,15 +10,15 @@
     <% if content_for?(:page_title) %>  
       <%= yield_content :page_title %>
     <% else %>
-      <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+      <title>phillmv</title>
     <% end %>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/atom.xml", title: "Atom Feed" %>
   </head>
   <body>
 
     <%= yield %>
 
-    <% if false %>
+    <% if false # to copy later %>
       <div id="main" role="main">
       </div>
 
@@ -45,7 +45,5 @@
         </ol>
       </aside>
     <% end %>
-
-
   </body>
 </html>

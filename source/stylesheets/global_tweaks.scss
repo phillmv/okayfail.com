@@ -1,0 +1,71 @@
+// all selectors that target bare tags go here
+
+@mixin mobile-all {
+  @media only screen and (max-device-width: 736px) {
+    @content;
+  }
+}
+
+@mixin desktop-all {
+  @media only screen and (min-device-width: 736px) {
+    @content;
+  }
+}
+
+html {
+  margin-bottom: 2em;
+}
+
+
+// I'm a traditionalist at heart
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+body {
+  font-family: Georgia;
+}
+
+// 1.618, base 1.2 and 1em
+h1 {
+  font-size: 1.942em;
+}
+
+h2 {
+  font-size: 1.618em;
+}
+
+// copied from bootstrap
+pre {
+  display: block;
+  padding: 9.5px;
+  font-size: 0.7em;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 0.7em;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+
+iframe {
+  margin: 0 0 $small-spacing;
+}
