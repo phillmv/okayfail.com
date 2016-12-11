@@ -22,7 +22,7 @@ header {
 
   @include mobile-all {
     h1 { 
-      font-size: 2.2em; 
+      font-size: 2.1em; 
     }
   }
 }
@@ -168,6 +168,15 @@ header {
 
     h1 {
       margin-top: 0;
+    }
+
+    .rlb {
+      @include desktop-all {
+        display: inline;
+      }
+      @include mobile-all {
+        display: block;
+      }
     }
   }
 
