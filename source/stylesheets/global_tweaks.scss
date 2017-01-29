@@ -1,4 +1,5 @@
-// all selectors that target bare tags go here
+// all selectors that target bare tags go here,
+// so we can override the default bitters stuff.
 
 @mixin mobile-all {
   @media only screen and (max-device-width: 736px) {
@@ -30,6 +31,17 @@ body {
   font-family: Georgia;
 }
 
+// I prefer to have space below *and* above headers
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: $large-spacing 0 $small-spacing;
+}
+
 // 1.618, base 1.2 and 1em
 h1 {
   font-size: 1.942em;
@@ -37,6 +49,19 @@ h1 {
 
 h2 {
   font-size: 1.618em;
+}
+
+p {
+  margin: 0 0 $medium-spacing;
+}
+
+// http://practicaltypography.com/block-quotations.html
+// reduce font-size and line-height slightly
+blockquote {
+  // reminder for futureself: ems are relative!
+  // so this is 0.9em of $base-font-size!
+  font-size: 0.9em;
+  line-height: $base-line-height - 0.1;
 }
 
 // copied from bootstrap

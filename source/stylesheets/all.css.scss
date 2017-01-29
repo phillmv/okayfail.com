@@ -7,25 +7,7 @@
 @import "global_tweaks";
 
 
-header {
-  // header emphasis different from normal
-  // headings; but new default too large for mobile
-  @include desktop-all {
-    h1 {
-      font-size: 2.618em;
-    }
-
-    h2 {
-      font-size: 1.942em;
-    }
-  }
-
-  @include mobile-all {
-    h1 { 
-      font-size: 2.1em; 
-    }
-  }
-}
+$post-width: 39rem;
 
 section {
   @include outer-container;
@@ -55,27 +37,33 @@ section {
   margin-bottom: 2em;
 
   .post {
-    max-width: 33em;
-    margin-left: auto;
-    margin-right: auto;
+    // measure should be 45-75 chars
+    // here we went for 75chars
+    // max-width: 33em;
+    max-width: $post-width;
   }
 
   h1.title a {
     color: black;
   }
 
-  blockquote {
-    font-size: 1rem;
-  }
-
- ol {
+  ol {
     list-style-type: decimal;
+    // style-pos inside so it'll line up
+    // with the parent-div, instead of having
+    // numerals stick out.
     list-style-position: inside;
-    margin-bottom: $header-spacing;
     li {
-      text-indent: -1em;
-      padding-left: 1em;
-      margin-bottom: $small-spacing;
+      // ps must display inline
+      // cos w/style-pos inside, the li char forces
+      // a line break with <p>s. this is bad.
+      p {
+        display: inline; 
+      }
+      // give lis same spacing as
+      // paragraphs, since display inline
+      // causes it to not break lines? i think.
+      margin: 0 0 $medium-spacing;
     }
   }
 }
@@ -87,25 +75,14 @@ section {
   border-top: $base-border;
   padding-top: $base-spacing;
   margin-top: $base-spacing;
-  font-size: 0.85em;
-  ol {
-    max-width: 33em;
-    list-style-type: decimal;
-    list-style-position: inside;
-    li {
-      text-indent: -1em;
-      padding-left: 1em;
-    }
-  }
+  font-size: 0.9em;
 }
 
 
 
 .archive {
   ol {
-    max-width: 33em;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: $post-width;
     list-style-type: none;
 
     li.article {
@@ -145,7 +122,26 @@ header {
 
   @include desktop-all {
     margin-top: 1.5em;
+
+    // header emphasis different from normal
+    // headings; but new default too large for mobile
+    // (see mobile-all h1)
+    h1 {
+      font-size: 2.618em;
+    }
+
+    h2 {
+      font-size: 1.942em;
+    }
+
   }
+
+  @include mobile-all {
+    h1 { 
+      font-size: 2.1em; 
+    }
+  }
+
 
   .avatar {
     @include desktop-all {
@@ -184,6 +180,7 @@ header {
 
     h1 {
       margin-top: 0;
+      margin-bottom: $large-spacing;
     }
 
     .rlb {
