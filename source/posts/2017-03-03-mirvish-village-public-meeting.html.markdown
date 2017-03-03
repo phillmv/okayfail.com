@@ -1,0 +1,206 @@
+---
+layout: post
+title: Mirvish Village Public Meeting 
+---
+
+<style>
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+</style>
+
+<p>On March 2nd, 2017, I attended a public meeting organized by city hall councillors <a href="https://twitter.com/m_layton">Mike Layton</a> and <a href="https://twitter.com/joe_cressy">Joe Cressy</a> to discuss <a href="https://twitter.com/westbankcorp">Westbank</a>'s planning application for the Mirvish Village redevelopment.</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The planning proposal for this looks really interesting and well done: <a href="https://t.co/3EUVgH3lcz">https://t.co/3EUVgH3lcz</a><br><br>I&#39;ll be swinging by. <a href="https://t.co/DKiPngYLa9">https://t.co/DKiPngYLa9</a></p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837343584265326592">March 2, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Nota bene: I&#39;m unqualified to judge planning proposals.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837343694177075200">March 2, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">But! 800 new *rental* units! A sliver of new green space! Interesting looking buildings! Hahaha we are fucked for housing</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837344627401322497">March 2, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I made it! Packed room. Judging by their posters this is the the last in a very long line of consultations.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837450307101655040">March 2, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">ICYMI! This is what they&#39;re proposing: <a href="https://t.co/NUimfm8pDO">https://t.co/NUimfm8pDO</a> <a href="https://twitter.com/hashtag/HonestEds?src=hash">#HonestEds</a> <a href="https://twitter.com/hashtag/redevelopment?src=hash">#redevelopment</a> <a href="https://twitter.com/hashtag/community?src=hash">#community</a> <a href="https://twitter.com/hashtag/planning?src=hash">#planning</a> <a href="https://twitter.com/hashtag/city?src=hash">#city</a> <a href="https://twitter.com/hashtag/building?src=hash">#building</a> <a href="https://twitter.com/hashtag/Toronto?src=hash">#Toronto</a></p>&mdash; Laura Beeston (@LauraBeeston) <a href="https://twitter.com/LauraBeeston/status/837453292670238722">March 3, 2017</a></blockquote>
+
+<p>The meeting kicked off with a short speech by councillor Layton, and then Cressy, before we heard from the project's architect and the city planner.</p>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">. <a href="https://twitter.com/m_layton">@m_layton</a> mentions this is the most robust planning process he’s dealt with. A lot of effort has brought us to this point.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837452762388512768">March 3, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Initial submission in 2015. Ambitious, robust. Some problems with it; now third submission. Unusually involved with community.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837453146129592320">March 3, 2017</a></blockquote>
+
+
+<p>I'm very conveniently hidden behind a pillar in this shot:</p>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">at the <a href="https://twitter.com/hashtag/community?src=hash">#community</a> <a href="https://twitter.com/hashtag/consultation?src=hash">#consultation</a> meeting for the <a href="https://twitter.com/hashtag/HonestEds?src=hash">#HonestEds</a> <a href="https://twitter.com/hashtag/redevelopment?src=hash">#redevelopment</a>. Nice crowd. <a href="https://twitter.com/hashtag/Toronto?src=hash">#Toronto</a> <a href="https://twitter.com/hashtag/citybuilding?src=hash">#citybuilding</a> <a href="https://t.co/OtIXXMEEe9">pic.twitter.com/OtIXXMEEe9</a></p>&mdash; Laura Beeston (@LauraBeeston) <a href="https://twitter.com/LauraBeeston/status/837452785629147138">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">300 people at community consultation at the Bickford Ctr re <a href="https://twitter.com/VillageMirvish">@VillageMirvish</a> redevelopment by <a href="https://twitter.com/westbankcorp">@westbankcorp</a>. <a href="https://twitter.com/hashtag/Toronto?src=hash">#Toronto</a> <a href="https://twitter.com/hashtag/TOplanning?src=hash">#TOplanning</a> <a href="https://twitter.com/hashtag/TOpoli?src=hash">#TOpoli</a> <a href="https://t.co/jIz40WApMK">pic.twitter.com/jIz40WApMK</a></p>&mdash; UrbanToronto (@Urban_Toronto) <a href="https://twitter.com/Urban_Toronto/status/837454828553056257">March 3, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">“Last thing we want as a community is give up our autonomy and hand it over to the OMB“, great to see so many involved West Bank &amp; community</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837453907936817153">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/joe_cressy">@joe_cressy</a> highlights how involved and engaged so many ppl in the room have been, to a round of applause</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837454086639321090">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Councillor Cressy: &quot;what happens at this corner will impact our neighbourhood for the next 100 years.&quot; <a href="https://twitter.com/hashtag/HonestEds?src=hash">#HonestEds</a> <a href="https://twitter.com/hashtag/redevelopment?src=hash">#redevelopment</a></p>&mdash; Laura Beeston (@LauraBeeston) <a href="https://twitter.com/LauraBeeston/status/837454673720328192">March 3, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">This is a model for how we want the development community to engage with the city, over so many years. Lots of sweat &amp; tears from city staff</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837454486444593152">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">We all want affordable, mixed income, livable, etc, neighborhoods. Wants to hear what’s left to get community to agree. Now for the builder;</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837455548392038400">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Architect highlights how they want community feedback. This process began in 2013, approached by developer. Part of the neighborhood.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837456673958678528">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Project: 100% rental, public market space, sustainable building, heritage retention, street scale, pedestrian oriented, micro retail</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837456929823805440">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Community consultation got us more public space, park space, reduced shadowing on the street, less room for cars</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837457893553225728">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">I’m just some idiot but this project looks dope. A lot of attention to detail. <br><br>Architect repeats “so we removed density” over and over.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837458850102005760">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">City planner details the hundreds of comments and dozens of meetings that have gotten us this far, focus on livability.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837461674944839680">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Almost all growth in Toronto slated to go on major avenues, leaving large yellow-belt/low density untouched.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837462121583607808">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Planning is very labour intensive; lots of policy angles. <br><br>Shout out to community on how most progressive aspects came from residents.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837463707118682112">March 3, 2017</a></blockquote>
+
+<p>The presentations now over, mics were open to the public. Councillors and staffers took about five comments or questions at a time before answering all at once.</p>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Q&amp;a brings; what is sq ft of units? Can we guarantee it stays as rentals?<br><br>Renter defends project, was priced out of the hood.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837465032728457220">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Lady steps up &amp; declares building too dense, too crammed,   transit jammed, city does not have resources to fix problems. Wants less height</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837465393648254981">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">The annex is already a vibrant without uhm these new people I guess. Can we not remove even more housing?</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837465595272638464">March 3, 2017</a></blockquote>
+
+<p>Answer:</p>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">450, 550, 850, 1200 sq ft. 37% of units family oriented. <br><br>Intent is to keep as rental. More info to come. Priority to subsidize some units</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837466243019980805">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Another lady comes up and asks to reduce density; too much concrete, concerned with global warming effect; already at pt of high density</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837467047969832964">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Millennial speaks in favour of the project; selfishly speaks of wanting to start a family and afford housing</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837467982951395330">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Old guy who said 5 year project construction length was a life sentence in terms of disruption heckles city planner suggesting it’d be 3 yrs</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837468357226024962">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Local dentist concerned with black community legacy; how can we ensure there’s a legacy for the different communities in the area?</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837468851004719106">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Millennial speaks in support of the project, can’t afford a condo. How can we beef up transit for neighborhood?</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837469133625241601">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Older gentleman reinforces historical roots of community; older lady asks re floorplans of apartments, doesn’t want shoe boxes</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837469393021980672">March 3, 2017</a></blockquote>
+
+<p>Answer:</p>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Rental units have to be better than condos; condos you sell once whereas rentals have to last from tenant to tenant.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837469695775240193">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Renter on Palmerston echoes earlier statement how it’ll affect hood for 100 years from now; think about how project’ll be written about then</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837470395498442752">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Older gentleman comments, common sense would require better transit infrastructure. Subway is packed rn; how will ppl get to work?</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837470778824208385">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Markham st res applauds project but is concerned about headcount. Can we really handle so many single people w/no ties to area i.e. owners?</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837471089915670528">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Don’t want to end up like st Jamestown, can’t we reduce housing/avoid becoming a slum?<br><br>Can’t let poors move in I guess?</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837471365666123777">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Next citizen concerned abt 13,000 &quot;headcount&quot; in one block; makes negative connotation to St Jamestown... Many groan at comparison.</p>&mdash; Laura Beeston (@LauraBeeston) <a href="https://twitter.com/LauraBeeston/status/837471409479778304">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Uoft student asks what price ranges?<br><br>Dude who works out of CSI says process was thorough, project is cool, more developers should do this</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837471918378872836">March 3, 2017</a></blockquote>
+
+<p>Answer:</p>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Transit: we’re fucked lol, we don’t fund it (my take). <br><br>Official answer is we got piecemeal capacity improvements on the pipeline.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837472511772217344">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Prices: market rate… 5 years from now. (lol)<br><br>Density: it’s fine if done well, chill<br><br>
+<a href="https://twitter.com/m_layton">@m_layton</a> is pushing for public $ for affordable hous</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837473058285883395">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Millennial is getting evicted as we speak. Wants stability. <br><br>Wants this to set a precedent. Initially didn’t like it, now is open.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837473393096142848">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Tiny lady, resident for 27 yrs, shows map of development, rails against tall building behind a heritage, reduce height from 17 stories</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837473868986073088">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Goes on to talk about how this’ll cost 2k for a 2 bedroom, too expensive.<br><br>Lady has obviously not looked at rental prices any time soon.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837474105217675264">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Millennial stuck in east york, works in culture, can’t afford to participate. Very important for artists in this community. Thanks devs</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837474367965650944">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Markham resident, who employs artists even, says there’ll be too much traffic, inconceivable Lennox st can accommodate. Wants co-ops?</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837475160332636160">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Middle aged lady questions heritage preservation, says building doesn’t have amenities, not enough daycare? Not accessible enough.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837475601862778880">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Older guy who works in the area says area is actually NOT vibrant, school closures means density has dropped, this project is good.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837475803692679168">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Answers: heritage preservation is tricky. Buildings mostly “in situ”. <br><br>They’re figuring out traffic; reduced parking, maybe left turn lane</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837477259992776704">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">The rental building will have amenity space aimed at families, not just fuck-mountain gyms</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837477520199024640">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">(Er, fuck-mountain is how my friends who moved into Cityplace described the young, virile single scene)</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837477889369124864">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Millennial wants to live in well maintained apartments she can afford.<br><br>Mid aged lady who lives at Eglinton thinks this lacks big retail.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837478330286882816">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Millennial bemoans lack of housing, precarious housing conditions. Thinks this is a great development.</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837478794353065985">March 3, 2017</a></blockquote>
+
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Last speaker: just moved in to hood with new family, feels like won the lottery, thanks project.<br><br>That’s a wrap, folks! Thanks for listening</p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837479091649536000">March 3, 2017</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
