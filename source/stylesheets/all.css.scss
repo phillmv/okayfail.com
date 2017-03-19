@@ -47,6 +47,14 @@ section {
     color: black;
   }
 
+  figure {
+    margin: 0;
+    margin-bottom: 1em;
+    figcaption {
+      font-size: 0.8em;
+    }
+  }
+
   ol {
     list-style-type: decimal;
     // style-pos inside so it'll line up
