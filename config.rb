@@ -9,6 +9,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+set :site_url, "http://okayfail.com"
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 

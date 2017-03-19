@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Canada, Keep the Queen
+article_image: /img/keepthequeen.png
 ---
 
 <figure>
