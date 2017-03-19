@@ -54,8 +54,8 @@ I can picture it now. Young women across the land competing to *become the Queen
 
 Instead of a mere mortal vessel of flesh, the representation of our state can change with us, as we no doubt will keep changing, in due time.
 
-[^catholic]: Though, I mean, growing up Catholic, it has a familliar ring to it.
+[^catholic]: Though, I mean, growing up Catholic, it has a [familliar ring](https://en.wikipedia.org/wiki/Trinity) to it.
 [^coffin]: "British royals are buried in lead-lined coffins. Diana’s weighed a quarter of a ton." One presumes, in order to keep them from escaping or contaminating the environment further.
 [^quoted]: Exquisite framing courtesy of [Jonathan Freedland](http://www.nybooks.com/articles/2017/03/23/the-crown-great-family-business/) by way of [Colin Horgan](https://articlemag.ca/brexit-britains-existential-reckoning-b194b6e99e97#.uq628tst6).
 [^seriously]: The great trick of the Westminster system is most of its gears and cogs are made of unwritten norms and traditions. The Queen may sign off on parliament's laws but it'd actually be inconceivable for her to quibble about it. Anything short of automatic assent would trigger a vast crisis, right?
-[^hbc]: I recently [got woke](https://twitter.com/phillmv/status/838485129832062976) and now find Hudson's Bay blankets to be inappropriate objects to own.
+[^hbc]: I recently [got woke](https://twitter.com/phillmv/status/838485129832062976) and now find Hudson's Bay blankets to be inappropriate objects to own. Now, I'm not saying you should destroy your $300 blanket, but you should at least hide it from polite company.
