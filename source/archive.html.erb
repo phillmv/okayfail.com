@@ -9,6 +9,8 @@
     <div class="archive">
       <ol>
         <h1>Writing</h2>
+        <p>Follow along using <a href="/atom.xml">the rss feed</a>.</p>
+        <hr/>
         <% blog.articles.reject { |a| a.data[:draft] }.each do |article| %>
           <li class="article">
             <p><%= article.date.strftime('%0e %b %Y') %></p>
