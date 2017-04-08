@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Canada, Keep the Queen
+title: Canada, Keep the Queen!
 article_image: /img/keepthequeen.png
 ---
 
@@ -14,7 +14,7 @@ Let's talk about the Queen, shall we? Elizabeth Alexandra Mary has been the Quee
 
 Those of you not in the Commonwealth may have only a dim and fuzzy idea of the Queen's role. As a loyal subject, the picture's only slightly clearer. 
 
-The Queen decorates our money, she provides royal assent to our laws, and is literal personification of the Canadian state. To swear loyalty and to love Canada is to be loyal to and love the Queen. Except, Her Majesty Queen Elizabeth II the physical old lady is technically a [distinct and separate legal entity](http://policyoptions.irpp.org/2015/03/02/citizenship-and-the-hollowed-canadian-crown/) from the Crown, the Canadian state.
+The Queen decorates our money, she provides royal assent to our laws, and is the literal personification of the Canadian government. To swear loyalty and to love Canada is to be loyal to and love the Queen. Except, Her Majesty Queen Elizabeth II the physical old lady is technically a [distinct and separate legal entity](http://policyoptions.irpp.org/2015/03/02/citizenship-and-the-hollowed-canadian-crown/) from the Crown, the Canadian state.
 
 It's complicated[^catholic].
 
