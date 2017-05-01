@@ -72,3 +72,19 @@ end
 configure :development do
   activate :livereload
 end
+
+helpers do
+  def saint_name(sym)
+    data.azulejos["names"][sym]
+  end
+
+  def azulejos_by_saint
+    data.azulejos[:azulejo].reduce({}) { |h, (f, sh)| 
+      (sh[:saints] || []).each { |s| 
+        h[s] ||= []; 
+        h[s] << f 
+      }; 
+      h 
+    }
+  end
+end
