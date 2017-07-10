@@ -1,0 +1,11 @@
+<% data.azulejos["azulejo"].each_slice(4) do |slice| %>
+  <section>
+    <% slice.each do |f, arr| %>
+      <div class="azulejo">
+        <img src="/img/azulejos/<%= f %>" style="display: inline">
+      </div>
+    <% end %>
+  </section>
+<% end %>
+
+

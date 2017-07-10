@@ -1,8 +1,45 @@
 ---
-layout: post
+layout: azulejo
 title: The Saints of Little Portugal
 ---
-<p style="font-size: 0.8em;"><i>Documenting all the azulejos found in my neighborhood.<!-- <br/>Investigando os azuleijos religiosos do meu bairro.--></i></p>
+
+<% content_for :preamble do %>
+  <% if true %>
+    <%= render_partial 'views/azulejos' %>
+  <% end %>
+<% end %>
+
+
+<% if false%>
+<% data.azulejos["saints"].each do |s, arr| %>
+  <h2><%=saint_name(s)%></h2>
+  <% arr.each do |f| %>
+<img src="/img/azulejos/<%= f %>" style="width: 47%; margin: 1%; display: inline">
+  <% end %>
+<% end %>
+
+
+<div style="width: 100%; float: left; margin-bottom: 1em;"> 
+  <div style="width: 50%; float: left">
+    <h3>By Saint:</h3>
+      <%= data.azulejos["saints"].map do |s, arr|
+            "#{saint_name(s)} (#{arr.size})"
+          end.join("<br/>") %>
+  </div>
+
+  <div style="width: 50%; float: left;">
+    <h3>By Street:</h3>
+      <%= data.azulejos["streets"].map do |s, arr|
+            "#{s} (#{arr.size})"
+          end.join("<br/>") %>
+  </div>
+&nbsp;
+</div>
+<% end %>
+
+
+
+<p style="font-size: 0.8em;"><i>Documenting all quaint religious tiles found in my neighbourhood.<!-- <br/>Investigando os azuleijos religiosos do meu bairro.--></i></p>
 <!-- <p style="font&#45;size: 0.8em;"><i></i></p> -->
 <!-- <p style="font&#45;size: 0.8em;">Leia este artigo em Português.</p> -->
 <img src="/img/azulejos.jpg">
@@ -21,11 +58,21 @@ I grew up near Fátima. In grade five, I went to school there. I climbed up the 
 
 From then on, I began to notice the azulejos more carefully.
 
+<!-- <div> -->
+<!-- <img style="width: 45%" src="/img/azulejos/azulejo&#45;collahie&#45;IMG_9158.jpg"> -->
+<!-- <img style="width: 45%" src="/img/azulejos/azulejo&#45;dovercourt&#45;IMG_9104.jpg"> -->
+<!-- <!&#45;&#45; <img style="width: 30%" src="/img/azulejos/azulejo&#38;#45;collahie&#38;#45;IMG_9158.jpg"> &#45;&#45;> -->
+<!-- </div> -->
+
 They're common throughout Toronto's West End, where they are almost always religiously themed, and they decorate the porches and entrances of many houses. Azulejos come in many sizes and colours, but they're usually 15cm wide and quite often blue. And, though they depict generic-looking Catholic iconography, to find a set is to know the owner of the residence is Portuguese. 
 
 You can be certain of this knowledge for two reasons.
 
 One, most of the saints they depict are, well, Portuguese. Take Fátima,[^fatima] for instance.
+
+
+<img style="width: 48%" src="/img/azulejos/azulejo-dovercourt-IMG_9107.jpg">
+<img style="width: 48%" src="/img/azulejos/azulejo-beaconsfield-IMG_9209.jpg">
 
 In 1917, Nossa Senhora (Our Lady) the Virgin Mary appeared[^appeared] to, and hung out with, three little shepherds[^childlabour] in the village of Fátima. She did this six times over the course of several months and, before she left for good, she gave the shepherds three secrets and performed some miracles. People were so impressed, they built an immense Sanctuary right on the spot. Today, it receives millions of tourists every year.
 
@@ -78,32 +125,6 @@ Second, the azulejo itself &mdash; a ceramic tile, often coloured blue, and usua
 
 
 
-<% if false%>
-<% data.azulejos["saints"].each do |s, arr| %>
-  <h2><%=saint_name(s)%></h2>
-  <% arr.each do |f| %>
-<img src="/img/azulejos/<%= f %>" style="width: 47%; margin: 1%; display: inline">
-  <% end %>
-<% end %>
-
-
-<div style="width: 100%; float: left; margin-bottom: 1em;"> 
-  <div style="width: 50%; float: left">
-    <h3>By Saint:</h3>
-      <%= data.azulejos["saints"].map do |s, arr|
-            "#{saint_name(s)} (#{arr.size})"
-          end.join("<br/>") %>
-  </div>
-
-  <div style="width: 50%; float: left;">
-    <h3>By Street:</h3>
-      <%= data.azulejos["streets"].map do |s, arr|
-            "#{s} (#{arr.size})"
-          end.join("<br/>") %>
-  </div>
-&nbsp;
-</div>
-<% end %>
 
 
 [^appeared]: Think less "showed up" and more "apparation".

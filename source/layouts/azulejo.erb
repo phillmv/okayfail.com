@@ -1,5 +1,5 @@
 <% content_for :page_title do %>
-  <title><%= current_article.title %></title>
+  <title>phillmv - <%= current_article.title %></title>
 
   <meta name="twitter:creator" content="@phillmv">
   <% if current_article.data.article_image %>
@@ -9,15 +9,27 @@
   <% end %>
 <% end %>
 
+
 <% wrap_layout :layout do %>
   <%= partial "shared/shortbio" %>
   <section>
     <div class="entry">
       <div class="post">
         <h1 class="title"><a href="<%= current_article.path %>"><%= current_article.title %></a></h1>
+      </div>
+    </div>
+  </section>
+
+  <%= yield_content :preamble %>
+
+  <section>
+    <div class="entry">
+      <div class="post">
         <%= yield %>
         <p class="date"><%= link_to "# #{current_article.date.strftime("%Y-%m-%d")}", current_article.url %></span>
       </div>
     </div>
   </section>
+
+
 <% end %>

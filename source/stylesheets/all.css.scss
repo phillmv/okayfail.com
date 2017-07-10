@@ -251,3 +251,6 @@ header {
   }
 }
 
+.azulejo {
+  @include span-columns(3 of 12);
+}
