@@ -1,13 +1,100 @@
 ---
-layout: azulejo
+layout: post
 title: The Saints of Little Portugal
 ---
 
-<% content_for :preamble do %>
-  <% if true %>
-    <%= render_partial 'views/azulejos' %>
-  <% end %>
+<p>
+  When you next walk through the residential streets of Toronto's west end, take a look at the houses around you. Before long, you'll see azulejos.
+</p> 
+
+<p>
+  They're common enough. Small sets of ceramic tiles, usually six or twelve per panel, carefully glued by a house's front entrance. Each panel typically depicts generic-looking catholic iconography - various iterations of the Virgin, miscellaneous saints - but they're effectively ethnic markers. To see one is to know the owner is portuguese.
+</p>
+
+<p>
+  In May 2015, I walked through my neighbourhood, from Ossington to Dufferin and from Queen to Dundas, and catalogued every azulejo I could find.
+</p>
+
+</div>
+</div>
+
+<% data.azulejos["azulejo"].keys[0..23].each_slice(4) do |slice| %>
+  <section class="azulejo-row">
+    <% slice.each do |f| %>
+      <div class="azulejo">
+        <a href="/img/azulejos/<%= f %>" target="_blank"><img src="/img/azulejos/<%= f %>" style="display: inline"></a>
+      </div>
+    <% end %>
+  </section>
 <% end %>
+
+<div class="post-wrapper">
+  <div class="post">
+
+    <p>
+      You can be certain the owners are portuguese for two reasons.
+    </p>
+    <p>First, the azulejo is a distinctively portuguese art form, though they're also common in Spain and in the former colonies.</p>
+
+    <p>Both the word azulejo (which can stand for any given ceramic tile) and its artistic tradition were introduced by <a href="https://en.wikipedia.org/wiki/Reconquista">the Moorish invaders</a>, who brought with them their Arabesque decorative ceramics and an obsession with filling empty space.</p>
+    
+    <p>Adopted first in Spain, in the 1500s they were imported to Portugal, in the 1600s their manufacturing was <a href="https://en.wikipedia.org/wiki/Delftware">improved by the Dutch</a>, and by the 1700s they became widely used. Many houses in Portugal today are still covered top to bottom, inside and out, in azulejos: they're cheap, they last forever, they're easy to clean, and they keep things cool in the summer.
+    </p>
+
+    <p>Secondly, these azulejos feature portuguese saints.</p>
+    
+    <p>If to glance at an azulejo is to have a suspicion, then to see the tortured face of Senhor Santo Cristo dos Milagres (Lord Holy Christ of The Miracles) is to know that the owners are, specifically, from the Açores.</p>
+
+    <img src="/img/azulejos/azulejo-dufferin-IMG_9290.jpg" style="margin-bottom: 2%">
+
+    <p>I don't quite recall all the theological quirks, but, in a nutshell, Catholics love their minor cults. 
+  </p>
+  <p>You may only worship the Holy Trinity, of course. But if you're in a jam and need a favour, it's common to pray directly to a holy-adjacent figure that specializes in your troubles. Cults form around specific divine interventions, and choosing a saint or figure in particular often reflects particular traditions from your family or region.</p>
+
+  <p>Take Nossa Senhora de Fátima.  
+    <p>In 1917, Our Lady the Virgin Mary appeared[^appeared] to, and hung out with, three little shepherds[^childlabour] in the village of Fátima. She did this six times over the course of several months and, before she left for good, she gave the shepherds three secrets and performed some miracles. People were so impressed, they built an immense sanctuary right on the spot.</p>
+    <p>Today, it receives millions of tourists every year. People in need will make pilgrimages and, in penance, crawl on their knees the whole way there.</p>
+
+
+  <img src="/img/azulejos/azulejo-dovercourt-IMG_9107.jpg" style="margin-bottom: 2%">
+
+  <p>I grew up about a ten minute drive from Fátima. I went to school there. I've attended mass both in the cathedral, and outside, during high season, when tens of thousands of pilgrims congregate in the sanctuary grounds. For me personally, it's all very normal a.</p>
+
+  <p>While Fátima is the most famous... visit by Our Lady, the Lord works in mysterious ways. Over the centuries every other town has had a holy appearance or become associated with a given saint. Saint Anthony represents both Portugal and Lisbon, and helps with marriages, the poor, and finding things that are lost. Saint Joseph, in turn, is the patron saint of fathers, families and Canada.</p>
+
+    </div>
+</div>
+
+<% data.azulejos["azulejo"].keys[24..-1].each_slice(4) do |slice| %>
+  <section class="azulejo-row">
+    <% slice.each do |f| %>
+      <div class="azulejo">
+        <a href="/img/azulejos/<%= f %>" target="_blank"><img src="/img/azulejos/<%= f %>" style="display: inline"></a>
+      </div>
+    <% end %>
+  </section>
+<% end %>
+
+<div class="post-wrapper">
+  <div class="post">
+
+    <p>The neighbourhood used to be about thirty percent portuguese. blah blah gentrification</p>
+
+    <section>
+
+    <div class="azulejo-big">
+      <img src="/img/azulejos/azulejo-lisgar-IMG_8945.jpg">
+    </div>
+
+    <div class="azulejo-big">
+      <img src="/img/azulejos/azulejo-lisgar-IMG_6669.2.jpg">
+    </div>
+  </section>
+
+  <p>more text here!!!!</p>
+
+
+<%# <%= render_partial 'views/azulejos' %>
 
 
 <% if false%>
@@ -16,7 +103,6 @@ title: The Saints of Little Portugal
   <% arr.each do |f| %>
 <img src="/img/azulejos/<%= f %>" style="width: 47%; margin: 1%; display: inline">
   <% end %>
-<% end %>
 
 
 <div style="width: 100%; float: left; margin-bottom: 1em;"> 
@@ -37,6 +123,7 @@ title: The Saints of Little Portugal
 </div>
 <% end %>
 
+<% end %>
 
 
 <p style="font-size: 0.8em;"><i>Documenting all quaint religious tiles found in my neighbourhood.<!-- <br/>Investigando os azuleijos religiosos do meu bairro.--></i></p>
