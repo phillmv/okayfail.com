@@ -1,11 +1,15 @@
-<% data.azulejos["azulejo"].each_slice(4) do |slice| %>
-  <section>
+</div>
+</div>
+
+<% azulejos.each_slice(4) do |slice| %>
+  <section class="azulejo-row">
     <% slice.each do |f, arr| %>
       <div class="azulejo">
-        <img src="/img/azulejos/<%= f %>" style="display: inline">
+        <a href="/img/azulejos/<%= f %>" target="_blank"><img src="/img/azulejos/<%= f %>" style="display: inline"></a>
       </div>
     <% end %>
   </section>
 <% end %>
 
-
+<div class="post-wrapper">
+<div class="post">

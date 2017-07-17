@@ -18,7 +18,7 @@ section {
 }
 
 // top level types
-.entry, .archive, .recentwork {
+.post-wrapper, .archive, .recentwork {
   @include desktop-all {
     @include span-columns(6 of 12);
     @include shift(3);
@@ -33,7 +33,7 @@ section {
   }
 }
 
-.entry {
+.post-wrapper {
   margin-bottom: 2em;
 
   .post {
@@ -251,6 +251,13 @@ header {
   }
 }
 
+.azulejo-row {
+  margin-bottom: 2%;
+}
 .azulejo {
   @include span-columns(3 of 12);
+}
+
+.azulejo-big {
+  @include span-columns(6 of 12);
 }

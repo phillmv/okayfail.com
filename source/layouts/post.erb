@@ -1,6 +1,5 @@
 <% content_for :page_title do %>
   <title><%= current_article.title %></title>
-
   <meta name="twitter:creator" content="@phillmv">
   <% if current_article.data.article_image %>
     <meta name="twitter:card" content="summary_large_image">
@@ -12,7 +11,7 @@
 <% wrap_layout :layout do %>
   <%= partial "shared/shortbio" %>
   <section>
-    <div class="entry">
+    <div class="post-wrapper">
       <div class="post">
         <h1 class="title"><a href="<%= current_article.path %>"><%= current_article.title %></a></h1>
         <%= yield %>
