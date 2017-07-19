@@ -1,0 +1,460 @@
+---
+:azulejo:
+  azulejo-argyle-IMG_9087.jpg:
+    :street: argyle
+    :saints:
+    - 'senhoradagraca'
+  azulejo-dovercourt-IMG_9103.jpg:
+    :street: dovercourt
+    :saints:
+    - 'saovicente'
+  azulejo-brookfield-IMG_9066.jpg:
+    :street: brookfield
+    :saints:
+    - 'senhoradocarmo'
+  azulejo-cross-IMG_9163.jpg:
+    :street: cross
+    :saints:
+    - 'senhoradosanjos'
+  azulejo-argyle-IMG_9071.jpg:
+    :street: argyle
+    :saints:
+    - 'fatima'
+  azulejo-argyle-IMG_9074.jpg:
+    :street: argyle
+    :saints:
+    - 'santocristo'
+  azulejo-argyle-IMG_9078.jpg:
+    :street: argyle
+    :saints:
+    - 'sagradafamilia'
+  azulejo-argyle-IMG_9084.jpg:
+    :street: argyle
+    :saints:
+    - 'salvadordomundo'
+  azulejo-argyle-IMG_9085.jpg:
+    :street: argyle
+    :saints:
+    - 'fatima'
+    - 'santocristo'
+  azulejo-beaconsfield-IMG_9198.jpg:
+    :street: beaconsfield
+    :saints:
+    - 'santocristo'
+    :note: "Note the unusual rendition of the American, Portuguese and Canadian flags."
+  azulejo-beaconsfield-IMG_9207.jpg:
+    :street: beaconsfield
+    :saints:
+    - 'conceicao'
+  azulejo-beaconsfield-IMG_9209.jpg:
+    :street: beaconsfield
+    :saints:
+    - 'fatima'
+  azulejo-brookfield-IMG_9064.jpg:
+    :street: brookfield
+    :saints:
+    - 'santocristo'
+  azulejo-collahie-IMG_9158.jpg:
+    :street: collahie
+    :saints:
+    - 'saopedro'
+  azulejo-dovercourt-IMG_9104.jpg:
+    :street: dovercourt
+    :saints:
+    - 'salvadordomundo'
+  #azulejo-dovercourt-IMG_9107.jpg:
+  #  :street: dovercourt
+  #  :saints:
+  #  - 'fatima'
+  azulejo-dovercourt-IMG_9110.jpg:
+    :street: dovercourt
+    :saints:
+    - 'salvadordomundo'
+  azulejo-dovercourt-IMG_9118.jpg:
+    :street: dovercourt
+    :saints:
+    - 'santoantonio'
+  azulejo-dovercourt-IMG_9121.jpg:
+    :street: dovercourt
+    :saints:
+    - 'saojose'
+  azulejo-dufferin-IMG_9279.jpg:
+    :street: dufferin
+    :saints:
+    - 'fatima'
+  azulejo-dufferin-IMG_9283.jpg:
+    :street: dufferin
+    :saints:
+    - 'santocristo'
+  azulejo-dufferin-IMG_9286.jpg:
+    :street: dufferin
+    :saints:
+    - 'santoantonio'
+  # azulejo-dufferin-IMG_9290.jpg:
+  #   :street: dufferin
+  #   :saints:
+  #   - 'santocristo'
+  azulejo-fennings-IMG_9052.jpg:
+    :street: fennings
+    :saints:
+    - 'santocristo'
+  azulejo-fennings-IMG_9053.jpg:
+    :street: fennings
+    :saints:
+    - 'sagradafamilia'
+  azulejo-fennings-IMG_9055.jpg:
+    :street: fennings
+    :saints:
+    - 'sagradafamilia'
+  azulejo-fennings-IMG_9060.jpg:
+    :street: fennings
+    :saints:
+    - 'santamariamadalena'
+  azulejo-foxley-IMG_9125.jpg:
+    :street: foxley
+    :saints:
+    - 'santocristo'
+  azulejo-foxley-IMG_9131.jpg:
+    :street: foxley
+    :saints:
+    - 'sagradafamilia'
+  azulejo-foxley-IMG_9132.jpg:
+    :street: foxley
+    :saints:
+    - 'misc'
+  azulejo-gladstone-IMG_9215.jpg:
+    :street: gladstone
+    :saints:
+    - 'santoantonio'
+  azulejo-gladstone-IMG_9227.jpg:
+    :street: gladstone
+    :saints:
+    - 'santocristo'
+  azulejo-gladstone-IMG_9230.jpg:
+    :street: gladstone
+    :saints:
+    - 'sagradocoracaodejesus'
+  azulejo-gladstone-IMG_9238.jpg:
+    :street: gladstone
+    :saints:
+    - 'fatima'
+  azulejo-gladstone-IMG_9243.jpg:
+    :street: gladstone
+    :saints:
+    - 'santoantonio'
+  azulejo-gladstone-IMG_9247.jpg:
+    :street: gladstone
+    :saints:
+    - 'salvadordomundo'
+  azulejo-gladstone-IMG_9268.jpg:
+    :street: gladstone
+    :saints:
+    - 'santocristo'
+  azulejo-gladstone-IMG_9270.jpg:
+    :street: gladstone
+    :saints:
+    - 'fatima'
+  azulejo-grove-IMG_9153.jpg:
+    :street: grove
+    :saints:
+    - 'sagradafamilia'
+  azulejo-lisgar-IMG_8941.jpg:
+    :street: lisgar
+    :saints:
+    - 'anjodaguarda'
+  azulejo-lisgar-IMG_8945.jpg:
+    :street: lisgar
+    :saints:
+    - 'saojose'
+  azulejo-lisgar-IMG_8947.jpg:
+    :street: lisgar
+    :saints:
+    - 'santocristo'
+  azulejo-lisgar-IMG_8990.jpg:
+    :street: lisgar
+    :saints:
+    - 'sagradafamilia'
+  azulejo-lisgar-IMG_8993.jpg:
+    :street: lisgar
+    :saints:
+    - 'santocristo'
+  azulejo-lisgar-IMG_8995.jpg:
+    :street: lisgar
+    :saints:
+    - 'saojose'
+  azulejo-lisgar-IMG_8997.jpg:
+    :street: lisgar
+    :saints:
+    - 'saojose'
+  azulejo-lisgar-IMG_8999.jpg:
+    :street: lisgar
+    :saints:
+    - 'senhordospassos'
+  azulejo-lisgar-IMG_9002.jpg:
+    :street: lisgar
+    :saints:
+    - 'anjodaguarda'
+  azulejo-lisgar-IMG_9004.jpg:
+    :street: lisgar
+    :saints:
+    - 'salvadordomundo'
+  azulejo-lisgar-IMG_9006.jpg:
+    :street: lisgar
+    :saints:
+    - 'santoantonio'
+  azulejo-lisgar-IMG_9008.jpg:
+    :street: lisgar
+    :saints:
+    - 'santocristo'
+  azulejo-lisgar-IMG_9010.jpg:
+    :street: lisgar
+    :saints:
+    - 'sagradafamilia'
+  azulejo-lisgar-IMG_9012.jpg:
+    :street: lisgar
+    :saints:
+    - 'saojose'
+  azulejo-lisgar-IMG_9016.jpg:
+    :street: lisgar
+    :saints:
+    - 'fatima'
+  azulejo-mackenzie-IMG_9018.jpg:
+    :street: mackenzie
+    :saints:
+    - 'misc'
+  azulejo-mackenzie-IMG_9024.jpg:
+    :street: mackenzie
+    :saints:
+    - 'saojose'
+  azulejo-northcote-IMG_9033.jpg:
+    :street: northcote
+    :saints:
+    - 'santocristo'
+  azulejo-northcote-IMG_9034.jpg:
+    :street: northcote
+    :saints:
+    - 'santocristo'
+  azulejo-northcote-IMG_9037.jpg:
+    :street: northcote
+    :saints:
+    - 'sagradocoracaodejesus'
+  azulejo-northcote-IMG_9041.jpg:
+    :street: northcote
+    :saints:
+    - 'sagradafamilia'
+  azulejo-northcote-IMG_9045.jpg:
+    :street: northcote
+    :saints:
+    - 'sagradocoracaodemaria'
+  azulejo-rolyat-IMG_9139.jpg:
+    :street: rolyat
+    :saints:
+    - 'santocristo'
+  azulejo-rolyat-IMG_9143.jpg:
+    :street: rolyat
+    :saints:
+    - 'santocristo'
+  azulejo-rolyat-IMG_9147.jpg:
+    :street: rolyat
+    :saints:
+    - 'saopedro'
+  azulejo-stonehouse-IMG_9257.jpg:
+    :street: stonehouse
+    :saints:
+    - 'sagradafamilia'
+  azulejo-stonehouse-IMG_9261.jpg:
+    :street: stonehouse
+    :saints:
+    - 'santocristo'
+
+:saints:
+  fatima:
+  - azulejo-argyle-IMG_9071.jpg
+  - azulejo-argyle-IMG_9085.jpg
+  - azulejo-beaconsfield-IMG_9209.jpg
+  - azulejo-dovercourt-IMG_9107.jpg
+  - azulejo-dufferin-IMG_9279.jpg
+  - azulejo-gladstone-IMG_9238.jpg
+  - azulejo-gladstone-IMG_9270.jpg
+  - azulejo-lisgar-IMG_9016.jpg
+  santocristo:
+  - azulejo-argyle-IMG_9074.jpg
+  - azulejo-argyle-IMG_9085.jpg
+  - azulejo-beaconsfield-IMG_9198.jpg
+  - azulejo-brookfield-IMG_9064.jpg
+  - azulejo-dufferin-IMG_9283.jpg
+  - azulejo-dufferin-IMG_9290.jpg
+  - azulejo-fennings-IMG_9052.jpg
+  - azulejo-foxley-IMG_9125.jpg
+  - azulejo-gladstone-IMG_9227.jpg
+  - azulejo-gladstone-IMG_9268.jpg
+  - azulejo-lisgar-IMG_8947.jpg
+  - azulejo-lisgar-IMG_8993.jpg
+  - azulejo-lisgar-IMG_9008.jpg
+  - azulejo-northcote-IMG_9033.jpg
+  - azulejo-northcote-IMG_9034.jpg
+  - azulejo-rolyat-IMG_9139.jpg
+  - azulejo-rolyat-IMG_9143.jpg
+  - azulejo-stonehouse-IMG_9261.jpg
+  sagradafamilia:
+  - azulejo-argyle-IMG_9078.jpg
+  - azulejo-fennings-IMG_9053.jpg
+  - azulejo-fennings-IMG_9055.jpg
+  - azulejo-foxley-IMG_9131.jpg
+  - azulejo-grove-IMG_9153.jpg
+  - azulejo-lisgar-IMG_8990.jpg
+  - azulejo-lisgar-IMG_9010.jpg
+  - azulejo-northcote-IMG_9041.jpg
+  - azulejo-stonehouse-IMG_9257.jpg
+  salvadordomundo:
+  - azulejo-argyle-IMG_9084.jpg
+  - azulejo-dovercourt-IMG_9104.jpg
+  - azulejo-dovercourt-IMG_9110.jpg
+  - azulejo-gladstone-IMG_9247.jpg
+  - azulejo-lisgar-IMG_9004.jpg
+  senhoradagraca:
+  - azulejo-argyle-IMG_9087.jpg
+  conceicao:
+  - azulejo-beaconsfield-IMG_9207.jpg
+  senhoradocarmo:
+  - azulejo-brookfield-IMG_9066.jpg
+  saopedro:
+  - azulejo-collahie-IMG_9158.jpg
+  - azulejo-rolyat-IMG_9147.jpg
+  senhoradosanjos:
+  - azulejo-cross-IMG_9163.jpg
+  saovicente:
+  - azulejo-dovercourt-IMG_9103.jpg
+  santoantonio:
+  - azulejo-dovercourt-IMG_9118.jpg
+  - azulejo-dufferin-IMG_9286.jpg
+  - azulejo-gladstone-IMG_9215.jpg
+  - azulejo-gladstone-IMG_9243.jpg
+  - azulejo-lisgar-IMG_9006.jpg
+  saojose:
+  - azulejo-dovercourt-IMG_9121.jpg
+  - azulejo-lisgar-IMG_8945.jpg
+  - azulejo-lisgar-IMG_8995.jpg
+  - azulejo-lisgar-IMG_8997.jpg
+  - azulejo-lisgar-IMG_9012.jpg
+  - azulejo-mackenzie-IMG_9024.jpg
+  santamariamadalena:
+  - azulejo-fennings-IMG_9060.jpg
+  misc:
+  - azulejo-foxley-IMG_9132.jpg
+  - azulejo-mackenzie-IMG_9018.jpg
+  sagradocoracaodejesus:
+  - azulejo-gladstone-IMG_9230.jpg
+  - azulejo-northcote-IMG_9037.jpg
+  anjodaguarda:
+  - azulejo-lisgar-IMG_8941.jpg
+  - azulejo-lisgar-IMG_9002.jpg
+  senhordospassos:
+  - azulejo-lisgar-IMG_8999.jpg
+  sagradocoracaodemaria:
+  - azulejo-northcote-IMG_9045.jpg
+
+
+:streets:
+  argyle:
+  - azulejo-argyle-IMG_9071.jpg
+  - azulejo-argyle-IMG_9074.jpg
+  - azulejo-argyle-IMG_9078.jpg
+  - azulejo-argyle-IMG_9084.jpg
+  - azulejo-argyle-IMG_9085.jpg
+  - azulejo-argyle-IMG_9087.jpg
+  beaconsfield:
+  - azulejo-beaconsfield-IMG_9198.jpg
+  - azulejo-beaconsfield-IMG_9207.jpg
+  - azulejo-beaconsfield-IMG_9209.jpg
+  brookfield:
+  - azulejo-brookfield-IMG_9064.jpg
+  - azulejo-brookfield-IMG_9066.jpg
+  collahie:
+  - azulejo-collahie-IMG_9158.jpg
+  cross:
+  - azulejo-cross-IMG_9163.jpg
+  dovercourt:
+  - azulejo-dovercourt-IMG_9103.jpg
+  - azulejo-dovercourt-IMG_9104.jpg
+  - azulejo-dovercourt-IMG_9107.jpg
+  - azulejo-dovercourt-IMG_9110.jpg
+  - azulejo-dovercourt-IMG_9118.jpg
+  - azulejo-dovercourt-IMG_9121.jpg
+  dufferin:
+  - azulejo-dufferin-IMG_9279.jpg
+  - azulejo-dufferin-IMG_9283.jpg
+  - azulejo-dufferin-IMG_9286.jpg
+  - azulejo-dufferin-IMG_9290.jpg
+  fennings:
+  - azulejo-fennings-IMG_9052.jpg
+  - azulejo-fennings-IMG_9053.jpg
+  - azulejo-fennings-IMG_9055.jpg
+  - azulejo-fennings-IMG_9060.jpg
+  foxley:
+  - azulejo-foxley-IMG_9125.jpg
+  - azulejo-foxley-IMG_9131.jpg
+  - azulejo-foxley-IMG_9132.jpg
+  gladstone:
+  - azulejo-gladstone-IMG_9215.jpg
+  - azulejo-gladstone-IMG_9227.jpg
+  - azulejo-gladstone-IMG_9230.jpg
+  - azulejo-gladstone-IMG_9238.jpg
+  - azulejo-gladstone-IMG_9243.jpg
+  - azulejo-gladstone-IMG_9247.jpg
+  - azulejo-gladstone-IMG_9268.jpg
+  - azulejo-gladstone-IMG_9270.jpg
+  grove:
+  - azulejo-grove-IMG_9153.jpg
+  lisgar:
+  - azulejo-lisgar-IMG_8941.jpg
+  - azulejo-lisgar-IMG_8945.jpg
+  - azulejo-lisgar-IMG_8947.jpg
+  - azulejo-lisgar-IMG_8990.jpg
+  - azulejo-lisgar-IMG_8993.jpg
+  - azulejo-lisgar-IMG_8995.jpg
+  - azulejo-lisgar-IMG_8997.jpg
+  - azulejo-lisgar-IMG_8999.jpg
+  - azulejo-lisgar-IMG_9002.jpg
+  - azulejo-lisgar-IMG_9004.jpg
+  - azulejo-lisgar-IMG_9006.jpg
+  - azulejo-lisgar-IMG_9008.jpg
+  - azulejo-lisgar-IMG_9010.jpg
+  - azulejo-lisgar-IMG_9012.jpg
+  - azulejo-lisgar-IMG_9016.jpg
+  mackenzie:
+  - azulejo-mackenzie-IMG_9018.jpg
+  - azulejo-mackenzie-IMG_9024.jpg
+  northcote:
+  - azulejo-northcote-IMG_9033.jpg
+  - azulejo-northcote-IMG_9034.jpg
+  - azulejo-northcote-IMG_9037.jpg
+  - azulejo-northcote-IMG_9041.jpg
+  - azulejo-northcote-IMG_9045.jpg
+  rolyat:
+  - azulejo-rolyat-IMG_9139.jpg
+  - azulejo-rolyat-IMG_9143.jpg
+  - azulejo-rolyat-IMG_9147.jpg
+  stonehouse:
+  - azulejo-stonehouse-IMG_9257.jpg
+  - azulejo-stonehouse-IMG_9261.jpg
+
+:names:
+  :fatima: "Nossa Senhora de Fátima"
+  :santocristo: "Senhor Santo Cristo dos Milagres"
+  :salvadordomundo: "Santíssimo Salvador do Mundo"
+  :sagradafamilia: "Sagrada Família"
+  :senhoradagraca: "Nossa Senhora da Graça"
+  :conceicao: "Nossa Senhora da Conceição"
+  :senhoradocarmo: "Nossa Senhora do Carmo"
+  :saopedro: "São Pedro"
+  :senhoradosanjos: "Nossa Senhora dos Anjos"
+  :saovicente: "São Vicente"
+  :santoantonio: "Santo António"
+  :saojose: "São José"
+  :santamariamadalena: "Santa Maria Madalena"
+  :sagradocoracaodejesus: "Sagrado Coração de Jesus"
+  :anjodaguarda: "Guardian Angel"
+  :senhordospassos: "Nosso Senhor dos Passos"
+  :sagradocoracaodemaria: "Sagrado Coração de Maria"
+  :misc: "Miscellaneous"
