@@ -24,7 +24,7 @@ azulejo_data[:azulejo].each do |jpg, hsh|
     filename: jpg,
     street: hsh[:street],
     saints: hsh[:saints]
-  }
+  }, :ignore => true
 end
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
