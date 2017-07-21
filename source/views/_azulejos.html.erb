@@ -5,7 +5,7 @@
   <section class="azulejo-row">
     <% slice.each do |f, arr| %>
       <div class="azulejo">
-        <a href="/img/azulejos/<%= f %>" target="_blank"><img src="/img/azulejos/thumb/<%= f %>" style="display: inline"></a>
+        <a href="<%= link_to_azulejo(f) %>" target="_blank"><img src="/img/azulejos/thumb/<%= f %>" style="display: inline"></a>
       </div>
     <% end %>
   </section>

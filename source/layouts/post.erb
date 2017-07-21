@@ -1,10 +1,10 @@
 <% content_for :page_title do %>
-  <title><%= current_article.title %></title>
+  <title><%= current_page.data.title %></title>
   <meta name="twitter:creator" content="@phillmv">
-  <% if current_article.data.article_image %>
+  <% if current_page.data.article_image %>
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="<%= config.site_url + current_article.data.article_image %>" />
-    <meta property="og:image"  content="<%= config.site_url + current_article.data.article_image %>" />
+    <meta name="twitter:image" content="<%= config.site_url + current_page.data.article_image %>" />
+    <meta property="og:image"  content="<%= config.site_url + current_page.data.article_image %>" />
   <% end %>
 <% end %>
 
@@ -13,9 +13,9 @@
   <section>
     <div class="post-wrapper">
       <div class="post">
-        <h1 class="title"><a href="<%= current_article.path %>"><%= current_article.title %></a></h1>
+        <h1 class="title"><a href="<%= current_page.data.url %>"><%= current_page.data.title %></a></h1>
         <%= yield %>
-        <p class="date"><%= link_to "# #{current_article.date.strftime("%Y-%m-%d")}", current_article.url %></span>
+        <p class="date"><%= link_to "# #{current_page.date.strftime("%Y-%m-%d")}", current_page.data.url %></p>
       </div>
     </div>
   </section>

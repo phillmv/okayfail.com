@@ -1,3 +1,4 @@
+require 'ostruct'
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -14,6 +15,17 @@ set :site_url, "http://okayfail.com"
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
+azulejo_data ||= YAML.load_file("data/azulejos.yml")
+
+azulejo_data[:azulejo].each do |jpg, hsh|
+  path = "/2017/azulejos/#{jpg.gsub("jpg", "html")}"
+  proxy path, 'views/azulejos/try.html', layout: "azulejo", locals: {
+    title: hsh[:saints].map { |s| azulejo_data[:names][s.to_sym] }.join(" and "),
+    filename: jpg,
+    street: hsh[:street],
+    saints: hsh[:saints]
+  }
+end
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
@@ -74,6 +86,11 @@ configure :development do
 end
 
 helpers do
+
+  def link_to_azulejo(jpg)
+    "/2017/azulejos/#{jpg.gsub("jpg", "html")}"
+  end
+
   def saint_name(sym)
     data.azulejos["names"][sym]
   end
