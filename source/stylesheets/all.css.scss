@@ -253,6 +253,8 @@ header {
 
 .azulejo-row {
   margin-bottom: 2%;
+  width: 100%;
+  float: left;
 }
 .azulejo {
   @include span-columns(3 of 12);

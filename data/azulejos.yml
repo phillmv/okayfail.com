@@ -121,7 +121,7 @@
   azulejo-foxley-IMG_9132.jpg:
     :street: foxley
     :saints:
-    - 'misc'
+    - 'moliceiro'
   azulejo-gladstone-IMG_9215.jpg:
     :street: gladstone
     :saints:
@@ -221,7 +221,7 @@
   azulejo-mackenzie-IMG_9018.jpg:
     :street: mackenzie
     :saints:
-    - 'misc'
+    - 'pequenina'
   azulejo-mackenzie-IMG_9024.jpg:
     :street: mackenzie
     :saints:
@@ -340,8 +340,9 @@
   - azulejo-mackenzie-IMG_9024.jpg
   santamariamadalena:
   - azulejo-fennings-IMG_9060.jpg
-  misc:
+  moliceiro:
   - azulejo-foxley-IMG_9132.jpg
+  pequenina:
   - azulejo-mackenzie-IMG_9018.jpg
   sagradocoracaodejesus:
   - azulejo-gladstone-IMG_9230.jpg
