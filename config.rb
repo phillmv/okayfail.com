@@ -15,9 +15,10 @@ set :site_url, "http://okayfail.com"
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
+# -- specific to 2017-07-19-saints-of-little-portugal
+
 azulejo_data ||= YAML.load_file("data/azulejos.yml")
 
-redirect "/2017/azulejos.html", to: "/2017/saints-of-little-portugal.html"
 azulejo_data[:azulejo].each do |jpg, hsh|
   path = "/2017/saints-of-little-portugal/#{jpg.gsub("jpg", "html")}"
   proxy path, '/posts/2017-07-19-saints-of-little-portugal/show.html', locals: {
@@ -27,6 +28,7 @@ azulejo_data[:azulejo].each do |jpg, hsh|
     saints: hsh[:saints]
   }, :ignore => true
 end
+
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
@@ -87,22 +89,11 @@ configure :development do
 end
 
 helpers do
-
   def link_to_azulejo(jpg)
     "/2017/saints-of-little-portugal/#{jpg.gsub("jpg", "html")}"
   end
 
   def saint_name(sym)
     data.azulejos["names"][sym]
-  end
-
-  def azulejos_by_saint
-    data.azulejos[:azulejo].reduce({}) { |h, (f, sh)| 
-      (sh[:saints] || []).each { |s| 
-        h[s] ||= []; 
-        h[s] << f 
-      }; 
-      h 
-    }
   end
 end
