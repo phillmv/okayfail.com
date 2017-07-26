@@ -6,6 +6,9 @@
     <meta name="twitter:image" content="<%= config.site_url + current_page.data.article_image %>" />
     <meta property="og:image"  content="<%= config.site_url + current_page.data.article_image %>" />
     <meta property="og:title"  content="<%= current_page.data.title %>" />
+    <% if current_page.data.description %>
+      <meta property="og:description"  content="<%= current_page.data.description %>" />
+    <% end %>
   <% end %>
 <% end %>
 
