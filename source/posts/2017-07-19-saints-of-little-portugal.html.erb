@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Saints of Little Portugal
-draft: true
 ---
 
 <p>
@@ -20,7 +19,7 @@ draft: true
 </p>
 
 
-<%= render_partial 'views/azulejos', :locals => { :azulejos => data.azulejos["azulejo"].keys[0..31] }  %>
+<%= render_partial 'posts/2017-07-19-saints-of-little-portugal/azulejo_grid', :locals => { :azulejos => data.azulejos["azulejo"].keys[0..31] }  %>
 
 <h2>Slightly more than what meets the eye</h2>
 <p>
@@ -68,7 +67,7 @@ draft: true
 <p>While Fátima is the most famous... visit by Our Lady, the Lord works in mysterious ways. Over the centuries every other town has had a holy appearance or become associated with a given saint. Saint Anthony represents both Portugal and Lisbon, and helps with marriages, the poor, and finding things that are lost. Saint Joseph, in turn, is the patron saint of fathers, families and Canada.</p>
 
 
-<%= render_partial 'views/azulejos', :locals => { :azulejos => data.azulejos["azulejo"].keys[32..-1] }  %>
+<%= render_partial 'posts/2017-07-19-saints-of-little-portugal/azulejo_grid', :locals => { :azulejos => data.azulejos["azulejo"].keys[32..-1] }  %>
 
 <h2>Stocks and flows</h2>
 

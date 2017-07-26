@@ -17,9 +17,10 @@ set :site_url, "http://okayfail.com"
 
 azulejo_data ||= YAML.load_file("data/azulejos.yml")
 
+redirect "/2017/azulejos.html", to: "/2017/saints-of-little-portugal.html"
 azulejo_data[:azulejo].each do |jpg, hsh|
-  path = "/2017/azulejos/#{jpg.gsub("jpg", "html")}"
-  proxy path, 'views/azulejos/show.html', layout: "azulejo", locals: {
+  path = "/2017/saints-of-little-portugal/#{jpg.gsub("jpg", "html")}"
+  proxy path, '/posts/2017-07-19-saints-of-little-portugal/show.html', locals: {
     title: hsh[:saints].map { |s| azulejo_data[:names][s.to_sym] }.join(" and "),
     filename: jpg,
     street: hsh[:street],
@@ -88,7 +89,7 @@ end
 helpers do
 
   def link_to_azulejo(jpg)
-    "/2017/azulejos/#{jpg.gsub("jpg", "html")}"
+    "/2017/saints-of-little-portugal/#{jpg.gsub("jpg", "html")}"
   end
 
   def saint_name(sym)
