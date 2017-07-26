@@ -251,10 +251,17 @@ header {
   }
 }
 
+// modifications exclusive to
+// 2017-07-19-saints-of-little-portugal
+
 .azulejo-row {
   margin-bottom: 2%;
   width: 100%;
   float: left;
+
+  @include mobile-all {
+    padding: 0 
+  }
 }
 .azulejo {
   @include span-columns(3 of 12);
