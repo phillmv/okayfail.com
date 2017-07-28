@@ -255,16 +255,27 @@ header {
 // 2017-07-19-saints-of-little-portugal
 
 .azulejo-row {
+  @include span-columns(12 of 12);
   margin-bottom: 2%;
-  width: 100%;
-  float: left;
 
   @include mobile-all {
     padding: 0 
   }
 }
 .azulejo {
-  @include span-columns(3 of 12);
+  @include desktop-all {
+    @include span-columns(3 of 12);
+  }
+
+  @include mobile-all {
+    @include span-columns(6 of 12);
+    // inside the chrome emulator idk why but 
+    // the 4x4 layout will not convert into 2x2
+    // unless i set the width to be slightly lower
+    // and fake it.
+    width: 47%;
+  }
+
 }
 
 .azulejo-half {
