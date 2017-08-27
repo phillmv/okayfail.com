@@ -27,15 +27,15 @@ Property rights and the markets they enable exist to the extent they are enforce
 
 In Canada, it would be difficult to identify a time when we had a completely laissez faire housing market. Some of our earliest municipal bylaws regulated building standards. First, we sought to improve our health, safety, fire and construction standards, and later we gradually began to add a host of land use and development regulations.[^hulchanksi-laissez]
 
-These regulations led to the elimination of unhealthy, unsafe and poor quality housing in urban areas. However, our improved standards of housing led to an increase in the cost of its manufacture, and by 1914 it became apparent that the private market alone was unable to provide low income housing.[^hulchanksi-laissez] 
+These regulations led to the elimination of unhealthy, unsafe and poor quality housing in urban areas. However, our improved housing standards (and restrictions on land use) led to an increase in the cost of its manufacture, and by 1914 it became apparent that the private market alone was not providing enough low income housing.[^hulchanksi-laissez] 
 
-One intervention begat another. Federal incentives were introduced as early as 1938 to stimulate the development of low income rental housing, and by 1949 it began to invest directly in its production.[^hulchanksi-laissez] Buoyed by the post-war economic and population boom, by the mid 1960s we began to seriously expand our welfare state and, concerned with ensuring "enough rental housing production to nourish the golden goose of urban growth", from 1965 to 1995 up to 10% of all new housing was some mix of social housing.[^suttor-abriged]
+One intervention begat another. Federal incentives were introduced as early as 1938 to stimulate the development of low income rental housing, and by 1949 the government began to invest directly in its production.[^hulchanksi-laissez] Buoyed by the post-war economic and population boom,  we began to seriously expand our welfare state and, concerned with ensuring "enough rental housing production to nourish the golden goose of urban growth", from 1965 to 1995 up to 10% of all new housing was some mix of social housing.[^suttor-abriged]
 
-These interventions were not limited to the poor; quite the opposite. In 1946, the Canada Mortgage and Housing Corporation (CMHC) was established with the aim of increasing home ownership among the broad middle and lower-middle class. Focussing mainly on making amortized mortgages work for house buyers and private investors in rental housing, by the mid 1960s most households obtained at least part of their mortgage loan directly from the federal government.[^hulchansky-bulletin38]
+These interventions were not limited to the poor; quite the opposite. In 1946, the Canada Mortgage and Housing Corporation (CMHC) was established with the aim of increasing home ownership among the broad middle and lower-middle class. Focussing mainly on making amortized mortgages work for house buyers and private investors in rental housing, by the mid-1960s most households obtained at least part of their mortgage loan directly from the federal government.[^hulchansky-bulletin38]
 
-In fact, most of the history of the role of Canadian government housing policy is an effort to assist ownership. In 2005 alone, more individual homeowners were helped through mortgage insurance than all social housing units funded since the 1970s. In addition to subsidizing mortgages, the federal government provides a variety of tax incentives in the form of tax sheltered investment vehicles and tax credits. Finally, the sale of your primary residence is exempt from capital gains taxes, which by 2008 was costing us almost $6 billion a year in uncollected revenue.[^hulchansky-bulletin38]
+In fact, most of the history of the role of Canadian government housing policy is an effort to assist ownership. In 2005 alone, more individual homeowners were helped through mortgage insurance than the number of all social housing units funded since the 1970s. And in addition to creating cheaper loans, the federal government also provides subsidies through a variety of tax credits, tax sheltered investment vehicles and tax exemptions. As any property owner knows, the sale of your primary residence is exempt from capital gains &mdash; which by 2008 was costing us almost $6 billion a year in uncollected revenue.[^hulchansky-bulletin38]
 
-In so far that our housing policy has targetted the middle class' standard of living, it has been fantastically successful. As an investment asset, home ownership confers unique benefits: it provides shelter in addition to equity that can be withdrawn later in life. Canadians who pay off their mortgages spend on average only 11% of their income on housing and, by 1999, the average homeowner earned 208% more income, and owned 70 times more wealth, than the average tenant.[^hulchansky-bulletin38]
+In so far that our housing policy has targetted the middle class' standard of living, it has been rather successful. As an investment asset, home ownership confers unique benefits: it provides shelter in addition to equity that can be withdrawn later in life. Canadians who pay off their mortgages spend on average only 11% of their income on housing and, by 1999, the average homeowner earned 208% more income, and owned 70 times more wealth, than the average tenant.[^hulchansky-bulletin38]
 
 <!--Regulating land and its use &mdash; what to build and where and how &mdash; is one of the foundational tasks of the state. Some of the earliest municipal bylaws regulate building standards. Over time, we've sought to improve the health, safety, fire and construction standards of our housing and then 
 
@@ -44,13 +44,26 @@ Indeed, in Canada it's difficult to identify any period of laissez-faire housing
 Property rights, as granted and protected by our governments, are limited to the extent they interfere with the rights and legitimate interests of others. What we describe as a market in real estate did not emerge fully formed but is instead the result of many deliberate decisions made over time. -->
 
 <h3>Making the case for rent stabilization</h3>
-This is to say: what, exactly, should be the goal of our housing system? and, consequently, what kind of living conditions do we want people to enjoy? I think that we can all agree that, though obviously necessary to some extent, our property regime ought not be _solely_ organized around maximizing the profits of incumbent property owners. 
+
+This is to say: what kind of living conditions do we want people to enjoy? and consequently, what, exactly, should be the goal of our housing system? have been considered important questions for over a century.
+
+Furthermore, our answer to these questions have shifted over time. We began by regulating the safety of our housing, and today we substantially subsidize its ownership for those who can afford it. Similarly, our perception of the rights property owners and tenants should enjoy has also shifted.
+
+For example, it was not until 1970 that Ontario substantially altered the legal doctrine affecting the relationship between landlords and tenants. Prior to then, under common law, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. Landlords possessed such a disparity of bargaining power that by 1968 it became clear that tenants did not possess a real freedom to enter in contracts. By 1975, the law gradually caught up with society's changing views of what is fair and reasonable, and the notion that tenants deserve security of tenure was added to our legislation.[^hulchanksi-tenant-rights]
+
+
+Today, given the stark power imbalance, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
+
+
+<!--This is to say: what, exactly, should be the goal of our housing system? and, consequently, what kind of living conditions do we want people to enjoy? 
+
+I think that we can all agree that, though obviously necessary to some extent, our property regime ought not be _solely_ organized around maximizing the profits of incumbent property owners. 
 
 It seems clear to me that, given a choice, we should instead optimize our housing system as a whole to deliver and sustain healthy, well functioning communities that support our citizens as they age and transition through different lifecycles. Otherwise, what's the point?
 
-Let's take this for granted. What's a well functioning community?
+Let's take this for granted. What's a well functioning community?-->
 
-Communities consist of both physical infrastructure, like roads and public transit, as well as "human" infrastructure, like community organizations and loose neighbourhood ties. A neighbourhood may be desirable for its proximity to a grocery store &mdash; but also for the quality of its schools, the absence of crime and the vitality of its community events. A healthy neighbourhood is one where its residents are looking out for one another.
+Consider that communities consist of both physical infrastructure, like roads and public transit, as well as "human" infrastructure, like community organizations and loose neighbourhood ties. A neighbourhood may be desirable for its proximity to a grocery store &mdash; but also for the quality of its schools, the absence of crime and the vitality of its community events. A healthy neighbourhood is one where its residents are looking out for one another.
 
 Tenants, people who rent, face substantial hurdles. I recently read Matthew Desmond's incredible and harrowing book "Eviction," in which he followed several low-income renters in the city of Milwaukee over the course of a year. Early on, on page 70, he writes:
 
@@ -72,24 +85,10 @@ Towards the end of the book, he adds (pg 296-298):
 
 Faced with the unpredictable but certain need to move in the near future, it's harder to establish deep ties to an neighbourhood. Consequently, tenants are routinely discounted or ignored by our political structures, and face greater hardships accessing necessary social services and economic opportunities.
 
-<!--
-
- As a result, tenants are routinely discounted or ignored by our political structures, and face greater hardships accessing necessary social services and economic opportunities.
-
-Furthermore, regular rent evictions &mdash; the process through which tenants are involuntarily displaced, due to unaffordable increases in the cost of rent &mdash; can tear away at the fabric of neighbourhoods. I recently read Matthew Desmond's incredible and harrowing book "Eviction," in which he followed several low-income renters in the city of Milwaukee over the course of a year. On page 70, he quotes Jane Jacobs' "The Death and Life of American Cities":
-
-> "The first thing to understand is that the public peace&mdash;the sidewalk and street peace&mdash;of cities is not kept primarily by the police, necessary as police are. It is kept primarily by an intricate, almost unconscious, network of voluntary controls and standards among the people themselves, and enforced by the people themselves."
-
-Desmond continues, and writes:
-
-> [Jane Jacobs] has been proved right: disadvantaged neighborhoods with higher levels of "collective efficacy"&mdash;the stuff of loosely linked neighbors who trust one another and share expectations about how to make their community better&mdash;have lower crime rates.
-
->A single eviction could destabilize multiple city blocks, not only the block from which a family was evicted but also the block to which it begrudgingly relocated. In this way, displacement contributed directly to what Jacobs called "perpetual slums," churning environments with high rates of turnover and even higher rates of resentment and divestment. "The key link in a perpetual slum is that too many people move out of it too fast&mdash;and in the meantime _dream_ of getting out"
-
--->
 
 In that light, it's in the public interest that our citizens be provided with housing stability. And, if you think about it, that also means providing steady and predictable housing costs over the long term.
 
+In principle, this could be delivered by a well supplied market.  If you can find a similarly priced apartment elsewhere, your landlord may be less inclined to raise your rent. But in its absence, we must find other ways of guaranteeing these conditions.
 
 Could a well supplied market alone deliver this outcome? If you can find a similarly priced apartment elsewhere, your landlord may be less inclined to raise your rent. However, this ignores the substantial regional variation in amenities and infrastructure over time.
 
@@ -131,6 +130,8 @@ However, things don't work in isolation. This view ignores
 [^suttor-abriged]: Canadian Social Housing: Policy Evolution and Program Periods © Greg Suttor, 2016
 
 [^hulchansky-bulletin38]: Canada’s Dual Housing Policy Assisting Owners, Neglecting Renters
+
+[^hulchanksi-tenant-rights]: Hulchanksi 1984, pg 74-75
 
 <!--
 
