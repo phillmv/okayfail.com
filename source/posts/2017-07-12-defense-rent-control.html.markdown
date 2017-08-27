@@ -45,11 +45,9 @@ Property rights, as granted and protected by our governments, are limited to the
 
 <h3>Making the case for rent stabilization</h3>
 
-This is to say: what kind of living conditions do we want people to enjoy? and consequently, what, exactly, should be the goal of our housing system? have been considered important questions for over a century.
+This is to say: what kind of living conditions do we want people to enjoy? and consequently, what, exactly, should be the goal of our housing system? have been considered important questions for over a century &mdash; and our answers to these questions have shifted over time. We began by regulating the safety of our housing, and today we significantly subsidize its ownership for those who can afford it. 
 
-Furthermore, our answer to these questions have shifted over time. We began by regulating the safety of our housing, and today we substantially subsidize its ownership for those who can afford it. Similarly, our perception of the rights property owners and tenants should enjoy has also shifted.
-
-For example, it was not until 1970 that Ontario substantially altered the legal doctrine affecting the relationship between landlords and tenants. Prior to then, under common law, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. Landlords possessed such a disparity of bargaining power that by 1968 it became clear that tenants did not possess a real freedom to enter in contracts. By 1975, the law gradually caught up with society's changing views of what is fair and reasonable, and the notion that tenants deserve security of tenure was added to our legislation.[^hulchanksi-tenant-rights]
+Similarly, our perception of the rights property owners and tenants should enjoy has also shifted. For example, it was not until 1970 that Ontario substantially altered the legal doctrine affecting the relationship between landlords and tenants. Prior to then, under common law, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. Landlords possessed such a disparity of bargaining power that by 1968 it became clear that tenants did not possess a real freedom to enter in contracts. Only gradually did the law catch up with society's changing views of what is fair and reasonable, and the notion that tenants deserve security of tenure was added to our legislation in 1975.[^hulchanksi-tenant-rights]
 
 
 Today, given the stark power imbalance, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
@@ -65,7 +63,7 @@ Let's take this for granted. What's a well functioning community?-->
 
 Consider that communities consist of both physical infrastructure, like roads and public transit, as well as "human" infrastructure, like community organizations and loose neighbourhood ties. A neighbourhood may be desirable for its proximity to a grocery store &mdash; but also for the quality of its schools, the absence of crime and the vitality of its community events. A healthy neighbourhood is one where its residents are looking out for one another.
 
-Tenants, people who rent, face substantial hurdles. I recently read Matthew Desmond's incredible and harrowing book "Eviction," in which he followed several low-income renters in the city of Milwaukee over the course of a year. Early on, on page 70, he writes:
+Tenants, people who rent, face substantial hurdles. I recently read Matthew Desmond's incredible and harrowing book "Eviction," in which he followed several low-income renters in the city of Milwaukee over the course of a year. Early on, he writes:
 
 > "The public peace&mdash;the sidewalk and street peace&mdash;of cities is not kept primarily by the police, necessary as police are. It is kept primarily by an intricate, almost unconscious, network of voluntary controls and standards among the people themselves, and enforced by the people themselves." So wrote Jane Jacobs in _The Death and Life of Great American Cities_. Jacobs believed that a prerequisite for this type of healthy and engaged community was the presence of people who were simply present, who looked after the neighborhood.  She has been proved right: disadvantaged neighborhoods with higher levels of "collective efficacy"&mdash;the stuff of loosely linked neighbors who trust one another and share expectations about how to make their community better&mdash;have lower crime rates.
 
@@ -73,22 +71,22 @@ Tenants, people who rent, face substantial hurdles. I recently read Matthew Desm
 
 
 
-
-
-Towards the end of the book, he adds (pg 296-298):
+Towards the end of the book, he adds:
 
 > Residential stability begets a kind of psychological stability, which allows people to invest in their home and social relationships. It begets school stability, which increases the chances that children will excel and graduate. And it begets community stability, which encourages neighbours to form strong bonds and take care of their block. But poor families enjoy little of that because they are evicted at such high rates. 
 
 > [...]
 
-> Eviction even affects the communities that displaced families leave behind. Neighbors who cooperate with and trust one another can make their streets safer and more prosperous. But that takes time. Efforts to establish local cohesion and community investment are thwarted in neighborhoods with high turnover rates. In this way, eviction can unravel the fabric of a community, helping to ensure that neighbors remain strangers and that their collective capacity to combat crime and promote civic engagement remains untapped.
+> Eviction even affects the communities that displaced families leave behind. Neighbors who cooperate with and trust one another can make their streets safer and more prosperous. But that takes time. Efforts to establish local cohesion and community investment are thwarted in neighborhoods with high turnover rates. In this way, eviction can unravel the fabric of a community, helping to ensure that neighbors remain strangers and that their collective capacity to combat crime and promote civic engagement remains untapped.[^desmond]
 
-Faced with the unpredictable but certain need to move in the near future, it's harder to establish deep ties to an neighbourhood. Consequently, tenants are routinely discounted or ignored by our political structures, and face greater hardships accessing necessary social services and economic opportunities.
+Faced with the unpredictable but certain need to move in the near future, it's harder to establish deep ties to an neighbourhood. As a result, tenants are routinely discounted or ignored by our political structures, and face greater hardships accessing necessary social services and economic opportunities.
+
+Consider also that landlords are also strongly incentivized to cash in on new or improved local amenities provided either by the state or the local community itself. The reduction of crime, or the expansion of public transit, readily provide rationales for increasing rents. Creating conditions where tenants may reasonably fear the amelioration of their communities is a rather perverse outcome.[^lvt]
+
+In that light, it's in the public interest that our citizens be provided with housing stability.  In principle, this could be delivered by a well supplied market.  If you can find a similarly priced apartment elsewhere, your landlord may be less inclined to raise your rent. But, in its absence, we must find other ways of guaranteeing these conditions.
 
 
-In that light, it's in the public interest that our citizens be provided with housing stability. And, if you think about it, that also means providing steady and predictable housing costs over the long term.
-
-In principle, this could be delivered by a well supplied market.  If you can find a similarly priced apartment elsewhere, your landlord may be less inclined to raise your rent. But in its absence, we must find other ways of guaranteeing these conditions.
+<!--
 
 Could a well supplied market alone deliver this outcome? If you can find a similarly priced apartment elsewhere, your landlord may be less inclined to raise your rent. However, this ignores the substantial regional variation in amenities and infrastructure over time.
 
@@ -98,7 +96,7 @@ Consider further that there are substantial asymmetries in who can enjoy which i
 
 In my opinion, leaving tenants in a position where they may reasonably fear the amelioration of their own communities is a perverse and wicked outcome.
 
-(Those of you, in the back, shouting about land value taxation: yes, I agree but one thing at a time.)
+(Those of you, in the back, shouting about land value taxation: yes, I agree but one thing at a time.)-->
 
 <!--
   <h3>How it kind of used to work</h3>
@@ -108,12 +106,9 @@ In my opinion, leaving tenants in a position where they may reasonably fear the 
   This system is now broken. Our social housing programs were gutted in the '90s, leading to their present day deterioration. Meanwhile, post-Great Recesssion global economic conditions, in addition to unearned returns on equity for existing homeowners, have inflated housing prices beyond the reach of most young, middle and low income people. 
 -->
 
-Today, half of the population of the city of Toronto rents their housing, and home-ownership is out of reach for the young and those with middle and low incomes. Why should they be subjected to a tenancy regime that significantly disadvantages them socially, economically and politically compared to the (government subsidized) homeowning population?
+In 2017, a little over half of the population of the city of Toronto rents their housing, and home-ownership is out of reach for the young and those with middle and low incomes. Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenancy regime that significantly disadvantages them socially, economically and politically compared to the (government subsidized) homeowning population?
 
 The moral argument for rent stabilization is simple: tenants deserve to, and the proper functioning of our cities requires that they, be allowed to invest and fully participate in their communities. 
-
-Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. And, in isolation, even idealized, perfectly supplied markets cannot prevent their costly displacement and destabilization.
-
 
 <h3>Making the <i>economic</i> case for rent stabilization</h3>
 
@@ -132,6 +127,10 @@ However, things don't work in isolation. This view ignores
 [^hulchansky-bulletin38]: Canada’s Dual Housing Policy Assisting Owners, Neglecting Renters
 
 [^hulchanksi-tenant-rights]: Hulchanksi 1984, pg 74-75
+
+[^desmond]: Eviction, pg 70, (pg 296-298)
+
+[^lvt]: The case for land value taxes seems rather strong, in my opinon.
 
 <!--
 
