@@ -13,11 +13,13 @@ This culminated in a report on the [state of the condo market by Urbanation](htt
 
 >“The message here is that we’re grossly under-building rentals and the rent control measures that were introduced are going to make it worse over time through less supply and less turnover,” said Shaun Hildebrand, senior vice-president of Urbanation.
 
-This makes me sad, because I find these arguments range from the unconvincing to the disingenuous. I can't blame industry for acting in its self interest, but I do wish commentators employed a little more imagination and critical thinking. The reason is simple: rent control, like many other kinds of regulation, is a response to _market failure_. 
+This makes me sad, because I find these arguments range from the unconvincing to the disingenuous. I can't blame industry for acting in its self interest, but I do wish commentators employed a little more imagination and critical thinking. 
+
+The reason is simple: rent control, like many other kinds of regulation, is a response to _market failure_. And, crucially, rent control is not the primary disincentive removing supply from the market.
 
 In a well-functioning rental market, we would have no need for rent controls. With ample supply and moderate vacancy rates, landlords would lack the market power to gouge and discriminate against tenants, and rent prices would closely track inflation.
 
-Instead, supply is constrained and vacancy rates are at all-time lows. Cities like Toronto are in the midst of a housing crisis, and, frankly, Ontario's residential rental market has been in one state of failure or another for well over thirty years.
+Instead, supply is constrained and vacancy rates are at all-time lows &mdash; and tenants face significant risks of undergoing an "economic eviction". Cities like Toronto are in the midst of a housing crisis, and, frankly, Ontario's residential rental market has been in one state of failure or another for well over thirty years.
 
 It's time more people within urbanist circles defended measures like these.
 
@@ -49,14 +51,12 @@ This is to say: what kind of living conditions do we want people to enjoy? and c
 
 Similarly, our perception of the nature of the relationship between property owners and tenants has also shifted.
 
-Under common law, which treated residential leases much like a commercial lease, a landlord was under no statutory requirement to maintain the premises or conduct any repairs, nor were there any limits on their power to evict or even seize the property of tenants.
+Under common law, which treated residential leases much like a commercial lease, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. Landlords possess such a disparity of bargaining power that by 1968 it became clear that tenants did not have a real freedom to enter in contracts.[^hulchanksi-tenant-rights]
 
-Ontario adopted its first residential tenant protection laws in 1970. Before then, under common law, a landlord was under no statutory requirement to maintain the premises or conduct any repairs, nor were there any limits on their power to evict or even seize the property of tenants.
-
-For example, it was not until 1970 that Ontario substantially altered the legal doctrine affecting the relationship between landlords and tenants. Prior to then, under common law, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. Landlords possessed such a disparity of bargaining power that by 1968 it became clear that tenants did not possess a real freedom to enter in contracts. Only gradually did the law catch up with society's changing views of what is fair and reasonable, and the notion that tenants deserve security of tenure was added to our legislation in 1975.[^hulchanksi-tenant-rights]
+Only gradually did the law catch up with society's changing views of what is fair and reasonable. Ontario adopted its first residential protection laws in 1970, while the notion that tenants deserve security of tenure was added by 1975.[^hulchanksi-tenant-rights]
 
 
-Today, given the stark power imbalance, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
+Today, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
 
 
 <!--This is to say: what, exactly, should be the goal of our housing system? and, consequently, what kind of living conditions do we want people to enjoy? 
@@ -112,7 +112,7 @@ In my opinion, leaving tenants in a position where they may reasonably fear the 
   This system is now broken. Our social housing programs were gutted in the '90s, leading to their present day deterioration. Meanwhile, post-Great Recesssion global economic conditions, in addition to unearned returns on equity for existing homeowners, have inflated housing prices beyond the reach of most young, middle and low income people. 
 -->
 
-In 2017, a little over half of the population of the city of Toronto rents their housing, and home-ownership is out of reach for the young and those with middle and low incomes. Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenancy regime that significantly disadvantages them socially, economically and politically compared to the (government subsidized) homeowning population?
+In 2017, a little over half of the population of the city of Toronto rents their housing, and home-ownership is out of reach for the young and those with middle and low incomes. Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenure regime that significantly disadvantages them socially, economically and politically compared to the (government subsidized) homeowning population?
 
 The moral argument for rent stabilization is simple: tenants deserve to, and the proper functioning of our cities requires that they, be allowed to invest and fully participate in their communities. 
 
