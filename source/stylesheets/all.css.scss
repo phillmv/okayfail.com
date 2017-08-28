@@ -18,7 +18,7 @@ section {
 }
 
 // top level types
-.entry, .archive, .recentwork {
+.post-wrapper, .archive, .recentwork {
   @include desktop-all {
     @include span-columns(6 of 12);
     @include shift(3);
@@ -33,7 +33,7 @@ section {
   }
 }
 
-.entry {
+.post-wrapper {
   margin-bottom: 2em;
 
   .post {
@@ -251,3 +251,38 @@ header {
   }
 }
 
+// modifications exclusive to
+// 2017-07-19-saints-of-little-portugal
+
+.azulejo-row {
+  @include span-columns(12 of 12);
+  margin-bottom: 2%;
+
+  @include mobile-all {
+    padding: 0 
+  }
+}
+.azulejo {
+  @include desktop-all {
+    @include span-columns(3 of 12);
+  }
+
+  @include mobile-all {
+    @include span-columns(6 of 12);
+    // inside the chrome emulator idk why but 
+    // the 4x4 layout will not convert into 2x2
+    // unless i set the width to be slightly lower
+    // and fake it.
+    width: 47%;
+  }
+
+}
+
+.azulejo-half {
+  @include span-columns(6 of 12);
+}
+
+.azulejo-solo {
+  @include span-columns(6 of 12);
+  @include shift(3);
+}
