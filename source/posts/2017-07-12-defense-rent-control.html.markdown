@@ -16,17 +16,30 @@ This culminated in a report on the [state of the condo market by Urbanation](htt
 
 This makes me sad, because I find these arguments range from the unconvincing to the disingenuous. I can't blame industry for acting in its self interest, but I do wish commentators employed a little more imagination and critical thinking. 
 
-The reason is simple: rent control, like many other kinds of regulation, is a response to _market failure_. And, crucially, rent control is not the primary disincentive removing supply from the market.
+The reason is simple: rent stabilization, like many other kinds of regulation, is a response to _market failure_. And, crucially, rent stabilization is not the primary disincentive delaying supply from the market.
 
-In a well-functioning rental market, we would have no need for rent controls. With ample supply and moderate vacancy rates, landlords would lack the market power to gouge and discriminate against tenants, and rent prices would closely track inflation.
+Our housing delivery system is complex. We regulate our housing markets in order to correct market inefficiencies, to prevent people from being exploited, and to change incentive structures to deliver outcomes we have deemed necessary or correct. We also significantly intervene, subsidize and shape the funding and price mechanism through which new housing is produced.
 
-Instead, supply is constrained and vacancy rates are at all-time lows &mdash; and tenants face significant risks of undergoing an "economic eviction". Cities like Toronto are in the midst of a housing crisis, and, frankly, Ontario's residential rental market has been in one state of failure or another for well over thirty years.[^market-failure]
+If the profit incentive alone were able to provide us with ample supply, moderate vacancy rates, and affordable and dignified living conditions, we wouldn't find the need to regulate and intervene to the extent that we do. 
 
-It's time more people within urbanist circles defended measures like these.
+It's not enough to look at any one piece of this in isolation. Let's examine the broader context.
+
+<!--
+When we regulate rents, our purpose is to preserve the security of tenure of our residents. In a well-functioning rental market, with ample supply and moderate vacancy rates, landlords lack the market power to gouge tenants and rent increases closely track inflation. However, our rental markets do not function properly; supply is contrained and vacancy rates are at all-time lows.
+
+In this article, I will be examining the historical context we occupy, the reasons and ways in which we do regulate the housing market, and finally the state and economics 
+
+In a well-functioning rental market, we probably wouldn't need rent controls. With ample supply and moderate vacancy rates, landlords would lack the market power to gouge and discriminate against tenants, and rent prices would closely track inflation. 
+
+Instead, supply is constrained and vacancy rates are at all-time lows &mdash; and tenants face significant risks of undergoing an "economic eviction". Cities like Toronto are in the midst of a housing crisis, and, frankly, Ontario's residential rental market has been in one state of failure or another for well over thirty years.[^market-failure] In addition, as we will see later, the economics of purpose built rental buildings are negatively impacted by a wide variety of factors.
+
+First, let us consider the context in which we operate.
+-->
+
 
 <h3>A Brief History of Housing in Canada</h3>
 
-Property rights and the markets they enable exist to the extent they are enforced and protected by the state. When we establish and regulate rights, we typically seek to balance the interests and concerns of everyone involved and revisit those tradeoffs as our values and goals shift over time. We think our food should be safe to eat, our doctors should be well trained, and that you shouldn't dump waste anywhere you feel like.
+Property rights and the markets they enable exist to the extent they are enforced and protected by the state. When we establish and regulate rights, we typically seek to balance the interests and concerns of everyone involved, and revisit those tradeoffs as our values and goals shift over time. We think our food should be safe to eat, our doctors should be well trained, and that you shouldn't dump waste anywhere you feel like.
 
 In Canada, it would be difficult to identify a time when we had a completely laissez faire housing market. Some of our earliest municipal bylaws regulated building standards. First, we sought to improve our health, safety, fire and construction standards, and later we gradually began to add a host of land use and development regulations.[^hulchanksi-laissez]
 
@@ -46,18 +59,17 @@ Indeed, in Canada it's difficult to identify any period of laissez-faire housing
 
 Property rights, as granted and protected by our governments, are limited to the extent they interfere with the rights and legitimate interests of others. What we describe as a market in real estate did not emerge fully formed but is instead the result of many deliberate decisions made over time. -->
 
-<h3>Making the case for rent stabilization</h3>
+<h2>Making the moral case for rent stabilization</h2>
 
 This is to say: what kind of living conditions do we want people to enjoy? and consequently, what, exactly, should be the goal of our housing system? have been considered important questions for over a century &mdash; and our answers to these questions have shifted over time. We began by regulating the safety of our housing, and today we significantly subsidize its ownership for those who can afford it. 
 
 Similarly, our perception of the nature of the relationship between property owners and tenants has also shifted.
 
-Under common law, which treated residential leases much like a commercial lease, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. Landlords possess such a disparity of bargaining power that by 1968 it became clear that tenants did not have a real freedom to enter in contracts.[^hulchanksi-tenant-rights]
+Under common law, which treated residential leases much like a commercial lease, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. Landlords possess such a disparity of bargaining power that by 1968 it became clear that tenants did not have a tangible freedom of contract.[^hulchanksi-tenant-rights]
 
-Only gradually did the law catch up with society's changing views of what is fair and reasonable. Ontario adopted its first residential protection laws in 1970, while the notion that tenants deserve security of tenure was added by 1975.[^hulchanksi-tenant-rights]
+Only gradually did the law catch up with society's changing views of what is fair and reasonable. Ontario adopted its first residential protection laws in 1970, while the notion that tenants deserve security of tenure was added by 1975.[^hulchanksi-tenant-rights] Today, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions. 
 
-
-Today, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
+Typically, this is framed as a conflict of self-interests between landlords and tenants. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
 
 
 <!--This is to say: what, exactly, should be the goal of our housing system? and, consequently, what kind of living conditions do we want people to enjoy? 
@@ -68,7 +80,7 @@ It seems clear to me that, given a choice, we should instead optimize our housin
 
 Let's take this for granted. What's a well functioning community?-->
 
-Consider that communities consist of both physical infrastructure, like roads and public transit, as well as "human" infrastructure, like community organizations and loose neighbourhood ties. A neighbourhood may be desirable for its proximity to a grocery store &mdash; but also for the quality of its schools, the absence of crime and the vitality of its community events. A healthy neighbourhood is one where its residents are looking out for one another.
+Our communities consist of both physical infrastructure, like roads and public transit, as well as "human" infrastructure, like community organizations and loose neighbourhood ties. A neighbourhood may be desirable for its proximity to a grocery store &mdash; but also for the quality of its schools, the absence of crime and the vitality of its community events. A healthy neighbourhood is one where its residents are looking out for one another.
 
 Tenants, people who rent, face substantial hurdles. I recently read Matthew Desmond's incredible and harrowing book "Eviction," in which he followed several low-income renters in the city of Milwaukee over the course of a year. Early on, he writes:
 
@@ -88,12 +100,17 @@ Towards the end of the book, he adds:
 
 Faced with the unpredictable but certain need to move in the near future, it's harder to establish deep ties to an neighbourhood. As a result, tenants are routinely discounted or ignored by our political structures, and face greater hardships accessing necessary social services and economic opportunities.
 
-Consider also that landlords are also strongly incentivized to cash in on new or improved local amenities provided either by the state or the local community itself. The reduction of crime, or the expansion of public transit, readily provide rationales for increasing rents. Creating conditions where tenants may reasonably fear the amelioration of their communities is a rather perverse outcome.[^lvt]
+In addition, landlords are also strongly incentivized to cash in on new or improved local amenities provided either by the state or the local community itself. The reduction of crime, or the expansion of public transit, readily provide rationales for increasing rents. Creating conditions where tenants may reasonably fear the amelioration of their communities is a rather perverse outcome.[^lvt]
 
-In that light, it's in the public interest that our citizens be provided with housing stability.  In principle, this could be delivered by a well supplied market.  If you can find a similarly priced apartment elsewhere, your landlord may be less inclined to raise your rent. But, in its absence, we must find other ways of guaranteeing these conditions.
+For these reasons, it's necessary to distinguish protecting the moral rights of existing, long term tenants from the problem of affordabiliy and supply.[^psmag] Every regulation imposes tradeoffs, and the regulation of rent should be seen as not unlike that of the regulation of fire safety. 
+
+Mandating that landlords' properties satisfy certain minimum fire safety standards also raises costs and diminishes the affordability of housing. Though some [are happy make that macabre argument](https://www.bloomberg.com/view/articles/2017-06-16/beware-of-blaming-government-for-london-tower-fire), by and large we've decided it's a cost worth bearing. At some point, we will always be dealing with thresholds and equilibriums, and it is up to society to decide what is or isn't acceptable.
 
 
 <!--
+In that light, it's in the public interest that our citizens be provided with housing stability.  In principle, this could be delivered by a well supplied market.  If you can find a similarly priced apartment elsewhere, your landlord may be less inclined to raise your rent. But, in its absence, we must find other ways of guaranteeing these conditions.
+
+
 
 Could a well supplied market alone deliver this outcome? If you can find a similarly priced apartment elsewhere, your landlord may be less inclined to raise your rent. However, this ignores the substantial regional variation in amenities and infrastructure over time.
 
@@ -115,35 +132,62 @@ In my opinion, leaving tenants in a position where they may reasonably fear the 
 
 In 2011, a little under half of the population of the city of Toronto rents their housing,[^census-2011] and home-ownership is out of reach for the young and those with middle and low incomes. Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenure regime that significantly disadvantages them socially, economically and politically compared to the (government subsidized) homeowning population?
 
-The moral argument for rent stabilization is simple: tenants deserve to, and the proper functioning of our cities requires that they, be allowed to invest and fully participate in their communities. 
+<h2>Making the economic case for rent stabilization</h2>
 
-<h3>Making the economic case for rent stabilization</h3>
+This is all fine, but it doesn't address the main criticism: what about the lack of supply in our housing market?
 
-This is all fine, but what about the lack of supply in our housing market? 
+While the social benefits are hard to value, the cost of a tight housing market is all too readily apparent. The counter argument goes something like this. In isolation, adding disincentives like rent stabilization will decrease the marginal quantity of newly developed rental housing, and therefore reduce our total housing supply and exacerbate market rents. If our housing system is to respond adequately to increased demand, then we should not be erecting barriers to new construction. 
 
-Rent stabilization is great for the people who already live here, but it won't preserve affordability for newcomers. People don't stay put forever, and there will come a time when they will want to move for perfectly voluntary reasons.
+Rent stabilization is great for the people who already live here, but it won't preserve affordability for newcomers. People don't stay put forever, and there will come a time when they will want to move for perfectly voluntary reasons &mdash; upon which they'll be subject to market rents once again. Rent stabilization, then, encourages people to stay put and exacerbates the problem of affordability in the first place.
 
-In isolation, adding disincentives like rent stabilization will decrease the marginal quantity of newly developed rental housing, and therefore reduce our total housing supply. If our housing system is to respond adequately to increased demand, then we should not be erecting barriers to new construction. The extremely tight housing markets found in Toronto and Vancouver and elsewhere harm the poor above everyone else.
+This view in of itself is unobjectionable. In isolation, and all other things remaining the same, if I'm looking to make an investment I'm obviously going to be motivated by my returns &mdash; and policies that affect those profit margins are going to make investments like rental housing less attractive.
 
-Well, this view is correct on the merits. If I'm looking to make an investment, I'm obviously going to be motivated by lower or higher returns &mdash; and policies which affect my margins are going to make certain investments less attractive.
+Well, in Ontario rent increases in newly constructed buildings were deregulated for about twenty five years. What has happened to our supply?
 
-Of course, this ignores the social benefits of such a policy. After all, every regulation imposes tradeoffs, and you can construct similar arguments around any other tenant protection regulation. For example, mandating that landlords maintain their properties to a certain standard also raises costs, etc. At some point, we will always be dealing with thresholds and equilibriums, and it is up to society to decide what is or isn't acceptable. 
+<!--
+Of course, this ignores the social benefits of such a policy. After all, every regulation imposes tradeoffs, and you can construct similar arguments around any other regulation that seeks to protect tenants. 
 
-As a result, we need to separate the preservation of affordability from its supply. In a bid to stimulate new purpose built rental construction, rent stabilization for new buildings in Ontario was first loosened in 1992 and then removed altogether in 1998.
+For example, mandating that landlords keep certain minimum fire safety standards also raises costs, and lowers margins, with similar attendant effects. Though some will [happily make that macabre argument](https://www.bloomberg.com/view/articles/2017-06-16/beware-of-blaming-government-for-london-tower-fire), by and large we've decided it's a cost worth bearing. At some point, we will always be dealing with thresholds and equilibriums, and it is up to society to decide what is or isn't acceptable.
 
-In Toronto, what have we built since?
+As a result, it's necessary to distinguish the preservation of affordability, as a policy, from the creation of new supply. However, let's engage with this argument. What _has_ happened to our rental supply? -->
+
+<h3>The case of the vanishing rental supply</h3>
+
+When we talk about rental supply, we typically distinguish between the "primary" rental market, where professional landlords operate purpose built rental buildings, and the "secondary" rental market, where individuals rent out their basement apartments or spare condos.
+
+We typically favour primary rentals because only landlords that operate at scale can provide long-term accomodation &mdash; condos have a tendency to get sold &mdash; and are more capable of absorbing maintenance costs.
+
+In a bid to stimulate new purpose built rental construction, rent stabilization for new buildings in Ontario was first loosened in 1992, and then removed altogether in 1998.[^rent-control-city-report]
+
+In Toronto, what have we built since then?
 
 <figure>
-<img src="/img/Toronto Housing Completions 1981-2016 - bar chart.png">
+<a href="/img/Toronto Housing Completions 1981-2016 - bar chart.png"><img src="/img/Toronto Housing Completions 1981-2016 - bar chart.png"></a>
 </figure>
 
-It's important to recognize that the Canadian housing market does not work in isolation. As discussed above, the government intervenes and subsidizes it at many different levels.
+The difference stands out more when we change the graph type:
 
-[^market-failure]:  "The 1987 vacancy rate in Toronto was 0.1 per cent, the lowest rate in 20 years." Rationales for Tenant Protection and Security of Tenure, pg 38. Literature from the 1980s is keen to press this point. My understanding is that the market crash in the 1990s significantly eased rents along with real estate prices, though I've yet look for a study or a lot of evidence.
+<figure>
+<a href="/img/Toronto Housing Completions 1981-2016 - 100pc stacked bar chart.png"><img src="/img/Toronto Housing Completions 1981-2016 - 100pc stacked bar chart.png"></a>
+</figure>
+
+From 1981 to 1997, we averaged 2,836 new primary rental units per year. By 1998, we virtually ceased production and from 2000-2016 we averaged a mere 880 new rental units per year.  
+
+For over twenty years we've lived in a regime without rent stabilization. If rent stabilization were the primary disincentive, surely we'd expect to see the opposite. What happened?
+
+It's important to recognize that the Canadian housing market does not work in isolation. As discussed above, the government intervenes and subsidizes it at many different levels. 
+
+If we want to talk about just private purpose built rentals, the above graph actually understates the problem: a majority of the rentals built from 1981-1997 are in fact social housing. The spike we see in 1993-1996 is actually the dying gasp of our federal and provincial social housing programs - killed in 1993 and 1995 respectively.[^suttor-abriged]
+
+"This change primarily impacts only one area of the development process: the initial lease up of an empty building."[^sean-tait]
+
+
+
+[^market-failure]:  "The 1987 vacancy rate in Toronto was 0.1 per cent, the lowest rate in 20 years." Rationales for Tenant Protection and Security of Tenure, pg 38. Literature from the 1980s is keen to press this point. My understanding is that the market crash in the 1990s significantly eased rents along with real estate prices, though I've yet look for a study or a lot of evidence. 
 
 [^hulchanksi-laissez]: Hulchanski 1984, pg 27
 
-[^suttor-abriged]: Canadian Social Housing: Policy Evolution and Program Periods © Greg Suttor, 2016
+[^suttor-abriged]: Canadian Social Housing: Policy Evolution and Program Periods © Greg Suttor, 2016, pg 12
 
 [^hulchansky-bulletin38]: Canada’s Dual Housing Policy Assisting Owners, Neglecting Renters
 
@@ -153,6 +197,12 @@ It's important to recognize that the Canadian housing market does not work in is
 
 [^census-2011]: "Census concepts: A profile of the City of Toronto", I think StatCan has yet to release 2016 figures.
 [^lvt]: The case for land value taxes seems rather strong, in my opinon.
+
+[^rent-control-city-report]: Staff report for information on Tenant Issues Related to the RTA 1 (Rep. pg 2-3). (2013, October 15). Retrieved August 28, 2017, from [http://www.toronto.ca/legdocs/mmis/2013/ex/bgrd/backgroundfile-63467.pdf](http://www.toronto.ca/legdocs/mmis/2013/ex/bgrd/backgroundfile-63467.pdf)
+
+[^sean-tait]:https://www.linkedin.com/pulse/ontarios-fair-housing-plan-purpose-built-rental-development-sean-tait
+
+[^psmag]: Cribbed from https://psmag.com/economics/in-defense-of-rent-control
 
 <!--
 
