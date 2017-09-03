@@ -6,7 +6,7 @@ draft: true
 
 In April, the government of Ontario decided to extend rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
 
-Different jurisdictions have overlapping definitions of "rent control", but, basically Ontario engages in what some regions call "rent stabilization" and some academics call "second-generation rent control". It works like this: everyone's rent is now subject to a price control. Throughout the duration of your tenancy, your landlord cannot raise your monthly rent beyond a threshold pegged to inflation. Between tenants, landlords are free to price rents at whatever the market will bear.
+Different jurisdictions have overlapping definitions of "rent control". What Ontario engages in is described by some academics as a vacancy decontrolled second-generation rent control, and some regions call "rent stabilization". It works like this: everyone's rent is now subject to a price control. Throughout the duration of your tenancy, your landlord can only raise your monthly rent according to a threshold pegged to inflation, and to recover capital expenditures. Between tenants, landlords are free to price rents at whatever the market will bear.
 
 A [lot of people](http://tvo.org/article/current-affairs/the-next-ontario/ontario-needs-a-rental-rethink-but-should-tread-carefully) [decided](http://nationalpost.com/news/toronto/chris-selley-rent-control-is-a-bad-solution-to-the-wrong-problem/wcm/b9dc401c-0918-4099-9967-659d0534d815) [this was](https://www.thestar.com/business/2017/04/18/tougher-rent-control-in-ontario-puts-new-supply-at-risk-say-owners.html) [a bad idea](https://www.theglobeandmail.com/news/toronto/rent-control-isnt-the-solution-to-ontarios-housing-problem/article34753102/), and [their argument](http://www.torontosun.com/2017/04/15/rent-controls-wrong-answer-to-housing-crisis) is [easy to restate](https://www.theglobeandmail.com/real-estate/toronto/new-ontario-rent-control-rules-exact-opposite-of-what-is-needed-analyst-warns/article34569276/):  [econ 101 predicts it will restrict the supply](https://www.economist.com/blogs/economist-explains/2015/08/economist-explains-19) of purpose built rentals. Remove the profit incentive and in the long run price controls will harm renters via a reduction in supply, QED.
 
@@ -16,7 +16,7 @@ This culminated in a report on the [state of the condo market by Urbanation](htt
 
 This makes me sad, because I find these arguments range from the unconvincing to the disingenuous. I can't blame industry for acting in its self interest, but I do wish commentators employed a little more imagination and critical thinking. 
 
-The reason is simple: rent stabilization, like many other kinds of regulation, is a response to _market failure_. And, crucially, rent stabilization is not the primary disincentive delaying supply from the market.
+The reason is simple: rent stabilization, like many other kinds of regulation, is a response to _market failure_. And, crucially, the experience of the past twenty years shows that rent stabilization is not the primary disincentive delaying supply from the market.
 
 Our housing delivery system is complex. We regulate our housing markets in order to correct market inefficiencies, to prevent people from being exploited, and to change incentive structures to deliver outcomes we have deemed necessary or correct. We also significantly intervene, subsidize and shape the funding and price mechanism through which new housing is produced.
 
@@ -65,11 +65,11 @@ This is to say: what kind of living conditions do we want people to enjoy? and c
 
 Similarly, our perception of the nature of the relationship between property owners and tenants has also shifted.
 
-Under common law, which treated residential leases much like a commercial lease, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. Landlords possess such a disparity of bargaining power that by 1968 it became clear that tenants did not have a tangible freedom of contract.[^hulchanksi-tenant-rights]
+Under common law, which concerned itself with a leaseholder's (agricultural) relationship to the land, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. A review of the applicable laws in 1968 found that landlords possessed such a disparity of bargaining power that tenants did not have a freedom of contract in any real sense.[^hulchanksi-tenant-rights]
 
-Only gradually did the law catch up with society's changing views of what is fair and reasonable. Ontario adopted its first residential protection laws in 1970, while the notion that tenants deserve security of tenure was added by 1975.[^hulchanksi-tenant-rights] Today, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions. 
+It became clear that tenants deserved protection for a variety of ethical, legal and economic reasons, and that applying old-school land law principles to the modern urban apartment rental was totally unsuitable. Gradually the law caught up: Ontario adopted its first residential protection laws in 1970, while the notion that tenants deserve security of tenure was added by 1975. Today, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions.[^yee-1989]
 
-Typically, this is framed as a conflict of self-interests between landlords and tenants. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
+Typically, this is framed as a conflict of self-interests between landlords and tenants; tenants suffer disproportionate costs when forced to move, and benefit from stability. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
 
 
 <!--This is to say: what, exactly, should be the goal of our housing system? and, consequently, what kind of living conditions do we want people to enjoy? 
@@ -82,7 +82,7 @@ Let's take this for granted. What's a well functioning community?-->
 
 Our communities consist of both physical infrastructure, like roads and public transit, as well as "human" infrastructure, like community organizations and loose neighbourhood ties. A neighbourhood may be desirable for its proximity to a grocery store &mdash; but also for the quality of its schools, the absence of crime and the vitality of its community events. A healthy neighbourhood is one where its residents are looking out for one another.
 
-Tenants, people who rent, face substantial hurdles. I recently read Matthew Desmond's incredible and harrowing book "Eviction," in which he followed several low-income renters in the city of Milwaukee over the course of a year. Early on, he writes:
+Tenants face substantial hurdles. I recently read Matthew Desmond's incredible and harrowing book "Eviction," in which he followed several low-income renters in the city of Milwaukee over the course of a year. Early on, he writes:
 
 > "The public peace&mdash;the sidewalk and street peace&mdash;of cities is not kept primarily by the police, necessary as police are. It is kept primarily by an intricate, almost unconscious, network of voluntary controls and standards among the people themselves, and enforced by the people themselves." So wrote Jane Jacobs in _The Death and Life of Great American Cities_. Jacobs believed that a prerequisite for this type of healthy and engaged community was the presence of people who were simply present, who looked after the neighborhood.  She has been proved right: disadvantaged neighborhoods with higher levels of "collective efficacy"&mdash;the stuff of loosely linked neighbors who trust one another and share expectations about how to make their community better&mdash;have lower crime rates.
 
@@ -102,9 +102,9 @@ Faced with the unpredictable but certain need to move in the near future, it's h
 
 In addition, landlords are also strongly incentivized to cash in on new or improved local amenities provided either by the state or the local community itself. The reduction of crime, or the expansion of public transit, readily provide rationales for increasing rents. Creating conditions where tenants may reasonably fear the amelioration of their communities is a rather perverse outcome.[^lvt]
 
-For these reasons, it's necessary to distinguish protecting the moral rights of existing, long term tenants from the problem of affordabiliy and supply.[^psmag] Every regulation imposes tradeoffs, and the regulation of rent should be seen as not unlike that of the regulation of fire safety. 
+For these reasons, it's necessary to distinguish protecting the moral rights of existing, long term tenants from the problem of affordabiliy and supply.[^psmag] If the market is unable to sustain tenants' security of tenure, then we should find other ways to provide it.
 
-Mandating that landlords' properties satisfy certain minimum fire safety standards also raises costs and diminishes the affordability of housing. Though some [are happy make that macabre argument](https://www.bloomberg.com/view/articles/2017-06-16/beware-of-blaming-government-for-london-tower-fire), by and large we've decided it's a cost worth bearing. At some point, we will always be dealing with thresholds and equilibriums, and it is up to society to decide what is or isn't acceptable.
+Every regulation imposes tradeoffs, and the regulation of rent should be seen as not unlike that of the regulation of fire safety. Mandating that landlords' properties satisfy certain minimum fire safety standards also raises costs and diminishes the affordability of housing. Though some [are happy make that macabre argument](https://www.bloomberg.com/view/articles/2017-06-16/beware-of-blaming-government-for-london-tower-fire), by and large we've decided it's a cost worth bearing. At some point, we will always be dealing with thresholds and equilibriums, and it is up to society to decide what is or isn't acceptable.
 
 
 <!--
@@ -130,7 +130,7 @@ In my opinion, leaving tenants in a position where they may reasonably fear the 
   This system is now broken. Our social housing programs were gutted in the '90s, leading to their present day deterioration. Meanwhile, post-Great Recesssion global economic conditions, in addition to unearned returns on equity for existing homeowners, have inflated housing prices beyond the reach of most young, middle and low income people. 
 -->
 
-In 2011, a little under half of the population of the city of Toronto rents their housing,[^census-2011] and home-ownership is out of reach for the young and those with middle and low incomes. Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenure regime that significantly disadvantages them socially, economically and politically compared to the (government subsidized) homeowning population?
+In 2011, a little under half of the population of the city of Toronto rents their housing,[^census-2011] and home-ownership is out of reach for the young and those with middle and low incomes.[^cbc-squeeze] Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenure regime that significantly disadvantages them socially, economically and politically compared to the (government subsidized) homeowning population?
 
 <h2>Making the economic case for rent stabilization</h2>
 
@@ -185,6 +185,8 @@ If we want to talk about just private purpose built rentals, the above graph act
 
 [^market-failure]:  "The 1987 vacancy rate in Toronto was 0.1 per cent, the lowest rate in 20 years." Rationales for Tenant Protection and Security of Tenure, pg 38. Literature from the 1980s is keen to press this point. My understanding is that the market crash in the 1990s significantly eased rents along with real estate prices, though I've yet look for a study or a lot of evidence. 
 
+[^yee-1989]: Rationales for Tenant Protection and Security of Tenure, Gary Yee 1989 pg 50
+
 [^hulchanksi-laissez]: Hulchanski 1984, pg 27
 
 [^suttor-abriged]: Canadian Social Housing: Policy Evolution and Program Periods © Greg Suttor, 2016, pg 12
@@ -203,6 +205,8 @@ If we want to talk about just private purpose built rentals, the above graph act
 [^sean-tait]:https://www.linkedin.com/pulse/ontarios-fair-housing-plan-purpose-built-rental-development-sean-tait
 
 [^psmag]: Cribbed from https://psmag.com/economics/in-defense-of-rent-control
+
+[^cbc-squeeze]: http://www.cbc.ca/news/canada/toronto/generation-squeeze-ontario-economy-1.4054589
 
 <!--
 
