@@ -130,21 +130,25 @@ In my opinion, leaving tenants in a position where they may reasonably fear the 
   This system is now broken. Our social housing programs were gutted in the '90s, leading to their present day deterioration. Meanwhile, post-Great Recesssion global economic conditions, in addition to unearned returns on equity for existing homeowners, have inflated housing prices beyond the reach of most young, middle and low income people. 
 -->
 
-In 2011, a little under half of the population of the city of Toronto rented their housing,[^census-2011] and in 2017 home-ownership is out of reach for the young and those with middle and low incomes.[^cbc-squeeze] Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenure regime that significantly disadvantages them socially, economically and politically compared to the (government subsidized) homeowning population?
+In 2011, a little under half of the population of the city of Toronto rented their housing,[^census-2011] and in 2017 home-ownership is out of reach for the young and those with middle and low incomes.[^cbc-squeeze] Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenure regime that significantly disadvantages them socially, economically and politically compared to the subsidized homeowning population?
+
+blah blah ppl do a disservice to their readers and everyone by ignoring this dimension and framing it purely in terms of adversarial self interests. policy is a matter of equilibriums; in canada we've built systems to ensure that only about 6.8 people per million should die every year from residential fires. accepting that rents should always be uncontrolled, even in markets experiencing rapid inflation, directly maps on to one's view regarding how much security of tenure tenants should have.
+
+The question should be, how can we ensure the proper functioning of the market while also delivering security of tenure?
 
 <h2>Making the economic case for rent stabilization</h2>
 
-This is all fine, but it doesn't address the main criticism: what about the lack of supply in our housing market?  While the social benefits are hard to value precisely, the cost of a tight housing market is all too readily apparent &mdash; and might outweigh the benefit.
+Let's address the main criticism: what about the lack of supply in our housing market?  While the social benefits are hard to value precisely, the cost of a tight housing market is all too readily apparent &mdash; and might outweigh the benefit.
 
-The argument goes something like this. Rent controls artificially depress the income that landlords can expect from rental properties. In so far that rents remain lower than the recovery rent necessary to profit from new investments [FIX], they effectively destroy any motivation investors may have for responding to demand and creating new rental buildings. At the same time, lower rent costs relative to ownership encourage more people to stay in the rental market, therefore creating more demand. Seen in this light, a control imposed in response to market failure will therefore exacerbate it.
+The argument goes something like this. Rent controls artificially depress the income that landlords can expect from rental properties and therefore hurt any motivation investors may have for responding to demand and creating new rental buildings. At the same time, lower rent costs relative to ownership encourage more people to stay in the rental market, therefore creating more demand. Seen in this light, a control imposed in response to market failure will therefore exacerbate it.
 
-Furthermore, rent controls don't just affect new construction, and therefore new tenants; they can have stark effects on existing units as well. Faced with a control designed such that increases in rent grow at a rate slower than inflation, or below a rate necessary for recovering the costs of maintaining the property, existing landlords are strongly encouraged to let their properties deteriorate, or convert them to condominiums. 
+Furthermore, rent controls don't just affect new construction, and therefore new tenants; they can have stark effects on existing units as well. Faced with a control designed such that increases in rent grow at a rate slower than inflation, or the costs of maintaining the property, existing landlords are strongly encouraged to let their properties deteriorate, or convert them to condominiums. 
 
 We're blessed that Ontario and Toronto are relatively well studied jurisdictions. A widely cited 1988 study of Ontario's rental market argued that all of the above occurred in Ontario after the province instituted its 1975 rent controls. The author found that real rents and capital values of rental units collapsed, and that Toronto lost 11% of its moderately priced rental housing stock through conversions, demolition and eviction through renovation. By 1986, vacancy rates were an extremely low 0.1%, but the market was unable to add supply; to quote,
 
 > In a normally functioning, uncontrolled housing market a vacancy rate below the natural (or equilibrium) rate triggers an increase in real rents and real capital values. This in turn stimulates increased expenditures on the existing stock and increased new construction. Rent controls break this connection between low vacancies and large housing expenditures, and thereby impede the market adjustment necessary to satisfy the excess demand. [^smith-1988]
 
-This line of reasoning is intuitively appealing, and is the commonly recited received textbook wisdom. Obviously, limiting income and returns below expenditures will have negative impacts.
+This line of reasoning is intuitively appealing, and is the commonly recited received textbook wisdom. Obviously, limiting income and returns below expenses will have negative impacts.
 
 However, a sleight of hand is performed here: not all controls are designed equal, some of these assumptions encode ideologically motivated normative claims, and most importantly, affordability and new construction is impacted by a complex set of independent factors.
 
@@ -211,6 +215,12 @@ Opponents of controls might argue that developers continued to price in the risk
 What else is happening?
 
 <h3>The gap between new and existing rents</h3>
+
+I have no direct experience with real estate financing. Reviewing the literature however, and ignoring larger macro issues like demographics and the economy etc, they're dominated by the cost of equity, the cost of debt, the price of land, regulatory compliance and taxation. next to these labour and materials are relatively fixed costs. a real estate projects often involve a variety of actors beginning with developer, financiers and operators.
+
+a new construction building must borrow money, buy land, get the municipality to approve it, actually build the building, sell or rent it, and then pay taxes &mdash; and all of this for a comparable or better rate of return than similar projects at their disposal. to begin this process one typically begins with equity, the downpayment used to finance the necessary loans. developers have a need to roll over equity from project to project, and so rental buildings blah
+
+Real estate is a complex and risky industry. Projects are measured in years, and involve substantial investm
 
 Simply put, constructing new rental buildings is by and large not a profitable venture &mdash; but for reasons unconnected
 
