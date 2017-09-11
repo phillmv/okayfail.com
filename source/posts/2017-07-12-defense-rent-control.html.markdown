@@ -104,7 +104,7 @@ In addition, landlords are also strongly incentivized to cash in on new or impro
 
 For these reasons, it's necessary to distinguish protecting the moral rights of existing, long term tenants from the problem of affordabiliy and supply.[^psmag] If the market is unable to sustain tenants' security of tenure, then we should find other ways to provide it.
 
-Every regulation imposes tradeoffs, and in that light the regulation of rent should be seen as not unlike that of the regulation of fire safety. Mandating that landlords' properties satisfy certain minimum fire safety standards also raises costs, limits the marginal supply of additional housing and therefore diminishes the affordability of housing. Though some [are happy to make that macabre argument](https://www.bloomberg.com/view/articles/2017-06-16/beware-of-blaming-government-for-london-tower-fire), by and large we've decided it's a cost worth bearing: individual people are rarely in position to demand standards, and fires have large externalities. At some point, we will always be dealing with thresholds and equilibriums, and it is up to society to decide what is or isn't acceptable.
+Every regulation imposes tradeoffs, and in that light the regulation of rent should be seen as not unlike that of the regulation of fire safety. Mandating that landlords' properties satisfy certain minimum fire safety standards also raises costs and therefore diminishes the affordability of housing. Though some [are happy to make that macabre argument](https://www.bloomberg.com/view/articles/2017-06-16/beware-of-blaming-government-for-london-tower-fire), by and large we've decided it's a cost worth bearing: individual people are rarely in position to demand standards, and fires have large externalities. At some point, we will always be dealing with thresholds and equilibriums, and it is up to society to decide what is or isn't acceptable: only about 7 people per million will die this year in residential fires.
 
 
 <!--
@@ -132,9 +132,7 @@ In my opinion, leaving tenants in a position where they may reasonably fear the 
 
 In 2011, a little under half of the population of the city of Toronto rented their housing,[^census-2011] and in 2017 home-ownership is out of reach for the young and those with middle and low incomes.[^cbc-squeeze] Long term tenants have a legitimate interest in staying in the communities they themselves have made successful. Why should they be subjected to a tenure regime that significantly disadvantages them socially, economically and politically compared to the subsidized homeowning population?
 
-We do ourselves a disservice when we ignore this dimension and frame it purely in terms of adversarial self interests. In Canada, we've spent a lot of effort and money to ensure that only about 7 people per million will die every year from residential fires. When we argue that rents should always be uncontrolled, even in tight markets experiencing rapid inflation, we're implicitly accepting that tenants do not deserve security of tenure.
-
-Instead, we should be debating how can we best serve our communities while also ensuring the proper functioning of our housing delivery system.
+We do ourselves a disservice when we ignore this dimension and frame it purely in terms of adversarial self interests. When we argue that rents should always be uncontrolled, even in tight markets experiencing rapid inflation, we're implicitly accepting that tenants do not deserve security of tenure. The discussion instead should be about how we can both deliver security of tenure and permit our housing provision system to function properly.
 
 <h2>Making the economic case for rent stabilization</h2>
 
@@ -219,15 +217,24 @@ What else is happening?
 
 <h3>The gap between new and existing rents</h3>
 
-Ignoring for now the issue of demand, the economics behind real estate projects are dominated by the cost of equity, the cost of debt, the price of land, regulatory compliance and taxation.[^black-2012] [^hswg-2001] [^investopedia] Next to these, labour and materials are relatively fixed costs.[^brescia-2005-2] 
+The economics behind residential housing construction are dominated by the cost of equity, the cost of debt, the price of land, regulatory compliance and taxation.[^black-2012] [^hswg-2001] [^investopedia] Next to these, labour and materials are relatively fixed costs.[^brescia-2005-2]
 
 A developer or builder leading the construction of a new building must obtain financing, obtain land, get the municipality to approve the project, actually build the building, sell or rent it, and then pay taxes &mdash; though not necessarily in that order. And, of course, all this effort must have a better or comparable rate of return than other projects at their disposal.[^black-2012]
 
 Though in the past many rental building owners also participated in their construction, today developers and owners tend to be separate actors with distinct business models. As a result, while operating a rental building can be desirable, building a new one often isn't.[^hswg-2001] 
 
-In a nutshell, building to rent is riskier than building to sell. With condominium projects, construction doesn't begin until a majority of units are pre-sold, which lowers financing costs and the amount of necessary equity. By the time the condo units are occupied, the developer has realized their returns and freed up their equity for use in other projects. Since a rental building doesn't generate income until it's completed, it's harder to assess and demonstrate its financial feasability, and consequently more equity is needed to obtain more expensive financing. Finally, due to the nature of the investment, the equity held in a rental building may not be recouped for decades to come.[^black-2012]
+In a nutshell, building to rent is riskier than building to sell. With condominium projects, construction doesn't begin until a majority of units are pre-sold, which lowers financing costs and the amount of necessary equity. By the time the condo units are occupied, the developer has realized their returns and freed up their equity for use in other projects.[^black-2012]
+
+Since a rental building doesn't generate income until it's completed, it's harder to assess and demonstrate its financial feasability. This means more equity is needed to obtain more expensive financing &mdash; equity which won't be recouped for years or decades to come.[^black-2012] Land values, which account for 15-30% of the cost, are thus driven by the more profitable condominium projects.[^pomeroy-2001] Given that the rent necessary to recoup an investment is largely determined by debt servicing and other operating costs, this means that new projects must typically target the top end of the market. 
+
+<!--Even in the most favourable business climate, it will generablly be more profitable to target the high end. In the absence of subsidies, the private sector is unlikely to build new rental housing for the low end of the market.[^hswg-2001]-->
+
+This leads us to the main problem: new supply can't target existing demand. Simply put, average market rents are often lower than the rent necessary to sustain new construction. This can happen even in the absence of rent controls, since existing housing stock, burdened with less debt, is profitable at lower rent prices. Meanwhile, the people most inclined to pay high end rents are siphoned off from rentals onto the ownership market. Given the many ways in which we subsidize and reward ownership, if you can carry the mortgage it usually makes financial sense to do so.
 
 
+All of this conspires to make profit margins in the multi-residential investment market very narrow.[^hswg-2001] Small shifts in financing terms, land values, taxation and the costs incurred due to delays in the regulatory planning process can have huge impacts in the feasibility of a given project.
+
+<h3>Building a new narrative</h3>
 
 
 Simply put, constructing new rental buildings is by and large not a profitable venture &mdash; but for reasons unconnected
@@ -326,7 +333,7 @@ If we want to talk about just private purpose built rentals, the above graph act
 
 [^investopedia]: Abraham, S. (2017, February 08). [Rental Properties: 4 Ways to Value a Real Estate Property](http://www.investopedia.com/articles/mortgages-real-estate/11/how-to-value-real-estate-rental.asp). Retrieved September 08, 2017
 
-[^hswg-2001]: Affordable Rental Housing Supply: The Dynamics of the Market and Recommendations for Encouraging New Supply (p. 9-12, Rep.). (2001, May).
+[^hswg-2001]: Affordable Rental Housing Supply: The Dynamics of the Market and Recommendations for Encouraging New Supply (p. 9-12, Rep.). (2001, May). (margins is pg 14)
 
 [^pomeroy-2001]: Pomeroy, S. (2001, October). Toward a Comprehensive Affordable Housing Strategy for Canada (p. 15, Rep.).
 
