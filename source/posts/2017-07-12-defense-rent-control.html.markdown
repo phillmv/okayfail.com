@@ -217,7 +217,7 @@ What else is happening?
 
 <h3>The gap between new and existing rents</h3>
 
-The economics behind residential housing construction are dominated by the cost of equity, the cost of debt, the price of land, regulatory compliance and taxation.[^black-2012] [^hswg-2001] [^investopedia] Next to these, labour and materials are relatively fixed costs.[^brescia-2005-2]
+It's important to first understand how rental buildings get built. The economics behind residential housing construction are dominated by the cost of equity, the cost of debt, the price of land, regulatory compliance and taxation.[^black-2012] [^hswg-2001] [^investopedia] Next to these, labour and materials are relatively fixed costs.[^brescia-2005-2]
 
 A developer or builder leading the construction of a new building must obtain financing, obtain land, get the municipality to approve the project, actually build the building, sell or rent it, and then pay taxes &mdash; though not necessarily in that order. And, of course, all this effort must have a better or comparable rate of return than other projects at their disposal.[^black-2012]
 
@@ -235,6 +235,24 @@ This leads us to the main problem: new supply can't target existing demand. Simp
 All of this conspires to make profit margins in the multi-residential investment market very narrow.[^hswg-2001] Small shifts in financing terms, land values, taxation and the costs incurred due to delays in the regulatory planning process can have huge impacts in the feasibility of a given project.
 
 <h3>Building a new narrative</h3>
+
+It is insufficient to just point out that abolishing rent control did not incentivize new rental building construction. Ideally, we must also be able to supply a new factual narrative.
+
+This brings us back to our first two graphs:
+
+<figure>
+<a href="/img/Ontario Housing Starts 1969-1986 Bar Chart.png"><img src="/img/Ontario Housing Starts 1969-1986 Bar Chart.png"></a>
+</figure>
+
+<figure>
+<a href="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"><img src="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"></a>
+</figure>
+
+
+We could say that Ontario's rent controls, and the debate that led to their implementation in 1975, had a dramatic chilling effect, and that furthermore Ontario's 1992 Rent Control Act, which prevented landlords from recovering capital investments, sealed the deal entirely.
+
+However, we should also the consider the role the federal government had when it initiated a substantial reform of the country's income tax system in 1971 and its subsequent changes throughought the 70s and 80s &mdash; as well as the introduction in 1991 of the goods and services tax.[^clayton-1998]
+
 
 
 Simply put, constructing new rental buildings is by and large not a profitable venture &mdash; but for reasons unconnected
@@ -336,6 +354,8 @@ If we want to talk about just private purpose built rentals, the above graph act
 [^hswg-2001]: Affordable Rental Housing Supply: The Dynamics of the Market and Recommendations for Encouraging New Supply (p. 9-12, Rep.). (2001, May). (margins is pg 14)
 
 [^pomeroy-2001]: Pomeroy, S. (2001, October). Toward a Comprehensive Affordable Housing Strategy for Canada (p. 15, Rep.).
+
+[^clayton-1998]: Economic Impact of Federal Tax Legislation on the Rental Housing Market in Canada, Canadian Federation of Apartment Associations- Fédération Canadienne des Associations de Propriétaires Immobiliers, Frank Clayton
 
 
 <!--
