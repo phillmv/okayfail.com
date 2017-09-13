@@ -124,7 +124,7 @@ This means that for over twenty years we've lived in a regime where new construc
 
 Compiling data provided by the CMHC, I was able to extend <a href="#fref:fig1">Figure 1</a> up to the present day:
 
-<figure>
+<figure id="fref:fig2">
 <a href="/img/Ontario Housing Starts 1969-2016 Bar Chart.png"><img src="/img/Ontario Housing Starts 1969-2016 Bar Chart.png"></a>
 <figcaption>
 <b>Figure 2.</b> Ontario housing starts by intended market 1969-2016. I was unable to find data for 1987 and 1988.</sup>
@@ -154,7 +154,19 @@ However, as discussed above, the government provides substantial incentives towa
 All of this conspires to make profit margins in the multi-residential investment market very narrow.[^hswg-2001-2] Small shifts in financing terms, land values, taxation and the costs incurred due to delays in the regulatory planning process can have huge impacts in the feasibility of a given project.
 
 
-<h3>The gap between new and existing rents</h3>
+<h3>Going beyond rent control</h3>
+
+Recall <a href="#fref:fig2">Figure 2</a>. If rent controls don't act as the primary disincentive acting on our supply, how else do we explain the very noticeable dips in production the mid-1970s and mid-1990s?
+
+Well, tenant protection legislation wasn't the only thing being discussed and implemented in the years leading up the 1970s. During this time period the federal government also managed to overhaul our income tax system &mdash; which many people argue had drastic impacts on the after-tax profitability of new rental buildings.
+
+Seeking to make our tax system more equitable, close loopholes and reorient which industries it incentivized,[^budget-1971] starting in 1972 and throughout the subsequent decades, the federal government implemented a series of reforms. For the first time, the government began to tax capital gains; but it also changed the rate at which capital costs can be depreciated, which class of investor can claim capital cost deductions, and it removed the deduction of "soft" construction costs.[^hswg-2001]
+
+These changes were made with little, if any, consideration of their adverse consequences on our housing policy goals,[^clayton-1998] and the elimination of the previously favourable tax regime meant that investors were no longer able to exploit rental apartments for their tax benefits. Given that the "Great Apartment Boom" of the 1960s ended shortly thereafter suggests that the effect of these changes was substantial.[^miron-1995]
+
+
+
+Additionally, in 1991 the Goods and Services Tax was introduced, which increased the sales tax burden on new construction by almost 70 per cent.[^enemark-2017] Due to a quirk in how sales taxes work, blah blah HST zero rated.
 
 
 
@@ -221,3 +233,12 @@ All of this conspires to make profit margins in the multi-residential investment
 [^brescia-2005-2]: Brescia, V. (2005). The Affordability of Housing in Ontario: Trends, Causes, Solutions (p. 27, Rep.).
 
 [^hswg-2001-2]: Affordable Rental Housing Supply: The Dynamics of the Market and Recommendations for Encouraging New Supply (p. 14, Rep.). (2001, May)
+
+[^budget-1971]: BUDGET SPEECH delivered by the Honourable E. J. Benson Minister of Finance and • Member of Parliament for Kingston and The Islands, Friday, June 18, 1971 http://www.budget.gc.ca/pdfarch/1971-sd-eng.pdf
+
+
+[^clayton-1998]: Economic Impact of Federal Tax Legislation on the Rental Housing Market in Canada, Canadian Federation of Apartment Associations- Fédération Canadienne des Associations de Propriétaires Immobiliers, Frank Clayton (pg 9-12), pg i
+
+[^enemark-2017]: Enemark, T. (2017, July 06). Fastest Way to More Rental Housing? Tax Changes. Retrieved September 12, 2017, from https://thetyee.ca/Opinion/2017/07/06/Tax-Changes-More-Rental-Housing/
+
+
