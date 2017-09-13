@@ -8,7 +8,7 @@ In April, the government of Ontario decided to extend rent control to every dwel
 
 Different jurisdictions have overlapping definitions of "rent control". What Ontario engages in is described by some academics and regions as a tenancy rent control, or rent stabilization. It works like this: everyone's rent is subject to a price control. Throughout the duration of your tenancy, your landlord can only raise your monthly rent according to a threshold pegged to inflation, and to recover capital expenditures. Between tenants, landlords are free to price rents at whatever the market will bear.
 
-This prompted a lot of commentary, ranging from [benign skepticism](http://tvo.org/article/current-affairs/the-next-ontario/ontario-needs-a-rental-rethink-but-should-tread-carefully) to [vigorous condemnation](https://beta.theglobeandmail.com/real-estate/toronto/new-ontario-rent-control-rules-exact-opposite-of-what-is-needed-analyst-warns/article34569276/). The argument goes like this:
+This prompted a lot of commentary, ranging from [benign skepticism](http://tvo.org/article/current-affairs/the-next-ontario/ontario-needs-a-rental-rethink-but-should-tread-carefully) to [vigorous condemnation](https://beta.theglobeandmail.com/real-estate/toronto/new-ontario-rent-control-rules-exact-opposite-of-what-is-needed-analyst-warns/article34569276/). The chorus sounds like this:
 
 Against all common sense, the province is handing its cities a poisoned chalice: it is textbook economics that price controls sharply reduce the value of new construction.[^tgam-gee]  Under rent control, the quantity and quality of available rental units will fall as developers are less incentivized to build or invest in rental properties &mdash; all of which exacerbates any price crunch.[^tal-cibc] The fact is, rent control would largely help high-end renters in a high-end market, since most units built after the rent control exemption are condos. It’s tough to see how it would accomplish much except transferring money from unit owners to their tenants.[^selley] Instead, the province should be tackling the root of the problem &mdash; the supply of new housing units in Toronto et al is not keeping up with demand.[^thesun]
 
@@ -60,7 +60,7 @@ Towards the end of the book, he adds:
 
 > Eviction even affects the communities that displaced families leave behind. Neighbors who cooperate with and trust one another can make their streets safer and more prosperous. But that takes time. Efforts to establish local cohesion and community investment are thwarted in neighborhoods with high turnover rates. In this way, eviction can unravel the fabric of a community, helping to ensure that neighbors remain strangers and that their collective capacity to combat crime and promote civic engagement remains untapped.[^desmond]
 
-Faced with the unpredictable but certain need to move in the near future, it's harder to establish deep ties to an neighbourhood. As a result, tenants are routinely discounted or ignored by our political structures, and face greater hardships accessing necessary social services and economic opportunities.
+Faced with the unpredictable but certain need to move in the near future, it's harder to establish deep ties to an neighbourhood. As a result, tenants are routinely discounted or ignored by our political structures,[^mcgrath-2017] and face greater hardships accessing necessary social services and economic opportunities.
 
 In addition, landlords are also strongly incentivized to cash in on new or improved local amenities provided either by the state or the local community itself. The reduction of crime, or the expansion of public transit, readily provide rationales for increasing rents. Creating conditions where tenants may reasonably fear the amelioration of their communities is a rather perverse outcome.
 
@@ -131,7 +131,7 @@ Compiling data provided by the CMHC, I was able to extend <a href="#fref:fig1">F
 </figcaption>
 </figure>
 
-From 1969 to 1986, Ontario averaged 21,607 rental unit starts per year, or 30% of total supply. From 1999 to 2016, a period without any rent controls, Ontario averaged 4,132 new rental unit starts or 6% of total supply.
+From 1969 to 1986, Ontario averaged 21,607 rental unit starts per year, or 30% of total supply. From 1999 to 2016, a period without any rent controls, Ontario averaged 4,132 new rental unit starts or a mere 6% of total supply.
 
 If rent controls were the _primary factor_ inhibiting new construction, then surely we'd expect to see the opposite. If rent controls are such a substantial disincentive, then surely we'd be building them in similar quantites, if not percentage of the market, than we did during Ontario's rent control's most destructive period. 
 
@@ -141,13 +141,13 @@ What else is happening?
 
 <h3>The gap between new and existing rents</h3>
 
-First, we must consider the fact that the private market, in the absence of subsidies, can't afford to build new rental housing for people with low or even middle incomes.[^hswg-2001] [^black-2012]
+First, we should contemplate the fact that the private market, in the absence of subsidies, can't afford to build new rental housing for people with low or even middle incomes.[^hswg-2001] [^black-2012]
 
 The math doesn't work out, even though we seem to build condos just fine, because building to rent is riskier than building to sell. With condominium projects, construction doesn't begin until a majority of units are pre-sold, which lowers financing costs and the amount of necessary equity. By the time the condo units are occupied, the developer has realized their returns and freed up their equity for use in other projects.[^black-2012] Land values, which account for 15-30% of the cost, are thus driven by the more profitable condominium projects.[^pomeroy-2001]
 
 Since a rental building doesn't generate income until it's completed, it's harder to assess and demonstrate its financial feasability. This means more equity is needed to obtain more expensive financing &mdash; equity which won't be recouped for years or decades to come.[^black-2012] Given that the rent necessary to recoup an investment is largely determined by debt servicing and other operating costs, this means that new projects must target the top end of the market.
 
-Relatively affordable housing, then, occurs because over time, as inflation and mortgage payments decrease operating costs, the relative rent necessary to carry the investment decreases. In addition, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing. In theory, through a process called filtering, new high-end housing will create vacancies lower in the chain as people move on up.[^brescia-2005-2]
+Relatively affordable housing, then, occurs because over time, as inflation and mortgage payments decrease operating costs, the rent necessary to carry the investment decreases. In addition, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing. In theory, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply.[^brescia-2005-2]
 
 However, as discussed above, the government provides substantial incentives towards homeownership. The people most inclined to pay high end rents are siphoned off from rentals onto the ownership market; if you can afford the mortgage, it usually makes financial sense to buy. And, because the majority of housing stock has already been built and is therefore cheaper, average rents are often quite lower than the rent necessary to recoup new investment.
 
@@ -158,17 +158,17 @@ All of this conspires to make profit margins in the multi-residential investment
 
 Recall <a href="#fref:fig2">Figure 2</a>. If rent controls don't act as the primary disincentive acting on our supply, how else do we explain the very noticeable dips in production the mid-1970s and mid-1990s?
 
-Well, tenant protection legislation wasn't the only thing being discussed and implemented in the years leading up the 1970s. During this time period the federal government also managed to overhaul our income tax system &mdash; which many people argue had drastic impacts on the after-tax profitability of new rental buildings.
+Well, tenant protection legislation wasn't the only thing being discussed and implemented in the years leading up the 1970s. During this time period the federal government also managed to overhaul how our income taxes work.
 
 Seeking to make our tax system more equitable, close loopholes and reorient which industries it incentivized,[^budget-1971] starting in 1972 and throughout the subsequent decades, the federal government implemented a series of reforms. For the first time, the government began to tax capital gains; but it also changed the rate at which capital costs can be depreciated, which class of investor can claim capital cost deductions, and it removed the deduction of "soft" construction costs.[^hswg-2001]
 
-These changes were made with little, if any, consideration of their adverse consequences on our housing policy goals,[^clayton-1998] and the elimination of the previously favourable tax regime meant that investors were no longer able to exploit rental apartments for their tax benefits. Given that the "Great Apartment Boom" of the 1960s ended shortly thereafter suggests that the effect of these changes was substantial.[^miron-1995]
+In practical terms this means that rental buildings became a far less attractive investment class, especially for small investors, since being able to depreciate a rental building tax-wise at a faster rate than its actual economic depreciation can have a large impact on after-tax returns.[^hswg-2001] Recall that rental buildings become more profitable over time; before these changes, high-earning professionals could use losses generated by rental properties to offset their higher marginal rates, and they could use liberal capital cost allowance rates to defer income tax until they sold their property.[^miron-1995]
 
+Additionally, in 1991 the Goods and Services Tax was introduced (later, harmonized in most provinces), which increased the sales tax burden on new construction by almost 70 per cent.[^enemark-2017] Whereas before only the building materials used in the construction of a rental building had a sales tax, now the full value of the building was subject to a 7 percent charge.[^clayton-1998-2]
 
+These changes were made with little, if any, regard for their adverse consequences on our housing policy goals,[^clayton-1998] and given that the "Great Apartment Boom" of the 1960s ended shortly thereafter suggests that the effect of these changes was substantial.[^miron-1995]
 
-Additionally, in 1991 the Goods and Services Tax was introduced, which increased the sales tax burden on new construction by almost 70 per cent.[^enemark-2017] Due to a quirk in how sales taxes work, blah blah HST zero rated.
-
-
+We don't just have to look at our declining rental starts: the United States' current tax regime as applied to rental buildings is broadly similar to how we did things pre-1972.[^clayton-1998-3] While we can't compare them directly &mdash; Canada and the US are very different places &mdash; consider the example of Seattle and Vancouver. While Vancouver is experiencing a furious condo boom, taking up to 60% of housing starts, the vast majority of new units in Seattle are apartment buildings.[^morales-2017]
 
 [^tgam-gee]: Gee, M. (2017, April 20). Rent control isn't the solution to Ontario's housing problem. Retrieved September 12, 2017, from [theglobeandmail.com](https://beta.theglobeandmail.com/news/toronto/rent-control-isnt-the-solution-to-ontarios-housing-problem/article34753102/)
 
@@ -196,6 +196,8 @@ Additionally, in 1991 the Goods and Services Tax was introduced, which increased
 
 [^desmond]: Eviction, pg 70, (pg 296-298)
 
+[^mcgrath-2017]: "If you don’t currently own a house in Toronto, preferably a detached one, the city’s political class doesn’t care about you and doesn’t even really want you." McGrath, J. (2017, July 14). There's life outside Toronto, but leaving the city is harder than it used to be. Retrieved September 13, 2017, from [tvo.org](http://tvo.org/article/current-affairs/the-next-ontario/theres-life-outside-toronto-but-leaving-the-city-is-harder-than-it-used-to-be)
+
 
 [^psmag]: Cribbed from https://psmag.com/economics/in-defense-of-rent-control
 
@@ -211,11 +213,11 @@ Additionally, in 1991 the Goods and Services Tax was introduced, which increased
 
 [^toronto-2006]: [Rental Housing Supply and Demand Indicators](https://www1.toronto.ca/city_of_toronto/social_development_finance__administration/files/pdf/housing_rental.pdf) (Rep.). (2006, September). City of Toronto City Planning Policy & Research 
 
-[^smith-1988]: An Economic Assessment of Rent Controls: The Ontario Experience, pg 255
-[^smith-1983]: The Crisis in Rental Housing: A Canadian Perspective (pg 3-4)
-[^smith-2003]: Intertenancy Rent Decontrol in Ontario
+[^smith-1988]: Smith, L. B. (1988). An economic assessment of rent controls: The Ontario experience. The Journal of Real Estate Finance and Economics, 1(3), 217-231. doi:10.1007/bf00658918A
+[^smith-1983]: Smith, L. B. (1983). The Crisis in Rental Housing: A Canadian Perspective. The ANNALS of the American Academy of Political and Social Science, 465(1), 58-75. doi:10.1177/0002716283465001006 ####The Crisis in Rental Housing: A Canadian Perspective (pg 3-4)
+[^smith-2003]: Smith, L. B. (2003). Intertenancy Rent Decontrol in Ontario. Canadian Public Policy / Analyse de Politiques, 29(2), 213. doi:10.2307/3552456
 
-[^miron-1995]: Private Rental Housing: The Canadian Experience, John R. Miron, Urban Studies, Vol. 32, No. 3, 1995 579±604, pg 596
+[^miron-1995]: Miron, J. R. (1995). Private Rental Housing: The Canadian Experience. Urban Studies, 32(3), 579-604. doi:10.1080/00420989550012988, pg 596
 
 
 [^brescia-2005]: Brescia, V. (2005). The Affordability of Housing in Ontario: Trends, Causes, Solutions (p. 31, Rep.).
@@ -242,3 +244,8 @@ Additionally, in 1991 the Goods and Services Tax was introduced, which increased
 [^enemark-2017]: Enemark, T. (2017, July 06). Fastest Way to More Rental Housing? Tax Changes. Retrieved September 12, 2017, from https://thetyee.ca/Opinion/2017/07/06/Tax-Changes-More-Rental-Housing/
 
 
+[^clayton-1998-2]: Economic Impact of Federal Tax Legislation on the Rental Housing Market in Canada, Canadian Federation of Apartment Associations- Fédération Canadienne des Associations de Propriétaires Immobiliers, Frank Clayton (pg 9, pg 32-33)
+
+[^clayton-1998-3]: Economic Impact of Federal Tax Legislation on the Rental Housing Market in Canada, Canadian Federation of Apartment Associations- Fédération Canadienne des Associations de Propriétaires Immobiliers, Frank Clayton (pg 14, 28)
+
+[^morales-2017]: Morales, M. (2017, August 14). Why Seattle Builds Apartments, but Vancouver, BC, Builds Condos. Retrieved September 13, 2017, from http://www.sightline.org/2017/08/14/why-seattle-builds-apartments-but-vancouver-bc-builds-condos/
