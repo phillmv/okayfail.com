@@ -217,15 +217,15 @@ What else is happening?
 
 <h3>The gap between new and existing rents</h3>
 
-It's important to first understand how rental buildings get built. The economics behind residential housing construction are dominated by the cost of equity, the cost of debt, the price of land, regulatory compliance and taxation.[^black-2012] [^hswg-2001] [^investopedia] Next to these, labour and materials are relatively fixed costs.[^brescia-2005-2]
+It's important to understand how rental buildings get built. The economics behind residential housing construction are dominated by the cost of equity, the cost of debt, the price of land, regulatory compliance and taxation.[^black-2012] [^hswg-2001] [^investopedia] Next to these, labour and materials are relatively fixed costs.[^brescia-2005-2]
 
 A developer or builder leading the construction of a new building must obtain financing, obtain land, get the municipality to approve the project, actually build the building, sell or rent it, and then pay taxes &mdash; though not necessarily in that order. And, of course, all this effort must have a better or comparable rate of return than other projects at their disposal.[^black-2012]
 
 Though in the past many rental building owners also participated in their construction, today developers and owners tend to be separate actors with distinct business models. As a result, while operating a rental building can be desirable, building a new one often isn't.[^hswg-2001] 
 
-In a nutshell, building to rent is riskier than building to sell. With condominium projects, construction doesn't begin until a majority of units are pre-sold, which lowers financing costs and the amount of necessary equity. By the time the condo units are occupied, the developer has realized their returns and freed up their equity for use in other projects.[^black-2012]
+Building to rent is riskier than building to sell. With condominium projects, construction doesn't begin until a majority of units are pre-sold, which lowers financing costs and the amount of necessary equity. By the time the condo units are occupied, the developer has realized their returns and freed up their equity for use in other projects.[^black-2012] Land values, which account for 15-30% of the cost, are thus driven by the more profitable condominium projects.[^pomeroy-2001]
 
-Since a rental building doesn't generate income until it's completed, it's harder to assess and demonstrate its financial feasability. This means more equity is needed to obtain more expensive financing &mdash; equity which won't be recouped for years or decades to come.[^black-2012] Land values, which account for 15-30% of the cost, are thus driven by the more profitable condominium projects.[^pomeroy-2001] Given that the rent necessary to recoup an investment is largely determined by debt servicing and other operating costs, this means that new projects must typically target the top end of the market. 
+Since a rental building doesn't generate income until it's completed, it's harder to assess and demonstrate its financial feasability. This means more equity is needed to obtain more expensive financing &mdash; equity which won't be recouped for years or decades to come.[^black-2012] Given that the rent necessary to recoup an investment is largely determined by debt servicing and other operating costs, this means that new projects must typically target the top end of the market. 
 
 <!--Even in the most favourable business climate, it will generablly be more profitable to target the high end. In the absence of subsidies, the private sector is unlikely to build new rental housing for the low end of the market.[^hswg-2001]-->
 
@@ -236,9 +236,9 @@ All of this conspires to make profit margins in the multi-residential investment
 
 <h3>Building a new narrative</h3>
 
-It is insufficient to just point out that abolishing rent control did not incentivize new rental building construction. Ideally, we must also be able to supply a new factual narrative.
+This brings us back to our earlier question: what else has happened?
 
-This brings us back to our first two graphs:
+We can look over the history of rental starts and conclude that Ontario's rent controls, and the debate that led to their implementation in 1975, had a dramatic effect. We could further point to 1992's Rent Control Act, which prevented landlords from recovering capital investments, and conclude that was the final nail in the coffin. As discussed above, the profitability of a rental building can be sensitive to minor changes in net income. But rent controls weren't the only thing going on.
 
 <figure>
 <a href="/img/Ontario Housing Starts 1969-1986 Bar Chart.png"><img src="/img/Ontario Housing Starts 1969-1986 Bar Chart.png"></a>
@@ -248,6 +248,11 @@ This brings us back to our first two graphs:
 <a href="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"><img src="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"></a>
 </figure>
 
+Seeking to make our tax system more equitable, close "loopholes" and reorient which industries it incentivized,[^budget-1971] starting in 1972 and throughout the subsequent decades, the federal government implemented a series of changes to our income tax laws. 
+
+It began to tax capital gains, changed the rate at which capital costs can be depreciated, which class of investor can claim capital cost deductions and removed the deduction of "soft costs".[^hswg-2001] Additionally, in 1991 the Goods and Services Tax was introduced, which increased the sales tax burden on new construction by almost 70 per cent.[^enemark-2017]
+
+Unfortunately, these changes were made with little, if any, consideration of their adverse consequences on our housing policy goals.[^clayton-1998] The practical effect of these changes were substantial, and made investment in rental housing less attractive for small investors[^miron-1995] since the manner in which an asset is depreciated can have a relatively large impact on after tax returns.[^hswg-2001]
 
 We could say that Ontario's rent controls, and the debate that led to their implementation in 1975, had a dramatic chilling effect, and that furthermore Ontario's 1992 Rent Control Act, which prevented landlords from recovering capital investments, sealed the deal entirely.
 
@@ -351,11 +356,17 @@ If we want to talk about just private purpose built rentals, the above graph act
 
 [^investopedia]: Abraham, S. (2017, February 08). [Rental Properties: 4 Ways to Value a Real Estate Property](http://www.investopedia.com/articles/mortgages-real-estate/11/how-to-value-real-estate-rental.asp). Retrieved September 08, 2017
 
-[^hswg-2001]: Affordable Rental Housing Supply: The Dynamics of the Market and Recommendations for Encouraging New Supply (p. 9-12, Rep.). (2001, May). (margins is pg 14)
+[^hswg-2001]: Affordable Rental Housing Supply: The Dynamics of the Market and Recommendations for Encouraging New Supply (p. 9-12, Rep.). (2001, May). (margins is pg 14), pg-17-18
 
 [^pomeroy-2001]: Pomeroy, S. (2001, October). Toward a Comprehensive Affordable Housing Strategy for Canada (p. 15, Rep.).
 
-[^clayton-1998]: Economic Impact of Federal Tax Legislation on the Rental Housing Market in Canada, Canadian Federation of Apartment Associations- Fédération Canadienne des Associations de Propriétaires Immobiliers, Frank Clayton
+[^clayton-1998]: Economic Impact of Federal Tax Legislation on the Rental Housing Market in Canada, Canadian Federation of Apartment Associations- Fédération Canadienne des Associations de Propriétaires Immobiliers, Frank Clayton (pg 9-12), pg i
+
+[^budget-1971]: BUDGET SPEECH delivered by the Honourable E. J. Benson Minister of Finance and • Member of Parliament for Kingston and The Islands, Friday, June 18, 1971 http://www.budget.gc.ca/pdfarch/1971-sd-eng.pdf
+
+[^enemark-2017]: Enemark, T. (2017, July 06). Fastest Way to More Rental Housing? Tax Changes. Retrieved September 12, 2017, from https://thetyee.ca/Opinion/2017/07/06/Tax-Changes-More-Rental-Housing/
+
+[^miron-1995]: Private Rental Housing: The Canadian Experience, John R. Miron, Urban Studies, Vol. 32, No. 3, 1995 579±604, pg 596
 
 
 <!--
