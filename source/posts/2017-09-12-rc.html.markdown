@@ -141,20 +141,20 @@ What else is happening?
 
 <h3>The gap between new and existing rents</h3>
 
-First, we should contemplate the fact that the private market, in the absence of subsidies, can't afford to build new rental housing for people with low or even middle incomes.[^hswg-2001] [^black-2012]
+It's worth noting two things: first, that the economics of building a new rental building are distinct from the economics of operating an existing one, and second, the fact that the private market, in the absence of subsidies, can't afford to build new rental housing for people with low or even middle incomes.[^hswg-2001] [^black-2012]
 
 The math doesn't work out, even though we seem to build condos just fine, because building to rent is riskier than building to sell. With condominium projects, construction doesn't begin until a majority of units are pre-sold, which lowers financing costs and the amount of necessary equity. By the time the condo units are occupied, the developer has realized their returns and freed up their equity for use in other projects.[^black-2012] Land values, which account for 15-30% of the cost, are thus driven by the more profitable condominium projects.[^pomeroy-2001]
 
 Since a rental building doesn't generate income until it's completed, it's harder to assess and demonstrate its financial feasability. This means more equity is needed to obtain more expensive financing &mdash; equity which won't be recouped for years or decades to come.[^black-2012] Given that the rent necessary to recoup an investment is largely determined by debt servicing and other operating costs, this means that new projects must target the top end of the market.
 
-Relatively affordable housing, then, occurs because over time, as inflation and mortgage payments decrease operating costs, the rent necessary to carry the investment decreases. In addition, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing. In theory, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply.[^brescia-2005-2]
+Relatively affordable housing, then, occurs because over time, as inflation and mortgage payments decrease operating costs, the rent necessary to carry the investment decreases. And, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing. In theory, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply.[^brescia-2005-2]
 
 However, as discussed above, the government provides substantial incentives towards homeownership. The people most inclined to pay high end rents are siphoned off from rentals onto the ownership market; if you can afford the mortgage, it usually makes financial sense to buy. And, because the majority of housing stock has already been built and is therefore cheaper, average rents are often quite lower than the rent necessary to recoup new investment.
 
 All of this conspires to make profit margins in the multi-residential investment market very narrow.[^hswg-2001-2] Small shifts in financing terms, land values, taxation and the costs incurred due to delays in the regulatory planning process can have huge impacts in the feasibility of a given project.
 
 
-<h3>Other huge disincentives</h3>
+<h3>Taxes: the other major disincentive</h3>
 
 Recall <a href="#fref:fig2">Figure 2</a>. If rent controls don't act as the primary disincentive acting on our supply, how else do we explain the very noticeable dips in production the mid-1970s and mid-1990s?
 
@@ -166,20 +166,56 @@ In practical terms this means that rental buildings became a far less attractive
 
 Additionally, in 1991 the Goods and Services Tax was introduced (and later, harmonized in most provinces), which increased the sales tax burden on new construction by almost 70 per cent.[^enemark-2017] Whereas before only the building materials used in the construction of a rental building had a sales tax, now the full value of the building was subject to a 7 percent charge (though, lower today).[^clayton-1998-2]
 
-These changes were made with little, if any, regard for their adverse consequences on our housing policy goals,[^clayton-1998] and given that the "Great Apartment Boom" of the 1960s ended shortly thereafter suggests that the effect of these changes was substantial.[^miron-1995]
+These changes were made with little, if any, regard for their adverse consequences for our housing policy goals,[^clayton-1998] and given that the "Great Apartment Boom" of the 1960s ended shortly thereafter suggests that the effect of these changes was substantial.[^miron-1995]
 
-We don't just have to look at our declining rental starts: the United States' current tax regime as applied to rental buildings is broadly similar to how we did things pre-1972.[^clayton-1998-3] While we can't compare them directly &mdash; Canada and the US are very different places &mdash; consider the example of Seattle and Vancouver. While Vancouver is experiencing a furious condo boom, taking up to 60% of housing starts, the vast majority of new units in Seattle are apartment buildings.[^morales-2017]
+Besides our declining rental housing starts, we have one other piece of evidence: the United States' current tax regime as applied to rental buildings is broadly similar to how we did things pre-1972.[^clayton-1998-3] While we can't compare them directly &mdash; Canada and the US are very different places &mdash; consider the example of Seattle and Vancouver. While Vancouver is experiencing a furious condo boom, taking up to 60% of housing starts, the vast majority of new units in Seattle are apartment buildings.[^morales-2017]
 
 There are many other factors and angles we haven't considered. Fluctuating interest rates, demographic trends and land prices have large impacts, and rental buildings and by extension tenants are further discriminated against by municipal property taxes and land use zoning restrictions. Our housing provisioning system is complicated.
 
-That said, it's worth noting that the economics of building a new rental building are distinct from the economics of operating an existing one. In fact, it seems that historically the private market's willingness to build large quantities of rental buildings is a function of the extent they're effective short and medium term _tax shelters_.
 
 
 <h3>Not all controls are designed equal</h3>
 
-This isn't to say that price controls are uniformly great. Obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It's fine, and probably necessary, to subsidize some aspects of renting in order to achieve our housing policy goals, but it's not really rational to expect that to come exclusively at the economic detriment of landlords.
+The point of this article isn't to say that price controls are a paragon of virtue, but instead to critically examine the received wisdom.
+
+Obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It's fine, and likely necessary, to subsidize some or other aspect of how we produce or provide rental units in order to achieve our housing policy goals &mdash; but it's unreasonable to expect that subsidy to be provided to the exclusive detriment of individual landlords. If investors want to transfer their wealth to tenants, they don't really need to go through the trouble of erecting a building first.
+
+However, we're not limited to choosing between an unfettered market and a ruinously restrictive price control. After all, our purpose is to protect tenants from runaway price inflation. Given the long-term nature of multi-residential investment, their business model can be satisfied so long as cashflows keep up with costs. 
+
+Don't just take my word for it. Take GWL Realty Advisors, whose president Paul Finkbeiner was quoted in the _Financial Post_:
+
+> “We believe there is a strong demand for rental apartments and this property will lease up over time,” Finkbeiner said about his Livmore project, [...] “Apartments provide good long-term returns and very low vacancy levels, it’s just one of the best assets classes from a stability point of view.”
+
+>[...]
+
+> GWL seems to think it can work within the new provincial rules. “As a developer, we are building something that will last for 25-50 years that works for tenants,” said Finkbeiner. “We want long-term renters which is also consistent with our investors that are long-term in nature. These buildings go to pay pensions and people’s investments.”
+
+> He noted Ontario still allows rents to be raised to market level once a tenant leaves a unit and capital improvements to buildings can also be passed on to tenants.
+
+> “All we want is a fair rent for our apartments, we do not want above guidelines. We have been able to work within rent controls and still deliver a good product for our investors and tenants,”[^marr-2017]
+
+After all, in a laissez faire but well-functioning market, there is no guarantee that rents will rise above inflation. A cost-adjusted tenancy control, then, primarily impacts only one area of the development process: the initial lease up of an empty building.[^tait-2017] As long as developers have the ability to adjust for initial mistakes, over the long run the impact on their finances should be minimal.
+
+Ultimately, our housing crisis is a matter of income: tenants with low incomes have an _income_ problem, not a housing problem.[^hswg-final] Land prices and other costs, driven by restrictive zoning and the speculative condo boom, have grown faster than tenant incomes and pushed recovery rents beyond what most of the rental population can afford or finds reasonable. 
+
+
+<!-- 
+Take Toronto. Compiling data from the CMHC and a City of Toronto report, I produced a graph that illustrates the ways in which our housing mix is shifting:
+
+<figure id="fref:fig3">
+<a href="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"><img src="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"></a>
+<figcaption>
+<b>Figure 3.</b> Toronto housing completions by intended market 1981-2016.
+</figcaption>
+</figure>
+
+
+Obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It's fine, and probably necessary, to subsidize some aspects of renting in order to achieve our housing policy goals, but it's not really rational to expect that to come exclusively at the economic detriment of landlords.
 
 However
+
+In fact, it seems that historically the private market's willingness to build large quantities of rental buildings is a function of the extent they're effective short and medium term _tax shelters_.
+-->
 
 <h3>Reminder: economic rents are unproductive</h3>
 
@@ -262,3 +298,9 @@ However
 [^clayton-1998-3]: Economic Impact of Federal Tax Legislation on the Rental Housing Market in Canada, Canadian Federation of Apartment Associations- Fédération Canadienne des Associations de Propriétaires Immobiliers, Frank Clayton (pg 14, 28)
 
 [^morales-2017]: Morales, M. (2017, August 14). Why Seattle Builds Apartments, but Vancouver, BC, Builds Condos. Retrieved September 13, 2017, from http://www.sightline.org/2017/08/14/why-seattle-builds-apartments-but-vancouver-bc-builds-condos/
+
+[^marr-2017]: Marr, G. (2017, July 18). Rent controls, no worries. Developer unveils major apartment complex in downtown Toronto. Retrieved September 14, 2017, from http://business.financialpost.com/real-estate/property-post/one-of-the-best-assets-classes-major-landlord-expects-rental-apartment-demand-to-remain-strong-despite-rent-controls
+
+[^hswg-final]: Lampert, G., Pomeroy, S., & Bradley, R. (2002). Creating a Positive Climate for Rental Housing Development Through Tax and Mortgage Insurance Reforms: The Second Report of the Housing Supply Working Group (p. 7, Rep.). Toronto: Ministry of Municipal Affairs and Housing.
+
+[^tait-2017]: Tait, S. (2017, April 30). Ontario’s Fair Housing Plan & Purpose-Built Rental Development. Retrieved September 14, 2017, from https://www.linkedin.com/pulse/ontarios-fair-housing-plan-purpose-built-rental-development-sean-tait/
