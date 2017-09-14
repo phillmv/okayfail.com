@@ -127,7 +127,7 @@ Compiling data provided by the CMHC, I was able to extend <a href="#fref:fig1">F
 <figure id="fref:fig2">
 <a href="/img/Ontario Housing Starts 1969-2016 Bar Chart.png"><img src="/img/Ontario Housing Starts 1969-2016 Bar Chart.png"></a>
 <figcaption>
-<b>Figure 2.</b> Ontario housing starts by intended market 1969-2016. I was unable to find data for 1987 and 1988.</sup>
+<b>Figure 2.</b> Ontario housing starts by intended market 1969-2016. Note that data from 1987 onwards is restricted to areas with over 10,000 people, and therefore undercounts total starts.</sup>
 </figcaption>
 </figure>
 
@@ -178,9 +178,13 @@ There are many other factors and angles we haven't considered. Fluctuating inter
 
 The point of this article isn't to say that price controls are a paragon of virtue, but instead to critically examine the received wisdom.
 
+Different regions have experiment with different kinds of rent control. The first wave, or generation, of controls were enacted during World War II and they imposed nominal rent freezes.[^arnott-1995] In a planned war economy that lacked much in the way of private housing construction, this made a certain amount of sense; but afterwards, only New York City maintained that wartime policy, and commentators criticizing rent controls are usually referring to that jurisdiction's experience.
+
 Obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It's fine, and likely necessary, to subsidize some or other aspect of how we produce or provide rental units in order to achieve our housing policy goals &mdash; but it's unreasonable to expect that subsidy to be provided to the exclusive detriment of individual landlords. If investors want to transfer their wealth to tenants, they don't really need to go through the trouble of erecting a building first.
 
-However, we're not limited to choosing between an unfettered market and a ruinously restrictive price control. After all, our purpose is to protect tenants from runaway price inflation. Given the long-term nature of multi-residential investment, their business model can be satisfied so long as cashflows keep up with costs. 
+However, we're not limited to choosing between an unfettered market and a ruinously restrictive price control. After all, our purpose is to provide tenants with security of tenure by protecting them from runaway price inflation. Given the long-term nature of multi-residential investment, their business model can be satisfied so long as cashflows keep up with costs. After all, in a laissez faire but well-functioning market, there is no guarantee that rents will rise above inflation. 
+
+A cost-adjusted tenancy control, then, primarily impacts only one area of the development process: the initial lease up of an empty building.[^tait-2017] As long as developers have the ability to adjust for initial mistakes, over the long run the impact on their finances should be reasonable if not minimal.
 
 Don't just take my word for it. Take GWL Realty Advisors, whose president Paul Finkbeiner was quoted in the _Financial Post_:
 
@@ -194,9 +198,10 @@ Don't just take my word for it. Take GWL Realty Advisors, whose president Paul F
 
 > “All we want is a fair rent for our apartments, we do not want above guidelines. We have been able to work within rent controls and still deliver a good product for our investors and tenants,”[^marr-2017]
 
-After all, in a laissez faire but well-functioning market, there is no guarantee that rents will rise above inflation. A cost-adjusted tenancy control, then, primarily impacts only one area of the development process: the initial lease up of an empty building.[^tait-2017] As long as developers have the ability to adjust for initial mistakes, over the long run the impact on their finances should be minimal.
 
-Ultimately, our housing crisis is a matter of income: tenants with low incomes have an _income_ problem, not a housing problem.[^hswg-final] Land prices and other costs, driven by restrictive zoning and the speculative condo boom, have grown faster than tenant incomes and pushed recovery rents beyond what most of the rental population can afford or finds reasonable. 
+Ultimately, our housing crisis is a matter of income: tenants with low incomes have an _income_ problem, not a housing problem.[^hswg-final] Land prices and other costs, driven by restrictive zoning and the speculative condo boom, have grown faster than tenant incomes and pushed recovery rents beyond what most of the rental population can afford or finds reasonable.
+
+But why stop at just a tenancy control? 
 
 
 <!-- 
@@ -217,7 +222,7 @@ However
 In fact, it seems that historically the private market's willingness to build large quantities of rental buildings is a function of the extent they're effective short and medium term _tax shelters_.
 -->
 
-<h3>Reminder: economic rents are unproductive</h3>
+<h3>Reminder: rents are unproductive</h3>
 
 [^tgam-gee]: Gee, M. (2017, April 20). Rent control isn't the solution to Ontario's housing problem. Retrieved September 12, 2017, from [theglobeandmail.com](https://beta.theglobeandmail.com/news/toronto/rent-control-isnt-the-solution-to-ontarios-housing-problem/article34753102/)
 
@@ -304,3 +309,5 @@ In fact, it seems that historically the private market's willingness to build la
 [^hswg-final]: Lampert, G., Pomeroy, S., & Bradley, R. (2002). Creating a Positive Climate for Rental Housing Development Through Tax and Mortgage Insurance Reforms: The Second Report of the Housing Supply Working Group (p. 7, Rep.). Toronto: Ministry of Municipal Affairs and Housing.
 
 [^tait-2017]: Tait, S. (2017, April 30). Ontario’s Fair Housing Plan & Purpose-Built Rental Development. Retrieved September 14, 2017, from https://www.linkedin.com/pulse/ontarios-fair-housing-plan-purpose-built-rental-development-sean-tait/
+
+[^arnott-1995]: Arnott, R. (1995). Time for Revisionism on Rent Control? Journal of Economic Perspectives,9(1), 100. doi:10.1257/jep.9.1.99
