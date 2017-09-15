@@ -224,6 +224,21 @@ In fact, it seems that historically the private market's willingness to build la
 
 <h3>Making the economic case for rent controls</h3>
 
+So far we've examined the social need for security of tenure, why it requires rent controls, the reasons why tenant protection laws should be considered in their own right, the many ways in which we actively guide and interfere with the housing market, the business models undergirding residential construction, and the evidence suggesting that tackling our undersupply of housing requires policies beyond rent deregulation.
+
+I'd like to go one step further, and ask: who benefits from unregulated rents &mdash; and why should they?
+
+Starting in the late 1960s, we made a series of policy choices. Condominiums in Ontario were legalized in 1967, and we modified our income and sales tax systems in ways that strongly discourage private capital from flowing into private rental apartments. Meanwhile, by the mid 1990s we almost completely stopped investing in public housing strategies.
+
+Our population has kept growing, though. Compiling data from the CMHC and a City of Toronto report, I produced a graph that illustrates the ways in which our housing mix is shifting:
+
+<figure id="fref:fig3">
+<a href="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"><img src="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"></a>
+<figcaption>
+<b>Figure 3.</b> Toronto housing completions by intended market 1981-2016.
+</figcaption>
+</figure>
+
 
 [^tgam-gee]: Gee, M. (2017, April 20). Rent control isn't the solution to Ontario's housing problem. Retrieved September 12, 2017, from [theglobeandmail.com](https://beta.theglobeandmail.com/news/toronto/rent-control-isnt-the-solution-to-ontarios-housing-problem/article34753102/)
 
