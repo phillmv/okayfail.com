@@ -200,6 +200,8 @@ Don't just take my word for it. Take GWL Realty Advisors, whose president Paul F
 > “All we want is a fair rent for our apartments, we do not want above guidelines. We have been able to work within rent controls and still deliver a good product for our investors and tenants,”[^marr-2017]
 
 
+So far we've examined the social need for security of tenure, why it requires rent controls, the reasons why tenant protection laws should be considered in their own right, the many ways in which we actively guide and interfere with the housing market, the business models undergirding residential construction, and the evidence suggesting that tackling our undersupply of housing requires policies beyond rent deregulation.
+
 
 But why stop at just a tenancy control? 
 
@@ -224,7 +226,6 @@ In fact, it seems that historically the private market's willingness to build la
 
 <h3>Making the economic case for rent controls</h3>
 
-So far we've examined the social need for security of tenure, why it requires rent controls, the reasons why tenant protection laws should be considered in their own right, the many ways in which we actively guide and interfere with the housing market, the business models undergirding residential construction, and the evidence suggesting that tackling our undersupply of housing requires policies beyond rent deregulation.
 
 I'd like to go one step further, and ask: who benefits from unregulated rents &mdash; and why should they?
 
@@ -235,10 +236,11 @@ Our population has kept growing, though. Compiling data from the CMHC and a City
 <figure id="fref:fig3">
 <a href="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"><img src="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"></a>
 <figcaption>
-<b>Figure 3.</b> Toronto housing completions by intended market 1981-2016.
+<b>Figure 3.</b> City of Toronto housing completions by intended market 1981-2016.
 </figcaption>
 </figure>
 
+The percentage of people who rent in Toronto has remained stable since 1971, which means that, since primary rentals have remained stagnant, all of tenant population growth has been absorded by the secondary rental market.[^toronto-2006] By 2011, it was estimated the secondary rental market housed a little under half of all tenants.[^cmhc-2016] By 2016, it was estimated that 34% of all condos were destined to be rented out.[^gadon-2017]
 
 [^tgam-gee]: Gee, M. (2017, April 20). Rent control isn't the solution to Ontario's housing problem. Retrieved September 12, 2017, from [theglobeandmail.com](https://beta.theglobeandmail.com/news/toronto/rent-control-isnt-the-solution-to-ontarios-housing-problem/article34753102/)
 
@@ -329,3 +331,7 @@ Our population has kept growing, though. Compiling data from the CMHC and a City
 [^arnott-1995]: Arnott, R. (1995). Time for Revisionism on Rent Control? Journal of Economic Perspectives,9(1), 100. doi:10.1257/jep.9.1.99
 
 [^nota-bene]: Ah ha, you say, but rent controls are _illegal_ in Washington State. Yet condos don't get built because of prohibitive building standards. It's complicated and hard to compare!
+
+[cmhc-2016]: The Secondary Rental Market in Canada - Estimated Size and Composition. (2016, June 13). Retrieved September 15, 2017, from https://www.cmhc-schl.gc.ca/en/hoficlincl/observer/observer_068.cfm
+
+[^gadon-2017]: Gadon, S. (2016, April 3). Rental Housing Update: Presentation to Affordable Housing and Tenant Issues Committees (Rep.).
