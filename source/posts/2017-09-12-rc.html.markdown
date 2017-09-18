@@ -240,7 +240,11 @@ Our population has kept growing, though. Compiling data from the CMHC and a City
 </figcaption>
 </figure>
 
-The percentage of people who rent in Toronto has remained stable since 1971, which means that, since primary rentals have remained stagnant, all of tenant population growth has been absorded by the secondary rental market.[^toronto-2006] By 2011, it was estimated the secondary rental market housed a little under half of all tenants.[^cmhc-2016] By 2016, it was estimated that 34% of all condos were destined to be rented out.[^gadon-2017]
+About half of Toronto's residents rent and this percentage has remained stable since 1971. Since primary rentals have remained stagnant, this means that the growth in tenant population has been absorded by the secondary rental market.[^toronto-2006] To the best of our knowledge, the secondary rental market houses a bit under half of Toronto's tenants.[^cmhc-2016] 
+
+By 2016, it was estimated that 34% of all condos were destined to be rented out.[^gadon-2017] Who buys condos and why?
+
+In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 we measured 32%.
 
 [^tgam-gee]: Gee, M. (2017, April 20). Rent control isn't the solution to Ontario's housing problem. Retrieved September 12, 2017, from [theglobeandmail.com](https://beta.theglobeandmail.com/news/toronto/rent-control-isnt-the-solution-to-ontarios-housing-problem/article34753102/)
 
@@ -332,6 +336,6 @@ The percentage of people who rent in Toronto has remained stable since 1971, whi
 
 [^nota-bene]: Ah ha, you say, but rent controls are _illegal_ in Washington State. Yet condos don't get built because of prohibitive building standards. It's complicated and hard to compare!
 
-[cmhc-2016]: The Secondary Rental Market in Canada - Estimated Size and Composition. (2016, June 13). Retrieved September 15, 2017, from https://www.cmhc-schl.gc.ca/en/hoficlincl/observer/observer_068.cfm
+[^cmhc-2016]: The Secondary Rental Market in Canada - Estimated Size and Composition. (2016, June 13). Retrieved September 15, 2017, from https://www.cmhc-schl.gc.ca/en/hoficlincl/observer/observer_068.cfm <br/><br/> Note that this report classifies subsidized housing as a "secondary" rental, which is both conceptually weird and directly contradicts all the other literature I've found on the topic. We know from (Gadon, 2017)[^gadon-2017] that assisted housing constitutes about 7% of Toronto's rental market, hence "under half".
 
-[^gadon-2017]: Gadon, S. (2016, April 3). Rental Housing Update: Presentation to Affordable Housing and Tenant Issues Committees (Rep.).
+[^gadon-2017]: Gadon, S. (2017, April 3). Rental Housing Update: Presentation to Affordable Housing and Tenant Issues Committees (Rep.).
