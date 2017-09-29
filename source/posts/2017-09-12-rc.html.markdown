@@ -6,19 +6,21 @@ title: Actually, Rent Control Is Great
 
 In April, the government of Ontario decided to extend rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
 
-Different jurisdictions have overlapping definitions of "rent control". What Ontario engages in is described by some academics and regions as a tenancy rent control, or rent stabilization. It works like this: everyone's rent is subject to a price control. Throughout the duration of your tenancy, your landlord can only raise your monthly rent according to a threshold pegged to inflation, and to recover capital expenditures. Between tenants, landlords are free to price rents at whatever the market will bear.
+Different jurisdictions have overlapping definitions of "rent control". What Ontario engages in is described by some academics and regions as a tenancy rent control, or rent stabilization. It works like this: once a year, your landlord can only raise your monthly rent up to a guideline pegged to inflation, or inflation plus 3% if they've made any capital expenditures or property taxes have spiked. Between tenants, landlords are free to price rents at whatever the market will bear.[^cleo-2016]
 
 This prompted a lot of commentary, ranging from [benign skepticism](http://tvo.org/article/current-affairs/the-next-ontario/ontario-needs-a-rental-rethink-but-should-tread-carefully) to [vigorous condemnation](https://beta.theglobeandmail.com/real-estate/toronto/new-ontario-rent-control-rules-exact-opposite-of-what-is-needed-analyst-warns/article34569276/). The chorus sounds like this:
 
 Against all common sense, the province is handing its cities a poisoned chalice: it is textbook economics that price controls sharply reduce the value of new construction.[^tgam-gee]  Under rent control, the quantity and quality of available rental units will fall as developers are less incentivized to build or invest in rental properties &mdash; all of which exacerbates any price crunch.[^tal-cibc] The fact is, rent control would largely help high-end renters in a high-end market, since most units built after the rent control exemption are condos. It’s tough to see how it would accomplish much except transferring money from unit owners to their tenants.[^selley] Instead, the province should be tackling the root of the problem &mdash; the supply of new housing units in Toronto et al is not keeping up with demand.[^thesun]
 
-I find these takes range from the unconvincing to the disingenuous. Our housing delivery system is complex. We significantly intervene, subsidize and shape the funding and price mechanisms through which new housing is produced. We also regulate our housing markets in order to correct market inefficiencies, to prevent people from being exploited, and to change incentive structures to deliver outcomes we have deemed necessary or correct.  The regulation of rent, like many other kinds of regulation, is a response to _market failure_. 
+I find these takes range from the unconvincing to the disingenuous. Our housing delivery system is complex. We significantly intervene, subsidize and shape the funding and price mechanisms through which new housing is produced. We also regulate our housing markets in order to correct market inefficiencies, to prevent people from being exploited, and to change incentive structures to deliver outcomes we have deemed necessary or correct.  The regulation of rent, like many other kinds of regulation, is a response to _market failure_.
 
-Very few if any skeptics writing on this topic engage with the social problem that a rent control seeks to solve: guaranteeing that people who rent get to enjoy long-term stability in their housing, commonly known as security of tenure. At the same time, they obscure the fact that not all rent controls are designed equal. While early rent controls were harmful, a careful examination reveals that rent regulation like Ontario's can be safely implemented &mdash; and that there are far more serious disincentives and barriers preventing new supply.
+When demand for rental units is high and vacancy rates are low, landlords have a lot of power to extract more money for the same service they were providing before. Toronto is in the grips of a housing crisis; a speculative real estate boom has priced out ownership for low and medium-income people,[^cbc-squeeze] and it's easy to find stories about sitting tenants seeing their rents jump by hundreds of dollars.[^cbc-martin] [^tgam-jaafari]
 
+Very few if any skeptics writing on this topic engage with the social problem that a rent control seeks to solve: guaranteeing that people who rent get to enjoy long-term stability in their housing, commonly known as security of tenure. At the same time, they obscure the fact that rent controls vary markedly from region to region in their design and implementation. Furthermore, a careful examination reveals that rent regulations like the one in Ontario don't actually have the pernicious influence on the supply of new housing that is attributed to them.
 
+If we're actually serious about tackling our housing crisis, and protecting people from suffering from its effects, it's time to face the facts: there are far more serious disincentives and barriers preventing new supply.
 
- It's important to understand the full context in which we operate.
+First, let's consider the full context in which we operate.
 
  <h3>A Brief History of Housing in Canada</h3>
 
@@ -26,9 +28,9 @@ Property rights and the markets they enable exist to the extent they are enforce
 
 In Canada, it would be difficult to identify a time when we had a completely laissez faire housing market. Some of our earliest municipal bylaws regulated building standards. First, we sought to improve our health, safety, fire and construction standards, and later we gradually began to add a host of land use and development regulations.[^hulchanksi-laissez]
 
-These regulations led to the elimination of unhealthy, unsafe and poor quality housing in urban areas. However, our improved housing standards (and restrictions on land use) led to an increase in the cost of its manufacture, and by 1914 it became apparent that the private market alone was not providing enough low income housing.[^hulchanksi-laissez] 
+These regulations led to the elimination of unhealthy, unsafe and poor quality housing in urban areas. However, our improved housing standards and growing restrictions on land use led to an increase in the cost of its manufacture. As early as 1914 it became apparent that the private market alone was not providing enough low income housing.[^hulchanksi-laissez] 
 
-One intervention begat another. Federal incentives were introduced as early as 1938 to stimulate the development of low income rental housing, and by 1949 the government began to invest directly in its production.[^hulchanksi-laissez] Buoyed by the post-war economic and population boom,  we began to seriously expand our welfare state and, concerned with ensuring "enough rental housing production to nourish the golden goose of urban growth", from 1965 to 1995 up to 10% of all new housing was some mix of social housing.[^suttor-abriged]
+One intervention begat another. Federal incentives were introduced in 1938 to stimulate the development of low income rental housing, and by 1949 the government began to invest directly in its production.[^hulchanksi-laissez] Buoyed by the post-war economic and population boom,  we began to seriously expand our welfare state and, concerned with ensuring "enough rental housing production to nourish the golden goose of urban growth", from 1965 to 1995 up to 10% of all new housing was some mix of social housing.[^suttor-abriged]
 
 These interventions were not limited to the poor; quite the opposite. In 1946, the Canada Mortgage and Housing Corporation (CMHC) was established with the aim of increasing home ownership among the broad middle and lower-middle class. Focussing mainly on making amortized mortgages work for house buyers and private investors in rental housing, by the mid-1960s most households obtained at least part of their mortgage loan directly from the federal government.[^hulchanski-bulletin38]
 
@@ -281,6 +283,8 @@ By 2016, it was estimated that 34% of all condos were destined to be rented out.
 
 In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 we measured 32%.
 
+[^cleo-2016]: CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario). (2016, November). Rent increases. Retrieved September 29, 2017, from http://www.cleo.on.ca/en/publications/rentincs#full
+
 [^tgam-gee]: Gee, M. (2017, April 20). Rent control isn't the solution to Ontario's housing problem. Retrieved September 12, 2017, from [theglobeandmail.com](https://beta.theglobeandmail.com/news/toronto/rent-control-isnt-the-solution-to-ontarios-housing-problem/article34753102/)
 
 [^thesun]: Lafleur, S., & Filipowicz, J. (2017, April 15). Rent controls wrong answer to housing crisis. Retrieved September 12, 2017, from [torontosun.com](http://www.torontosun.com/2017/04/15/rent-controls-wrong-answer-to-housing-crisis)
@@ -289,7 +293,11 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 [^tal-cibc]: Tal, B. (2017, April 4). Rent Control—The Wrong Medicine. Retrieved September 12, 2017, from [economics.cibccm.com](https://economics.cibccm.com/economicsweb/cds?ID=2595&TYPE=EC_PDF)
 
+[^cbc-squeeze]: McGillivray, K. (2017, April 05). Ontario second-worst economy for young people in Canada: report. Retrieved September 12, 2017, from [cbc.ca](http://www.cbc.ca/news/canada/toronto/generation-squeeze-ontario-economy-1.4054589)
 
+[^cbc-martin]: Martin, S. (2017, February 22). No fixed address: How I became a 32-year-old couch surfer. Retrieved September 29, 2017, from http://www.cbc.ca/news/canada/toronto/no-fixed-address-how-i-became-a-32-year-old-couch-surfer-1.3985771
+
+[^tgam-jaafari]: Jaafari, J. D. (2017, April 14). Toronto tenants crushed by rent hike exemptions. Retrieved September 29, 2017, from https://beta.theglobeandmail.com/news/toronto/toronto-tenants-crushed-by-rent-hike-exemptions/article33806825/
 
 [^hulchanksi-laissez]: Hulchanski 1984, pg 27
 
@@ -317,10 +325,6 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 [^mcardle-2017]: "It’s possible that by allowing large residential buildings to operate without sprinkler systems, the British government has prevented untold thousands of people from being driven into homelessness by higher housing costs. [...] Hold these possibilities in mind before condemning those who chose to spend government resources on other priorities. Regulatory decisions are never without costs, and sometimes their benefits are invisible." McArdle, M. (2017, June 16). Beware of Blaming Government for London Tower Fire. Retrieved September 12, 2017, from [bloomberg.com](https://www.bloomberg.com/view/articles/2017-06-16/beware-of-blaming-government-for-london-tower-fire)
 
 [^fire-deaths]: Fire Death Rates. (2016, December). Retrieved September 12, 2017, from [mcscs.jus.gov.on.ca](https://www.mcscs.jus.gov.on.ca/english/FireMarshal/MediaRelationsandResources/FireStatistics/OntarioFatalities/FireDeathRate/stats_death_rate.html)
-
-
-[^cbc-squeeze]: McGillivray, K. (2017, April 05). Ontario second-worst economy for young people in Canada: report. Retrieved September 12, 2017, from [cbc.ca](http://www.cbc.ca/news/canada/toronto/generation-squeeze-ontario-economy-1.4054589)
-
 
 [^toronto-2006]: [Rental Housing Supply and Demand Indicators](https://www1.toronto.ca/city_of_toronto/social_development_finance__administration/files/pdf/housing_rental.pdf) (Rep.). (2006, September). City of Toronto City Planning Policy & Research 
 
