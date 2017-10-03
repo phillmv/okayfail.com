@@ -141,7 +141,7 @@ Obviously, a control regime that over time lowers real income below that of real
 
 Commentators criticizing rent controls are quick to conflate all rent regulation with New York City's nominal rent freezes. But that's a false choice. We're not limited to choosing between an unfettered market and a ruinously restrictive price control. After all, in a perfectly competitive market, prices should approach the marginal cost and, capital expenditures aside, therefore it's not really reasonable to expect rents to grow faster than inflation. When designing a control, we can choose to allow prices to track inflation or costs, to what extent capital investments can be recovered, and at what rate vacant units can reset to what the market will bear (if at all).
 
-A cost-adjusted tenancy control primarily impacts only one area of the development process: the initial lease up of an empty building.[^tait-2017] As long as developers have the ability to adjust for initial mistakes, over the long run the impact on their finances should be reasonable if not minimal.[^ryerson-whatever] A 2011 study of Manitoba's rent regulation, which is broadly similar to Ontario's, found that  [NOTE ON HOW MANITOBA's [RC HERE](http://www.gov.mb.ca/cca/pubs/rental_report)] Given the long-term nature of multi-residential investment, their business model can be satisfied so long as cashflows keep up with costs and capital expenditures.
+A cost-adjusted tenancy rent control primarily impacts only one area of the development process: the initial lease up of an empty building.[^tait-2017] As long as developers have the ability to adjust for initial mistakes, over the long run the impact on their finances should be reasonable if not minimal.[^ryerson-whatever] A 2011 study of Manitoba's rent regulation, which is broadly similar to Ontario's, found that  [NOTE ON HOW MANITOBA's [RC HERE](http://www.gov.mb.ca/cca/pubs/rental_report)] Given the long-term nature of multi-residential investment, their business model can be satisfied so long as cashflows keep up with costs and capital expenditures.
 
 Don't just take my word for it. Take GWL Realty Advisors, whose president Paul Finkbeiner was quoted in the _Financial Post_:
 
@@ -155,13 +155,20 @@ Don't just take my word for it. Take GWL Realty Advisors, whose president Paul F
 
 > “All we want is a fair rent for our apartments, we do not want above guidelines. We have been able to work within rent controls and still deliver a good product for our investors and tenants,”[^marr-2017]
 
+SOME NOTE ABOUT SMITH 2003?
+
 <h3>The gap between new and existing rents</h3>
 
 Ultimately, our housing crisis is a matter of income: tenants with low incomes have an _income_ problem, not a housing problem.[^hswg-final] [^brescia-2005-3] Land prices and other costs, driven by restrictive land use policies and the speculative boom, have grown faster than tenant incomes and pushed financial recovery rents beyond what most of the rental population can afford or finds reasonable.
 
 In the absence of subsidy, the private sector is unlikely to build new rental housing for the low end of the market. Though the profitability of building modest cost ownership housing in large volumes can approach that of smaller quantities of high end ownership housing, the same is not true for affordable rentals. It costs only slightly less to build an affordable rental, compared to building high end, but the resulting income stream is substantially smaller.[^hswg-2001]
 
-Relatively affordable housing, then, occurs because, as inflation and mortgage payments decrease operating costs over time, the rent necessary to carry a rental investment decreases. And, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply. In theory, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing.[^brescia-2005-2]
+Relatively affordable privately developed housing, then, occurs because as inflation and mortgage payments decrease operating costs over time the rent necessary to carry a rental investment decreases. And, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply. In theory, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing.[^brescia-2005-2]
+
+By definition, low vacancies occur because there are more people searching for housing than there are available units. It takes several years to build a new house or apartment, which is why the supply of new housing is typically considered "inelastic".
+
+<h3>Making the economic case for rent controls</h3>
+
 
 Over the past decade we've been undergoing yet another speculative boom that is quickly inflating land values at a rate far beyond that of wage increases. Prices per acre in the GTA have tripled, and meanwhile rents have gone up by 11% per year. By 2017 it is increasingly hard to avoid the observation that these spikes are being driven by global macro financial conditions and are unattached to "market fundamentals". Toronto has grown at a steady 1% per year yet somehow our land has doubled in desireability. If this trend is allowed to continue unabated then homeownership - a linchpin of Canadian housing policy over the past fifty years - will undoubtedly be out of reach for most Canadians. 
 
