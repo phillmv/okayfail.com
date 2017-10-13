@@ -136,7 +136,7 @@ Yet, given the timing of these changes and how the primary rental market has fai
 
 <h2>The economic case for rent controls</h2>
 
-<h3>Not all controls are designed equal</h3>
+<h3>Controls are not designed equal</h3>
 
 The point of this article isn't to say that price controls are a paragon of virtue, but instead to critically examine the received wisdom.
 
@@ -165,13 +165,39 @@ Given the long-term nature of multi-residential investment, their business model
 
 <h3>Rent is an unproductive use of income</h3>
 
+If the investment strategy underwriting purpose built rental buildings doesn't require above cost price inflation &mdash; i.e. cashflows after a building's lease-up must provide a certain rate of return on equity &mdash; then it's worth thinking about who benefits from increased rents.
+
+Market prices are an important signal that impacts new construction, in so far that rents derived from new buildings must be comesurate with newer, higher land prices. A developer seeking to make an investment, given their risk, needs some way of estimating rates of return.
+
+However, increases in rent for sitting tenants due solely to increases in demand are in effect transfers from tenants to landlords that do not directly impact new supply. Above inflation increases in rental income does improve the profitability of a given investment, but over the short term or even medium term likely has no impact on on _existing_ landlords' ability or willingness to create new supply given that they are equity constrained. A higher rate of return may accelerate the rate at which they are able to accumulate more equity, but over the short term does not automatically improve their ability to add supply.[hulchanski letter]
+
+Therefore, increases in rent due to increased local demand is in effect a transfer from tenants to landlords - tenants' incomes are reduced for no increase in welfare, and we reduce our productivity overal by rewarding unproductive investments, and removing income that vould be used in entrepreneurial activities or even just more useful consumption.
+
+Glouser mentions this is inefficient, but I find the question bizarre if its not also aimed at homeownership markets where there are enormous distortions over time. For instance, Toronto's density has been declining as owners avoid downsizing,[cheryll] a trend that was predictable a whole ten years ago[maclennan-2007].
+
+
+<h3>Stable rent is an essential technology</h3>
+
+Affordable rentals are required for absorbing new immigrants, which in turn are essential for canada's globalized competitiveness. we need flexibility, and people need to be able to save in order to transition to homeownership in the first place.
+
+<h3>Affordability is only loosely linked to supply</h3>
+
 Ultimately, our housing crisis is a matter of income: tenants with low incomes have an _income_ problem, not a housing problem.[^hswg-final] [^brescia-2005-3] Land prices and other costs, driven by restrictive land use policies and the speculative boom, have grown faster than tenant incomes and pushed financial recovery rents beyond what most of the rental population can afford or finds reasonable.
 
 In the absence of subsidy, the private sector is unlikely to build new rental housing for the low end of the market. Though the profitability of building modest cost ownership housing in large volumes can approach that of smaller quantities of high end ownership housing, the same is not true for affordable rentals. It costs only slightly less to build an affordable rental, compared to building high end, but the resulting income stream is substantially smaller.[^hswg-2001]
 
 Relatively affordable privately developed housing, then, occurs because as inflation and mortgage payments decrease operating costs over time the rent necessary to carry a rental investment decreases. And, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply. In theory, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing.[^brescia-2005-2]
 
-By definition, low vacancies occur because there are more people searching for housing than there are available units. It takes several years to build a new house or apartment, which is why the supply of new housing is considered "inelastic" over the short term. 
+
+Canada housing markets undergo regular boom and bust cycles - early 1920s, 1970s, today - where demographic spikes foment rapidly inflation driven by largely exogenous reasons like stagflation and today's tight integration with global capital markets.
+
+By definition, low vacancies occur because there are more people searching for housing than there are available units. It takes several years to build a new house or apartment, which is why the supply of new housing is considered "inelastic" over the short term.
+
+<h3>Status quo requires intervention</h3>
+
+canada today has one of the highest rates of homeownership in the world, but that was not always so; at the turn of the century vast majority of people rented [some Dennis paper] that ownership rates changed was no accident as the canadian government began large scale interventions in housing markets in the 1940s, and then in the 1970s shifted explicitly towards supporting homeownership.
+
+Hulchanksi, writing in whevener, characterizes it as neglect
 
 <h3>Making the economic case for rent controls</h3>
 
