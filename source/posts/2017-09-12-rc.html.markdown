@@ -135,7 +135,7 @@ These changes were made with little, if any, regard for their adverse consequenc
 </figure>
 
 
-Additionally, in 1991 the Goods and Services Tax was introduced (and later, harmonized in most provinces), which increased the sales tax burden on new construction by almost 70 per cent.[^enemark-2017] Whereas before only the building materials used in the construction of a rental building had a sales tax, now the full value of the building was subject to a 7 percent charge (though, lower today).[^clayton-1998-2] Renters don't pay GST/HST on their rent, which means that developers are stuck with input credits they can't use, thereby "stranding" tax costs.[^lampert-2016]
+Additionally, in 1991 the Goods and Services Tax was introduced (and later, harmonized in most provinces), which increased the sales tax burden on new construction by almost 70 per cent.[^enemark-2017] Whereas before only the building materials used in the construction of a rental building had a sales tax, now the full value of the building was subject to a 7 percent charge (though, lower today).[^clayton-1998-2] Renters don't pay GST/HST on their rent, which means that developers are stuck with input credits they can't use thereby "stranding" tax costs.[^lampert-2016]
 
 Besides our declining rental housing starts, we have one other piece of evidence: the United States' current tax regime as applied to rental buildings is broadly similar to how we did things pre-1972.[^clayton-1998-3] While we can't compare them directly &mdash; Canada and the US are very different places &mdash; consider the example of Seattle and Vancouver. While Vancouver is experiencing a furious condo boom, taking up to 60% of housing starts, the vast majority of new units in Seattle are apartment buildings.[^morales-2017] [^nota-bene]
 
@@ -143,46 +143,36 @@ Of course, there are many other factors and angles we haven't considered. We hav
 
 Mind you, it's not like these effects were ignored at the time. Various Trudeau governments recognized there were consequences from changing the Income Tax Act and tried to do something about it. The Multi-Unit Residential Building incentive (1974-1979, 1981) re-enabled the use of rental investment as a tax shelter. The Assisted Rental Program (1974-1979, 1981) gave subsidized mortgages to developers in exchange for below-market rents. The Canada Rental Supply Program (1981-1984) provided interest-free loans for up to fifteen years. The list goes on.[^goldberg-1985] [^suttor-2009]
 
-In a vacuum these may seem heavy handed, but in the grand scheme of things we actually mess with our housing markets all the time. Before we continue, let us first consider how we have interfered over time.
-
-<h2>A Brief History of Housing in Canada</h2>
-
-Property rights and the markets they enable exist to the extent they are enforced and protected by the state. When we establish and regulate rights, we typically seek to balance the interests and concerns of everyone involved, and revisit those tradeoffs as our values and goals shift over time. We think our food should be safe to eat, our doctors should be well trained, and that you shouldn't dump waste anywhere you feel like.
-
-In Canada, it would be difficult to identify a time when we had a completely laissez faire housing market. Some of our earliest municipal bylaws regulated building standards. First, we sought to improve our health, safety, fire and construction standards, and later we gradually began to add a host of land use and development regulations.[^hulchanksi-laissez]
-
-These regulations led to the elimination of unhealthy, unsafe and poor quality housing in urban areas. If in 1951 almost one out of every ten houses lacked basic plumbing facilities, by 1982 that had dropped to 1.6%.[^brescia-2005-4] However, our improved housing standards and growing restrictions on land use led to an increase in the cost of its manufacture. As early as 1914 it became apparent that the private market alone was not providing enough low income housing.[^hulchanksi-laissez] 
-
-One intervention begat another. Federal incentives were introduced in 1938 to stimulate the development of low income rental housing, and by 1949 the government began to invest directly in its production.[^hulchanksi-laissez] Buoyed by the post-war economic and population boom,  we began to seriously expand our welfare state and, concerned with ensuring "enough rental housing production to nourish the golden goose of urban growth", from 1965 to 1995 up to 10% of all new housing was some mix of social housing.[^suttor-abriged]
-
-These interventions were not limited to the poor; quite the opposite. In 1946, the CMHC was established with the aim of increasing home ownership among the broad middle and lower-middle class. Focussing mainly on making amortized mortgages work for house buyers and private investors in rental housing, by the mid-1960s most households obtained at least part of their mortgage loan directly from the federal government.[^hulchanski-bulletin38]
-
-In fact, most of the history of the role of Canadian government housing policy is an effort to assist ownership. In 2005 alone, more individual homeowners were helped through mortgage insurance than the number of all social housing units funded since the 1970s. And in addition to creating cheaper loans, the federal government also provides subsidies through a variety of tax credits, tax sheltered investment vehicles and tax exemptions. When the federal government began taxing capital gains it exempted the sale of primary residence &mdash; which by 2008 was costing us almost $6 billion a year in uncollected revenue.[^hulchanski-bulletin38]
-
-In so far that our housing policy has targetted the middle class' standard of living, it has been rather successful. As an investment asset, home ownership confers unique benefits: it provides shelter as well as equity that can be withdrawn later in life. Canadians who pay off their mortgages spend on average only 11% of their income on housing and, by 1999, the average homeowner earned 208% more income, and owned 70 times more wealth, than the average tenant.[^hulchanski-bulletin38]
-
-
-
 <h2>The economic case for rent controls</h2>
 
 The point of this article isn't to say that price controls are a paragon of virtue, but instead to critically examine the received wisdom.
 
-I'd like to advance a positive argument for rent regulatiom, but first, here is what we are _not_ arguing for. Supporters of rent controls might claim they preserve affordability, or virtuously redistribute income. I believe these views are incorrect. There are other, more efficient, useful and politically durable ways to redistribute income. And, absent full communism or a radical reorientation of our housing supply policies, the cost of new supply is tied to the yoke of interest rates and land values and a price control won't help us. You can look up the literature yourself.
+Richard Arnott, in a widely read article from 1995, lays out the case for being skeptical of the standard textbook analysis. Controls vary considerably from region to region; it is extremely hard to adequately control for the state of the economy, local real estate markets, government policy, and other variables, and most studies fail to do so; the data that we do collect and is available to us is awfully inadequate, etc.[^arnott-1995]
+
+I'd like to advance a positive argument for rent regulation. Here is what I will _not_ be arguing for. Supporters of rent controls might claim they preserve affordability, or have virtuous redistributive effects. I believe these views are incorrect. There are other, more efficient, useful and politically durable ways to redistribute income. And, absent full communism or a radical reorientation of land rights, the cost of new supply is tied to the yoke of interest rates and land values, and a price control won't help us. 
 
 <h3>Controls are not designed equal</h3>
 
 
-There are actually many different kinds of rent controls, which different regions have experimented with over different periods of time. When designing a control, we can decide when and how prices increase, whether they track inflation or another indicator, whether capital expenditures can be recoverered, at what rate vacant units can reset to what the market will bear (if at all), and so on. Hans Lind, writing in 2001, goes on to define five distinct functional types of rent control, A through E, based on whether they regulate tenancies or units and whether they aim to smooth cost increases or protect tenants from market prices altogether.
+There are actually many qualitatively different kinds of rent controls, which different regions have experimented with over different periods of time. When designing a control, we can decide when and how prices increase, whether they track inflation or another indicator, whether capital expenditures can be recoverered, at what rate vacant units can reset to what the market will bear (if at all), and so on. 
 
-The first wave, or generation, of controls were enacted during or after World War II and they imposed nominal rent freezes tied to individual units.[^arnott-1995] In a planned war economy that lacked much in the way of private housing construction, this made a certain amount of sense; but afterwards, only New York City (and some European cities) maintained that wartime policy. Lind calls these "type E" controls.
+Arnott broadly categorizes rent control policy into two distinct phases. The first wave, or generation, of controls were enacted around World War II and they imposed nominal rent freezes tied to individual units. In a planned war economy that lacked much in the way of private housing construction, this made a certain amount of sense; but afterwards, most regions dismantled their controls and only New York City (and some European cities) maintained that wartime policy.[^arnott-1995] 
 
-Commentators criticizing rent controls are quick to conflate all rent regulation with the kind experienced in New York. And they're not wrong: obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It transforms rental properties into endless money pits. It's fine, and likely necessary, to subsidize some or other aspect of how we produce or provide housing units in order to achieve our policy goals &mdash; but it's unreasonable to expect that subsidy to be provided to the exclusive detriment of individual landlords. If investors wish to transfer their wealth to tenants they don't need to go through the trouble of erecting a building first.
+The second generation began in the 1970s as rent control ordinances were passed in Boston, Los Angeles, San Francisco and in a variety of towns in California, Massachussets, New Jersey, New York state, amongst others. The struture of Canadian federalism saw these policies accumulate at the provincial level and during this period ten provinces enacted rent controls (though most have since abandoned them). These policies "differed significantly from the first-generation rent control programs" and usually include automatic rent increases, the passing through of additional costs, and other like-minded provisions.[^arnott-1995]
 
-But that's a false choice. We're not limited to choosing between an unfettered market and a ruinously restrictive price control. After all, in a perfectly competitive market, prices should approach the marginal cost and, capital expenditures aside, therefore it's not really reasonable to expect rents to grow faster than inflation. Arnott, writing in 1995, identified several ways in which a well-designed control can improve on the unrestricted equilibrium of housing markets as we experience them.[^arnott-1995]
+Separating controls into "hard" and "soft" is not especially useful, though. Hans Lind, writing in 2001, goes on to define five distinct functional types of rent control. In his view, regulations can protect sitting tenants from being charged above-market rents (type A), or rent increases unattached to increased costs (type B). Alternatively, regulations can instead bind to units and prevent landlords anywhere from charging above-market rents (type C), prevent rapid inflation by smoothing increases (type D) or, finally, prevent rents from ever reaching actual market prices (type E).[^lind-2001]
 
-[Elaborate, presumably]
+The takeway here is that when we talk about regulations, we have to be specific since their goals, mechanisms and impacts are going to be different. Unfortunately, commentators criticizing rent controls are quick to conflate all rent regulation with the kind experienced in New York City, which Lind identifies as an extreme version of a type E control.[^lind-2001] 
 
-Vacancy decontrolled regimes like Ontario's &mdash; which Lind categorizes as a "type B" control &mdash; have a much more limited effect since they allow average rents to approach market rates over time. A 2011 study of Manitoba's rent regulation, which is broadly similar to Ontario's, found that  [NOTE ON HOW MANITOBA's [RC HERE](http://www.gov.mb.ca/cca/pubs/rental_report)] It's easy to see why: a cost-adjusted tenancy rent control primarily impacts only one area of the development process: the initial lease up of an empty building.[^tait-2017] As long as developers have the ability to adjust for initial mistakes, over the long run the impact on their finances should be reasonable if not minimal.[^ryerson-whatever]
+And they're not wrong: obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It transforms rental properties into endless money pits. It's fine, and likely necessary, to subsidize some or other aspect of how we produce or provide housing units in order to achieve our policy goals &mdash; but it's unreasonable to expect that subsidy to be provided to the exclusive detriment of individual landlords. If investors wish to transfer their wealth to tenants they don't need to go through the trouble of erecting a building.  But that's a false choice. We're not limited to choosing between an unfettered market and a ruinously restrictive price control. 
+
+Consider that in a perfectly competitive market, prices should approach the marginal cost and, capital expenditures aside, in principle therefore it's not really reasonable to expect rents to grow faster than inflation.  Of course, housing markets as we experience them are far from perfectly competitive; supply is inelastic over the short to medium term. Arnott goes on to argue that housing units are "highly heterogenous" and that markets suffer from a variety of externalities and high transaction costs, amongst others, such that a well-designed control could actually _improve_ on markets' unrestricted equilibrium.[^arnott-1995] For a more elaborate and exhaustive treatment of the literature, see Lind (2001, 2003),[^lind-2001] [^lind-2003] Grant (2011),[^grant-2011] and Ambrosius et al (2015).[^ambrosius-2015]
+
+<h3>Ontario's rent control is rather soft</h3>
+
+Recall that Ontario's current rent control regime, which Lind categorized as a type B control,[^lind-2001] pegs rents to inflation, does not control rents between tenants, and allows cost pass throughs.
+
+Vacancy decontrolled regimes like ours have a much more limited effect since they allow average rents to approach market rates over time. A 2011 study of Manitoba's rent regulation, which is broadly similar to Ontario's, found that  [NOTE ON HOW MANITOBA's [RC HERE](http://www.gov.mb.ca/cca/pubs/rental_report)] It's easy to see why: a cost-adjusted tenancy rent control primarily impacts only one area of the development process: the initial lease up of an empty building.[^tait-2017] As long as developers have the ability to adjust for initial mistakes, over the long run the impact on their finances should be reasonable if not minimal.[^ryerson-whatever]
 
 Lawrence Smith, writing in 2003, had the following to say blah blah not as damaging. Arnott in 2005 reviewed the same concept and thought it'd be cool.
 SOME NOTE ABOUT SMITH 2003? don't forget arnot's paper on the same
@@ -254,6 +244,24 @@ Lately, rents have been increasing by about 11% per year, to an average range of
 
 
 If the economics undergirding multi-residential property investments don't rely on regular above-cost-inflation rent increases, then we should be discussing instead how to properly design a control that does not impede the well-functioning of that business.
+
+
+<h2>A Brief History of Housing in Canada</h2>
+
+Property rights and the markets they enable exist to the extent they are enforced and protected by the state. When we establish and regulate rights, we typically seek to balance the interests and concerns of everyone involved, and revisit those tradeoffs as our values and goals shift over time. We think our food should be safe to eat, our doctors should be well trained, and that you shouldn't dump waste anywhere you feel like.
+
+In Canada, it would be difficult to identify a time when we had a completely laissez faire housing market. Some of our earliest municipal bylaws regulated building standards. First, we sought to improve our health, safety, fire and construction standards, and later we gradually began to add a host of land use and development regulations.[^hulchanksi-laissez]
+
+These regulations led to the elimination of unhealthy, unsafe and poor quality housing in urban areas. If in 1951 almost one out of every ten houses lacked basic plumbing facilities, by 1982 that had dropped to 1.6%.[^brescia-2005-4] However, our improved housing standards and growing restrictions on land use led to an increase in the cost of its manufacture. As early as 1914 it became apparent that the private market alone was not providing enough low income housing.[^hulchanksi-laissez] 
+
+One intervention begat another. Federal incentives were introduced in 1938 to stimulate the development of low income rental housing, and by 1949 the government began to invest directly in its production.[^hulchanksi-laissez] Buoyed by the post-war economic and population boom,  we began to seriously expand our welfare state and, concerned with ensuring "enough rental housing production to nourish the golden goose of urban growth", from 1965 to 1995 up to 10% of all new housing was some mix of social housing.[^suttor-abriged]
+
+These interventions were not limited to the poor; quite the opposite. In 1946, the CMHC was established with the aim of increasing home ownership among the broad middle and lower-middle class. Focussing mainly on making amortized mortgages work for house buyers and private investors in rental housing, by the mid-1960s most households obtained at least part of their mortgage loan directly from the federal government.[^hulchanski-bulletin38]
+
+In fact, most of the history of the role of Canadian government housing policy is an effort to assist ownership. In 2005 alone, more individual homeowners were helped through mortgage insurance than the number of all social housing units funded since the 1970s. And in addition to creating cheaper loans, the federal government also provides subsidies through a variety of tax credits, tax sheltered investment vehicles and tax exemptions. When the federal government began taxing capital gains it exempted the sale of primary residence &mdash; which by 2008 was costing us almost $6 billion a year in uncollected revenue.[^hulchanski-bulletin38]
+
+In so far that our housing policy has targetted the middle class' standard of living, it has been rather successful. As an investment asset, home ownership confers unique benefits: it provides shelter as well as equity that can be withdrawn later in life. Canadians who pay off their mortgages spend on average only 11% of their income on housing and, by 1999, the average homeowner earned 208% more income, and owned 70 times more wealth, than the average tenant.[^hulchanski-bulletin38]
+
 
 
 
@@ -460,13 +468,15 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 [^tait-2017]: Tait, S. (2017, April 30). Ontario’s Fair Housing Plan & Purpose-Built Rental Development. Retrieved September 14, 2017, from https://www.linkedin.com/pulse/ontarios-fair-housing-plan-purpose-built-rental-development-sean-tait/
 
-[^arnott-1995]: Arnott, R. (1995). Time for Revisionism on Rent Control? Journal of Economic Perspectives,9(1), 100. doi:10.1257/jep.9.1.99
+[^arnott-1995]: Arnott, R. (1995). Time for Revisionism on Rent Control? Journal of Economic Perspectives,9(1), 100-102, 112-115. doi:10.1257/jep.9.1.99
 
 [^nota-bene]: Ah ha, you say, but rent controls are _illegal_ in Washington State. Yet condos don't get built because of prohibitive building standards. It's complicated and hard to compare!
 
 [^goldberg-1985]: Goldberg, M. A., & Mark, J. H. (1985). The Roles of Government in Housing Policy A Canadian Perspective and Overview. Journal of the American Planning Association, 51(1), 35-36. doi:10.1080/01944368508976798
 
 [^suttor-2009]: Suttor, G. (2009). Rental Paths from Postwar to Present: Canada Compared (pp. 39-40, Research Paper 218). Toronto: Cities Centre University of Toronto.
+
+[^lind-2001]: Lind, H. (2001). Rent Regulation: a Conceptual and Comparative Analysis. European Journal of Housing Policy, 1(1), 41-57. doi:10.1080/14616710110036436
 
 [^cmhc-2016]: The Secondary Rental Market in Canada - Estimated Size and Composition. (2016, June 13). Retrieved September 15, 2017, from https://www.cmhc-schl.gc.ca/en/hoficlincl/observer/observer_068.cfm <br/><br/> Note that this report classifies subsidized housing as a "secondary" rental, which is both conceptually weird and directly contradicts all the other literature I've found on the topic. We know from (Gadon, 2017)[^gadon-2017] that assisted housing constitutes about 7% of Toronto's rental market, hence "under half".
 
