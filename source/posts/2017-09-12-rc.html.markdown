@@ -6,7 +6,7 @@ title: Actually, Rent Control Is Great
 
 In April, the government of Ontario decided to extend rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
 
-Different jurisdictions have overlapping definitions of "rent control". What Ontario engages in is described by some academics and regions as a tenancy rent control, or rent stabilization. It works like this: once a year, your landlord can raise your monthly rent only up to a guideline pegged to inflation, or inflation plus 3% if their costs have spiked or they made improvements to the unit. Between tenants, landlords are free to price rents at whatever the market will bear.[^cleo-2016]
+Different jurisdictions have overlapping definitions of "rent control". What Ontario engages in is described by some academics and regions as a tenancy rent control, or rent stabilization. It works like this: once a year, your landlord can raise your monthly rent only up to a guideline pegged to inflation, or inflation plus 3% if their costs have spiked or they made improvements to the unit. Between tenants, landlords are free to price rents at whatever the market will bear.[^ltb-2017]
 
 This prompted a lot of commentary, ranging from [benign skepticism](http://tvo.org/article/current-affairs/the-next-ontario/ontario-needs-a-rental-rethink-but-should-tread-carefully) to [vigorous condemnation](https://beta.theglobeandmail.com/real-estate/toronto/new-ontario-rent-control-rules-exact-opposite-of-what-is-needed-analyst-warns/article34569276/). The chorus sounded like this:
 
@@ -20,7 +20,7 @@ For this reason, removing the exemption seemed like a no-brainer. Yet, hardly an
 
 Rent controls, of course, don't create new housing units nor do they divert the speculative investment dollars driving up prices. But critics obscure the fact that rent controls vary markedly from region to region in their design and implementation. A careful examination reveals that rent regulations like the one in Ontario don't actually have the pernicious effects commonly attributed to them. 
 
-If we are indeed serious about tackling our housing crisis, and protecting people from suffering from its effects, it's time to face the facts: there are other, far more serious, disincentives and barriers removing supply from our housing markets &mdash; and we need to seriously tweak the numerous interventions in those markets that we currently engage in.
+If we are indeed serious about tackling our housing crisis, and protecting people from suffering from its effects, it's time to face the facts: there are other, far more serious, disincentives and barriers removing supply from our housing markets &mdash; and we need to seriously tweak the many ways we intervene in them.
 
 <h2>The case against rent control</h2>
 <h3>Vanishing rental supply</h3>
@@ -117,7 +117,7 @@ The notion that condos crowded out rental investment is compelling, but by itsel
 
 <h3>The end of real estate tax shelters</h3>
 
-The other significant event occurred in 1972, when the federal government overhauled our income tax system.  Seeking to make our tax system more equitable, close loopholes and reorient which industries it incentivized,[^budget-1971] starting in 1972 and throughout the 70s and 80s, the federal government implemented a series of reforms. 
+The other significant event occurred in 1972, when the federal government overhauled our income tax system.  Seeking to make taxation more equitable, close loopholes and reorient which industries it incentivized,[^budget-1971] starting in 1972 and throughout the 70s and 80s, the federal government implemented a series of reforms. 
 
 NOTE TO ADD BIT ON HOW IT PRIVILEGED HOMEOWNERSHIP from fraser/smith 1977
 
@@ -147,34 +147,65 @@ Our housing provisioning system is complicated &mdash; but given the timing of t
 
 <h2>The economic case for rent controls</h2>
 
-The point of this article isn't to say that price controls are a paragon of virtue, but instead to critically examine the received wisdom. The picture is rather murkier than that shown in in the standard textbook analysis.
+The point of this article isn't to say that price controls are a paragon of virtue, but instead to critically examine the received wisdom: the picture is rather murkier than that shown in in the standard textbook analysis.
 
-<!-- Richard Arnott, in a widely read article from 1995, lays out the case for being skeptical of the standard textbook analysis. Controls vary considerably from region to region; it is extremely hard to adequately control for the state of the economy, local real estate markets, government policy, and other variables, and most studies fail to do so; the data that we do collect and is available to us is awfully inadequate, etc.[^arnott-1995] -->
+In the following section I will argue that _well-designed_ controls should not seriously impact new supply, that criticisms are misguided, and that security of tenure is a public good. 
 
-I'd like to advance a positive argument for rent regulation, and so here is what I will _not_ be arguing for. Supporters of rent controls may claim they preserve affordability, or have virtuous redistributive effects. I believe these views are incorrect. As for the latter, there are other, more efficient, useful and politically durable ways to redistribute income. And, absent a radical reorientation of land rights, the cost of new supply is tied to the yoke of interest rates and land values, and a price control won't help us. 
+Here is what I will not be arguing for. Some think that rent controls assist in the preservation of affordability, or have virtuous redistributional effects. I believe these views are incorrect. For one, there are more efficient and politically durable ways to redistribute income. As to the other, absent a radical reorientation of land rights the cost of new supply remains tied to the yoke of interest rates and land values &mdash; and therefore a price control won't help us.
+
+
+
+<!-- Richard Arnott, in a widely read article from 1995, lays out the case for being skeptical of the standard textbook analysis. Controls vary considerably from region to region; it is extremely hard to adequately control for the state of the economy, local real estate markets, government policy, and other variables, and most studies fail to do so; the data that we do collect and is available to us is awfully inadequate, etc.[^arnott-1995] 
+
+I'd like to advance a positive argument for rent regulation, and so here is what I will _not_ be arguing for. Supporters of rent controls may claim they preserve affordability, or have virtuous redistributive effects. I believe these views are incorrect. As for the latter, there are other, more efficient, useful and politically durable ways to redistribute income. And, absent a radical reorientation of land rights, the cost of new supply is tied to the yoke of interest rates and land values, and a price control won't help us. -->
 
 <h3>Controls are not designed equal</h3>
 
+There are actually many qualitatively different kinds of rent controls, which different regions have experimented with over different periods of time. When designing a control, we can decide when and how prices increase, whether they track inflation or another indicator, whether capital expenditures can be recoverered, at what rate vacant units can reset to what the market will bear (if at all), and so on.[^nota-bene-2]
 
-There are actually many qualitatively different kinds of rent controls, which different regions have experimented with over different periods of time. When designing a control, we can decide when and how prices increase, whether they track inflation or another indicator, whether capital expenditures can be recoverered, at what rate vacant units can reset to what the market will bear (if at all), and so on. 
+Richard Arnott, in a widely read paper from 1995, broadly categorizes rent control policy into two distinct phases. The first wave, or generation, of controls were enacted around World War II and they imposed nominal rent freezes tied to individual units. In a planned war economy that lacked much in the way of private housing construction, this made a certain amount of sense; but afterwards most regions dismantled their controls and only New York City (and some European cities) maintained that wartime policy.[^arnott-1995] 
 
-Richard Arnott, writing in 1995, broadly categorizes rent control policy into two distinct phases. The first wave, or generation, of controls were enacted around World War II and they imposed nominal rent freezes tied to individual units. In a planned war economy that lacked much in the way of private housing construction, this made a certain amount of sense; but afterwards, most regions dismantled their controls and only New York City (and some European cities) maintained that wartime policy.[^arnott-1995] 
-
-The second generation began in the 1970s as rent control ordinances were passed in Boston, Los Angeles, San Francisco and in a variety of towns in California, Massachussets, New Jersey, New York state, among others. The struture of Canadian federalism saw these policies accumulate at the provincial level and during this period ten provinces enacted rent controls (though most have since abandoned them). These policies "differed significantly from the first-generation rent control programs" and usually include automatic rent increases, the passing through of additional costs, and other like-minded provisions.[^arnott-1995]
+The second generation began in the 1970s as rent control ordinances were passed in Boston, Los Angeles, San Francisco and in a variety of towns in California, Massachussets, New Jersey, New York, etc. The struture of Canadian federalism saw these policies accumulate at the provincial level, and during this period ten provinces also enacted rent controls (though most have since abandoned them). These policies "differed significantly from the first-generation rent control programs" and usually allowed automatic increases in rent, the passing through of additional costs, and included other like-minded provisions.[^arnott-1995]
 
 Separating controls into "hard" and "soft" is not especially useful, though. Hans Lind, writing in 2001, goes on to define five distinct functional types of rent control. In his view, regulations can protect sitting tenants from being charged above-market rents (type A), or rent increases unattached to increased costs (type B). Alternatively, regulations can instead bind to units and prevent landlords anywhere from charging above-market rents (type C), prevent rapid inflation by smoothing increases (type D) or, finally, prevent rents from ever reaching actual market prices (type E).[^lind-2001]
 
-The takeway here is that when we talk about regulations, we have to be specific since their goals, mechanisms and therefore impacts are going to be different. Unfortunately, commentators criticizing rent controls are quick to conflate all rent regulation with the kind experienced in New York City, which Lind identifies as an extreme version of a type E control.[^lind-2001] 
+The takeway here is that when we talk about regulations, we have to be specific since their goals, mechanisms and therefore impacts are going to be different. New York City's rent controls, which Lind identifies as an extreme version of a type E control,[^lind-2001] are the most famous and well studied example, and unfortunately critics are quick to conflate all rent regulation with the kind experienced there. 
 
 They're not wrong, per se: obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It transforms rental properties into endless money pits. It's fine, and likely necessary, to subsidize some or other aspect of how we produce or provide housing units in order to achieve our policy goals &mdash; but it's unreasonable to expect that subsidy to be provided to the exclusive detriment of individual landlords. If investors wish to transfer their wealth to tenants they don't need to go through the trouble of erecting a building.  
 
-But that's a false choice. New York City is a very idiosyncratic example &mdash; and so we're not limited to choosing between an unfettered market and a ruinously restrictive price control. 
+But that's a false choice. We're not limited to choosing between an unfettered market and a ruinously restrictive price control.
 
-Consider that in a perfectly competitive market, prices should approach the marginal cost and, capital expenditures aside, in principle therefore it's not really reasonable to expect rents to grow faster than inflation.  Of course, housing markets as we experience them are far from perfectly competitive; for starters, supply is inelastic over the short to medium term. Arnott goes on to argue that housing units are highly heterogenous (i.e. not fungible commodities) and that since markets suffer from a variety of externalities and high transaction costs, and so on, such that a well-designed control could actually _improve_ on markets' unrestricted equilibrium.[^arnott-1995] [^nota-bene-2]
+<!--In a perfectly competitive market, a landlord faced with increased demand is free to increase prices and therefore profits accordingly. Abnormally high profits, though, attract other potential landlords who, by virtue of adding to the supply of apartments, will then drive down the price.  From this model, any sketch on a napkin will show, if prices are not allowed to rise with demand then new entrants will stay put, supply will not increase, and and shortages will follow. So far so good.
+
+The flipside however is that, faced with perfect competition, the market price any landlord can fetch will over the long run equal their marginal cost, i.e. the cost of building and operating a housing unit plus the landlord's opportunity cost. This is to say, it's basically unreasonable to expect the rents any given landlord is able to charge to grow substantially beyond costs and inflation.
+
+
+
+
+
+
+Arnott argues that housing markets are in fact monopolistically competitive, given that housing units are highly heterogenous and there are significant transaction costs. As a consequence, he 
+
+Consider that in a perfectly competitive market, prices should approach the marginal cost and, capital expenditures aside, in principle therefore it's not really reasonable to expect rents to grow faster than inflation. 
+
+Of course, housing markets as we experience them are far from perfectly competitive; for starters, supply is inelastic over the short to medium term. Arnott goes on to argue that housing units are highly heterogenous (i.e. not fungible commodities) and that since markets suffer from a variety of externalities and high transaction costs, and so on, such that a well-designed control could actually _improve_ on markets' unrestricted equilibrium.[^arnott-1995] [^nota-bene-2]-->
 
 <h3>Ontario's rent control is rather soft</h3>
 
-Recall that Ontario's current rent control regime, which Lind categorized as a type B control,[^lind-2001] pegs rents to inflation, does not control rents between tenants, and allows cost pass throughs.[^depressing]
+
+Recall that Ontario's current rent control regime, which Lind categorized as a type B control,[^lind-2001] pegs rents to inflation, does not control rents between tenants, and allows cost pass throughs.[^depressing] Elsewhere it is variously called a tenancy rent control or intertenancy rent decontrol.
+
+theoretical argument here on why it should be fine, blah blah recovery, ideal, arnott on no obvious reason why it should directly harm, followed by emprical evidence. new jersey is a type B control; manitoba broadly similar to ontario likewise.
+
+
+"but if rent prices do not go up to match financial recovery rates that will hurt new supply" is a ridiculous argument since in that scenario the problem is land value appreciation over inflation causing rentals to be crowded out by other uses. while it's true that the price signalling mechanism is distorted by the controlled rent regime - and therefore rental buildings are not being adequately allocated by the market mechanism - it does not follow that the correct measure is to raise median rents and transfer income from landlords to tenants.
+
+the relative attractiveness of ownership housing is a government policy; the relative scarcity of land via exclusionary zoning is a government policy; rental buildings as it stands today would not be built at all without the direct intervention of a government agency.[black, cmhc insurance rates]
+
+the answer then is to tweak how we intervene.
+
+
+
 
 Vacancy decontrolled regimes like ours have a much more limited effect since they allow average rents to approach market rates over time. A 2011 study of Manitoba's rent regulation, which is broadly similar to Ontario's, found that  [NOTE ON HOW MANITOBA's [RC HERE](http://www.gov.mb.ca/cca/pubs/rental_report)] It's easy to see why: a cost-adjusted tenancy rent control primarily impacts only one area of the development process: the initial lease up of an empty building.[^tait-2017] As long as developers have the ability to adjust for initial mistakes, over the long run the impact on their finances should be reasonable if not minimal.[^ryerson-whatever]
 
@@ -380,7 +411,7 @@ By 2016, it was estimated that 34% of all condos were destined to be rented out.
 
 In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 we measured 32%.
 
-[^cleo-2016]: CLEO (Community Legal Education Ontario / Éducation juridique communautaire Ontario). (2016, November). Rent increases. Retrieved September 29, 2017, from http://www.cleo.on.ca/en/publications/rentincs#full
+[^ltb-2017]: Landlord and Tenant Board. (2017, May). Brochure: A Guide to the Residential Tenancies Act. Retrieved September 29, 2017, from [sjto.gov.on.ca](http://www.sjto.gov.on.ca/documents/ltb/Brochures/Guide%20to%20RTA%20(English).html)
 
 [^gee-2017]: Gee, M. (2017, April 20). Rent control isn't the solution to Ontario's housing problem. Retrieved September 12, 2017, from [theglobeandmail.com](https://beta.theglobeandmail.com/news/toronto/rent-control-isnt-the-solution-to-ontarios-housing-problem/article34753102/)
 
@@ -487,9 +518,9 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 [^lind-2001]: Lind, H. (2001). Rent Regulation: a Conceptual and Comparative Analysis. European Journal of Housing Policy, 1(1), 41-57. doi:10.1080/14616710110036436
 
-[^nota-bene-2]: I've glossed over a much more animated academic discussion than what I have presented here. For a more elaborate and exhaustive treatment of the literature, see Lind (2001, 2003),[^lind-2001] [^lind-2003], Brescia (2005)[^brescia-2005], Grant (2011),[^grant-2011] and Ambrosius et al (2015).[^ambrosius-2015]
+[^nota-bene-2]: Normally here is where I'd present a literature review, but for our purposes I've chosen to gloss over the rather animated academic discussion. For a more elaborate and exhaustive treatment of the literature, see Lind (2001)[^lind-2001] and Lind (2003),[^lind-2003], Brescia (2005)[^brescia-2005], Grant (2011),[^grant-2011] and Ambrosius et al (2015).[^ambrosius-2015]
 
-[^depressing]: The depressing thing about writing so much on this topic is precisely that Ontario's current rent control regime is _so tame_.
+[^depressing]: Precisely because Ontario's rent regime is so tame makes having to write so much about it rather depressing.
 
 [^cmhc-2016]: The Secondary Rental Market in Canada - Estimated Size and Composition. (2016, June 13). Retrieved September 15, 2017, from https://www.cmhc-schl.gc.ca/en/hoficlincl/observer/observer_068.cfm <br/><br/> Note that this report classifies subsidized housing as a "secondary" rental, which is both conceptually weird and directly contradicts all the other literature I've found on the topic. We know from (Gadon, 2017)[^gadon-2017] that assisted housing constitutes about 7% of Toronto's rental market, hence "under half".
 
