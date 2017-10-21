@@ -151,29 +151,27 @@ The point of this article isn't to say that price controls are a paragon of virt
 
 In the following section I will argue that _well-designed_ controls should not seriously impact new supply, that criticisms are misguided, and that security of tenure is a public good. 
 
-Here is what I will not be arguing for. Some think that rent controls assist in the preservation of affordability, or have virtuous redistributional effects. I believe these views are incorrect. For one, there are more efficient and politically durable ways to redistribute income. As to the other, absent a radical reorientation of land rights the cost of new supply remains tied to the yoke of interest rates and land values &mdash; and therefore a price control won't help us.
-
-
-
-<!-- Richard Arnott, in a widely read article from 1995, lays out the case for being skeptical of the standard textbook analysis. Controls vary considerably from region to region; it is extremely hard to adequately control for the state of the economy, local real estate markets, government policy, and other variables, and most studies fail to do so; the data that we do collect and is available to us is awfully inadequate, etc.[^arnott-1995] 
-
-I'd like to advance a positive argument for rent regulation, and so here is what I will _not_ be arguing for. Supporters of rent controls may claim they preserve affordability, or have virtuous redistributive effects. I believe these views are incorrect. As for the latter, there are other, more efficient, useful and politically durable ways to redistribute income. And, absent a radical reorientation of land rights, the cost of new supply is tied to the yoke of interest rates and land values, and a price control won't help us. -->
+Here is what I will not be arguing for. Some think that rent controls assist in the preservation of affordability, or have virtuous redistributional effects. I believe these views are incorrect. For one, there are more stable and politically durable ways to redistribute income. As to the other, absent a radical reorientation of land rights the cost of new supply remains tied to the yoke of interest rates and land prices &mdash; and therefore a price control won't help us.
 
 <h3>Controls are not designed equal</h3>
 
-There are actually many qualitatively different kinds of rent controls, which different regions have experimented with over different periods of time. When designing a control, we can decide when and how prices increase, whether they track inflation or another indicator, whether capital expenditures can be recoverered, at what rate vacant units can reset to what the market will bear (if at all), and so on.[^nota-bene-2]
+One major problem with having this discussion is that there are actually many qualitatively different kinds of rent controls, which different regions have experimented with over different periods of time. When designing a control, we can decide when and how prices increase, whether they track inflation or another indicator, whether capital expenditures can be recoverered, at what rate vacant units can reset to what the market will bear (if at all), and so on.[^nota-bene-2]
 
 Richard Arnott, in a widely read paper from 1995, broadly categorizes rent control policy into two distinct phases. The first wave, or generation, of controls were enacted around World War II and they imposed nominal rent freezes tied to individual units. In a planned war economy that lacked much in the way of private housing construction, this made a certain amount of sense; but afterwards most regions dismantled their controls and only New York City (and some European cities) maintained that wartime policy.[^arnott-1995] 
 
 The second generation began in the 1970s as rent control ordinances were passed in Boston, Los Angeles, San Francisco and in a variety of towns in California, Massachussets, New Jersey, New York, etc. The struture of Canadian federalism saw these policies accumulate at the provincial level, and during this period ten provinces also enacted rent controls (though most have since abandoned them). These policies "differed significantly from the first-generation rent control programs" and usually allowed automatic increases in rent, the passing through of additional costs, and included other like-minded provisions.[^arnott-1995]
 
-Separating controls into "hard" and "soft" is not especially useful, though. Hans Lind, writing in 2001, goes on to define five distinct functional types of rent control. In his view, regulations can protect sitting tenants from being charged above-market rents (type A), or rent increases unattached to increased costs (type B). Alternatively, regulations can instead bind to units and prevent landlords anywhere from charging above-market rents (type C), prevent rapid inflation by smoothing increases (type D) or, finally, prevent rents from ever reaching actual market prices (type E).[^lind-2001]
+Separating controls into "hard" and "soft" is not especially useful, though. Hans Lind, writing in 2001, goes on to define five distinct functional types of rent control. In his view, regulations can protect sitting tenants from being charged above-market rents (type A), or from increases in rent unattached to increases in costs (type B). Alternatively, regulations can instead bind to units and prevent landlords anywhere from charging above-market rents (type C), prevent rapid inflation by smoothing increases (type D) or, finally, prevent rents from ever reaching actual market prices (type E).[^lind-2001]
 
 The takeway here is that when we talk about regulations, we have to be specific since their goals, mechanisms and therefore impacts are going to be different. New York City's rent controls, which Lind identifies as an extreme version of a type E control,[^lind-2001] are the most famous and well studied example, and unfortunately critics are quick to conflate all rent regulation with the kind experienced there. 
 
 They're not wrong, per se: obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It transforms rental properties into endless money pits. It's fine, and likely necessary, to subsidize some or other aspect of how we produce or provide housing units in order to achieve our policy goals &mdash; but it's unreasonable to expect that subsidy to be provided to the exclusive detriment of individual landlords. If investors wish to transfer their wealth to tenants they don't need to go through the trouble of erecting a building.  
 
-But that's a false choice. We're not limited to choosing between an unfettered market and a ruinously restrictive price control.
+But that's a false choice. We're not limited to between an unfettered market and a ruinously restrictive price control. When we discuss losses in efficiency and allocation, we're comparing our real world with a hypothetical perfectly competitive market where landlords compete to produce fungible, homogenous housing units, there are no externalities, every actor possesses perfect information, and so on. A landlord faced with increased demand is free to increase prices and profits accordingly. Abnormally high profits, though, attract other potential landlords who by virtue of adding to the supply of apartments will then drive down their prices.
+
+Given a perfect market any sketch on a napkin will show that if prices are not allowed to rise with demand then new entrants will stay put, supply will not increase, and shortages will follow. However, given perfect competition, the market prices any landlord can fetch will over the long run equal their marginal cost, i.e. the amortized cost of building and operating a housing unit plus the landlord's opportunity cost. Put another way, in a _well functioning market_ it's more or less unreasonable to expect the rents any given landlord is able to extract will grow much faster than costs and inflation.
+
+Arnott makes the case that housing markets are actually monopolistically competitive since housing structures and housing preferences vary considerably and are not homogenous, while there are in fact substantial asymmetries in information and transactions costs. Consequently, rents are set higher than their efficient level and the corresponding deadweight loss can be mitigated.[^arnott-2003] Bracketing that for now, though, the implication here is that while absolute price ceilings can be and are harmful there is no obvious reason why price _smoothing_ such that increases match but do not exceed costs should have a strong effect on the incentive to create new rental housing.[^arnott-2003-2]
 
 <!--In a perfectly competitive market, a landlord faced with increased demand is free to increase prices and therefore profits accordingly. Abnormally high profits, though, attract other potential landlords who, by virtue of adding to the supply of apartments, will then drive down the price.  From this model, any sketch on a napkin will show, if prices are not allowed to rise with demand then new entrants will stay put, supply will not increase, and and shortages will follow. So far so good.
 
@@ -193,7 +191,9 @@ Of course, housing markets as we experience them are far from perfectly competit
 <h3>Ontario's rent control is rather soft</h3>
 
 
-Recall that Ontario's current rent control regime, which Lind categorized as a type B control,[^lind-2001] pegs rents to inflation, does not control rents between tenants, and allows cost pass throughs.[^depressing] Elsewhere it is variously called a tenancy rent control or intertenancy rent decontrol.
+Recall that Ontario's current rent control regime pegs rents to inflation, does not control rents between tenants, and allows cost pass through.[^depressing] Lind categorized it as a type B control,[^lind-2001] and elsewhere it is variously called a kind of tenancy rent control or an intertenancy rent decontrol.
+
+I've demonstrated above that though Ontario's previous rent control regimes may have been harmful, they were unlikely to be the main disincentives acting on supply &mdash; and especially so since 1998, when new construction was exempted entirely.
 
 theoretical argument here on why it should be fine, blah blah recovery, ideal, arnott on no obvious reason why it should directly harm, followed by emprical evidence. new jersey is a type B control; manitoba broadly similar to ontario likewise.
 
@@ -467,7 +467,7 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 [^rental-demographics]: The relationship between vacancy rates in Toronto and the corresponding age pyramid in Ontario is rather obvious; vacancy rates climbed in the 1990s as boomers entered the ownership market, and dipped again in the late 2000s as millennials, the next disproportionately large cohort, became of age.<br/><br/>Government of Canada (2017, May 01). Historical Age Pyramid. Retrieved October 20, 2017, from http://www12.statcan.gc.ca/census-recensement/2016/dp-pd/pyramid/pyramid.cfm?geo1=35&type=1
 
-[^lind-2003]: "The [Smith (1988)] study is very crude, as there is no control for other factors." (p. 149) <br/><br/>"What Arnott calls “Housing economic theory” is mathematical analyses of hypothetical model economies. It is hard to see how developing more such models would help us solve the empirical problems discussed above, especially as we would need a lot of empirical data to identify which of all the models that gives the best picture of a specific housing market." (p. 151)<br/><br/>Lind, H. (2003). Rent regulation and new construction: With a focus on Sweden 1995-2001. Swedish Economic Policy Review, 135-167.
+[^lind-2003]: "The [Smith (1988)] study is very crude, as there is no control for other factors." (p. 149) <br/><br/>"What Arnott calls “Housing economic theory” is mathematical analyses of hypothetical model economies. It is hard to see how developing more such models would help us solve the empirical problems discussed above, especially as we would need a lot of empirical data to identify which of all the models that gives the best picture of a specific housing market." (p. 151)<br/><br/>Lind, H. (2003). Rent regulation and new construction: With a focus on Sweden 1995-2001. Swedish Economic Policy Review, (10), 135-167.
 
 [^lind-2003-2]: "Very few new projects were also started in the suburbs around the year 2000, as production costs had increased faster than the willingness to pay. This can be seen as a kind of Dutch disease, where the increase in factor prices generated by some profitable sectors—the centrally located condominiums—makes other “low-margin” sectors unprofitable." Lind (2003, p. 159)
 
@@ -519,6 +519,10 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 [^lind-2001]: Lind, H. (2001). Rent Regulation: a Conceptual and Comparative Analysis. European Journal of Housing Policy, 1(1), 41-57. doi:10.1080/14616710110036436
 
 [^nota-bene-2]: Normally here is where I'd present a literature review, but for our purposes I've chosen to gloss over the rather animated academic discussion. For a more elaborate and exhaustive treatment of the literature, see Lind (2001)[^lind-2001] and Lind (2003),[^lind-2003], Brescia (2005)[^brescia-2005], Grant (2011),[^grant-2011] and Ambrosius et al (2015).[^ambrosius-2015]
+
+[^arnott-2003]: Arnott, R (2003). Tenancy Rent Control. Swedish Economic Policy Review, (10), 106
+
+[^arnott-2003-2]: Arnott (2003, p. 98)
 
 [^depressing]: Precisely because Ontario's rent regime is so tame makes having to write so much about it rather depressing.
 
