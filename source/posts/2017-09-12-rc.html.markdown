@@ -101,6 +101,18 @@ The first happened in 1967, when Ontario legalized condominiums and created a ne
 </figcaption>
 </figure>
 
+Looking at this data at a regional level is misleading, I think, since the growth rate and attributes of housing markets vary from subregion to subregion. As you can see from the housing mix in figure 3, Ontario was still aggressively subdividing and sprawling. With an abundance of available freehold land it's possible that, looking at province-wide data, we might understate the impact of condominiums. How would this look like in an already built-up area where by and large higher density developments are the only option? 
+
+For that reason, I dug up and plotted recent and historical data from Toronto:[^note-digging]
+
+<figure id="fref:fig4">
+<a href="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"><img src="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"></a>
+<figcaption>
+<b>Figure 4.</b> City of Toronto housing completions by intended market 1981-2016. Note that this graph measures completions as opposed to starts and is therefore not directly comparable to figure 3.
+</figcaption>
+</figure>
+
+
 In 2012 Jill Black wrote a great research paper regarding the financing and economics of multi-residential housing development. She explores the incentives property developers act on and the disincentives they suffer as they choose projects to work on, and it's well worth a read. According to her research, in a nutshell, building to rent is riskier and less profitable than building to sell.
 
 Prior to the Condominium Act, apartment buildings could only be rented out or sold in their entirety. Now, for the first time, title could be given to each individual unit, greatly increasing the allowed density of privately owned housing. Condominiums immediately began to crowd out rental building investment: the first condo in Ontario was originally constructed as a rental and was converted to a condominium soon after the law came into effect.[^hanes-2008]
@@ -167,11 +179,11 @@ The takeway here is that when we talk about regulations, we have to be specific 
 
 They're not wrong, per se: obviously, a control regime that over time lowers real income below that of real expenditures is a _bad idea_. It transforms rental properties into endless money pits. It's fine, and likely necessary, to subsidize some or other aspect of how we produce or provide housing units in order to achieve our policy goals &mdash; but it's unreasonable to expect that subsidy to be provided to the exclusive detriment of individual landlords. If investors wish to transfer their wealth to tenants they don't need to go through the trouble of erecting a building.  
 
-But that's a false choice. We're not limited to between an unfettered market and a ruinously restrictive price control. When we discuss losses in efficiency and allocation, we're comparing our real world with a hypothetical perfectly competitive market where landlords compete to produce fungible, homogenous housing units, there are no externalities, every actor possesses perfect information, and so on. A landlord faced with increased demand is free to increase prices and profits accordingly. Abnormally high profits, though, attract other potential landlords who by virtue of adding to the supply of apartments will then drive down their prices.
+But that's a false choice. We're not limited to between an unfettered market and a ruinously restrictive price control. When we discuss losses in efficiency and allocation, we're comparing our real world with a idealized perfectly competitive market where landlords compete to produce fungible, homogenous housing units, there are no externalities, every actor possesses perfect information, and so on. A landlord faced with increased demand is free to increase prices and profits accordingly. Abnormally high profits, though, attract other potential landlords who by virtue of adding to the supply of apartments will then drive down their prices.
 
 Given a perfect market any sketch on a napkin will show that if prices are not allowed to rise with demand then new entrants will stay put, supply will not increase, and shortages will follow. However, given perfect competition, the market prices any landlord can fetch will over the long run equal their marginal cost, i.e. the amortized cost of building and operating a housing unit plus the landlord's opportunity cost. Put another way, in a _well functioning market_ it's more or less unreasonable to expect the rents any given landlord is able to extract will grow much faster than costs and inflation.
 
-Arnott makes the case that housing markets are actually monopolistically competitive since housing structures and housing preferences vary considerably and are not homogenous, while there are in fact substantial asymmetries in information and transactions costs. Consequently, rents are set higher than their efficient level and the corresponding deadweight loss can be mitigated.[^arnott-2003] Bracketing that for now, though, the implication here is that while absolute price ceilings can be and are harmful there is no obvious reason why price _smoothing_ such that increases match but do not exceed costs should have a strong effect on the incentive to create new rental housing.[^arnott-2003-2]
+Arnott makes the case that housing markets are actually monopolistically competitive since housing structures and preferences are not homogenous, and there are substantial asymmetries in information and high transactions costs. Consequently, rents are set higher than their efficient level and the corresponding deadweight loss can be mitigated.[^arnott-2003] Bracketing that for now, though, the implication here is that while absolute price ceilings can be and are harmful there is no obvious reason why price _smoothing_ such that increases match but do not exceed costs should have a strong effect on the incentive to create new rental housing.[^arnott-2003-2]
 
 <!--In a perfectly competitive market, a landlord faced with increased demand is free to increase prices and therefore profits accordingly. Abnormally high profits, though, attract other potential landlords who, by virtue of adding to the supply of apartments, will then drive down the price.  From this model, any sketch on a napkin will show, if prices are not allowed to rise with demand then new entrants will stay put, supply will not increase, and and shortages will follow. So far so good.
 
@@ -193,7 +205,11 @@ Of course, housing markets as we experience them are far from perfectly competit
 
 Recall that Ontario's current rent control regime pegs rents to inflation, does not control rents between tenants, and allows cost pass through.[^depressing] Lind categorized it as a type B control,[^lind-2001] and elsewhere it is variously called a kind of tenancy rent control or an intertenancy rent decontrol.
 
-I've demonstrated above that though Ontario's previous rent control regimes may have been harmful, they were unlikely to be the main disincentives acting on supply &mdash; and especially so since 1998, when new construction was exempted entirely.
+We saw above that though Ontario's previous rent control regimes may have been harmful, they were unlikely to be the main disincentives acting on supply &mdash; and especially so since 1998, when vacancies were decontrolled and new construction was exempted entirely. Considering the need to compare apples-to-apples, what other evidence can we draw for the impacts of type B rent controls?
+
+Consider Manitoba, whose regulation scheme is broadly similar.[^note-on-mb] Hugh Grant, writing in 2011, found that over the course of however many years there were likely little to no impact on the rental supply rate. He furthermore looked at rent increases and found that they actually were _below_ the fully prescribed increase rate.[^grant-2011]
+
+Consider also the case of New Jersey, where a paper published in 2015 also found little to no effect on the supply of rental housing.
 
 theoretical argument here on why it should be fine, blah blah recovery, ideal, arnott on no obvious reason why it should directly harm, followed by emprical evidence. new jersey is a type B control; manitoba broadly similar to ontario likewise.
 
@@ -223,6 +239,9 @@ Given the long-term nature of multi-residential investment, their business model
 > He noted Ontario still allows rents to be raised to market level once a tenant leaves a unit and capital improvements to buildings can also be passed on to tenants.
 
 > “All we want is a fair rent for our apartments, we do not want above guidelines. We have been able to work within rent controls and still deliver a good product for our investors and tenants,”[^marr-2017]
+<h3>The future is renting</h3>
+
+therefore what impacts do we cause on tenants? the absence of security of tenure is an externality we push onto tenants.
 
 <h3>Rent is an unproductive use of income</h3>
 
@@ -469,6 +488,8 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 [^lind-2003]: "The [Smith (1988)] study is very crude, as there is no control for other factors." (p. 149) <br/><br/>"What Arnott calls “Housing economic theory” is mathematical analyses of hypothetical model economies. It is hard to see how developing more such models would help us solve the empirical problems discussed above, especially as we would need a lot of empirical data to identify which of all the models that gives the best picture of a specific housing market." (p. 151)<br/><br/>Lind, H. (2003). Rent regulation and new construction: With a focus on Sweden 1995-2001. Swedish Economic Policy Review, (10), 135-167.
 
+[^note-digging]: CMHC's website provides convenient access only to data back to 1990. For information prior to then, you have to look it up yourself in the yearly housing statistics publications. Prior to 1985 there is no readily available information on starts or completions by intended market. So, here I relied on a City of Toronto report.
+
 [^lind-2003-2]: "Very few new projects were also started in the suburbs around the year 2000, as production costs had increased faster than the willingness to pay. This can be seen as a kind of Dutch disease, where the increase in factor prices generated by some profitable sectors—the centrally located condominiums—makes other “low-margin” sectors unprofitable." Lind (2003, p. 159)
 
 [^brescia-2005]: Brescia, V. (2005). The Affordability of Housing in Ontario: Trends, Causes, Solutions (p. 31, Rep.).
@@ -525,6 +546,10 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 [^arnott-2003-2]: Arnott (2003, p. 98)
 
 [^depressing]: Precisely because Ontario's rent regime is so tame makes having to write so much about it rather depressing.
+
+[^note-on-mb]: Manitoba does not allow the rent in buildings with more than 3 units to be reset on vacancy, but it exempts new buildings for 20 years and has a more generous cost pass through provision.[^grant-2011]
+
+[^grant-2011]: Grant, H. (2011, January 31). An Analysis of Manitoba’s Rent Regulation Program and the Impact on the Rental Housing Market. Manitoba Family Services and Consumer Affairs
 
 [^cmhc-2016]: The Secondary Rental Market in Canada - Estimated Size and Composition. (2016, June 13). Retrieved September 15, 2017, from https://www.cmhc-schl.gc.ca/en/hoficlincl/observer/observer_068.cfm <br/><br/> Note that this report classifies subsidized housing as a "secondary" rental, which is both conceptually weird and directly contradicts all the other literature I've found on the topic. We know from (Gadon, 2017)[^gadon-2017] that assisted housing constitutes about 7% of Toronto's rental market, hence "under half".
 
