@@ -199,23 +199,6 @@ We can thus, as far as supply is concerned, conceive of a non-harmful rent contr
 
 > “All we want is a fair rent for our apartments, we do not want above guidelines. We have been able to work within rent controls and still deliver a good product for our investors and tenants,”[^marr-2017]
 
-
-
-<!--In a perfectly competitive market, a landlord faced with increased demand is free to increase prices and therefore profits accordingly. Abnormally high profits, though, attract other potential landlords who, by virtue of adding to the supply of apartments, will then drive down the price.  From this model, any sketch on a napkin will show, if prices are not allowed to rise with demand then new entrants will stay put, supply will not increase, and and shortages will follow. So far so good.
-
-The flipside however is that, faced with perfect competition, the market price any landlord can fetch will over the long run equal their marginal cost, i.e. the cost of building and operating a housing unit plus the landlord's opportunity cost. This is to say, it's basically unreasonable to expect the rents any given landlord is able to charge to grow substantially beyond costs and inflation.
-
-
-
-
-
-
-Arnott argues that housing markets are in fact monopolistically competitive, given that housing units are highly heterogenous and there are significant transaction costs. As a consequence, he 
-
-Consider that in a perfectly competitive market, prices should approach the marginal cost and, capital expenditures aside, in principle therefore it's not really reasonable to expect rents to grow faster than inflation. 
-
-Of course, housing markets as we experience them are far from perfectly competitive; for starters, supply is inelastic over the short to medium term. Arnott goes on to argue that housing units are highly heterogenous (i.e. not fungible commodities) and that since markets suffer from a variety of externalities and high transaction costs, and so on, such that a well-designed control could actually _improve_ on markets' unrestricted equilibrium.[^arnott-1995] [^nota-bene-2]-->
-
 <h3>Ontario's rent control is rather soft</h3>
 
 
@@ -231,15 +214,41 @@ In fact, tenancy rent controls seem to barely control rents at all. Writing earl
 
 This finding is corroborated by both the Manitoba and the New Jersey study cited above. In New Jersey, median rents in rent controlled cities were found to be roughly the same as rents in non-controlled cities.[^ambrosius-2015-2] In Manitoba, Grant argues "there is no evidence that rent regulations have restricted rents below what would prevail in a perfectly-competitive market under equilibrium conditions".[^grant-2011-2]
 
+<h3>Efficiency concerns are misplaced</h3>
+
+another common concern is that rent controls will cause housing units to be misallocated, since units will no longer go to the people who "need" them the most. insert here lonely widow who still lives in a 3 bedroom.
+
+this is utterly bonkers, and you can see why if you try to apply this to ownership where arguably the problem is far more rampant. what we have here is a normative claim encoded as an economics question.
+
+a not dissimilar argument is made re: efficiency of labour markets, since with rent controls people tend to stay longer and therefore may not move to where jobs are. this is also bonkers, for the same reason as above.
+
+<h3>affordability only loosely linked to supply</h3>
+
+the rent necessary to carry an investment depends on the amount of money you paid for the land. if land values are driven by ownership, and ownership is driven by speculative dollars flowing from capital markets, then building more ceteris paribus may not actually lower prices, lol.
+
+quote from cibc, rbc about how prices are no longer linked to fundamentals.
+
+<h3>housing is essential technology for the economy; the future is renting</h3>
+
+there are massive bonuses to density and cities are the economic engines of the future. at the densities cities operate at it's not reasonable to expect people on average to own freehold title, or even necessarily buy into apartments.
+
+benjamin tal from cibc thinks so, link to his op-ed from march. this brings us finally to the real argument for rent control: security of tenure is crucial in this environment,
+
+<h3>Housing instability is a rather harsh externality imposed on tenants</h3>
+
 "but if rent prices do not go up to match financial recovery rates that will hurt new supply" is a ridiculous argument since in that scenario the problem is land value appreciation over inflation causing rentals to be crowded out by other uses. while it's true that the price signalling mechanism is distorted by the controlled rent regime - and therefore rental buildings are not being adequately allocated by the market mechanism - it does not follow that the correct measure is to raise median rents and transfer income from landlords to tenants.
 
-the relative attractiveness of ownership housing is a government policy; the relative scarcity of land via exclusionary zoning is a government policy; rental buildings as it stands today would not be built at all without the direct intervention of a government agency.[black, cmhc insurance rates]
 
 the answer then is to tweak how we intervene.
 
+a report commissioned by the new zealand housing comission summarized the impacts of housing tenure and the results are bleak: tenants have poorer health, live in areas with more crime, take longer to recover from unemployment, etc.
+
+the only thing that is different is security of tenure.
 
 
+the relative attractiveness of ownership housing is a government policy; the relative scarcity of land via exclusionary zoning is a government policy; rental buildings as it stands today would not be built at all without the direct intervention of a government agency.[black, cmhc insurance rates]
 
+<!--
 Vacancy decontrolled regimes like ours have a much more limited effect since they allow average rents to approach market rates over time. A 2011 study of Manitoba's rent regulation, which is broadly similar to Ontario's, found that  [NOTE ON HOW MANITOBA's [RC HERE](http://www.gov.mb.ca/cca/pubs/rental_report)] <h3>The future is renting</h3>
 
 therefore what impacts do we cause on tenants? the absence of security of tenure is an externality we push onto tenants.
@@ -299,6 +308,7 @@ Lately, rents have been increasing by about 11% per year, to an average range of
 
 
 If the economics undergirding multi-residential property investments don't rely on regular above-cost-inflation rent increases, then we should be discussing instead how to properly design a control that does not impede the well-functioning of that business.
+-->
 
 
 <h2>A Brief History of Housing in Canada</h2>
@@ -320,7 +330,7 @@ In so far that our housing policy has targetted the middle class' standard of li
 
 
 
-<h2>Making the moral case for rent stabilization</h2>
+<h2>Security of tenure is a public good</h2>
 
 This is to say: what kind of living conditions do we want people to enjoy? and consequently, what, exactly, should be the goal of our housing system? have been considered important questions for over a century &mdash; and our answers to these questions have shifted over time. We began by regulating the safety of our housing, and today we significantly subsidize its ownership for those who can afford it. 
 
@@ -362,6 +372,8 @@ In 2011, a little under half of the population of the city of Toronto rented the
 
 We do ourselves a disservice when we ignore this dimension and frame it purely in terms of adversarial self interests. When we argue that rents should always be uncontrolled, even in tight markets experiencing rapid inflation, we're implicitly accepting that tenants do not deserve security of tenure. The discussion instead should be about how we can both deliver security of tenure and ensure our housing provision system functions properly.
 
+<!--
+
 <h2>Revisiting Ontario's experience</h2>
 
 Let's address the main criticism: what about the lack of supply in our housing market?  While the social benefits are hard to value precisely, the cost of a tight housing market is all too readily apparent &mdash; and might outweigh the benefit.
@@ -396,6 +408,7 @@ But why stop at just a tenancy control?
 </figcaption>
 </figure>
 
+-->
 
 
 <!-- 
@@ -416,6 +429,7 @@ However
 In fact, it seems that historically the private market's willingness to build large quantities of rental buildings is a function of the extent they're effective short and medium term _tax shelters_.
 -->
 
+<!--
 <h3>Making the economic case for rent controls</h3>
 
 
@@ -430,6 +444,7 @@ A little under half of Toronto's residents rent and this percentage has remained
 By 2016, it was estimated that 34% of all condos were destined to be rented out.[^gadon-2017] Who buys condos and why?
 
 In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 we measured 32%.
+-->
 
 [^ltb-2017]: Landlord and Tenant Board. (2017, May). Brochure: A Guide to the Residential Tenancies Act. Retrieved September 29, 2017, from [sjto.gov.on.ca](http://www.sjto.gov.on.ca/documents/ltb/Brochures/Guide%20to%20RTA%20(English).html)
 
@@ -578,8 +593,7 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 [^haines-2017]: Haines, G. (2017, April 28). Making Cents of Ontario’s Rent Regulation: Assessing the Financial Impact of Rent Control and Developer Incentives. Ryerson City Building Institute.
 
 
-[^tal-cibc-2]: Tal, B. (2017, March 15). GTA Housing—
-Rent Must be Part of the Solution. Retrieved September 12, 2017, from [economics.cibccm.com](https://economics.cibccm.com/economicsweb/cds?ID=2475&TYPE=EC_PDF)
+[^tal-cibc-2]: Tal, B. (2017, March 15). GTA Housing—Rent Must be Part of the Solution. Retrieved September 12, 2017, from [economics.cibccm.com](https://economics.cibccm.com/economicsweb/cds?ID=2475&TYPE=EC_PDF)
 
 [^urbanation]: Rental Demand Reaches Record High Following New Housing Rules. (2017, July 6). Retrieved September 27, 2017, from https://www.urbanation.ca/news/181-rental-demand-reaches-record-high-following-new-housing-rules
 
