@@ -214,15 +214,15 @@ Consider Manitoba, whose regulation scheme is broadly similar[^note-on-mb] and h
 
 In New Jersey, over one hundred municipalities have enacted their own rent controls. Each city implemented their regulation differently, but by and large they all permit automatic increases, passing on capital improvements, etc; almost half also engage in vacancy decontrol. In 2015 Joshua Ambrosius et al used the 2010 United States Census and compared the regulated cities with unregulated cities. They found that, once they controlled for other factors, New Jersey rent control policies had no statistical impact on rental quality, rental supply, property appreciation or foreclosure rates in the cities that enacted them.[^ambrosius-2015]
 
-In fact, tenancy rent controls seem to barely control rents at all. Writing earlier this year, Graham Haines analyzed Ontario's rent regulations and developed a model that estimated that "the discounted cumulative income earned by the rent controlled building was between 98.5% and 99.0% of that earned by the non-rent controlled building".[^haines-2017] 
+In fact, tenancy rent controls seem to barely control rents at all. Earlier this year Graham Haines analyzed Ontario's rent regulations and developed a model that estimated that "the discounted cumulative income earned by the rent controlled building was between 98.5% and 99.0% of that earned by the non-rent controlled building".[^haines-2017] 
 
 This finding is corroborated by both the Manitoba and the New Jersey study cited above. In New Jersey, median rents in rent controlled cities were found to be roughly the same as rents in non-controlled cities.[^ambrosius-2015-2] In Manitoba, Grant argues "there is no evidence that rent regulations have restricted rents below what would prevail in a perfectly-competitive market under equilibrium conditions".[^grant-2011-2]
 
-Though they do not quite confirm to my criteria above, two other studies are worth mentioning. Frank Denton et al, in a 1993 report commissioned by the CMHC, developed an econometric model and conducted an extensive empirical investigation of the impact of rent controls on Canadian housing markets. They concluded that "there is no evidence that controls influence the long-run rate of increase of rents", nor did they impact housing starts or maintenance though they do may lower vacancy rates.[^denton-1993] Celia Lazzarin analyzed rent regulations in British Columbia from 1974 to 1984 for her 1990 master's thesis. She found that basically there were too many confounding variables (demographics, unemployment, interest and inflation rates, migration, etc) to attribute the declines in Vancouver's rental supply solely to rent controls.[^lazzarin-1990]
+Though they do not quite confirm to my criteria above, two other studies are worth mentioning. Frank Denton et al, in a 1993 report commissioned by the CMHC, developed an econometric model and conducted an extensive empirical investigation of the impact of rent controls on Canadian housing markets. They concluded that "there is no evidence that controls influence the long-run rate of increase of rents", nor did they impact housing starts or maintenance though they may lower vacancy rates.[^denton-1993] Celia Lazzarin analyzed rent regulations in British Columbia from 1974 to 1984 for her 1990 master's thesis. She found that basically there were too many confounding variables (demographics, unemployment, interest and inflation rates, migration, etc) to attribute the declines in Vancouver's rental supply solely to rent controls.[^lazzarin-1990]
 
 <h3>Allocation concerns are misplaced</h3>
 
-Before we continue I would like to address two other common criticisms. 
+I would like to address a few other criticisms. 
 
 The first, advanced most notably by Edward Glaeser et al in 2003, is that by keeping rent prices down rent controls prevent the Pareto efficient allocation of housing to those who most value them &mdash; and that these misallocation costs can create greater social losses than the mere undersupply of housing. The canonical sympathetic example is that of a lonely widow occupying a three bedroom long past her actual need for the extra space. Glaeser et al created an econometric model whereby they rank preferences in housing size by socio-economic groups living in Hartford, CT and in Chicago, IL, and compare them to the same groups living in Manhattan. They conclude that about 20 percent of apartments in New York City are misallocated.[^glaeser-2003]
 
@@ -232,21 +232,27 @@ Most importantly, the entire analysis encodes a normative assumption that proper
 
 Quickly, a similar argument is made elsewhere with regard to the cost of mismatching labour to jobs; rent controls disincentivize job seekers from moving closer to work, since their housing costs will likely increase. I think this is also bonkers, for the same reason as above: this analysis is not applied to homeownership. Transaction and moving costs are if anything higher for homeowners, and the extent to which incentivizing homeownership is the sole driving focus of much of our housing policy apparatus renders this argument moot.
 
-It's not clear to me why we should apply certain arguments to one kind of housing tenure and not another.
+It's not clear to me why we should apply these arguments to one kind of housing tenure and not another.
 
-<h3>affordability only loosely linked to supply</h3>
+Finally, another argument against rent regulation concerns the price signalling mechanism. New potential landlords use rent prices to evaluate the viability of new rental buildings. If prices lag too much behind actual market values then that could hurt supply as otherwise worthwhile projects are delayed or not developed. However, that confuses the causal mechanism since in that scenario the actual problem (as discussed above) is the fact that rental buildings are being crowded out by other more profitable investments. It does not follow that the correct measure is to raise median rents and transfer income from existing tenants to existing landlords, since rental buildings will likely remain price takers.
 
-the rent necessary to carry an investment depends on the amount of money you paid for the land. if land values are driven by ownership, and ownership is driven by speculative dollars flowing from capital markets, then building more ceteris paribus may not actually lower prices, lol.
+<h3>The future is renting, but we made it shitty to be rent</h3>
 
-quote from cibc, rbc about how prices are no longer linked to fundamentals.
+There is one noticeable disadvantage to a tenancy rent control: in tight markets the delta between long term tenant rates and market rates can grow rather large. Therefore landlords may try to select for shorter term tenancies and prefer to build smaller units, i.e. by preferring students over families. I think we can ameliorate that by, paired with a temporary exemption for new construction, moderately controlling vacancies. If inter-tenancy rent increases are restricted by 10 or even 5% over inflation we reduce the incentive for high tenancy turnover, smooth rapid price increases across the market, and preserve the normal incentive structure described above.[^vacancy-control] However, rent prices over time would still approach market rates. 
 
-<h3>housing is essential technology for the economy; the future is renting</h3>
+Ultimately, our housing crisis is a matter of income: tenants with low incomes have an _income_ problem, not a housing problem.[^hswg-final] [^brescia-2005-3] Land prices and other costs, driven by restrictive land use policies and the speculative boom, have grown faster than tenant incomes and pushed financial recovery rents beyond what most of the rental population can afford or finds reasonable. While land prices continue to grow above inflation or wages, maintaining affordable housing stock will continue to be a challenge.[^affordable-challenge]
 
-there are massive bonuses to density and cities are the economic engines of the future. at the densities cities operate at it's not reasonable to expect people on average to own freehold title, or even necessarily buy into apartments.
+Back in March, CIBC's Benjamin Tal wrote that "the GTA market is fast approaching a full-blown affordability crisis" as a surge in demand due to "a notable increase in speculative and flipping activity" is pricing out most people from ownership markets. He argues that therefore municipalities must "rethink the role of rental activity in the region’s housing mix".[^tal-rent-2017] Though I am prone to quibble with some of his preferred solutions,[^quibbling] it seems correct to observe that current macro economic conditions are rushing us towards a new era of unobtainable ownership prices.
 
-benjamin tal from cibc thinks so, link to his op-ed from march. this brings us finally to the real argument for rent control: security of tenure is crucial in this environment,
 
-<h3>Housing instability is a rather harsh externality imposed on tenants</h3>
+
+
+The important part here to consider is while the full set of consequences from our present situation may be unintentional it did not occur by accident. 
+
+
+Last year, the New Zealand Housing Foundation commissioned a report on the social and economic impacts of housing tenure, which rather helpfully summarized the extant literature. The picture ain't pretty. 
+
+
 
 "but if rent prices do not go up to match financial recovery rates that will hurt new supply" is a ridiculous argument since in that scenario the problem is land value appreciation over inflation causing rentals to be crowded out by other uses. while it's true that the price signalling mechanism is distorted by the controlled rent regime - and therefore rental buildings are not being adequately allocated by the market mechanism - it does not follow that the correct measure is to raise median rents and transfer income from landlords to tenants.
 
@@ -556,6 +562,8 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 [^marr-2017]: Marr, G. (2017, July 18). Rent controls, no worries. Developer unveils major apartment complex in downtown Toronto. Retrieved September 14, 2017, from http://business.financialpost.com/real-estate/property-post/one-of-the-best-assets-classes-major-landlord-expects-rental-apartment-demand-to-remain-strong-despite-rent-controls
 
+[^vacancy-control]:  Why not fully control vacancies? Why not control for inflation plus costs everywhere at all times? My heart says yes, but... I think there is a legitimate concern with overregulating. A common refrain today is that the guideline increase does not adequately capture the increasing cost of utilities. I'm open to the idea that landlords deserve some "safety valve", and also that prices over time should probably be exposed to _some_, milder, market mechanism.
+
 [^hswg-final]: Lampert, G., Pomeroy, S., & Bradley, R. (2002). Creating a Positive Climate for Rental Housing Development Through Tax and Mortgage Insurance Reforms: The Second Report of the Housing Supply Working Group (p. 7, Rep.). Toronto: Ministry of Municipal Affairs and Housing.
 
 [^tait-2017]: Tait, S. (2017, April 30). Ontario’s Fair Housing Plan & Purpose-Built Rental Development. Retrieved September 14, 2017, from https://www.linkedin.com/pulse/ontarios-fair-housing-plan-purpose-built-rental-development-sean-tait/
@@ -599,6 +607,14 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 [^glaeser-2003]: Glaeser, E., & Luttmer, E. F. (2003). The Misallocation of Housing Under Rent Control. American Economic Review, 93(4), 1027-1046. doi:10.1257/000282803769206188
 
 [^nota-bene-3]: I reserve the right to have misinterpreted this paper; perhaps they do cover that aspect in a later paper, and I welcome readers to correct my understanding.
+
+[^tal-rent-2017]: Tal, B. (2017, March 15). GTA Housing—Rent Must be Part of the Solution. Retrieved September 1, 2017, from [economics.cibccm.com](https://economics.cibccm.com/economicsweb/cds?ID=2475&TYPE=EC_PDF)
+
+[^quibbling]: Relaxing intensification targets and eating away at the Greenbelt is short sighted and ill advised. It says a lot that in political economy terms giving up those goals is easier than rezoning our land and increasing density. However, it will harm us in the long run as we miss out on economic clustering effects and continue to waste good money on unsustainable low density development. While I'm at it, the implicit assumption that the present equilibrium, where land prices are allowed to inflate at arbitrary values, is value neutral or not worth direct policy action is suspect but then again, I don't work at a mortgage lender ;).
+
+[^affordable-challenge]: In the absence of subsidy, the private sector is unlikely to build new rental housing for the low end of the market. Though the profitability of building modest cost ownership housing in large volumes can approach that of smaller quantities of high end ownership housing, the same is not true for affordable rentals. It costs only slightly less to build an affordable rental, compared to building high end, but the resulting income stream is substantially smaller.[^hswg-2001]<br/><br/> Relatively affordable privately developed housing, then, occurs because as inflation and mortgage payments decrease carrying costs over time the rent necessary to carry a rental investment decreases. And, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply. In theory, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing.[^brescia-2005-2] In practice, as housing preferences change and formerly 'downtrodden' areas become trendy, the filtering chain can get interrupted as higher-income people renovate and move into formerly lower-income areas.
+
+
 
 [^cmhc-2016]: The Secondary Rental Market in Canada - Estimated Size and Composition. (2016, June 13). Retrieved September 15, 2017, from https://www.cmhc-schl.gc.ca/en/hoficlincl/observer/observer_068.cfm <br/><br/> Note that this report classifies subsidized housing as a "secondary" rental, which is both conceptually weird and directly contradicts all the other literature I've found on the topic. We know from (Gadon, 2017)[^gadon-2017] that assisted housing constitutes about 7% of Toronto's rental market, hence "under half".
 
