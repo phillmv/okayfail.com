@@ -234,20 +234,21 @@ Quickly, a similar argument is made elsewhere with regard to the cost of mismatc
 
 It's not clear to me why we should apply these arguments to one kind of housing tenure and not another.
 
-Finally, another argument against rent regulation concerns the price signalling mechanism. New potential landlords use rent prices to evaluate the viability of new rental buildings. If prices lag too much behind actual market values then that could hurt supply as otherwise worthwhile projects are delayed or not developed. However, that confuses the causal mechanism since in that scenario the actual problem (as discussed above) is the fact that rental buildings are being crowded out by other more profitable investments. It does not follow that the correct measure is to raise median rents and transfer income from existing tenants to existing landlords, since rental buildings will likely remain price takers.
-
-<h3>Some downsides are real</h3>
+<h3>Some downsides are real, though</h3>
 
 There is one noticeable disadvantage to a tenancy rent control: in tight markets the delta between long term tenant rates and market rates can grow rather large. 
 
 Therefore landlords may try to select for shorter term tenancies and prefer to build smaller units, i.e. by preferring students over families. I think we can ameliorate that by, paired with a temporary exemption for new construction, moderately controlling vacancies. If inter-tenancy rent increases are restricted by 10 or even 5% over inflation we reduce the incentive for high tenancy turnover, smooth rapid price increases across the market, and preserve the normal incentive structure described above.[^vacancy-control] However, rent prices over time would still approach market rates.
 
-Keeping some rents below market prices has another detrimental effect: it encourages property owners to convert to unregulated forms of tenure. This is a well documented effect. Lawrence Smith's 1988 paper mentions this for Toronto. David Sims, writing in 2007, examined what happened after Massachussets ended rent controls in 1994. He argues that units in previously controlled areas became 6-7 percentage points more likely to be rented out (though also 8 percentage points likelier to be converted to a condominium, now that conversion prohibitions were also lifted).[^sims-2007]
+Keeping some rents below market prices has another detrimental effect: it encourages property owners to convert to unregulated forms of tenure. This is a well documented effect. Lawrence Smith's 1988 paper mentions this for Toronto, and earlier I cited McFarlane.[^macfarlane-2001] I've chosen to highlight two other papers. David Sims, writing in 2007, examined what happened after Massachussets ended rent controls in 1994. He argues that units in previously controlled areas became 6-7 percentage points more likely to be rented out, i.e. that units were kept from the rental market.[^sims-2007]
 
-Rebecca Diamond et al, in a freshly published paper, leveraged a uniquely rich dataset. In 1994, the city of San Francisco extended its rent regulation to buildings with 4 or fewer rental units (about 30% of the rental stock). Combining a private data provider with property records, they were able to follow individual San Francisco tenants occupying regulated and unregulated housing units from 1994 to the present day. They found "that rent-controlled buildings were almost 10 percent more likely to convert to a condo or a Tenancy in Common".[^diamond-2017]
+Rebecca Diamond et al, in a freshly published paper, leveraged a uniquely rich dataset. In 1994, the city of San Francisco extended its rent regulation to buildings with 4 or fewer rental units built before 1980 (about 30% of the rental stock). Combining a private data provider with property records, they were able to follow individual San Francisco tenants occupying regulated and unregulated housing units from 1994 to the present day. They found "that rent-controlled buildings were almost 10 percent more likely to convert to a condo or a Tenancy in Common".[^diamond-2017]
 
-that tenants receiving rent control were up to 20% likelier to remain in their apartments and that "absent rent control essentially all of those incentivized to stay in their apartments would have otherwise moved out of San Francisco." However, regulated buildings were 8% likelier to be converted into non-rental tenure.
+There is some reason to doubt these numbers prima facie, since converted housing units remain part of the housing stock &mdash; and a large percentage of condominiums get rented out to tenants without this necessarily being reflected in most housing data sources. It may be more accurate to say that primary rental units are being converted to ownership _and_ the secondary rental market. In addition, California's Ellis Act creates an unusually permissive environment for conversions. 
 
+Contrast with Massachussets, where they were largely prohibited: Sims found that "rent decontrol is associated with an 8 percentage point increase in the probability of a unit being a condominium", presumably since restrictions on conversions were lifted.[^sims-2007] Nevertheless, it seems fair to conclude that keeping units below market rates exacerbates the incentive towards redeveloping them.
+
+Yet, reading these papers I can't help but think that the actual problem has more to do with rising land values and the lack of new supply. San Francisco, rather famously, doesn't build much in the way of new housing despite creating torrents of well paid jobs.[^torres-2017]
 
 <h3>The future is renting, but we made it shitty to be a renter</h3>
 
@@ -255,31 +256,25 @@ Ultimately, our housing crisis is a matter of income: tenants with low incomes h
 
 
 
-MENTION STEELE, who says tax changes made things more attractive for condo-unit landlords, and read crook 1998.
+[MENTION STEELE, who says tax changes made things more attractive for condo-unit landlords, and read crook 1998.]
 
 Back in March, CIBC's Benjamin Tal wrote that "the GTA market is fast approaching a full-blown affordability crisis" as a surge in demand due to "a notable increase in speculative and flipping activity" is pricing out most people from ownership markets. He argues that therefore municipalities must "rethink the role of rental activity in the region’s housing mix".[^tal-rent-2017] Though I am prone to quibble with some of his preferred solutions,[^quibbling] it seems correct to observe that current macro economic conditions are rushing us towards a new era of unobtainable ownership prices.
 
 
+housing markets tied to capital markets; implicit expectation behind allowing rents to float to market rates is that landlords deserve to capture growth in value immediately rather than just thru capital gains. why should we transfer income from tenants to landlords on the basis of low interest rates?
 
+rc _is_ effective at keeping people in their homes, though. Sims found that ppl stayed on avg another 1.6 years; Diamond  found that tenants receiving rent control were up to 20% likelier to remain in their apartments and that "absent rent control essentially all of those incentivized to stay in their apartments would have otherwise moved out of San Francisco."  Diamond argues that it'd be simpler to just have the government insure tenants directly but that's still a weird transfer to landlords. 
 
-The important part here to consider is while the full set of consequences from our present situation may be unintentional it did not occur by accident. 
+the essential observation here is that rc causes rentals to decline _in so far that they are crowded out_ as investments by ownership housing and other uses. However, we substantially subsidize ownership housing. 
 
+The important part here to consider is while the full set of consequences from our present situation may be unintentional it did not occur by accident.  the relative attractiveness of ownership housing is a government policy; the relative scarcity of land via exclusionary zoning is a government policy; rental buildings as it stands today would not be built at all without the direct intervention of a government agency.[black, cmhc insurance rates]
 
-Last year, the New Zealand Housing Foundation commissioned a report on the social and economic impacts of housing tenure, which rather helpfully summarized the extant literature. The picture ain't pretty. 
-
-
-
-"but if rent prices do not go up to match financial recovery rates that will hurt new supply" is a ridiculous argument since in that scenario the problem is land value appreciation over inflation causing rentals to be crowded out by other uses. while it's true that the price signalling mechanism is distorted by the controlled rent regime - and therefore rental buildings are not being adequately allocated by the market mechanism - it does not follow that the correct measure is to raise median rents and transfer income from landlords to tenants.
-
-
-the answer then is to tweak how we intervene.
+if rental buildings are profitable to the extent that they are _tax shelters_ answer then is to tweak how we intervene.
 
 a report commissioned by the new zealand housing comission summarized the impacts of housing tenure and the results are bleak: tenants have poorer health, live in areas with more crime, take longer to recover from unemployment, etc.
 
-the only thing that is different is security of tenure.
+the main thing that is different is security of tenure. security of tenure is a public good: everyone benefits while any given person's security of tenure does not exclude anyone else's.
 
-
-the relative attractiveness of ownership housing is a government policy; the relative scarcity of land via exclusionary zoning is a government policy; rental buildings as it stands today would not be built at all without the direct intervention of a government agency.[black, cmhc insurance rates]
 
 <!--
 Vacancy decontrolled regimes like ours have a much more limited effect since they allow average rents to approach market rates over time. A 2011 study of Manitoba's rent regulation, which is broadly similar to Ontario's, found that  [NOTE ON HOW MANITOBA's [RC HERE](http://www.gov.mb.ca/cca/pubs/rental_report)] <h3>The future is renting</h3>
@@ -580,6 +575,8 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 [^vacancy-control]:  Why not fully control vacancies? Why not control for inflation plus costs everywhere at all times? My heart says yes, but... I think there is a legitimate concern with overregulating. A common refrain today is that the guideline increase does not adequately capture the increasing cost of utilities. I'm open to the idea that landlords deserve some "safety valve", and also that prices over time should probably be exposed to _some_, milder, market mechanism.
 
 [^diamond-2017]: Diamond, R., McQuade, T., & Qian, F. (2017). The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality: Evidence from San Francisco.
+
+[^torres-2017]: Torres, B. (2017, April 28). Housing’s tale of two cities: Seattle builds, S.F. lags. Retrieved October 30, 2017, from https://www.bizjournals.com/sanfrancisco/news/2017/04/28/san-francisco-seattle-housing-production-pipelines.html
 
 [^hswg-final]: Lampert, G., Pomeroy, S., & Bradley, R. (2002). Creating a Positive Climate for Rental Housing Development Through Tax and Mortgage Insurance Reforms: The Second Report of the Housing Supply Working Group (p. 7, Rep.). Toronto: Ministry of Municipal Affairs and Housing.
 
