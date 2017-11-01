@@ -220,7 +220,7 @@ This finding is corroborated by both the Manitoba and the New Jersey study cited
 
 Though they do not quite confirm to my criteria above, two other studies are worth mentioning. Frank Denton et al, in a 1993 report commissioned by the CMHC, developed an econometric model and conducted an extensive empirical investigation of the impact of rent controls on Canadian housing markets. They concluded that "there is no evidence that controls influence the long-run rate of increase of rents", nor did they impact housing starts or maintenance though they may lower vacancy rates.[^denton-1993] Celia Lazzarin analyzed rent regulations in British Columbia from 1974 to 1984 for her 1990 master's thesis. She found that basically there were too many confounding variables (demographics, unemployment, interest and inflation rates, migration, etc) to attribute the declines in Vancouver's rental supply solely to rent controls.[^lazzarin-1990]
 
-<h3>Allocation concerns are misplaced</h3>
+<!--<h3>Allocation concerns are misplaced</h3>
 
 I would like to address a few other criticisms. 
 
@@ -232,41 +232,63 @@ Most importantly, the entire analysis encodes a normative assumption that proper
 
 Quickly, a similar argument is made elsewhere with regard to the cost of mismatching labour to jobs; rent controls disincentivize job seekers from moving closer to work, since their housing costs will likely increase. I think this is also puzzling, for the same reason as above: this analysis is not applied to homeownership. Transaction and moving costs are if anything higher for homeowners, and the extent to which incentivizing homeownership is the sole driving focus of much of our housing policy apparatus renders this argument moot.
 
-It's not clear to me why we should apply these arguments to one kind of housing tenure and not another.
+It's not clear to me why we should apply these arguments to one kind of housing tenure and not another.-->
 
 <h3>Some downsides are real, though</h3>
 
 There is one noticeable disadvantage to a tenancy rent control: in tight markets the delta between long term tenant rates and market rates can grow rather large. 
 
-Landlords therefore may try to select for shorter term tenancies and prefer to build smaller units, i.e. by preferring students over families. I think we can ameliorate that by, paired with a temporary exemption for new construction, moderately controlling vacancies. If inter-tenancy rent increases are restricted by 10 or even 5% over inflation we reduce the incentive for high tenancy turnover, smooth rapid price increases across the market, and preserve the normal incentive structure described above.[^vacancy-control] However, rent prices over time would still approach market rates.
+Because rents reset between tenants, landlords therefore may try to select for shorter term tenancies (i.e. by preferring students over families) and building smaller units. Lawrence Smith wrote about this in 2003, as well as Richard Arnott.[^smith-2003] [^arnott-2003] I think we can ameliorate that by moderately controlling vacancies, paired with a temporary exemption for new construction. If inter-tenancy rent increases are restricted by 10 or even 5% over inflation we reduce the incentive for high tenancy turnover, smooth rapid price increases across the market, and preserve the normal incentive structure described above.[^vacancy-control] However, rent prices over time would still approach market rates.
 
-Keeping some rents below market prices has another detrimental effect: it encourages property owners to convert to unregulated forms of tenure. This is a well argued and documented. Lawrence Smith's 1988 paper mentions this for Toronto, and earlier I cited McFarlane.[^macfarlane-2001] I've chosen to highlight two other papers. David Sims, writing in 2007, examined what happened after Massachussets ended rent controls in 1994. He argues that units in previously controlled areas became 6-7 percentage points more likely to be rented out, i.e. that units were kept from the rental market.[^sims-2007]
+Keeping some rents below market prices has another detrimental effect: it encourages property owners to economically evict their tenants via renovations or to convert to unregulated forms of tenure. Lawrence Smith's 1988 paper mentions this for Toronto, and earlier I cited McFarlane.[^macfarlane-2001] I've chosen to highlight two other papers. David Sims, writing in 2007, examined what happened after Massachussets ended rent controls in 1994. He argues that units in previously controlled areas became 6-7 percentage points more likely to be rented out, i.e. that units were kept from the rental market.[^sims-2007]
 
 Rebecca Diamond et al, in a freshly published paper, leveraged a uniquely rich dataset. In 1994, the city of San Francisco extended its rent regulation to buildings with 4 or fewer rental units built before 1980 (about 30% of the rental stock). Combining a private data provider with property records, they were able to follow individual San Francisco tenants occupying regulated and unregulated housing units from 1994 to the present day. They found "that rent-controlled buildings were almost 10 percent more likely to convert to a condo or a Tenancy in Common".[^diamond-2017]
 
 There is some reason to doubt these numbers prima facie, since converted housing units remain part of the housing stock &mdash; and a large percentage of condominiums get rented out to tenants without this necessarily being reflected in most housing data sources (though it seems that Diamond's dataset mostly controls for this). It may be more accurate to say that primary rental units are being converted to ownership _and_ the secondary rental market. 
 
-In addition, California's Ellis Act creates a relatively permissive environment for conversions. Contrast with Massachussets: Sims found that "rent decontrol is associated with an 8 percentage point increase in the probability of a unit being a condominium", presumably since conversion restrictions were lifted.[^sims-2007] Nevertheless, it seems fair to conclude that keeping units below market rates exacerbates the incentive towards redeveloping them.
+In addition, California's Ellis Act creates a relatively permissive environment for conversions. Contrast with Massachussets: Sims found that "rent decontrol is associated with an 8 percentage point increase in the probability of a unit being a condominium", presumably since conversion restrictions were lifted.[^sims-2007] Nevertheless, it seems fair to conclude that keeping units below market rates exacerbates the incentive towards selling them or redeveloping them.
 
 Reading these papers I can't help but think that the actual problem has more to do with rising land values and the lack of new supply. That regular, continuous growth in market rates makes conversions attractive is not surprising. San Francisco's property values have appreciated by 550% over the last thirty years,[^mclaughlin-2016] and it rather famously doesn't build much in the way of new housing despite creating lots of well paid jobs.[^torres-2017]
 
-<h3>The future is renting, but we make it shitty to be a renter</h3>
+<h3>Affordability is about the land</h3>
 
-The essential observation here is that rent controls cause a decline in rentals not because they are rendered unprofitable but because they are crowded out by ownership housing and other, more profitable uses. Today's land prices set the floor on the rent tomorrow's new supply needs to charge, and so it seems to me that when we talk about letting rent prices float to market rates we imply that landlords deserve to capture the growth in value immediately rather than just through capital gains. But to the extent that land values in certain cities are a function of inelastic supply, capital markets and low interest rates, that seems like a strange reason to support a transfer from tenants to landlords.
+The essential observation here is that rent controls cause a decline in rentals not because they are rendered unprofitable but because they are crowded out by ownership housing and other, more profitable uses. Today's land prices set the floor on the rent tomorrow's new supply needs to extract, and so it seems to me that when we talk about letting rent prices float to market rates we imply that landlords deserve to capture the growth in value immediately rather than just through capital gains. But to the extent that land values in certain cities are a function of inelastic supply, capital markets and low interest rates, that seems like a strange reason to support a transfer from tenants to landlords.
 
-Ultimately, our housing crisis is a matter of income: tenants with low incomes have an _income_ problem, not a housing problem.[^hswg-final] [^brescia-2005-3] Land prices and other costs, driven by restrictive land use policies and the speculative boom, have grown faster than tenant incomes and pushed financial recovery rents beyond what most of the rental population can afford or finds reasonable. While land prices continue to grow above inflation or wages, maintaining affordable housing stock will continue to be a challenge.[^affordable-challenge]
+Ultimately, our housing crisis is a matter of income: tenants with low incomes have an _income_ problem, not a housing problem.[^hswg-final] [^brescia-2005-3] Land prices and other costs, driven by restrictive land use policies and the speculative boom, have grown faster than tenant incomes and pushed financial recovery rents beyond what most of the rental population can afford or finds reasonable. While land prices continue to grow above inflation or wages, maintaining affordable housing stock will continue to be a challenge.
 
-A well-designed rent control over the long run allows rents to reach market rates and therefore does not directly help with affordability. A well-designed rent control allows landlords to pass through capital expenditures and somewhat incentivizes renovations and therefore does not directly help with gentrification. What is it good for?
+ In the absence of subsidy, the private sector is unlikely to build new rental housing for the low end of the market. Though the profitability of building modest cost ownership housing in large volumes can approach that of smaller quantities of high end ownership housing, the same is not true for affordable rentals. It costs only slightly less to build an affordable rental, compared to building high end, but the resulting income stream is substantially smaller.[^hswg-2001]
+ 
+ Relatively affordable privately developed housing, then, occurs because as inflation and mortgage payments decrease carrying costs over time the rent necessary to carry a rental investment decreases. And, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply. In theory, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing.[^brescia-2005-2] In practice, as housing preferences change and formerly 'downtrodden' areas become trendy, the filtering chain can get interrupted as higher-income people renovate and move into formerly lower-income areas.
 
-Rent regulations do seem to be effective at keeping people in their homes. Just to reference the last two papers I talked about, Sims found that "decontrol is associated with a decrease of renter stays of 1.84 years", which is rather "sizeable when compared to the mean renter stay of 6 years in the sample".[^sims-2007] This is framed as a loss of efficiency in terms of labour mobility, but I'm not sure it's that cut and dry. Back in 1998, the _Economist_ reported that in Cambridge "nearly 40% of tenants in regulated flats moved out after rent control ended", and that "decontrolled rents overall jumped by more than 50% between 1994 and 1997".[^economist-1998] Most striking is the result from Diamond's research. Diamond et al found that tenants receiving rent control were up to 20% likelier to remain in their apartments and that "absent rent control essentially all of those incentivized to stay in their apartments would have otherwise moved out of San Francisco".[^diamond-2017]
+A well-designed rent control over the long run allows rents to reach market rates and therefore does not directly help with affordability. A well-designed rent control allows landlords to pass through capital expenditures and somewhat incentivizes renovations, and therefore does not directly help with gentrification. 
 
-Diamond frames rent regulations as a kind of insurance against rent increases whose cost in practice is bourne by all tenants, as the restriction in supply causes unregulated or vacant rents to rise. She then argues that providing this insurance function directly as a government subsidy or tax credit would be more efficient.[^diamond-2017] And... at a glance, I don't disagree! It still feels like a weird transfer to private landlords, but it's worth considering.
+What are rent controls good for, then?
 
-After all, we substantially subsidize private ownerhsip. Its relative attractiveness as an investment is the direct result of government policy. The relative scarcity of land via exclusionary zoning is a government policy. Financial liberalization and the coupling of capital markets to home financing was the result of government policy. Most suggestions for how to improve the affordability of rental buildings involve either direct subsidies or the reinstitution of tax shelters, and the extent to which they are built at all today would not happen without the direct intervention of a government agency, the CMHC.
+<h2>Security of Tenure is a Public Good</h2>
+
+Rent regulations do seem to be effective at keeping current tenants in their homes. 
+
+For example, back in 1998, the _Economist_ reported that in Cambridge "nearly 40% of tenants in regulated flats moved out after rent control ended", and that "decontrolled rents overall jumped by more than 50% between 1994 and 1997".[^economist-1998]  Sims, referenced above and discussing the same decontrol event, found that "decontrol is associated with a decrease of renter stays of 1.84 years", which is rather "sizeable when compared to the mean renter stay of 6 years in the sample".[^sims-2007] This is framed as a loss of efficiency in terms of labour mobility, but I'm not sure it's that cut and dry. 
+
+Most striking is the result from Diamond's research. Diamond et al found that tenants receiving rent control were up to 20% likelier to remain in their apartments and that "absent rent control essentially all of those incentivized to stay in their apartments would have otherwise moved out of San Francisco". Diamond frames rent regulations as a kind of insurance against rent increases whose cost in practice is bourne by all tenants, as the restriction in supply causes unregulated or vacant rents to rise more than they would have otherwise. She then argues that providing this insurance function directly as a government subsidy or tax credit would be more efficient.[^diamond-2017] 
+
+But why should we provide this subsidy in the first place? The literature on rent controls has much to say about efficient allocation, property values, supply, demand, etc but unfortunately economists and other commentators rarely have much to say about security of tenure. In a 2003 paper reviewing tenancy rent controls, Arnott noted that
+
+>Almost all economists lead financially secure lives and were raised by parents who emphasized responsibility and self-discipline. They have little or no personal experience with the insecurity that is ever-present in the lives of the less advantaged—those from dysfunctional families, those not raised to middle-class values, and the less able—who tend to live from one paycheck to the next. Not surprisingly, therefore, most economists ignore or underemphasize the importance of security of tenure in rental housing, even though it is consistently second only to affordability on the list of concerns raised by tenant groups.[^arnott-2003]
+
+Security of tenure is the notion that tenants have the right to occupy a home and be protected from being forced to leave against their will. By way of contrast, a homeowner's right to security of tenure is usually taken for granted; so long as they're current on mortgage payments (if any), taxes, etc, a homeowner is protected from involuntary eviction. That security is not absolute, of course: they may be expropriated or rising interest rates may render them unable to afford their home, but by and large "they cannot be forced out at the whim of someone else".[^yee-1989]
+
+By default in most common law jurisdictions tenants do not have this security. They may be denied a renewal of their lease, they may be subject to seizure by landlords who simply dislike them, or they may be 'economically evicted' due to arbitrary increases in their rent. As a result, providing tenants with security of tenure entails not only that we ensure that housing units are safe for inhabitation and well maintained, but also that we prevent landlords from exercising their economic power over tenants in undue ways. 
+
+But why should we intervene in our housing markets and regulate them to achieve this end? In a perfect market, tenants should be on average free from arbitrary increases or poorly maintained units due to the emancipating effect of competition. David Hulchanksi, writing in 1984, argued that our housing markets routinely fail to provide those conditions, and that they are likely to continue to do so.[^hulchanski-30-later] Faced with a constant state of market failure, and the broad recognition that market efficiencies aren't always our top priority, it becomes appropriate to design and tweak and an appropriate set of regulations.[^hulchanksi-1984]
+
+And why shouldn't we intervene? Our housing markets do not exist in a state of nature. After all, we substantially subsidize private ownership. Its relative attractiveness as an investment is the direct result of government policy. The relative scarcity of land via exclusionary zoning is a government policy. Financial liberalization and the coupling of capital markets to home financing was the result of government policy. 
+
+Most suggestions for how to improve the affordability of rental buildings involve either direct subsidies or the reinstitution of tax shelters, and the extent to which they are built at all today would not happen without the direct intervention of a government agency, the CMHC.
+
+Why do we intervene and regulate our housing markets? And how have our attitudes shifted over time?
 
 <!--For better or for worse, renting is poised for a comeback. Back in March, CIBC's Benjamin Tal wrote that "the GTA market is fast approaching a full-blown affordability crisis" as a surge in demand due to "a notable increase in speculative and flipping activity" is pricing out most people from ownership markets. He argues that therefore municipalities must "rethink the role of rental activity in the region’s housing mix".[^tal-rent-2017] Though I am prone to quibble with some of his preferred solutions,[^quibbling] it seems correct to observe that current macro economic conditions are rushing us towards a new era of unobtainable ownership prices.-->
-
-I think security of tenure is a public good, and that we'll all be better off for it. But before we continue, I think it's worth understanding how do we currently intervene in our housing markets.
 
 <!--
 housing markets tied to capital markets; implicit expectation behind allowing rents to float to market rates is that landlords deserve to capture growth in value immediately rather than just thru capital gains. why should we transfer income from tenants to landlords on the basis of low interest rates?
@@ -347,7 +369,7 @@ If the economics undergirding multi-residential property investments don't rely 
 -->
 
 
-<h2>A Brief History of Housing in Canada</h2>
+<h3>A Brief History of Housing in Canada</h3>
 
 Property rights and the markets they enable exist to the extent they are enforced and protected by the state. When we establish and regulate rights, we typically seek to balance the interests and concerns of everyone involved, and revisit those tradeoffs as our values and goals shift over time. We think our food should be safe to eat, our doctors should be well trained, and that you shouldn't dump waste anywhere you feel like.
 
@@ -497,7 +519,7 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 [^mercer-2017]: Mercer, G. (2017, May 13). Tenants sound alarm on creeping rents. Retrieved October 31, 2017, from https://www.therecord.com/news-story/7312772-tenants-sound-alarm-on-creeping-rents/
 
-[^hulchanksi-laissez]: Hulchanski 1984, pg 27
+[^hulchanksi-laissez]: Hulchanski (1984, p. 27)
 
 [^hulchanski-bulletin38]: Canada’s Dual Housing Policy Assisting Owners, Neglecting Renters
 
@@ -505,10 +527,10 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 [^suttor-abriged]: Canadian Social Housing: Policy Evolution and Program Periods © Greg Suttor, 2016, pg 12
 
 
-[^hulchanksi-tenant-rights]: Hulchanksi 1984, pg 74-75
+[^hulchanksi-tenant-rights]: Hulchanksi (1984, p. 74-75)
 
 
-[^yee-1989]: Rationales for Tenant Protection and Security of Tenure, Gary Yee 1989 pg 50
+[^yee-1989]: Yee, G. (1989) Rationales for Tenant Protection and Security of Tenure, Journal of Law and Social Policy (5), 48, 50
 
 
 [^desmond]: Eviction, pg 70, (pg 296-298)
@@ -643,10 +665,6 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 [^quibbling]: Relaxing intensification targets and eating away at the Greenbelt seems short sighted. It says a lot that in terms of our political economy giving up those goals is easier than rezoning our land and increasing density. However, it will harm us in the long run as we miss out on economic clustering effects and continue to waste good money on unsustainable low density development. While I'm at it, the implicit assumption that the present equilibrium, where land prices are allowed to inflate at arbitrary values, is value neutral or not worth direct policy action is suspect but then again, I don't work at a mortgage lender ;).
 
-[^affordable-challenge]: In the absence of subsidy, the private sector is unlikely to build new rental housing for the low end of the market. Though the profitability of building modest cost ownership housing in large volumes can approach that of smaller quantities of high end ownership housing, the same is not true for affordable rentals. It costs only slightly less to build an affordable rental, compared to building high end, but the resulting income stream is substantially smaller.[^hswg-2001]<br/><br/> Relatively affordable privately developed housing, then, occurs because as inflation and mortgage payments decrease carrying costs over time the rent necessary to carry a rental investment decreases. And, through a process called filtering, new high-end housing creates vacancies lower in the chain as people move on up to occupy new supply. In theory, as the existing housing stock ages and deteriorates, people with higher incomes will tend to prefer newer, higher quality housing.[^brescia-2005-2] In practice, as housing preferences change and formerly 'downtrodden' areas become trendy, the filtering chain can get interrupted as higher-income people renovate and move into formerly lower-income areas.
-
-
-
 [^cmhc-2016]: The Secondary Rental Market in Canada - Estimated Size and Composition. (2016, June 13). Retrieved September 15, 2017, from https://www.cmhc-schl.gc.ca/en/hoficlincl/observer/observer_068.cfm <br/><br/> Note that this report classifies subsidized housing as a "secondary" rental, which is both conceptually weird and directly contradicts all the other literature I've found on the topic. We know from (Gadon, 2017)[^gadon-2017] that assisted housing constitutes about 7% of Toronto's rental market, hence "under half".
 
 [^gadon-2017]: Gadon, S. (2017, April 3). Rental Housing Update: Presentation to Affordable Housing and Tenant Issues Committees (Rep.).
@@ -673,3 +691,7 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 
 
 [^brescia-2005-4]: Brescia, V. (2005). The Affordability of Housing in Ontario: Trends, Causes, Solutions (p. 26, Rep.).
+
+[^hulchanksi-1984]: Hulchanski, J. D. (1984) Market Imperfections and the Role of Rent Regulations in the Residential Rental Market, Toronto: Ontario Commission of Inquiry into Residential Tenancies, Research Study No. 6.
+
+[^hulchanski-30-later]: Thirty years later, the macro economic conditions have certainly changed: we no longer suffer from stagflation, high interest rates, etc, but after a brief respite in the '90s we still seem to have shortages and ever increasing prices.
