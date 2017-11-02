@@ -264,7 +264,7 @@ A well-designed rent control over the long run allows rents to reach market rate
 
 What are rent controls good for, then?
 
-<h2>Security of Tenure is a Public Good</h2>
+<h2>Security of tenure is great</h2>
 
 Rent regulations do seem to be effective at keeping current tenants in their homes. 
 
@@ -282,11 +282,9 @@ By default in most common law jurisdictions tenants do not have this security. T
 
 But why should we intervene in our housing markets and regulate them to achieve this end? In a perfect market, tenants should be on average free from arbitrary increases or poorly maintained units due to the emancipating effect of competition. David Hulchanksi, writing in 1984, argued that our housing markets routinely fail to provide those conditions, and that they are likely to continue to do so.[^hulchanski-30-later] Faced with a constant state of market failure, and the broad recognition that market efficiencies aren't always our top priority, it becomes appropriate to design and tweak and an appropriate set of regulations.[^hulchanksi-1984]
 
-And why shouldn't we intervene? Our housing markets do not exist in a state of nature. After all, we substantially subsidize private ownership. Its relative attractiveness as an investment is the direct result of government policy. The relative scarcity of land via exclusionary zoning is a government policy. Financial liberalization and the coupling of capital markets to home financing was the result of government policy. 
+And why shouldn't we intervene? After all, we substantially subsidize private ownership. Its relative attractiveness as an investment is the direct result of government policy. The relative scarcity of land via exclusionary zoning is a government policy. Financial liberalization and the coupling of capital markets to home financing was the result of government policy. 
 
-Most suggestions for how to improve the affordability of rental buildings involve either direct subsidies or the reinstitution of tax shelters, and the extent to which they are built at all today would not happen without the direct intervention of a government agency, the CMHC.
-
-Why do we intervene and regulate our housing markets? And how have our attitudes shifted over time?
+Most suggestions for how to improve the affordability of rental buildings involve either direct subsidies or the reinstitution of tax shelters, and the extent to which they are built at all today would not happen without the direct intervention of a government agency, the CMHC. Our housing markets do not exist in a state of nature. 
 
 <!--For better or for worse, renting is poised for a comeback. Back in March, CIBC's Benjamin Tal wrote that "the GTA market is fast approaching a full-blown affordability crisis" as a surge in demand due to "a notable increase in speculative and flipping activity" is pricing out most people from ownership markets. He argues that therefore municipalities must "rethink the role of rental activity in the region’s housing mix".[^tal-rent-2017] Though I am prone to quibble with some of his preferred solutions,[^quibbling] it seems correct to observe that current macro economic conditions are rushing us towards a new era of unobtainable ownership prices.-->
 
@@ -388,17 +386,27 @@ In so far that our housing policy has targetted the middle class' standard of li
 
 
 
-<h2>Security of tenure is a public good</h2>
+<h3>Tenants have rights, too</h3>
 
 This is to say: what kind of living conditions do we want people to enjoy? and consequently, what, exactly, should be the goal of our housing system? have been considered important questions for over a century &mdash; and our answers to these questions have shifted over time. We began by regulating the safety of our housing, and today we significantly subsidize its ownership for those who can afford it. 
 
-Similarly, our perception of the nature of the relationship between property owners and tenants has also shifted.
+Similarly, our perception of the nature of the relationship between property owners and tenants has also shifted.[^yorke-2015]
 
 Under common law, which concerned itself with a leaseholder's (agricultural) relationship to the land, a landlord was under no statutory requirement to maintain the premises or conduct any repairs &mdash; nor were there any limits on their power to evict or even seize the property of tenants. A review of the applicable laws in 1968 found that landlords possessed such a disparity of bargaining power that tenants did not have a freedom of contract in any real sense.[^hulchanksi-tenant-rights]
 
 For a variety of ethical, legal and economic reasons, it became clear that tenants deserved protection, and that applying old-school land law principles to the modern urban apartment rental was totally unsuitable. Gradually the law caught up: Ontario adopted its first residential protection laws in 1970, while the notion that tenants deserve security of tenure was added by 1975. Today, landlords are seen as responsible for providing safe and livable accomodations, and that tenants should be protected from arbitrary evictions.[^yee-1989]
 
-Often, this is framed as a conflict of self-interests between landlords and tenants; tenants suffer disproportionate costs when forced to move, and benefit from stability. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of, and in that view, security of tenure is a public good.
+Often, this is framed as a conflict of self-interests between landlords and tenants; tenants suffer disproportionate costs when forced to move, and benefit from stability. But security of tenure doesn't just benefit individual tenants. The stability provided by security of tenure is the stuff from which well functioning communities are made of.
+
+<h3>Security of tenure is a public good</h3>
+
+In economics there exists a concept of a "public good", which broadly applies to any "service" or "thing that people derive benefit from" that is both non-excludable and non-rivalrous. Non-excludable means that you can't prevent people from enjoying it; non-rivalrous means that by enjoying the good you are not depriving other people from doing the same.[^cowen-2007]
+
+The classical examples include clean air, national security, knowledge, and so on. I can't prevent you from breathing in the same fresh air that I'm enjoying, and when you consume official government statistics you are not depriving me of the same benefit. Public goods aren't necessarily provided by the state, much the same way that the state provides access to some private goods. The distinction is relevant because the nature of public goods incentivizes people to be jerks and therefore public goods "must be provided for everyone if they are to be provided for anyone, and they must be paid for collectively or they cannot be had at all"[^galea-2016]
+
+Though housing itself is a private good, one's enjoyment of security does not impinge on the security of others. As we've seen, security of tenure cannot be provided without a collective investment of some sort since individual tenants rarely possess the bargaining power to afford it themselves. But more importantly, security of tenure provides benefits to the community at large &mdash; and in that vein also suffers from the free-rider problem that plagues other public goods.
+
+<h3>Security of tenure is good for the public</h3>
 
 Our communities consist of both physical infrastructure, like roads and public transit, as well as "human" infrastructure, like community organizations and loose neighbourhood ties. A neighbourhood may be desirable for its proximity to a grocery store &mdash; but also for the quality of its schools, the absence of crime and the vitality of its community events. A healthy neighbourhood is one where its residents are looking out for one another.
 
@@ -695,3 +703,12 @@ In 1990, 24% of Toronto tenants reported being in core housing need and by 2011 
 [^hulchanksi-1984]: Hulchanski, J. D. (1984) Market Imperfections and the Role of Rent Regulations in the Residential Rental Market, Toronto: Ontario Commission of Inquiry into Residential Tenancies, Research Study No. 6.
 
 [^hulchanski-30-later]: Thirty years later, the macro economic conditions have certainly changed: we no longer suffer from stagflation, high interest rates, etc, but after a brief respite in the '90s we still seem to have shortages and ever increasing prices.
+
+[^yorke-2015]: I haven't been able to corroborate this quote but it's eye popping:<br/><br/>"The next year, 1969, the Vancouver Tenants Council <strong>campaigned actively for the right of tenants to vote in civic elections,</strong> for enforcement of the building code, for changes in the Landlord and Tenant Act, for abolition of the Distress Act, and that landlords be compelled to give reasons for evictions." <br><br>I knew that in both Vancouver and Toronto non-resident property owners get to vote (presumably since they pay property taxes) but it blew my mind that this wasn't originally extended to _tenants_!<br/><br/> Yorke, B. (2015, December 10). The Tenant Movement in B.C. from 1968 to 1978. Retrieved September 20, 2017, from http://themainlander.com/2012/11/09/the-tenant-movement-in-b-c-from-1968-to-1978/
+
+
+[^galea-2016]: Quote is by John Kenneth Galbraith via Galea, S. (2016, January 10). Public Health as a Public Good \| SPH \| Boston University. Retrieved November 02, 2017, from https://www.bu.edu/sph/2016/01/10/public-health-as-a-public-good/
+
+[^cowen-2007]: Cowen, T. (2007, December). Public Goods. Retrieved November 02, 2017, from http://www.econlib.org/library/Enc/PublicGoods.html
+
+
