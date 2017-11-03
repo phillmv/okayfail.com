@@ -55,7 +55,7 @@ We're blessed that Ontario is a relatively well studied jurisdiction. Lawrence S
 
 
 <figure id="fref:fig1">
-<a href="/img/Ontario Housing Starts 1969-1986 Bar Chart.png"><img src="/img/Ontario Housing Starts 1969-1986 Bar Chart.png"></a>
+<a href="/img/Ontario Housing Starts 1969-1986.png"><img src="/img/Ontario Housing Starts 1969-1986.png"></a>
 <figcaption>
 <b>Figure 1.</b> Ontario housing starts by intended market 1969-1986. Note that this graph does not distinguish between private and government assisted rentals; from 1969-1974, private rentals constituted 72% of all starts, but from 1975 onwards assisted starts were over half of all rentals.</sup>
 </figcaption>
@@ -74,7 +74,7 @@ This means that for over twenty years we've lived in a regime where new construc
 Compiling data provided by the Canada Mortgage and Housing Corporation (CMHC), I was able to extend <a href="#fref:fig1">figure 1</a> up to the present day:
 
 <figure id="fref:fig2">
-<a href="/img/Ontario Housing Starts 1969-2016 Bar Chart.png"><img src="/img/Ontario Housing Starts 1969-2016 Bar Chart.png"></a>
+<a href="/img/Ontario Housing Starts 1969-2016.png"><img src="/img/Ontario Housing Starts 1969-2016.png"></a>
 <figcaption>
 <b>Figure 2.</b> Ontario housing starts by intended market 1969-2016. Note that data from 1987 onwards is restricted to areas with over 10,000 people, and therefore undercounts total starts.</sup>
 </figcaption>
@@ -97,7 +97,7 @@ I was able to identify two other big shifts that significantly impacted our hous
 The first happened in 1967, when Ontario legalized condominiums and created a new form of property ownership &mdash; thereby substantially altering the economics behind multi-residential buildings.
 
 <figure id="fref:fig3">
-<a href="/img/Ontario Housing Starts 1969-2016 Bar Chart With Condos.png"><img src="/img/Ontario Housing Starts 1969-2016 Bar Chart With Condos.png"></a>
+<a href="/img/Ontario Housing Starts 1969-2016 With Condos.png"><img src="/img/Ontario Housing Starts 1969-2016 With Condos.png"></a>
 <figcaption>
 <b>Figure 3.</b> Figure 2, but distinguishing condos from single, detached and other housing.
 </figcaption>
@@ -108,7 +108,7 @@ Looking at this data at a regional level is misleading, I think, since the growt
 For that reason, I dug up and plotted recent and historical data from Toronto:[^note-digging]
 
 <figure id="fref:fig4">
-<a href="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"><img src="/img/Toronto Housing Completions 1981-2016 - bar chart2.png"></a>
+<a href="/img/Toronto Housing Completions 1981-2016.png"><img src="/img/Toronto Housing Completions 1981-2016.png"></a>
 <figcaption>
 <b>Figure 4.</b> City of Toronto housing completions by intended market 1981-2016. Note that this graph measures completions as opposed to starts and is therefore not directly comparable to figure 3.
 </figcaption>
@@ -448,6 +448,12 @@ Almost no two rent controls are the same, and you have to be very careful when c
 Furthermore, not only do tenants deserve security of tenure, but we lead healthier, more productive lives in safer, more pleasant communities when residential stability can be taken for granted. Anyone who, discussing rent controls, does not bring up the problem of security of tenure, or blithely compares regulations from different jurisdictions, may be pulling your leg.
 
 Finally, housing is complicated and our governments routinely intervene and shape its outcomes. They're did a great job creating and subsidizing suburbs and middle class ownership, but they are failing the poor and people who live in cities.
+
+<h2>Appendix A: Tables</h2>
+
+1. [Ontario Housing Starts 1969-2016](/img/Ontario Housing Starts 1969-2016.xlsx)
+1. [Toronto Housing Completions 1981-2016](/img/Toronto Housing Completions 1981-2016.xlsx)
+1. [Canada Housing Starts 1951-2001](/img/Canada Housing Starts 1951-2001.xlsx)
 
 
 <!--
