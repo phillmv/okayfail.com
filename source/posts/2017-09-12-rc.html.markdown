@@ -12,32 +12,32 @@ Different jurisdictions have overlapping definitions of "rent control". What Ont
 
 This prompted a lot of commentary, ranging from [benign skepticism](http://tvo.org/article/current-affairs/the-next-ontario/ontario-needs-a-rental-rethink-but-should-tread-carefully) to [vigorous condemnation](https://beta.theglobeandmail.com/real-estate/toronto/new-ontario-rent-control-rules-exact-opposite-of-what-is-needed-analyst-warns/article34569276/). The chorus sounded like this:
 
-Against all common sense, the province is handing its cities a poisoned chalice: it is textbook economics that price controls sharply reduce the value of new construction.[^gee-2017]  Under rent control, the quantity and quality of available rental units will fall as developers are less incentivized to build or invest in rental properties &mdash; all of which exacerbates any price crunch.[^tal-2017] The fact is, rent control would largely help high-end renters in a high-end market, since most units built after the rent control exemption are condos. It’s tough to see how it would accomplish much except transferring money from unit owners to their tenants.[^selley] Instead, the province should be tackling the root of the problem &mdash; the supply of new housing units in Toronto et al is not keeping up with demand.[^thesun]
+Against all common sense, the province is handing its cities a poisoned chalice: it is textbook economics that price controls sharply reduce the value of new construction.[^gee-2017]  Under rent control, the quantity and quality of available rental units will fall as developers are less incentivized to build or invest in rental properties &mdash; all of which exacerbates any price crunch.[^tal-2017] The fact is, rent control would largely help high-end renters in a high-end market, since most units built after the rent control exemption are condos. It’s tough to see how it would accomplish much except transferring money from unit owners to their tenants.[^selley] Instead, the province should be tackling the root of the problem: the supply of new housing units in Toronto et al is not keeping up with demand.[^thesun]
 
 I find these takes range from the unconvincing to the disingenuous. Our housing delivery system is complex. We significantly intervene, subsidize and shape the funding and price mechanisms through which new housing is produced. We also regulate our housing markets in order to correct market inefficiencies, to prevent people from being exploited, and to change incentive structures to deliver outcomes we have deemed necessary or correct.  The regulation of rent, like many other kinds of regulation, is a response to market failure.
 
-Toronto is in the grips of a housing crisis. A speculative real estate bubble has priced out ownership for low and medium-income people,[^cbc-squeeze] and it's easy to find stories about sitting tenants seeing their rents jump by hundreds of dollars.[^cbc-martin] [^tgam-jaafari] [^mercer-2017] When demand for rental units is high and vacancy rates are low, landlords have a lot of power over their tenants &mdash; and all the more if they can increase rents at will. The absence of controls allows the unscrupulous to evict tenants exercising their rights, and the eager to arbitrarily extract more money for the same service they were providing before. I've been a renter in Toronto for almost a decade now, and I've watched rents in my neighbourhood(s) climb substantially; whenever I've had to look for housing, the uncertainty of living in an uncontrolled apartment has weighed heavily on my mind.
+Toronto is in the grips of a housing crisis. A speculative real estate bubble has priced out ownership for low and medium-income people,[^cbc-squeeze] and it's easy to find stories about sitting tenants seeing their rents jump by hundreds of dollars.[^cbc-martin] [^tgam-jaafari] [^mercer-2017] When demand for rental units is high and vacancy rates are low, landlords have a lot of power over their tenants &mdash; and all the more if they can increase rents at will. The absence of controls allows the unscrupulous to evict tenants exercising their rights, and the eager to extract more for the same service they provided before. I've been a renter in Toronto for almost a decade now, and I've watched rents in my neighbourhood(s) climb substantially; whenever I've had to look for housing, the uncertainty of living in an uncontrolled apartment has weighed heavily on my mind.
 
 For this reason, removing the exemption seemed like a no-brainer. Yet, hardly any skeptics writing on the topic engage with the social problem that a rent control seeks to solve: the provision of security of tenure. People who rent deserve to enjoy long-term stability in their housing. Not only do tenants have a moral right to remain in neighbourhoods they themselves have helped prosper, but it is also in our larger economic interest that they do so. If the success of our cities requires us to shift away from homeownership, then we must create the conditions for our communities to succeed with them.
 
-Rent controls, of course, don't create new housing units nor do they divert the speculative investment dollars driving up prices. But critics obscure the fact that rent controls vary markedly from region to region in their design and implementation. A careful examination reveals that rent regulations like the one in Ontario don't actually have the pernicious effects commonly attributed to them. 
+Rent controls don't create new housing units nor do they divert the speculative investment dollars driving up prices. But critics obscure the fact that rent controls vary markedly from region to region in their design and implementation. A careful examination reveals that rent regulations like the one in Ontario don't actually have the pernicious effects commonly attributed to them. 
 
-If we are indeed serious about tackling our housing crisis, and protecting people from suffering from its effects, it's time to face the facts: there are other, far more serious, disincentives and barriers removing supply from our housing markets &mdash; and we need to seriously tweak the many ways we intervene in them.
+If we are indeed serious about tackling our housing crisis and protecting people from suffering from its effects, it's time to face the facts: there are other, far more serious, disincentives and barriers removing supply from our housing markets &mdash; and we need to seriously tweak the many ways we intervene in them.
 
 <h2>The case against rent control</h2>
 <h3>Vanishing rental supply</h3>
 
 When we talk about rental supply, we typically distinguish between the "primary" rental market, where professional landlords operate purpose built rental buildings, and the "secondary" rental market, where individuals rent out their basement apartments or spare condos.[^toronto-2006]
 
-We typically favour primary rentals because professional, full-time landlords are more capable of absorbing maintenance costs, and are far likelier to provide long-term accommodation. Condo units have a tendency to get flipped, and basement apartments are often vacated for the owner's own use.
+We typically favour primary rentals because professional, full-time landlords are more capable of absorbing maintenance costs and are far likelier to provide long-term accommodation. Condo units have a tendency to get flipped, and basement apartments are often vacated for the owner's own use.
 
-The primary rental housing sector has been in a state of crisis for about forty years.[^smith-1983] Beginning in the 1970s, the construction of new private purpose-built rental buildings collapsed. If throughout Ontario in 1969 there were 27,543 new, unassisted rental building starts, by the mid 1980s we were building under 5,000.[^smith-1988] Private developers began to leave the market and, though their departure was initially compensated by government assisted housing starts, before long the provincial and federal governments began to withdraw funding as well.[^toronto-2006]
+The primary rental housing sector has been in a state of crisis for about forty years.[^smith-1983] Beginning in the 1970s, the construction of new private purpose-built rental buildings collapsed. If in 1969 Ontario had 27,543 new, unassisted rental building starts, by the mid 1980s we were building under 5,000 as private developers left the market.[^smith-1988] At first their departure was compensated by government assisted housing starts, but before long the provincial and federal governments began to withdraw funding as well.[^toronto-2006]
 
 <h3>Controls in Ontario</h3>
 Around the same time, new tenant protection legislation was being introduced and by 1975 rent controls were in effect throughout the province. At the beginning rents were essentially fixed in nominal terms, which in a high inflation era meant their real values quickly declined. New construction was at first exempted, and then not; only by 1986 were the guidelines changed such that rent adjustments became tied to inflation.[^smith-1988]
 
 
-The technical argument against controls goes like this. Rent control artificially lowers the income that landlords can expect to receive from rental properties. This depresses any motivation investors may have for responding to demand by creating new rental buildings. Meanwhile, lower rent costs relative to ownership encourage more people to stay in the rental market, which creates more demand for fewer units. A control imposed in response to market failure will therefore exacerbate it.
+The technical argument against controls goes like this. Rent control artificially lowers the income that landlords can expect to receive from rental properties. This depresses any motivation investors may have for responding to demand by creating new rental buildings. Meanwhile, lower rent costs relative to ownership encourage more people to stay in the rental market, which creates more demand for fewer units. A control imposed in response to unaffordable rents and low vacancy rates will therefore exacerbate both.
 
 Rent controls don't just affect new construction, and therefore new tenants; they can have stark effects on existing units as well. Faced with a control where increases in rent grow at a rate slower than the costs of maintaining the property, existing landlords are strongly encouraged to let their properties deteriorate, or convert them to condominiums. 
 
@@ -57,7 +57,7 @@ We're blessed that Ontario is a relatively well studied jurisdiction. Lawrence S
 <figure id="fref:fig1">
 <a href="/img/Ontario Housing Starts 1969-1986.png"><img src="/img/Ontario Housing Starts 1969-1986.png"></a>
 <figcaption>
-<b>Figure 1.</b> Ontario housing starts by intended market 1969-1986. Note that this graph does not distinguish between private and government assisted rentals; from 1969-1974, private rentals constituted 72% of all starts, but from 1975 onwards assisted starts were over half of all rentals.</sup>
+<b>Figure 1.</b> Ontario housing starts by intended market 1969-1986. This graph does not distinguish between private and government assisted rentals: from 1969-1974 private rentals constituted 72% of all starts, but from 1975 onwards they were under half of all rentals.</sup>
 </figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ Compiling data provided by the Canada Mortgage and Housing Corporation (CMHC), I
 <figure id="fref:fig2">
 <a href="/img/Ontario Housing Starts 1969-2016.png"><img src="/img/Ontario Housing Starts 1969-2016.png"></a>
 <figcaption>
-<b>Figure 2.</b> Ontario housing starts by intended market 1969-2016. Note that data from 1987 onwards is restricted to areas with over 10,000 people, and therefore undercounts total starts.</sup>
+<b>Figure 2.</b> Ontario housing starts by intended market 1969-2016. Data from 1987 onwards is restricted to areas with over 10,000 people, and therefore undercounts total starts.</sup>
 </figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ During the 1969-1974 pre-rent control period for which we have data, there were 
 
 If rent controls were the primary factor inhibiting new construction today, then surely we'd expect to see the opposite. Yet primary rental starts remain depressed.  Opponents of controls argue that developers continued to price in the risk of their reintroduction,[^brescia-2005] but judged over the course of almost a generation that argument is wanting.
 
-One downside of Smith's 1988 study is that it does not control for demographics, interest rates, recessions, etc. Rent controls could have caused record low vacancy rates by inducing higher demand &mdash; but 1986 was also when the majority of the baby boom cohort hit the prime rental occupancy age range of 20-35.[^rental-demographics] This is no easy task, mind you; reviewing the literature, it's a bit of an open question whether we possess the empirical data or theoretical capacity to do so properly.[^lind-2003]
+One downside of Smith's 1988 study is that it does not control for demographics, interest rates, recessions, etc. Rent controls could have caused record low vacancy rates by inducing higher demand &mdash; but 1986 was also when the majority of the baby boom cohort hit the prime rental occupancy age range of 20-35.[^rental-demographics] This is no easy task, mind you: reviewing the literature, it's a bit of an open question whether we possess the empirical data or theoretical capacity to do so properly.[^lind-2003]
 
 It's unsatisfying to merely note that the existing hypothesis doesn't fit new data. Ideally, we should be able to supply our own causal narrative. Why do we build fewer units than we did during a period of harsh rent control? For that matter, why aren't we building them like we used to in the 1960s? 
 
@@ -94,7 +94,7 @@ What else is happening?
 
 I was able to identify two other big shifts that significantly impacted our housing supply. 
 
-The first happened in 1967, when Ontario legalized condominiums and created a new form of property ownership &mdash; thereby substantially altering the economics behind multi-residential buildings.
+The first happened in 1967, when Ontario legalized condominiums and created a new form of property ownership &mdash; thereby substantially altering the economics behind multi-residential buildings. 
 
 <figure id="fref:fig3">
 <a href="/img/Ontario Housing Starts 1969-2016 With Condos.png"><img src="/img/Ontario Housing Starts 1969-2016 With Condos.png"></a>
@@ -103,39 +103,37 @@ The first happened in 1967, when Ontario legalized condominiums and created a ne
 </figcaption>
 </figure>
 
-Looking at this data at a regional level is misleading, I think, since the growth rate and attributes of housing markets vary from subregion to subregion. As you can see from the housing mix in figure 3, Ontario was still aggressively subdividing and sprawling. With an abundance of available freehold land it's possible that, looking at province-wide data, we might understate the impact of condominiums. How would this look like in an already built-up area where by and large higher density developments are the only option? 
+I think looking at this data at a regional level is misleading since different sub-regional housing markets have differing economic conditions. As you can see from the housing mix in figure 3, Ontario was and is aggressively subdividing and sprawling. With an abundance of available freehold land it's possible that, looking at province-wide data, we might understate the impact of condominiums. How would this look like in an already built-up area where by and large higher density developments are the only option? 
 
 For that reason, I dug up and plotted recent and historical data from Toronto:[^note-digging]
 
 <figure id="fref:fig4">
 <a href="/img/Toronto Housing Completions 1981-2016.png"><img src="/img/Toronto Housing Completions 1981-2016.png"></a>
 <figcaption>
-<b>Figure 4.</b> City of Toronto housing completions by intended market 1981-2016. Note that this graph measures completions as opposed to starts and is therefore not directly comparable to figure 3.
+<b>Figure 4.</b> City of Toronto housing completions by intended market 1981-2016. Note that this graph measures completions, as opposed to starts, and is therefore not directly comparable to figure 3.
 </figcaption>
 </figure>
 
 
-In 2012 Jill Black wrote a great research paper regarding the financing and economics of multi-residential housing development. She explores the incentives property developers act on and the disincentives they suffer as they choose projects to work on, and it's well worth a read. According to her research, in a nutshell, building to rent is riskier and less profitable than building to sell.[^black-2012]
+In 2012 Jill Black wrote a great research paper regarding the financing and economics of multi-residential housing development. She explores the incentives property developers act on and the disincentives they suffer as they choose projects to work on, and it's well worth a read. According to her research, building to rent is riskier and less profitable than building to sell.[^black-2012]
 
 Prior to the Condominium Act, apartment buildings could only be rented out or sold in their entirety. Now, for the first time, title could be given to each individual unit, greatly increasing the allowed density of privately owned housing. Condominiums immediately began to crowd out rental building investment: the first condo in Ontario was originally constructed as a rental and was converted to a condominium soon after the law came into effect.[^hanes-2008]
 
 Developers find building for the ownership market more attractive because with condominium projects construction doesn't begin until a majority of units are pre-sold to qualified buyers. This early-on cash stream reduces the amount of necessary debt, lowers interest repayment costs and makes it easier to obtain financing. By the time the condo units are occupied, the developer has realized their returns and freed up their equity for use in other projects.[^black-2012-2] 
 
-In contrast, a rental building doesn't generate income until it's completed and therefore it's harder to assess and demonstrate its financial feasibility. This means more equity is needed to obtain more expensive, CMHC insured, financing &mdash; equity which won't be recouped for years or decades to come.[^black-2012-2] Land values, which account for 15-30% of the cost, are thus driven by the more profitable condominium projects.[^pomeroy-2001] In a way, the development of condominiums in desirable locations can lead to a kind of "Dutch disease", whereby the more profitable developments support an increase in costs and prices that make other, lower margin, projects unprofitable by comparison.[^lind-2003-2]
+In contrast, a rental building doesn't generate income until it's completed and therefore it's harder to assess and demonstrate its financial feasibility. This means more equity is needed to obtain more expensive, CMHC insured, financing &mdash; equity which won't be recouped for years or decades to come.[^black-2012-2] Land values, which account for 15-30% of the cost, are thus driven by the more profitable condominium projects.[^pomeroy-2001] In a way, the development of condominiums in desirable locations can lead to a kind of "Dutch disease", whereby the more profitable projects support an increase in costs and prices that make other, lower margin, projects unprofitable by comparison.[^lind-2003-2]
 
 Finally, registering as a condominium allows for a more favourable tax treatment, since multi-residential properties are discriminated against by both our sales tax regime[^lampert-2016] and by municipal property tax rates which are set higher than ownership housing.[^hswg-2001] The average tenant in Ontario pays twice the property tax rate of a homeowner, which for a hypothetical new rental building in Toronto works out to over $200 a month in rent per tenant.[^frpo-2015]
 
 All of this conspires to make profit margins in the multi-residential investment market very narrow. What might be a suitable rate of return for an insurance company looking to operate a rental building is often insufficient for a developer to build a new one.[^hswg-2001] Small shifts in financing terms, land values, costs incurred due to delays in the regulatory planning process, and taxation can have a serious impact on the feasibility of a given project.
 
-The notion that condos crowded out rental investment is compelling, but by itself doesn't really exculpate rent controls. What if controls were just enough of a disincentive to shift the equilibrium? 
+The notion that condos crowded out rental investment is compelling, but by itself doesn't really exculpate rent controls. What if controls are just enough of a disincentive to shift the equilibrium? 
 
 <h3>The end of real estate tax shelters</h3>
 
-The other significant event occurred in 1972, when the federal government overhauled our income tax system.  Seeking to make taxation more equitable, close loopholes and reorient which industries it incentivized,[^budget-1971] starting in 1972 and throughout the 70s and 80s, the federal government implemented a series of reforms. 
+The other significant event occurred in 1972, when the federal government overhauled our income tax system. Seeking to make taxation more equitable, close loopholes and reorient which industries it incentivized,[^budget-1971] starting in 1972 and throughout the 70s and 80s, the federal government implemented a series of reforms. 
 
-NOTE TO ADD BIT ON HOW IT PRIVILEGED HOMEOWNERSHIP from fraser/smith 1977
-
-For the first time, the government began to tax capital gains; but it also changed the rate at which capital costs can be depreciated and it removed the ability to pool losses across rental buildings. It also prevented investors from outside the real estate business from claiming capital cost deductions or offset income via rental losses, and it altered how and which "soft" construction costs like architect fees, building permits, etc, can be deducted.[^hswg-2001] [^note-on-taxes]
+For the first time, the government began to tax capital gains, except on the sale of a primary residence. It also changed the rate at which capital costs can be depreciated and it removed the ability to pool losses across rental buildings. It also prevented investors from outside the real estate business from claiming capital cost deductions or offset income via rental losses, and it altered how and which "soft" construction costs like architect fees, building permits, etc, can be deducted.[^hswg-2001] [^note-on-taxes]
 
 In practical terms this meant that rental buildings became a far less attractive investment class, especially for small investors. Being able to depreciate a rental building tax-wise at a faster rate than its actual economic depreciation can have a large impact on after-tax returns.[^hswg-2001] Rental buildings become more profitable over time, as inflation and debt repayment lowers ongoing operating costs; before these changes, high-earning professionals could use losses generated by rental properties to offset their higher marginal rates, and they could use liberal capital cost allowance rates to defer income tax until they sold their property.[^miron-1995]
 
