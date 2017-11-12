@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Actually, Rent Control Is Great, Part 1: Revisiting Ontario's Experience and its Housing Supply"
+title: "Actually, Rent Control Is Great, Part 1: Revisiting Ontario's Experience and its Supply of Housing"
 ---
 
 In April, the government of Ontario decided to extend rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
@@ -23,7 +23,7 @@ Rent controls aren't a panacea. They don't create new housing units nor do they 
 
 If we are indeed serious about tackling our housing crisis and protecting people from suffering from its effects, it's time to face the facts: there are other, far more serious, disincentives and barriers removing supply from our housing markets &mdash; and we need to seriously tweak the many ways we intervene in them.
 
-This is the first part in a two part series. In this article, I begin by examining some arguments against rent controls, and revisit the evidence against them in Ontario. After comparing historical data with more recent housing statistics, I then examine two contemporary policy changes that had outsized impacts on our housing markets. The first was the legalization of condominiums, in 1967, and the other was the overhaul of our income tax system in 1972.
+This is the first part in a three part series. In this article, I begin by examining some arguments against rent controls, and revisit the evidence against them in Ontario. After comparing historical data with more recent housing statistics, I then examine two contemporary policy changes that had outsized impacts on our housing markets. The first was the legalization of condominiums, in 1967, and the other was the overhaul of our income tax system in 1972.
 
 <!--In the second part, I briefly review the literature and question the theoretical basis on which rent controls are criticized. I look up empirical research on rent controls in other communities and quickly discuss the nature of affordable housing development. I then approach the topic of security of tenure by first contextualizing it within the history of Canada's housing policy and Ontario's tenant legislation, and finally I review the impact housing tenure has on residents.-->
 
@@ -166,7 +166,7 @@ This I think should put to rest the main criticism outlined by the commentators 
 
 Finally, what are rent controls actually good for?
 
-I answer these questions [in part 2 of this series](/2017/rent-control-ontario-housing-supply.html). If you're in a hurry, [jump to the conclusions section](/2017/rent-control-economics-security-tenure.html#conclusions).
+I answer these questions [in part 2 of this series](/2017/rent-control-economics-affordability.html). In part 3, I examine the [role, history and economics of security of tenure](/2017/rent-control-security-tenure-public-good.html). If you're in a hurry, [jump to the conclusions section](/2017/rent-control-security-tenure-public-good.html#conclusions).
 
 <h2>Appendix A: Tables</h2>
 
