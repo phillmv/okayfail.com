@@ -11,7 +11,9 @@ In [the first part](/2017/rent-control-ontario-housing-supply.html), I examined 
 
 <h2>The role of security of tenure</h2>
 
-The literature on rent controls has much to say about efficient allocation, property values, supply, demand, etc, but unfortunately economists and other commentators rarely have much to say about security of tenure. In a 2003 paper reviewing tenancy rent controls, Richard Arnott noted that:
+The economics literature on rent controls has much to say about efficient allocation, property values, maintenance and the supply and demand for rental housing, but unfortunately economists and other commentators rarely seem to have anything to say about security of tenure.[^jenkins-2009]
+
+The omission is glaring. In a 2003 paper reviewing tenancy rent controls, Richard Arnott noted that:
 
 >Almost all economists lead financially secure lives and were raised by parents who emphasized responsibility and self-discipline. They have little or no personal experience with the insecurity that is ever-present in the lives of the less advantaged—those from dysfunctional families, those not raised to middle-class values, and the less able—who tend to live from one paycheck to the next. Not surprisingly, therefore, most economists ignore or underemphasise the importance of security of tenure in rental housing, even though it is consistently second only to affordability on the list of concerns raised by tenant groups.[^arnott-2003-2]
 
@@ -333,3 +335,5 @@ Long term tenants have a legitimate interest in staying in the communities they 
 [^arnott-original]: This distinction between "first" and "second" generation or "hard" and "soft" controls is not original to Arnott; Hulchanski (1984) also refers to them that way and it's likely that categorization was made contemporaneously when these controls were enacted in the 1970s.
 
 [^suttor-2017]: Suttor, G., & Leon, S. (2017, October 27). 6 Toronto Rental Housing Highlights in the 2016 Census. Retrieved November 7, 2017, from [wellesleyinstitute.com](http://www.wellesleyinstitute.com/housing/6-toronto-rental-housing-highlights-in-the-2016-census)
+
+[^jenkins-2009]: For example, in 2009 Blair Jenkins looked at over fifty economics papers and did not see fit to include anything on security of tenure.<br/><br/>Jenkins, B. (2009, January) Rent Control: Do Economists Agree? Econ Journal Watch, 6(1), 73-112
