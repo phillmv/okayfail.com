@@ -4,8 +4,6 @@ title: Actually, Rent Control Is Great
 draft: true
 ---
 
-<h3>## THIS IS A DRAFT, please do not share.</h3>
-
 I've been renting in Toronto for almost a decade now, and I've watched rents in my neighbourhood(s) climb substantially. In that period I have moved eight times, and whenever I have looked for housing the uncertainty of living in an uncontrolled apartment weighed heavily on my mind. That's why I got excited when, back in April of this year, the government of Ontario announced that it was extending rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
 
 However, this move prompted a lot of commentary, and the chorus was overwhelmingly negative. Critics argued that, under rent control, the quantity and quality of available rental units will fall as developers are less incentivized to build rental properties, and that the province should instead tackle the root of the problem: the supply of new housing is not keeping up with demand.
@@ -36,3 +34,6 @@ A more likely explanation for the squeezing of our primary rental housing supply
 
 Commentators do us a disservice when they pretend rent controls are about affordability or redistribution and ignore tenant concerns over security of tenure. From what I've learned it's way more complicated than that. Today, low- and middle-income people have been priced out of ownership in our city. Why should we be subjected to a tenancy regime that significantly disadvantages us socially, economically and politically compared to the subsidized homeowning population?
 
+---
+
+This essay is actually a condensed version of a three part series I wrote on the topic. If you're interested and want to read in more detail, [see part 1 for more](/2017/rent-control-ontario-housing-supply.html).
