@@ -100,5 +100,5 @@ end
 
 # handling rent control links I sent out
 
-redirect "/2017/rc-short.html", to: "/2017/rent-control-great.html"
-redirect "/2017/rc.html", to: "/2017/rent-control-ontario-housing-supply.html"
+redirect "2017/rc-short.html", to: "/2017/rent-control-great.html"
+redirect "2017/rc.html", to: "/2017/rent-control-ontario-housing-supply.html"
