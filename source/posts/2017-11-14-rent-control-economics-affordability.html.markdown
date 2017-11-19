@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Actually, Rent Control is Great, Part 2: The Economic Case for Controls"
-draft: true
 ---
 
 This is the second part of a three part series on rent controls. 

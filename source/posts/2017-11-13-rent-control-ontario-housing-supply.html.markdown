@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Actually, Rent Control Is Great, Part 1: Revisiting Ontario's Experience and its Supply of Housing"
-draft: true
 ---
 
 In April, the government of Ontario decided to extend rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
@@ -16,7 +15,7 @@ To me this seemed strange, since removing the exemption seemed like a no-brainer
 
 Toronto is in the grips of a housing crisis. A speculative real estate bubble has priced out ownership for low- and middle-income people,[^cbc-squeeze] and it's easy to find stories about sitting tenants seeing their rents jump by hundreds of dollars.[^cbc-martin] [^tgam-jaafari] [^mercer-2017] When demand for rental units is high and vacancy rates are low, landlords have a lot of power over their tenants &mdash; and all the more if they can increase rents at will. The absence of controls allows the unscrupulous to evict tenants exercising their rights, and the eager to extract more for the same service they provided before.
 
-Housing insecurity means you have to move all the time, which is expensive, but the real cost is in the instability it inflicts. The constant possibility of eviction, two months notice, changes your relationship with the community around you. If your stay is likely to be short, then volunteering at your local school or investing in strong local ties doesn't make a lot of sense.  Not only do tenants have a moral right to remain in neighbourhoods they themselves have helped prosper, it is also in our larger economic interest that they do so. If the success of our cities requires us to shift away from homeownership, then we must create the conditions for our communities to succeed with them.
+Housing insecurity means you have to move all the time, which is expensive, but the real cost is in the instability it inflicts. The constant possibility of eviction, two months' notice, changes your relationship with the community around you. If your stay is likely to be short, then volunteering at your local school or investing in strong local ties doesn't make a lot of sense.  Not only do tenants have a moral right to remain in neighbourhoods they themselves have helped prosper, it is also in our larger economic interest that they do so. If the success of our cities requires us to shift away from homeownership, then we must create the conditions for our communities to succeed with them.
 
 Our housing delivery system is complex. We significantly intervene, subsidize and shape the funding and price mechanisms through which new housing is produced. We also regulate our housing markets in order to correct market inefficiencies, to prevent people from being exploited, and to change incentive structures to deliver outcomes we have deemed necessary or correct.  The regulation of rent, like many other kinds of regulation, is a response to market failure.
 
