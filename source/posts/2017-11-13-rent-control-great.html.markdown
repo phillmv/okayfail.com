@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Actually, Rent Control Is Great
-draft: true
 ---
+
+_A version of this article was published in the [Toronto Star](https://www.thestar.com/opinion/contributors/2017/11/18/rent-controls-promote-stability-mendona-vieira.html)_.
 
 I've been renting in Toronto for almost a decade now, and I've watched rents in my neighbourhood(s) climb substantially. In that period I have moved eight times, and whenever I have looked for housing the uncertainty of living in an uncontrolled apartment weighed heavily on my mind. That's why I got excited when, back in April of this year, the government of Ontario announced that it was extending rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
 

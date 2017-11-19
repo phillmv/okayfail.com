@@ -2,6 +2,8 @@
 layout: post
 title: "Actually, Rent Control Is Great, Part 1: Revisiting Ontario's Experience and its Supply of Housing"
 ---
+_TL;DR? Read [a condensed version](/2017/rent-control-great.html) of this series_.
+
 
 In April, the government of Ontario decided to extend rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
 
