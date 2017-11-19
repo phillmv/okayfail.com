@@ -9,6 +9,7 @@ set :repo_url,  "git@github.com:phillmv/okayfail.com.git"
 # set :scm, :git
 # ssh_options[:forward_agent] = true
 # default_run_options[:pty] = true
+set :branch, ENV['BRANCH'] || :master
 
 set :deploy_to, "/var/www/#{fetch(:application)}"
 set :chruby_ruby, "ruby-2.3.3"
