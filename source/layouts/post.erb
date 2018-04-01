@@ -13,6 +13,9 @@
 <% end %>
 
 <% wrap_layout :layout do %>
+  <% content_for :shortbio_menu do %>
+    <h3><a href="/archive.html">Click here to see more of my writing.</a></h3>
+  <% end %>
   <%= partial "shared/shortbio" %>
   <section>
     <div class="post-wrapper">
