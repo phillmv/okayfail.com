@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Actually, Rent Control is Great, Part 2: The Economic Case for Controls"
+draft: true
 ---
 
 This is the second part of a three part series on rent controls. 
@@ -17,7 +18,7 @@ One major problem with this discussion is that there are actually many qualitati
 
 Richard Arnott, in a widely read paper from 1995, broadly categorizes rent control policy into two distinct phases.[^arnott-original] The first wave, or generation, of controls were enacted around World War II and they imposed nominal rent freezes tied to individual units. In a planned war economy that lacked much in the way of private housing construction, this made a certain amount of sense; but afterwards most regions dismantled their controls and only New York City (and some European cities) maintained that wartime policy.[^arnott-1995] 
 
-The second generation began in the 1970s as rent control ordinances were passed in Boston, Los Angeles, San Francisco and in a variety of towns in California, Massachussetts, New Jersey, New York, etc. The structure of Canadian federalism saw these policies accumulate at the provincial level, and during this period ten provinces also enacted rent controls (though most have since abandoned them). These policies "differed significantly from the first-generation rent control programs" and usually allowed automatic increases in rent, the passing through of additional costs, and other like-minded provisions.[^arnott-1995]
+The second generation began in the 1970s as rent control ordinances were passed in Boston, Los Angeles, San Francisco and in a variety of towns in California, Massachussetts, New Jersey, New York, etc. The structure of Canadian governance saw these policies accumulate at the provincial level, and during this period ten provinces also enacted rent controls (though most have since abandoned them). These policies "differed significantly from the first-generation rent control programs" and usually allowed automatic increases in rent, the passing through of additional costs, and other like-minded provisions.[^arnott-1995]
 
 Separating controls into "hard" and "soft" is not especially useful, though. Hans Lind, writing in 2001, goes on to define five distinct functional types of rent control. In his view, regulations can protect sitting tenants from being charged above-market rents (type A), or from increases in rent unattached to increases in costs (type B). Alternatively, regulations can instead bind to units and prevent landlords anywhere from charging above-market rents (type C), prevent rapid inflation by smoothing increases (type D) or, finally, prevent rents from ever reaching actual market prices (type E).[^lind-2001] [^note-on-lind]
 

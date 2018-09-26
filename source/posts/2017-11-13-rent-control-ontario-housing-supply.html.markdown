@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Actually, Rent Control Is Great, Part 1: Revisiting Ontario's Experience and its Supply of Housing"
+draft: true
 ---
 _TL;DR? Read [a condensed version](/2017/rent-control-great.html) of this series_.
 
@@ -156,10 +157,10 @@ Marion Steele, writing in 1993, argued that these reforms, coupled with contempo
 
 These changes were made with little, if any, regard for their adverse consequences for our housing policy goals,[^clayton-1998] and given that the "Great Apartment Boom" of the 1960s ended shortly thereafter suggests that the effect of these changes was substantial.[^miron-1995]
 
-<figure id="fref:fig4">
+<figure id="fref:fig5">
 <a href="/img/Canada Housing Starts 1951-2001.png"><img src="/img/Canada Housing Starts 1951-2001.png"></a>
 <figcaption>
-<b>Figure 4.</b> Note that these categories describe physical structures, i.e. "apartment" includes both duplexes, triplexes, etc and the large towers we today find synonymous with condominiums. We built more (almost entirely rental) apartment buildings in 1968 than we built (mostly condos) apartment buildings in 2001 (or 2016, for that matter). </sup>
+<b>Figure 5.</b> Note that these categories describe physical structures, i.e. "apartment" includes both duplexes, triplexes, etc and the large towers we today find synonymous with condominiums. We built more (almost entirely rental) apartment buildings in 1968 than we built (mostly condos) apartment buildings in 2001 (or 2016, for that matter). </sup>
 </figcaption>
 </figure>
 
