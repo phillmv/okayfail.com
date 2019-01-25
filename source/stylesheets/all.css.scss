@@ -206,6 +206,7 @@ header {
   .bio {
     @include desktop-all {
       @include span-columns(6 of 12);
+      @include shift(3);
     }
 
     @include mobile-all {
