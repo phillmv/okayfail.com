@@ -1,6 +1,15 @@
 BIBREGEX = /\\bibitem{(\^)*(?<name>.*)}/
 HREFREGEX = /\\href{(?<url>.*)}{(?<name>.*)}/
 
+def is_bib?(line)
+  line && line.match(BIBREGEX)
+end
+
+def is_link?(line)
+  line && line.match(HREFREGEX)
+end
+
+lines = File.read("copied_bib.md").lines
 offset = 0
 new_bib = []
 lines.size.times do |index|
@@ -19,7 +28,8 @@ lines.size.times do |index|
     if !is_bib?(body) # fetch next line
 
       body = body.gsub('\%', "%")
-      body = body.gsub('\&', "&")
+      body = body.gsub('\&', "&amp;")
+      body = body.gsub('`', "'")
 
       while match = is_link?(body)
         body = body.gsub(match.to_s, "<a href=\"#{match[:url]}\">#{match[:name]}</a>")
@@ -33,16 +43,4 @@ lines.size.times do |index|
   end
 end
 
-def is_bib?(line)
-  line && line.match(BIBREGEX)
-end
-
-def is_link?(line)
-  line && line.match(HREFREGEX)
-end
-
-def fetch_name(line)
-  if match = is_bib?(line)
-    name = "^#{match[:name]}"
-  end
-end
+File.write("new_bib.md", new_bib.join("\n"))
