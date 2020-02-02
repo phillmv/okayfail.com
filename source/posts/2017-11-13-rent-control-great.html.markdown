@@ -37,4 +37,4 @@ Commentators do us a disservice when they pretend rent controls are about afford
 
 ---
 
-This essay is actually a condensed version of a three part series I wrote on the topic. If you're interested and want to read in more detail, [see part 1 for more](/2017/rent-control-ontario-housing-supply.html).
+This essay is actually a condensed version of a longer paper I wrote on the topic. If you're interested, [click here to read in more detail](2018/rent-control-great-security-of-tenure.html).
