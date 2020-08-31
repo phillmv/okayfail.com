@@ -15,6 +15,14 @@ ol {
     margin-bottom: $small-spacing;
     padding-left: $base-spacing;
   }
+
+  // TODO: tbh why not add this class directly vs the placeholder above?
+  &.default-ol {
+    list-style-type: decimal;
+    // margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
+  }
+
 }
 
 dl {
