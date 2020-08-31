@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Mirvish Village Public Meeting 
+title: Mirvish Village Public Meeting
+description: I attended a public meeting organized by city hall councillors <a href="https://twitter.com/m_layton">Mike Layton</a> and <a href="https://twitter.com/joe_cressy">Joe Cressy</a> to discuss <a href="https://twitter.com/westbankcorp">Westbank</a>'s planning application for the Mirvish Village redevelopment.
 ---
 
 <style>
