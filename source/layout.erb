@@ -10,7 +10,7 @@
     <% if content_for?(:page_title) %>  
       <%= yield_content :page_title %>
     <% else %>
-      <title>phillmv</title>
+      <title>Phill MV</title>
     <% end %>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/atom.xml", title: "Atom Feed" %>
   </head>
