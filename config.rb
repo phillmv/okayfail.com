@@ -102,3 +102,5 @@ end
 
 redirect "2017/rc-short.html", to: "/2017/rent-control-great.html"
 redirect "2017/rc.html", to: "/2017/rent-control-ontario-housing-supply.html"
+redirect "2017/rc.html", to: "/2017/rent-control-ontario-housing-supply.html"
+redirect "2017/rent-control-ontario-housing-supply.html", to: "/2018/rent-control-great-security-of-tenure.html"
