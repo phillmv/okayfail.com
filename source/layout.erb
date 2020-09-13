@@ -11,6 +11,7 @@
       <%= yield_content :page_title %>
     <% else %>
       <title>Phill MV</title>
+      <meta name="Description" CONTENT="Phillip Mendonça-Vieira (Phill MV) is an immigrant, an urbanist, an entrepreneur, and a software engineer.">
     <% end %>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/atom.xml", title: "Atom Feed" %>
   </head>
