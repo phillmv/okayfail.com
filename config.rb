@@ -62,7 +62,7 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
-page "/feed.xml", layout: false
+# page "/feed.xml", layout: false
 # Reload the browser automatically whenever files change
 # configure :development do
 #   activate :livereload
@@ -106,3 +106,4 @@ redirect "2017/rc.html", to: "/2017/rent-control-ontario-housing-supply.html"
 redirect "2017/rent-control-ontario-housing-supply.html", to: "/2018/rent-control-great-security-of-tenure.html"
 redirect "2017/rent-control-economics-affordability.html", to: "/2018/rent-control-great-security-of-tenure.html"
 redirect "2017rent-control-security-tenure-public-good.html", to: "/2018/rent-control-great-security-of-tenure.html"
+redirect "about.html", to: "/"
