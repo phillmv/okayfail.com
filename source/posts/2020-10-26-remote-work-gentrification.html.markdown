@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Paying Remote Workers The Same Isn't Gentrification"
+description: "Now that more and more companies are moving towards remote work, a debate has emerged concerning pay disparaties between workers. Can paying remote workers more equitably lead to increasing gentrification outside of large urban areas?"
 ---
 
 In order to slow or stop the spread of the COVID-19 pandemic, companies throughout the world have shuttered their office space. Within the tech industry in particular, this has accelerated a shift from traditional offices towards fully-remote workplace environments.
