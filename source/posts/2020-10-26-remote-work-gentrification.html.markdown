@@ -1,16 +1,14 @@
 ---
 layout: post
-title: "Paying Remote Workers The Same Isn't Gentrification"
-description: "Now that more and more companies are moving towards remote work, a debate has emerged concerning pay disparaties between workers. Can paying remote workers more equitably lead to increasing gentrification outside of large urban areas?"
+title: "Remote Work Isn't Gentrification"
+description: "Before the pandemic, fully remote work was rare but now it's rapidly expanding. If lots of workers stand to earn good, tech-industry salaries while living outside of tech-industry hubs, could this lead to more gentrification?"
 ---
 
-In order to slow or stop the spread of the COVID-19 pandemic, companies throughout the world have shuttered their office space. Within the tech industry in particular, this has accelerated a shift from traditional offices towards fully-remote workplace environments.
+Before the pandemic, fully remote work was rare. Now, many large tech companies are embracing remote work &mdash; and in tandem announcing that [compensation will be scaled by geographic location](https://arstechnica.com/tech-policy/2020/05/facebook-workers-get-remote-work-option-but-it-could-come-with-a-pay-cut/).
 
-At present in the tech industry, there are large, geographically delineated, disparities in compensation. For example, workers in the San Francisco Bay Area or the New York metropolitan regions are usually able to command substantial wage premiums compared to equivalently experienced or productive workers outside of large technology hubs.
+This can be a bit awkward. Typically, workers in the SF Bay or NY metro region are able to command large wage premiums but now everyone works from home. Intuitively, it seems odd that equivalently experienced or productive workers are paid (sometimes, substantially) differently.
 
-Naturally, this has sparked a bit of a debate on the nature of tech industry compensation: it's a bit awkward to be paid one-third or one-half less than your teammate just because they live in California. Of course, not everyone feels the same.
-
-One disagreement I have seen emerge a few times is centered on the impact of remote work on local housing markets. I think the argument can be adequately summarized like this:
+Should tech workers be paid the same across locations? Not everyone thinks so. One disagreement I have seen emerge a few times is centered on the impact of remote work on local housing markets. The argument goes something like this:
 
 > In San Francisco it is common to see well-heeled tech workers buy up houses, drive up markets, and displace people from their historic neighbourhoods.
 
@@ -22,9 +20,7 @@ One disagreement I have seen emerge a few times is centered on the impact of rem
 
 <hr>
 
-Let's unpack this a little.
-
-In 2017, on a lark, I spent three months researching and writing a [~40 page paper on the nature of rent control](/2018/rent-control-great-security-of-tenure.html). This doesn’t make me an expert, but I think it does mean I’ve spent more time reading about land use and real estate development patterns and economics than the average bear. (Bears, for one, can hardly read at all).
+Let's unpack this a little.[^on-a-lark]
 
 In the micro-sense, this is often what gentrification looks like up close. High-income people outcompete low-income people for the same housing units, and thereby displace them to other neighbourhoods, or out of their cities altogether.
 
@@ -52,8 +48,10 @@ Or, you might just live in an area that has OK housing policy and or is able to 
 
 More broadly, however, is the impact that “being paid less” also has. Whenever a worker is underpaid relative to the value they produce for the organization, that surplus value doesn’t disappear: it’s ultimately captured instead by their shareholders.
 
-For many companies, and this is true for every company in the S&P500, their largest shareholders are institutional investors, i.e. private equity firms like BlackRock.
+For many companies, and this is true for every company in the S&P500, their largest shareholders are institutional investors. This extra capital doesn't sit still: it's then reinvested and often used to finance real estate trusts and acquisitions.
 
-So in a very real if indirect sense, it is the act of underpaying workers relative to the value they produce that ends up giving firms like BlackRock the excess cash to then go and gentrify their neighbourhoods.
+So in a very real if indirect sense, it is the act of underpaying workers relative to the value they produce that ends up giving firms the excess cash to then go and gentrify their neighbourhoods.
 
 Food for thought!
+
+[^on-a-lark]: In 2017, on a lark, I spent three months researching and writing a [~40 page paper on the nature of rent control](/2018/rent-control-great-security-of-tenure.html). This doesn’t make me an expert, but I think I’ve spent more time reading about land use and real estate development patterns and economics than the average bear. Bears, for one, can hardly read at all.
