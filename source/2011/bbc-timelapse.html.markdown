@@ -1,5 +1,6 @@
 ---
 layout: post
+occurred_at: 2011-08-02
 title: A timelapse of the BBC and assorted thoughts
 ---
 

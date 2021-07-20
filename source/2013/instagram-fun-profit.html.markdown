@@ -1,5 +1,6 @@
 ---
 layout: post
+occurred_at: 2013-10-22
 title: instagram for fun and profit
 ---
 Back in December 2011, I was approached by [Michael Joffe](http://mwjoffe.tumblr.com/) to make something happen for the early 2012 installment of his [dance party art things](http://www.thegridto.com/life/society/the-nocturne-back-in-the-new-york-groove/), this one being called "Oui Paris". 

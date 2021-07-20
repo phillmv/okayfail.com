@@ -1,5 +1,6 @@
 ---
 layout: post
+occurred_at: 2015-11-17
 title: Bombing Syria Is A Bad Idea
 ---
 

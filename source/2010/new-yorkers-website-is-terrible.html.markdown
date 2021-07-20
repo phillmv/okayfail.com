@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Yorker, I love you, but you're bringing me down.
+occurred_at: 2010-05-16
 ---
 
 <p>I was going through my backlog of New Yorker magazines when I came across something really neat that I would like to share with a friend.</p>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Thoughts on building a feed reader
+occurred_at: 2011-01-18
 ---
 
 2010 may be aptly described as the 'year of the thesis'. 

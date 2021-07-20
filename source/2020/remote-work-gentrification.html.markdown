@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Remote Work Isn't Gentrification"
-description: "Before the pandemic, fully remote work was rare but now it's rapidly expanding. If lots of workers stand to earn good, tech-industry salaries while living outside of tech-industry hubs, could this lead to more gentrification?"
+occurred_at: 2020-10-26
+summary: "Before the pandemic, fully remote work was rare but now it's rapidly expanding. If lots of workers stand to earn good, tech-industry salaries while living outside of tech-industry hubs, could this lead to more gentrification?"
 ---
 
 Before the pandemic, fully remote work was rare. Now, many large tech companies are embracing remote work &mdash; and in tandem announcing that [compensation will be scaled by geographic location](https://arstechnica.com/tech-policy/2020/05/facebook-workers-get-remote-work-option-but-it-could-come-with-a-pay-cut/).

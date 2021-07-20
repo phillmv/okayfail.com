@@ -1,5 +1,6 @@
 ---
 layout: post
+occurred_at: 2014-04-10
 title: The Only Correct* Way To Think About Brendan Eich
 ---
 

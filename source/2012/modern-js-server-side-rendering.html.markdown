@@ -1,5 +1,6 @@
 ---
 layout: post
+occurred_at: 2012-08-03
 title: Modern Javascript and Server-Side Rendering
 ---
 

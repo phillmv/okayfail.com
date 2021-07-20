@@ -1,5 +1,6 @@
 ---
 layout: post
+occurred_at: 2011-07-21
 title: "HOWTO: Make a screenshot timelapse video."
 ---
 

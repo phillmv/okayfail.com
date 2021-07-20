@@ -1,5 +1,6 @@
 ---
 layout: post
+occurred_at: 2011-07-18
 title: The nytimes they are a-changin'
 ---
 

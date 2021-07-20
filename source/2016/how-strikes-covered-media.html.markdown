@@ -1,5 +1,6 @@
 ---
 layout: post
+occurred_at: 2016-07-05
 title: How Strikes Are Covered in the Media
 ---
 
