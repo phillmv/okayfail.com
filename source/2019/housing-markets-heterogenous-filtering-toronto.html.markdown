@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Housing Markets are Highly Hetereogenous"
-draft: true
+hide: true
 ---
 
 ### Why looking at zoning in Japan might not be useful, and why filtering in Canada has stopped working

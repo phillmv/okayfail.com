@@ -1,6 +1,6 @@
 ---
 layout: post
-title: foo
+subject: foo
 published: false
 ---
 

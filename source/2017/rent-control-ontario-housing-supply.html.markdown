@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Actually, Rent Control Is Great, Part 1: Revisiting Ontario's Experience and its Supply of Housing"
-draft: true
+subject: "Actually, Rent Control Is Great, Part 1: Revisiting Ontario's Experience and its Supply of Housing"
+hide: true
 ---
 _TL;DR? Read [a condensed version](/2017/rent-control-great.html) of this series_.
 

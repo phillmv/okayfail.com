@@ -1,7 +1,7 @@
 ---
 layout: post
 occurred_at: 2015-11-17
-title: Bombing Syria Is A Bad Idea
+subject: Bombing Syria Is A Bad Idea
 ---
 
 A recent <a href="http://www.macleans.ca/authors/michael-petrou/how-about-an-evidence-based-syria-policy/" data-href="http://www.macleans.ca/authors/michael-petrou/how-about-an-evidence-based-syria-policy/" class="markup--anchor markup--p-anchor" target="_blank">Maclean’s column</a> and a recent <a href="http://www.vice.com/en_ca/read/justin-trudeau-is-going-to-need-a-better-explanation-for-ending-isis-bombing" data-href="http://www.vice.com/en_ca/read/justin-trudeau-is-going-to-need-a-better-explanation-for-ending-isis-bombing" class="markup--anchor markup--p-anchor" target="_blank">Vice article</a> argue that ‘bombing ISIS is effective’ and that ‘there is no good reason [to stop bombing ISIS]’, respectively. Therefore our new government should reverse its election promise to stop the bombing a mere month after the election.

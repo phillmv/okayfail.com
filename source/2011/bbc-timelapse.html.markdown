@@ -1,7 +1,7 @@
 ---
 layout: post
 occurred_at: 2011-08-02
-title: A timelapse of the BBC and assorted thoughts
+subject: A timelapse of the BBC and assorted thoughts
 ---
 
 The [cron job](http://okayfail.com/2011/howto-timelapse-nytimes.html) I set up to capture [the nytimes' frontpage](http://okayfail.com/2011/nytimes-timelapse.html) was also set up to collect the [BBC's](http://bbc.co.uk/news/):

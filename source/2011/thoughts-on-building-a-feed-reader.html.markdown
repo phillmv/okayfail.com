@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts on building a feed reader
+subject: Thoughts on building a feed reader
 occurred_at: 2011-01-18
 ---
 

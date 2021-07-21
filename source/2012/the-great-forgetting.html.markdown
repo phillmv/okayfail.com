@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The great forgetting at the end of the information age
+subject: The great forgetting at the end of the information age
 published: false
 ---
 

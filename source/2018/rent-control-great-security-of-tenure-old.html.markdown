@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Actually, Rent Control is Great: Revisiting Ontario’s Experience, the Supply of Housing, and Security of Tenure"
-draft: true
+hide: true
 ---
 <a href="/assets/actually-rentcontrol-great-phillmv.pdf"><img src="/img/actually-cover.png"></a>
 [Click here to read the report (pdf)](/assets/actually-rentcontrol-great-phillmv.pdf).

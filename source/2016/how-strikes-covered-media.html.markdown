@@ -1,7 +1,7 @@
 ---
 layout: post
 occurred_at: 2016-07-05
-title: How Strikes Are Covered in the Media
+subject: How Strikes Are Covered in the Media
 ---
 
 **HOST:** To talk about the ongoing labour dispute, we’ve reached Mr. CEO. Mr CEO, why are we about to see service disruptions?

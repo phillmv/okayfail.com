@@ -1,7 +1,7 @@
 ---
 layout: post
 occurred_at: 2011-07-18
-title: The nytimes they are a-changin'
+subject: The nytimes they are a-changin'
 ---
 
 Due to an errant cron task that ran twice an hour from September 2010 to July 2011, I accidentally collected about 12,000 screenshots of the front page of the [nytimes.com](http://nytimes.com) (unfortunately, you can only watch the whole 7 minutes if you stick to 480p).

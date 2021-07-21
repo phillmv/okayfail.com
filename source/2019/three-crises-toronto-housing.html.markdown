@@ -1,6 +1,6 @@
 ---
 layout: post
-draft: true
+hide: true
 title: The Three Crises in Toronto Housing
 ---
 

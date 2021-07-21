@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Actually, Rent Control Is Great
-draft: true
+subject: Actually, Rent Control Is Great
+hide: true
 ---
 
 <h3>## THIS IS A DRAFT, please do not share.</h3>

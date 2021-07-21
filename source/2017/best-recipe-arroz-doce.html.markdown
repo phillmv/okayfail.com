@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Arroz Doce and the Kindest Place on Youtube
+subject: Arroz Doce and the Kindest Place on Youtube
 published: false
-draft: true
+hide: true
 
 ---
 

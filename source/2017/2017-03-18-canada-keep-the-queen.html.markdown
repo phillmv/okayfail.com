@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Canada, Keep the Queen!
+subject: Canada, Keep the Queen!
 article_image: /img/keepthequeen.png
 occurred_at: 2017-03-18
 summary: Let's talk about the Queen, shall we? Elizabeth Alexandra Mary has been the Queen of Canada and fourteen other countries since 1952. She is now ninety years old, and she's not getting any younger.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post Mortem
+subject: Post Mortem
 published: false
 ---
 2010 may be aptly described as the 'year of the thesis'. 

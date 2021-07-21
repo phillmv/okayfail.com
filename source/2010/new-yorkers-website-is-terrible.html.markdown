@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Yorker, I love you, but you're bringing me down.
+subject: New Yorker, I love you, but you're bringing me down.
 occurred_at: 2010-05-16
 ---
 

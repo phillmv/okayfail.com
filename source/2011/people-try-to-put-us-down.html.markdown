@@ -1,7 +1,7 @@
 ---
 layout: post
 occurred_at: 2011-07-05
-title: People try to put us down / just 'cause we get around
+subject: People try to put us down / just 'cause we get around
 ---
 <span class="sans-bold">phill:</span> so<br/>
 <span class="sans-bold">phill:</span> I was at a party on… saturday<br/>

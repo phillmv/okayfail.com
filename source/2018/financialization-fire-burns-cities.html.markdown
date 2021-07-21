@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Financialization Is A Fire That Burns Cities
-draft: true
+hide: true
 ---
 
 The best way to destroy a city, short of bombing, to let a real estate bubble eat through everything that makes it vibrant and unique. When land prices and rents rise much faster than incomes, the outcome is rather sad to observe: the city is quickly hollowed out. First its people leave and soon after so does its culture. We are now seeing this in Toronto.

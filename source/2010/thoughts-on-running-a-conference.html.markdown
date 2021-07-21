@@ -1,7 +1,7 @@
 ---
 layout: post
 occurred_at: 2010-02-09
-title: Thoughts on running a (software engineering) conference
+subject: Thoughts on running a (software engineering) conference
 ---
 <div>
   <img src="/img/cusec.jpg"/>
