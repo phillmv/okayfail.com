@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Financialization Is A Fire That Burns Cities
+subject: Financialization Is A Fire That Burns Cities
 hide: true
 ---
 

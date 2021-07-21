@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to create relative links in MS Word via MS Excel using Visual Basic
+subject: How to create relative links in MS Word via MS Excel using Visual Basic
 summary: I once had to do a bunch of work in Visual Basic for Applications and wire together a Word document with an Excel spreadsheet. This blog post documents all the things I wish I'd found by googling.
 occurred_at: 2017-05-01
 ---

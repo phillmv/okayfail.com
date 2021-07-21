@@ -1,7 +1,7 @@
 ---
 layout: post
 hide: true
-title: The Three Crises in Toronto Housing
+subject: The Three Crises in Toronto Housing
 ---
 
 In 2019, Toronto is in the midst of a housing crisis. Knowing this is easy, because the crisis is palpable: we have skyrocketing ownership and rent prices and an escalating emergency in our homeless shelter system.

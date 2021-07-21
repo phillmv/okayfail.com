@@ -1,5 +1,5 @@
 ---
-title: Bailout Landlords, Get Social Housing
+subject: Bailout Landlords, Get Social Housing
 summary: If scores of landlords become insolvent due to the global pandemic, we should bail them out directly – and nationalize their assets. We could greatly expand the social housing stock, and use it to protect tenants and the homeless.
 occurred_at: 2020-04-09
 layout: post

@@ -2,6 +2,7 @@
 layout: post
 subject: foo
 published: false
+occurred_at: 2013-06-18
 ---
 
 Let's talk about the tech economy.

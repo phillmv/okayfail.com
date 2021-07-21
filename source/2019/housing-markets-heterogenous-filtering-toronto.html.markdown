@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Housing Markets are Highly Hetereogenous"
+subject: "Housing Markets are Highly Hetereogenous"
 hide: true
 ---
 
