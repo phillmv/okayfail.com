@@ -1,0 +1,17 @@
+<header>
+  <div class="shortbio">
+    <h1><a href="/">Phillip Mendonça-Vieira</a></h1>
+    <h3>See <a href="/archive.html">more of my writing</a> or <a href="/atom.xml">subscribe via rss</a>.</h3>
+  </div>
+</header>
+
+<section>
+  <div class="post-wrapper">
+    <div class="post">
+      <h1 class="title"><a href="<%= entry_path(@entry) %>"><%= @entry.subject %></a></h1>
+      <h5 class="date"><%= @entry.occurred_at.strftime('%B %-d, %Y')%></h5>
+      <%= @renderer.to_html %>
+      <p class="date"><%= link_to "# #{@entry.occurred_at.strftime("%Y-%m-%d")}", entry_path(@entry) %></p>
+    </div>
+  </div>
+</section>
