@@ -1,6 +1,8 @@
 ---
 layout: post
 subject: The great forgetting at the end of the information age
+occurred_at: 2012-02-28
+hide: true
 published: false
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 subject: foo
 published: false
+hide: true
 occurred_at: 2013-06-18
 ---
 
