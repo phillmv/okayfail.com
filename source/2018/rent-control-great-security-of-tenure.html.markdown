@@ -608,7 +608,7 @@ For better or for worse, renting is the future. Long-term tenants have a legitim
 
 [^torres-2017]: Torres, B. (2017, April 28). Housing’s tale of two cities: Seattle builds, S.F. lags. Retrieved October 30, 2017, from <a href="https://www.bizjournals.com/sanfrancisco/news/2017/04/28/san-francisco-seattle-housing-production-pipelines.html">bizjournals.com</a>
 
-[^hswg-final]: foo bar wtf
+[^hswg-final]: Lampert, G., Pomeroy, S., &amp; Bradley, R. (2002). Creating a Positive Climate for Rental Housing Development Through Tax and Mortgage Insurance Reforms: The Second Report of the Housing Supply Working Group (p. 7). Toronto: Ministry of Municipal Affairs and Housing.
 
 [^brescia-2005-3]: Brescia (2005, p. 7-8)
 
