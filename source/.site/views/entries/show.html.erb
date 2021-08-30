@@ -1,3 +1,20 @@
+<% content_for :page_title do %>
+  <title><%= @entry.subject %> – Phill MV</title>
+  <meta property="og:title"  content="<%= @entry.subject %>" />
+  <% if @entry.summary %>
+    <meta name="Description" CONTENT="<%= @entry.summary.html_safe %>">
+    <meta property="og:description" content="<%= @entry.summary.html_safe %>" />
+  <% end %>
+<% end %>
+
+<% if @entry.metadata["article_image"] %>
+  <% content_for :social_card do %>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="<%= entry_url(@entry.metadata["article_image"]) %>" />
+    <meta property="og:image"  content="<%= entry_url(@entry.metadata["article_image"]) %>" />
+  <% end %>
+<% end %>
+
 <header>
   <div class="shortbio">
     <h1><a href="/">Phillip Mendonça-Vieira</a></h1>
