@@ -3,7 +3,7 @@
     <h1><a href="/" style="color: inherit"><span class="rlb">Phillip</span> Mendonça-Vieira</a></h1>
     <ol class="default-ol">
       <li><a href="#about">About</a></li>
-      <li><a href="#recent-writing">Recent Writing</a></li>
+      <li><a href="#recent-writing">Selected Writing</a></li>
       <li><a href="#selected-work">Selected Work and Projects</a></li>
     </ol>
 </header>
@@ -16,11 +16,11 @@
     <p>You can find me on <a href="https://twitter.com/phillmv">twitter</a>, and on <a href="https://instagram.com/phillmv">instagram</a>. Reach me by email via phillmv at okayfail dot com.</p>
 
   <hr>
-  <a name="recent-writing" href="#recent-writing" style="color: inherit;"><h2>2. Recent Writing</h2></a>
+  <a name="recent-writing" href="#recent-writing" style="color: inherit;"><h2>2. Selected Writing</h2></a>
   <p>You can find <a href="/archive.html">an archive of my writing here</a>. Follow along using <a href="/atom.xml">the rss feed</a>.</p>
 
   <ol class="article-list">
-    <% @all_entries.limit(6).each do |article| %>
+    <% @current_notebook.entries.visible.order(occurred_at: :desc).select { |e| e.metadata["highlight"] }.each do |article| %>
       <li>
         <h3><%= link_to article.subject, article %></h3>
         <h5><%= article.occurred_at.strftime('%B %-d, %Y') %></h5>

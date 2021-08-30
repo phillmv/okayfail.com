@@ -3,6 +3,7 @@ layout: post
 subject: "Actually, Rent Control is Great: Revisiting Ontario’s Experience, the Supply of Housing, and Security of Tenure"
 occurred_at: 2018-09-26
 summary: "Rent controls are criticized for acting as a severe disincentive to new and existing rental construction. In this paper, I documented contemporary Canadian housing policy initiatives and investigated the theoretical and empirical record of rent controls in other jurisdictions. I then argue that rent controls' most important aspect is their regulation of the provision of security of tenure &mdash; which should be seen as a right of tenants as well as homeowners."
+highlight: true
 ---
 
 This paper is also [available in pdf form](/assets/rent-control-great-2018.pdf).
