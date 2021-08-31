@@ -20,3 +20,5 @@
 # temp excel
 ~$*.xls*
 
+# static generation
+out/

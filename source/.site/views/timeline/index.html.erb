@@ -1,0 +1,71 @@
+<header>
+  <div class="bio">
+    <h1><a href="/" style="color: inherit"><span class="rlb">Phillip</span> Mendonça-Vieira</a></h1>
+    <ol class="default-ol">
+      <li><a href="#about">About</a></li>
+      <li><a href="#recent-writing">Selected Writing</a></li>
+      <li><a href="#selected-work">Selected Work and Projects</a></li>
+    </ol>
+</header>
+
+<section>
+  <div class="recentwork">
+  <hr>
+    <a name="about" href="#about" style="color: inherit;"><h2>1. About</h2></a>
+    <p>By trade, I tell computers what to do. I make apps, I build products, I throw events. I think about people, urbanism, housing, the internet, and living a good life. I live in Toronto.</p>
+    <p>You can find me on <a href="https://twitter.com/phillmv">twitter</a>, and on <a href="https://instagram.com/phillmv">instagram</a>. Reach me by email via phillmv at okayfail dot com.</p>
+
+  <hr>
+  <a name="recent-writing" href="#recent-writing" style="color: inherit;"><h2>2. Selected Writing</h2></a>
+  <p>You can find <a href="/archive.html">an archive of my writing here</a>. Follow along using <a href="/atom.xml">the rss feed</a>.</p>
+
+  <ol class="article-list">
+    <% @current_notebook.entries.visible.order(occurred_at: :desc).select { |e| e.metadata["highlight"] }.each do |article| %>
+      <li>
+        <h3><%= link_to article.subject, article %></h3>
+        <h5><%= article.occurred_at.strftime('%B %-d, %Y') %></h5>
+        <p><%= article.summary&.html_safe %></p>
+      </li>
+    <% end %>
+  </ol>
+
+  <hr>
+  <a name="selected-work" href="#selected-work" style="color: inherit;"><h2>3. Selected Work and Projects</h2></a>
+
+    <a href="https://appcanary.com" class="project"><img class="logo" title="Appcanary" src="/img/appcanary.logo.png" /></a>
+    <p>From 2015 to late 2017, I was a cofounder of <a href="https://appcanary.com">Appcanary</a>. We tracked security vulnerabilities in open source code and notified our customers when they had to take action.</p>
+    <p>We got into Y Combinator, we raised money, we built a product, we built a small team, we got customers, we wrote content marketing and published a podcast, we monitored hundreds of servers and thousands of apps. Alas, the market wasn't quite what we thought it was, and we ended up being acquired by GitHub.</p>
+
+    <p>It was an interesting time! You can find out more via our <a href="http://blog.appcanary.com"> company blog</a>.</p>
+
+
+    <h2 style="font-family: 'Courier New', monospace; font-weight: normal;" class="project xvzf"><a href="http://xvzf.io">xvzf</a></h2>
+    <p>Established in 2014, with a few co-conspirators, I organize and throw a regularly occurring storytelling night for Toronto tech workers. We produce a podcast, and a whole bunch of people show up. You should <a href="http://xvzf.io">check it out</a>.</p>
+
+    <img class="logo project" src="/img/stateio.logo.png" />
+    <p>Until early 2015, I was a cofounder of <a href="http://state.io">State Machinery</a>, a security and development consultancy. We opened for business in November, 2012. We performed security audits, penetration tests, built mvps and advised teams on how to improve their software practice.</p>
+
+    <h2 class="project">Gemcanary</h2>
+    <p>
+      In February 2013, we built <a href="https://gemcanary.com">Gemcanary</a>, a tool for monitoring known security disclosures in Rails/Bundler enabled applications on Github. I wrote a little bit more about it <a href="http://finite.state.io/blog/2013/03/08/making-gemcanary/">on the State Machinery blog</a>. It eventually led to <a href="https://www.appcanary.com">Appcanary</a>.
+    </p>
+
+    <iframe width="640" height="360" src="//www.youtube.com/embed/R7pgAlCB3kU?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+    <h2 class="project">Audiogram</h2>
+    <p>
+      Back in January 2012, I created an app for an dance party art installation. I combined the instagram api with some javascript and it was <a href="/2013/instagram-fun-profit.html">a lot of fun</a>.
+    </p>
+
+    <h2 class="project">NYTimes Timelapse</h2>
+    <p>
+      In July 2011, I put together an <a href="/2011/nytimes-timelapse.html">eight month time lapse</a> of the front page of the nytimes.com. I wrote a <a href="/2011/howto-timelapse-nytimes.html">time lapse tutorial</a>, and I also happened to capture <a href="/2011/bbc-timelapse.html">the front page of the bbc</a>. It got a lot of attention, and it was pretty neat.
+    </p>
+
+    <h2 class="project">Undergraduate thesis</h2>
+    <p>
+      In lieu of course work, prior to graduating I wrote an undergraduate thesis on <a href="/2011/thoughts-on-building-a-feed-reader.html">applying a naïve bayesian classifier to rss feeds</a>.
+    </p>
+
+  </div>
+</section>

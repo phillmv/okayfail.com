@@ -312,3 +312,11 @@ header {
   @include span-columns(6 of 12);
   @include shift(3);
 }
+
+// pagination
+
+.pagination {
+  font-size: 0.9em;
+  font-family: $heading-font-family;
+  font-weight: bold;
+}
