@@ -2,8 +2,8 @@
   <title><%= @entry.subject %> – Phill MV</title>
   <meta property="og:title"  content="<%= @entry.subject %>" />
   <% if @entry.summary %>
-    <meta name="Description" CONTENT="<%= @entry.summary.html_safe %>">
-    <meta property="og:description" content="<%= @entry.summary.html_safe %>" />
+    <meta name="Description" CONTENT="<%= @entry.summary %>">
+    <meta property="og:description" content="<%= @entry.summary %>" />
   <% end %>
 <% end %>
 
