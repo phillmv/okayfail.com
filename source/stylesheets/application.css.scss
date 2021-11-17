@@ -176,7 +176,7 @@ header {
     // header emphasis different from normal
     // headings; but new default too large for mobile
     // (see mobile-all h1)
-    h1 {
+    .bio h1 {
       font-size: 2.618em;
     }
 
@@ -187,7 +187,7 @@ header {
   }
 
   @include mobile-all {
-    h1 { 
+    .bio h1 { 
       font-size: 2.1em; 
     }
   }
