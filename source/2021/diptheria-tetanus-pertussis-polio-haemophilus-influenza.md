@@ -1,6 +1,7 @@
 ---
 layout: post
 subject: Diphtheria, tetanus, pertussis, polio, and Haemophilus influenza
+article_image: "2021/diptheria-tetanus-pertussis-polio-haemophilus-influenza/files/diptheria-tetanus-pertussis-polio-haemophilus-influenza.png"
 occurred_at: 2021-10-30
 summary: The moment had arrived, the needle was ready.
 ---
@@ -19,8 +20,8 @@ I extended my finger, and jabbed his meaty, fleshy thigh. The doctor is going to
 
 Then, I counted to ten.
 
-And I thought to myself: to have children is to hurt them. To bring a child into this unkind, uncaring world is an act of violence. First we birth them, and then we boss them around, and we set boundaries, and we deny them their wants, and we give them vaccines. We keep hurting them, well into adulthood, because we love them.
+And I thought to myself: to have children is to hurt them. To bring a child into this unkind, uncaring world is an act of violence. First we birth them, then we boss them around, we set boundaries, we deny them their wants, and we give them vaccines. We keep hurting them, well into adulthood, because we love them.
 
 Most of the time, it works out OK though.
 
-As we headed out the door, the receptionist produced from under her desk a vast cache of stickers, strategically held back for this purpose, shiny and sparkly, and briefly he was very happy that we visited.
+As we headed out the door, the receptionist produced from under her desk a vast cache of stickers, shiny and sparkly, strategically held back for this purpose, and briefly he was very happy that we visited.
