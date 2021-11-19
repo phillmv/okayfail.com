@@ -2,17 +2,15 @@
 layout: post
 subject: British Columbia is YIMBYer than California
 occurred_at: 2021-11-17
-article_image: /2021/british-columbia-more-yimby-california/files/average-bldg-permits-2011-2020.png
+article_image: "2021/british-columbia-more-yimby-california/files/average-bldg-permits-2011-2020.png"
 summary: Comparing new dwelling building permits per capita per year between select U.S. states and select Canadian provinces
-hide: true
 ---
 
-## Comparing new dwelling building permits per capita per year between select U.S. states and select Canadian provinces
-#housing #yimby 
+### Comparing new dwelling building permits per capita per year between select U.S. states and select Canadian provinces
 
 Canada is downstream of American culture, and Canadian housing discourse is no different. In the great, fiery, online fights about housing, Californians in particular are over-represented and tend to drive the terms of the debate.
 
-And so, when it comes to our own online twitter housing discourse, many Canadians have noticeably "Californian" terms of reference. Namely, folks tend to adopt a semi-reductive fixation on the supply of private market housing, which is being severely stifled by excessive deference to the interests of incumbent, NIMBY homeowners. 
+And so, when it comes to our own online twitter housing discourse, many Canadians have noticeably "Californian" terms of reference. Namely, folks tend to adopt a semi-reductive fixation on the supply of private market housing, which is being severely stifled by excessive deference to the interests of incumbent, NIMBY homeowners.
 
 This is fine as far as stylized causal narratives go. But if we've adopted the same causal narratives, how do our housing markets actually compare?
 
@@ -22,7 +20,9 @@ On close examination, using new dwelling building permits as a proxy for new hou
 
 ![Average building permits for new dwellings per year per 1,000 residents in 2011-2020](/2021/british-columbia-more-yimby-california/files/average-bldg-permits-2011-2020.png)
 
-For the average California YIMBY, the status quo in British Columbia is a _success condition_: BC on average issues three times more building permits per capita per year than California does. Click [here for a copy of the spreadsheets](/2021/british-columbia-more-yimby-california/files/comparing-building-permits-per-capita-between-america-canada.phillmv.xlsx).
+(Click [here for a copy of the spreadsheets](/2021/british-columbia-more-yimby-california/files/comparing-building-permits-per-capita-between-america-canada.phillmv.xlsx).)
+
+For the average California YIMBY, the status quo in British Columbia is a _success condition_: BC on average issues three times more building permits per capita per year than California does.
 
 ## Motivation
 
@@ -54,11 +54,11 @@ I filtered the StatCan table down to 'Total residential' and 'Number of dwelling
 
 On a whim, I decided to compare the four largest Canadian provinces (Ontario, Québec, British Columbia, Alberta) with the four largest U.S. states (California, Texas, Florida, New York) plus Washington which is sort of like, a mirror-universe BC, why not.
 
-I then got population estimates from [Table 17-10-0005-01  Population estimates on July 1st, by age and sex](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710000501) and the [{NY,CA,TX,WA,FL}POP data series from FRED](https://fred.stlouisfed.org/graph/?id=NYPOP,CAPOP,TXPOP,WAPOP,FLPOP).
+I then got population estimates from [Table 17-10-0005-01  Population estimates on July 1st, by age and sex](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1710000501) and the [{NY,CA,TX,WA,FL}POP data series from FRED](https://fred.stlouisfed.org/graph/?id=NYPOP,CAPOP,TXPOP,WAPOP,FLPOP). By using population figures for each individual year for each given state/province should allow us to account for differences in population growth across different state/provinces.
 
-Finally, I dumped all of these tables into Excel, chopped things around, divided the number of issued permits by the number of people in each state or province, multiplied that number by one thousand, and then finally averaged every year together. You can find the data here: 
+Finally, I dumped all of these tables into Excel, chopped things around, divided the number of issued permits by the number of people in each state or province, multiplied that number by one thousand, and then finally averaged every year together. You can find [the data here](/2021/british-columbia-more-yimby-california/files/comparing-building-permits-per-capita-between-america-canada.phillmv.xlsx).
 
-## Questions
+## Concluding thoughts & questions
 ### Are building permits one-to-one with newly built housing?
 
 No. Not every building permit turns into a housing start, and not every housing start turns into a housing completion. Actual finished housing units are some large fraction of the number of issued building permits.
@@ -83,4 +83,4 @@ Thanks for reading! You can ping me at phillmv at okayfail.com or [@phillmv](htt
 
 [^weird]: That's kind of weird, though, right? No shade on BC but California is _nice_.
 
-[^time-spent]: For what it's worth, I spent two hours gathering the data, two hours making the graph look pretty, and another two hours writing this blog post.
+[^time-spent]: For what it's worth, I spent two hours gathering the data, two hours making the graph look pretty, and another three hours writing this blog post.
