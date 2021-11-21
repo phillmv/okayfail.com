@@ -12,7 +12,7 @@ $post-width: 39rem;
 section {
   @include outer-container;
   @include mobile-all {
-    padding: 5% 5% 0% 5%;
+    padding: 0% 5% 0% 5%;
   }
 
 }
@@ -231,8 +231,12 @@ header {
 
     h1 {
       margin-top: 0;
-      margin-bottom: $large-spacing;
       line-height: 1;
+    }
+
+    ol.default-ol {
+      // don't let the hr line after the header ol have too much whitespace
+      margin-bottom: 0;
     }
 
     .rlb {
