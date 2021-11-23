@@ -57,7 +57,7 @@ The barrier to making something neat can be surprisingly low; the important thin
 
 [^instatruefact]: Per the [Brockton Collective's writeup](http://brocktoncollective.com/oui-paris-event-coverage/). Michael wrote about it [here](http://mwjoffe.tumblr.com/post/16653348653/instagram-music-visualizer).
 
-[^instaarcheology]: Oh, and the #ouiparis photos that pop up are obviously not from the dance party. In the preceeding year and a half, other people have begun to use #ouiparis. I love this kind of stuff, unique and obscure events buried away in tags. I feel there is one great short sci fi story in me where a crucial bit of plot stems around a 14 month old foursquare checkin someone made at a house party.
+[^instaarcheology]: Oh, and the `#ouiparis` photos that pop up are obviously not from the dance party. In the preceeding year and a half, other people have begun to use `#ouiparis`. I love this kind of stuff, unique and obscure events buried away in tags. I feel there is one great short sci fi story in me where a crucial bit of plot stems around a 14 month old foursquare checkin someone made at a house party.
 
 [^instanopantsnoproblem]: It was seriously overshadowed by the burlesque, the vigorous dancing, and the fact that nobody wore pants.
 
