@@ -3,6 +3,7 @@ layout: post
 occurred_at: 2017-03-03
 subject: Mirvish Village Public Meeting
 summary: I attended a public meeting organized by city hall councillors <a href="https://twitter.com/m_layton">Mike Layton</a> and <a href="https://twitter.com/joe_cressy">Joe Cressy</a> to discuss <a href="https://twitter.com/westbankcorp">Westbank</a>'s planning application for the Mirvish Village redevelopment.
+tags: housing, toronto
 ---
 
 <p>On March 2nd, 2017, I attended a public meeting organized by city hall councillors <a href="https://twitter.com/m_layton">Mike Layton</a> and <a href="https://twitter.com/joe_cressy">Joe Cressy</a> to discuss <a href="https://twitter.com/westbankcorp">Westbank</a>'s planning application for the Mirvish Village redevelopment.</p>

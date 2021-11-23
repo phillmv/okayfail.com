@@ -3,6 +3,7 @@ layout: post
 subject: Actually, Rent Control Is Great
 summary: 'An op-ed summary of <a href="/2018/rent-control-great-security-of-tenure.html">my paper on why rent control is good</a>, which was published in the <i>Toronto Star</i>.'
 occurred_at: 2017-11-13
+tags: housing
 highlight: true
 ---
 
