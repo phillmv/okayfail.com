@@ -2,9 +2,10 @@
 layout: post
 occurred_at: 2014-04-10
 subject: The Only Correct* Way To Think About Brendan Eich
+article_image: img/support_vector_machines.jpg
 ---
 
-###\*For large values of correct
+### \*For large values of correct
 
 <a href="https://www.flickr.com/photos/30686429@N07/3953914015/"><img src="/img/support_vector_machines.jpg" /></a>
 
@@ -38,7 +39,7 @@ I’ve come to believe that it’s mostly an expression of fear of losing our pr
 
 * * *
 
-##1. The Personal is Political
+## 1. The Personal is Political
 
 The most common objection to the furor was the notion that our political views are an intensely private and wholly separate realm of our lives that can be kept separate from our professional interactions.
 
@@ -72,7 +73,7 @@ If there is some point at which political views disqualify someone from leadersh
 
 * * *
 
-##2. Work Regulates The Personal
+## 2. Work Regulates The Personal
 
 So, if we socially judge people for their presumably private beliefs that still doesn’t quite mean it’s appropriate to have your work place interfere with them, and to this I say: look around you.
 
@@ -94,7 +95,7 @@ This is just off the top of my head. I stopped dressing up for interviews years 
 
 * * *
 
-##3. It’s About The Stakeholders
+## 3. It’s About The Stakeholders
 
 Yglesias put it best:
 
@@ -116,7 +117,7 @@ And that’s called not doing a good job. It happens to the best of us.
 
 * * * 
 
-###What are we afraid of?
+### What are we afraid of?
 
 Honestly? We’re concerned because this group now has _power_ in a way they never had before. That’s the _only thing_ that has changed here. We have to be especially careful about not being homophobic — and, increasingly, sexist — in our speech and actions, and it’s scary to be held accountable for every idiotic thing that we’re bound to say.
 
