@@ -3,3 +3,4 @@ host: okayfail.com
 author_name: Phillip Mendonça-Vieira
 smart_punctuation: true
 sanitize: false
+disable_mentions: true
