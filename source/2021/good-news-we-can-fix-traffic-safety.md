@@ -2,9 +2,9 @@
 layout: post
 subject: "Good News: We Can Fix Taffic Safety!"
 article_image: "2021/good-news-we-can-fix-traffic-safety/files/conversion-st-paul.png"
-occurred_at: 2021-11-19
+occurred_at: 2021-11-22
 summary: "Unlike housing or wealth inequality or climate change, traffic safety is almost entirely in control of my local municipality. My city councillor doesn't have jurisdiction over air pollution, or carbon taxes, or whether we roll back the clocks. But the city of Toronto does have jurisdiction over how my local roads are designed and built."
-hide: true
+tags: deathbytraffic
 ---
 
 <figure id="fref:fig1">

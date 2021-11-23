@@ -4,6 +4,7 @@ subject: British Columbia is YIMBYer than California
 occurred_at: 2021-11-17
 article_image: "2021/british-columbia-more-yimby-california/files/average-bldg-permits-2011-2020.png"
 summary: Comparing new dwelling building permits per capita per year between select U.S. states and select Canadian provinces
+tags: housing
 ---
 
 ### Comparing new dwelling building permits per capita per year between select U.S. states and select Canadian provinces
