@@ -5,42 +5,6 @@ subject: Mirvish Village Public Meeting
 summary: I attended a public meeting organized by city hall councillors <a href="https://twitter.com/m_layton">Mike Layton</a> and <a href="https://twitter.com/joe_cressy">Joe Cressy</a> to discuss <a href="https://twitter.com/westbankcorp">Westbank</a>'s planning application for the Mirvish Village redevelopment.
 ---
 
-<style>
-blockquote.twitter-tweet {
-  display: inline-block;
-  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 16px;
-  border-color: #eee #ddd #bbb;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  margin: 10px 5px;
-  padding: 0 16px 16px 16px;
-  max-width: 468px;
-}
-
-blockquote.twitter-tweet p {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 20px;
-}
-
-blockquote.twitter-tweet a {
-  color: inherit;
-  font-weight: normal;
-  text-decoration: none;
-  outline: 0 none;
-}
-
-blockquote.twitter-tweet a:hover,
-blockquote.twitter-tweet a:focus {
-  text-decoration: underline;
-}
-</style>
-
 <p>On March 2nd, 2017, I attended a public meeting organized by city hall councillors <a href="https://twitter.com/m_layton">Mike Layton</a> and <a href="https://twitter.com/joe_cressy">Joe Cressy</a> to discuss <a href="https://twitter.com/westbankcorp">Westbank</a>'s planning application for the Mirvish Village redevelopment.</p>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The planning proposal for this looks really interesting and well done: <a href="https://t.co/3EUVgH3lcz">https://t.co/3EUVgH3lcz</a><br><br>I&#39;ll be swinging by. <a href="https://t.co/DKiPngYLa9">https://t.co/DKiPngYLa9</a></p>&mdash; ________________ (@phillmv) <a href="https://twitter.com/phillmv/status/837343584265326592">March 2, 2017</a></blockquote>
