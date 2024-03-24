@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../stylesheets/application.css" rel="stylesheet">
+
+        <title>How to create relative links in MS Word via MS Excel using Visual Basic – Phill MV</title>
+  <meta property="og:title"  content="How to create relative links in MS Word via MS Excel using Visual Basic" />
+    <meta name="Description" CONTENT="I once had to do a bunch of work in Visual Basic for Applications and wire together a Word document with an Excel spreadsheet. This blog post documents all the things I wish I&#39;d found by googling.">
+    <meta property="og:description" content="I once had to do a bunch of work in Visual Basic for Applications and wire together a Word document with an Excel spreadsheet. This blog post documents all the things I wish I&#39;d found by googling." />
+
+
+
+    <link rel="alternate" type="application/atom+xml" title="ATOM" href="http://okayfail.com/atom.xml" />
+  </head>
+  <body>
+
+    
+
+<header>
+  <div class="shortbio">
+    <h1><a href="../index.html">Phillip Mendonça-Vieira</a></h1>
+    <h3>See <a href="../archive.html">more of my writing</a> or <a href="../atom.xml">subscribe via rss</a>.</h3>
+    <hr></hr>
+  </div>
+</header>
+
+<section>
+  <div class="post-wrapper">
+    <div class="post">
+      <h1 class="title"><a href="vba-word-excel-hyperlinks.html">How to create relative links in MS Word via MS Excel using Visual Basic</a></h1>
+      <h5 class="date"><a href="vba-word-excel-hyperlinks.html">May 1, 2017</a> </h5>
+      <p data-sourcepos="1:1-1:202">I recently had to do a bunch of work in Visual Basic for Applications and wire together a Word document with an Excel spreadsheet. This blog post documents all the things I wish I’d found via googling.</p>
+<p data-sourcepos="3:1-3:136">I assume you’re reading this because it came up via a search engine, so I put all the snippets first and my motivating story at the end.</p>
+<p data-sourcepos="5:1-5:238">All of the following snippets of code are executed within the context of a Word document. I lightly edited the code and changed some variable and function names, so I make no guarantees that the code will copy and paste in without errors.</p>
+<h3 data-sourcepos="7:1-7:71">
+<a id="how-to-open-an-excel-document-with-user-input-from-a-word-document" class="anchor" href="vba-word-excel-hyperlinks.html#how-to-open-an-excel-document-with-user-input-from-a-word-document" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to open an Excel document with user input, from a Word document</h3>
+<p data-sourcepos="9:1-9:83">First, make sure you add a reference to Microsoft Excel Objects via the Tools menu.</p>
+<pre>
+Dim xl As Excel.Application
+Dim wkbk As Excel.Workbook
+Dim ex_sheet As Excel.Worksheet
+Dim t_sheet As Excel.Worksheet
+Dim j_sheet As Excel.Worksheet
+
+Set xl = Excel.Application
+
+fileToOpen = xl.GetOpenFilename
+
+If fileToOpen = "False" Then
+    MsgBox "Sorry, gotta pick a file!"
+    End
+End If
+
+Set wkbk = xl.Workbooks.Open(fileToOpen)
+Set ex_sheet = wkbk.Sheets(1)
+Set t_sheet = wkbk.Sheets(2)
+Set j_sheet = wkbk.Sheets(3)
+
+' do work here
+
+wkbk.Close SaveChanges:=False
+</pre>
+<h3 data-sourcepos="38:1-38:81">
+<a id="how-to-search-through-every-part-of-a-word-document-given-a-wildcard-pattern" class="anchor" href="vba-word-excel-hyperlinks.html#how-to-search-through-every-part-of-a-word-document-given-a-wildcard-pattern" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to search through every part of a Word document, given a wildcard pattern</h3>
+<p data-sourcepos="40:1-40:366">One of the workhorses in Microsoft Office is the concept of a ‘Range’, which represents a subset of the document you’re editing. You execute searches on a Range, which will then ‘select’ the sub-subset of the document you’re interested in. A Word document, as far as I can tell, consists of many ‘Stories’, which stand in for the different sections of the document.</p>
+<p data-sourcepos="42:1-42:259">In order to search through an <em>entire</em> document (i.e. main body, headers, footnotes, etc), we must iterate through the Range that represents each ‘Story’. Also, a Story may contain subranges. I found the original source of this code through VBA documentation.</p>
+<pre>
+' provide this function with a Word document, and an Excel Worksheet
+' you can pass down to your 'DoTheWorkWeWant' sub function.
+' in our case this will be the 'AddHyperlinkToARange' function from the next
+' code block
+
+Function SearchDocument(curdoc As Document, ex_sheet As Excel.Worksheet)
+  Dim count As Integer
+  Dim mypattern As String
+  Dim sRange As Range
+
+  count = 0
+  mypattern = "YOUR WILDCARD PATTERN HERE"
+
+  ' by default, i.e. the Selection.Find range, Word won't
+  ' search thru every single part of the document. So, we
+  ' instead have to iterate over every 'story'/doc section
+  ' and search those ranges individually.
+
+  For Each sRange In curdoc.StoryRanges
+
+      ExecuteSearch sRange, mypattern
+      While sRange.Find.Found
+
+          ' having found a search hit, we dispatch
+          ' this to a sub function; pick a better name
+          DoTheWorkWeWant sRange, count, ex_sheet
+
+          ' necessary for moving the range forward
+          ' or else when we reexecute the search
+          ' it'll just start at the beginning again
+          ' see superuser.com/questions/1009085
+          sRange.Collapse Direction:=wdCollapseEnd
+          count = count + 1
+
+          sRange.Find.Execute
+      Wend
+
+      ' but, apparently, each StoryRange is also
+      ' composed of many sub-ranges, so you have to 
+      ' also iterate over the StoryRange substories?
+      ' This was copied from Msft documentation.
+
+      While Not (sRange.NextStoryRange Is Nothing)
+          Set sRange = sRange.NextStoryRange
+
+          ExecuteSearch sRange, mypattern
+          While sRange.Find.Found
+
+              DoTheWorkWeWant sRange, count, ex_sheet
+              sRange.Collapse Direction:=wdCollapseEnd
+              count = count + 1
+
+              sRange.Find.Execute
+          Wend
+
+
+      Wend
+  Next
+End Function
+
+Function ExecuteSearch(sRange As Range, mypattern As String)
+    With sRange.Find
+        .ClearFormatting
+        .Text = mypattern
+        .Forward = True
+        .Wrap = wdFindStop
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchAllWordForms = False
+        .MatchSoundsLike = False
+        .MatchWildcards = True
+        .Execute
+    End With
+End Function
+</pre>
+<h3 data-sourcepos="122:1-122:59">
+<a id="how-to-insert-a-relative-hyperlink-into-a-word-document" class="anchor" href="vba-word-excel-hyperlinks.html#how-to-insert-a-relative-hyperlink-into-a-word-document" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to insert a relative hyperlink into a Word document</h3>
+<pre>
+' DoTheWorkWeWant from the function provided above
+' Assumes ActiveDocument is the word doc you want to edit,
+' and that you're provided with an Excel file to edit
+
+Function AddHyperlinkToARange(sr As Range, count As Integer, wsheet As Worksheet)
+    ' sanity check to prevent infinite loops
+    ' if you make a mistake in your code that
+    ' iterates thru Word document searches,
+    ' this can end up in an infinite loop
+    If count &gt; 2000 Then
+        End
+    End If
+
+
+    ' in the problem I had to solve,
+    ' I had to extract two numbers from the
+    ' provided substring
+    Dim info() As String
+    info = ExtractSearchInformation(sr.Text)
+
+
+    If info(0) &lt;&gt; "" Then
+        hyperlink = FetchHyperlinkFromExcel(wsheet, info(0), info(1))
+
+        If hyperlink &lt;&gt; "" Then
+        ' note the "..\" string
+        ' in our case, the files we were referencing were one file path down
+            ActiveDocument.Hyperlinks.Add Anchor:=sr, Address:="..\" &amp; hyperlink
+        End If
+    End If
+End Function
+</pre>
+<h3 data-sourcepos="158:1-158:70">
+<a id="how-to-search-through-two-excel-worksheet-columns-at-the-same-time" class="anchor" href="vba-word-excel-hyperlinks.html#how-to-search-through-two-excel-worksheet-columns-at-the-same-time" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to search through two Excel Worksheet columns at the same time</h3>
+<pre>
+Function FetchHyperlinkFromExcel(wsheet As Excel.Worksheet, colAValue As String, colBValue As String)
+    Dim cRange As Excel.Range
+    Dim cFound As Excel.Range
+
+    ' we set a range on the full A columns
+    ' so we only search within there
+
+    Set cRange = wsheet.Columns("A:A")
+    Dim hyperlink As String
+
+    ' xl's Range.Find works a bit differently.
+    ' gotta be careful to specify LookAt:=xlWhole, or else it'll
+    ' match substrings, which is NOT what we want
+
+    Set cFound = cRange.Find(colAValue, LookIn:=xlValues, LookAt:=xlWhole)
+    
+    If Not cFound Is Nothing Then
+        ' the only way to avoid infinite loops, apparently, is to keep
+        ' track of the first found address and loop until we see it again
+        cFirstAddress = cFound.Address
+
+        ' the format we're looking for depends on two columns (A,B)
+        ' so once we find the first column, we refine our search
+        ' by iterating over every found row and peeking inside the B col
+
+        ' Debug.Print "addr: " &amp; cFound.Row &amp; "x" &amp; cFound.Column
+        foundColB = wsheet.Cells(cFound.Row, 2).Value
+
+
+        ' if the foundColB is empty AND our colBValue is empty, we
+        ' found what we're looking for
+        If (IsEmpty(foundColB) And colBValue = "") Or foundColB = colBValue Then
+            ' in this case, we were looking for the value of 4th column
+            hyperlink = wsheet.Cells(cFound.Row, 4).Value
+        Else
+            Do
+                Set cFound = cRange.FindNext(cFound)
+                foundColB = wsheet.Cells(cFound.Row, 2).Value
+                If foundColB = colBValue Then
+                    hyperlink = wsheet.Cells(cFound.Row, 4).Value
+                End If
+            Loop Until (foundColB = colBValue) Or (cFound.Address = cFirstAddress)
+        End If
+
+    End If
+    FetchHyperlinkFromExcel = hyperlink
+End Function
+</pre>
+<h3 data-sourcepos="210:1-210:64">
+<a id="how-to-create-a-new-word-file-and-write-any-given-text-to-it" class="anchor" href="vba-word-excel-hyperlinks.html#how-to-create-a-new-word-file-and-write-any-given-text-to-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to create a new Word file and write any given text to it</h3>
+<pre>
+' note that this will shift your ActiveDocument
+Set logger = Word.Application.Documents.Add
+logger.Content.InsertAfter Text:="This is the dumbest, easiest way" &amp; vbNewLine
+</pre>
+<hr data-sourcepos="218:1-219:0">
+<h2 data-sourcepos="220:1-220:23">
+<a id="why-did-you-do-this" class="anchor" href="vba-word-excel-hyperlinks.html#why-did-you-do-this" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why did you do this?</h2>
+<p data-sourcepos="222:1-222:92">Recently, as a favour, I was asked to step in and perform some Microsoft Office automation.</p>
+<p data-sourcepos="224:1-224:386">A legal firm was producing a lengthy court submission with thousands of citations. These citations all referenced existing files. This submission would be delivered on a USB key along side the files it cited.  The trick was, they wanted their submitted document to link directly to these files, as they came up in footnotes. Like any website, except only referencing a local filesystem.</p>
+<p data-sourcepos="226:1-226:270">They were <em>extremely</em> short for time, the intern that normally handled this was away on exams, and every other computer person they knew turned them down. All I had to do was parse a spreadsheet, search through a Word file and insert a relative link in the right place.</p>
+<p data-sourcepos="228:1-228:103">I said sure, how hard could it be? and promptly wildly underestimated how long this task would take me.</p>
+<figure>
+<a href="../img/vb-stackoverflow.png" target="_blank"><img src="../img/vb-stackoverflow.png" alt="A graph representing the number of visits I usually make to StackOverflow" style="max-width:100%;"></a>
+<figcaption>A graph representing the number of visits I usually make to StackOverflow</figcaption>
+</figure>
+<p data-sourcepos="235:1-235:193">I’ve spent enough time in my career parsing OpenOffice documents to know that, while I <em>could probably</em> crack open MS Word files using some half-baked library, down that path also lies madness.</p>
+<p data-sourcepos="237:1-237:440">I rolled up my sleeves and dug into Visual Basic for Applications.<sup class="footnote-ref"><a href="vba-word-excel-hyperlinks.html#fn-officeautomation" id="fnref-officeautomation" data-footnote-ref>1</a></sup> This proved to be challenging,<sup class="footnote-ref"><a href="vba-word-excel-hyperlinks.html#fn-lolvba" id="fnref-lolvba" data-footnote-ref>2</a></sup> mostly because of the runtime: it obviously hasn’t been updated in ten or fifteen years, and the version I was dealing with couldn’t be bothered to give me line numbers when errors occurred. I lost hours and hours fighting cryptic syntax and runtime errors and runtime errors reported as syntax errors.<sup class="footnote-ref"><a href="vba-word-excel-hyperlinks.html#fn-vbagripes" id="fnref-vbagripes" data-footnote-ref>3</a></sup></p>
+<section class="footnotes" data-footnotes>
+<ol>
+<li id="fn-officeautomation">
+<p data-sourcepos="242:22-242:267">As far as I can tell this is still the Best Way to automate things in MS Office. I probably could’ve done this in .NET, but that would involve installing .NET runtimes on aggressively locked down Windows laptops, and that felt like a non-starter. <a href="vba-word-excel-hyperlinks.html#fnref-officeautomation" class="footnote-backref" data-footnote-backref aria-label="Back to content">↩</a></p>
+</li>
+<li id="fn-lolvba">
+<p data-sourcepos="240:12-240:278">A few years ago, <a href="../2014/only-correct-way-think-brendan-eich.html">in a post about Brendan Eich</a>, I’d joked about Microsoft VisualBasicScript winning the browser scripting wars; this experience gave me a new appreciation for how reasonable Javascript is in comparison. <a href="vba-word-excel-hyperlinks.html#fnref-lolvba" class="footnote-backref" data-footnote-backref aria-label="Back to content">↩</a></p>
+</li>
+<li id="fn-vbagripes">
+<p data-sourcepos="244:15-244:293">VBA at a glance seems loosely typed, but is in fact strongly, statically typed. It’s not smart enough to infer types returned from methods. It distinguishes between primitives and objects with different syntax. It ships with poor support for even basic data structures. Etc, etc. <a href="vba-word-excel-hyperlinks.html#fnref-vbagripes" class="footnote-backref" data-footnote-backref aria-label="Back to content">↩</a></p>
+</li>
+</ol>
+</section>
+      <p class="date"><a href="vba-word-excel-hyperlinks.html"># 2017-05-01</a></p>
+    </div>
+  </div>
+</section>
+
+
+  </body>
+</html>
