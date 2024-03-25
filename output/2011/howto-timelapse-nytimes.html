@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../stylesheets/application.css" rel="stylesheet">
+
+        <title>HOWTO: Make a screenshot timelapse video. – Phill MV</title>
+  <meta property="og:title"  content="HOWTO: Make a screenshot timelapse video." />
+
+
+
+    <link rel="alternate" type="application/atom+xml" title="ATOM" href="http://okayfail.com/atom.xml" />
+  </head>
+  <body>
+
+    
+
+<header>
+  <div class="shortbio">
+    <h1><a href="../index.html">Phillip Mendonça-Vieira</a></h1>
+    <h3>See <a href="../archive.html">more of my writing</a> or <a href="../atom.xml">subscribe via rss</a>.</h3>
+    <hr></hr>
+  </div>
+</header>
+
+<section>
+  <div class="post-wrapper">
+    <div class="post">
+      <h1 class="title"><a href="howto-timelapse-nytimes.html">HOWTO: Make a screenshot timelapse video.</a></h1>
+      <h5 class="date"><a href="howto-timelapse-nytimes.html">July 21, 2011</a> </h5>
+      <p data-sourcepos="1:1-1:174">After I posted that <a href="http://okayfail.com/2011/nytimes-timelapse.html">nytimes-lapse</a> video earlier this week a lot of people wrote in asking me about how it was accomplished.</p>
+<a href="../img/nytimes-election.gif" target="_blank"><img src="../img/nytimes-election.gif" style="max-width:100%;"></a>
+<h2>
+<a id="the-accident" class="anchor" href="howto-timelapse-nytimes.html#the-accident" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The accident</h2>
+No one just "ends up" with with 13,802 screenshots. I fully planned to make something not entirely unlike that video – but it was supposed to last two weeks, not nine months.
+<p data-sourcepos="8:1-8:286">About a year ago I was doing my best trying to not fail at <a href="http://okayfail.com/2011/thoughts-on-building-a-feed-reader.html">finishing my undergraduate thesis</a>. I was also being constantly harassed by my advisor to create a demo that would justify all the office space I was occupying.</p>
+<p data-sourcepos="10:1-10:182">The problem is that I had what was an essentially undemoable project. It took weeks of user interaction for meaningful results and its very premise hinged on being kind of invisible.</p>
+<p data-sourcepos="12:1-12:302">So, I decided that I could try to make a point by illustrating just how much <em>stuff</em> there is on the internet and to this end I set up a cron job and… promptly forgot about it. It went on until I received an email from my hosting company telling me that my server had exhausted all of its disk space.</p>
+<h2>
+<a id="what-does-this-cron-job-look-like" class="anchor" href="howto-timelapse-nytimes.html#what-does-this-cron-job-look-like" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What does this cron job look like?</h2>
+<pre>*/30 * * * * /home/phillmv/screenshots/do_it.sh</pre>
+<pre>
+#!/bin/bash
+/usr/local/bin/wkhtmltoimage --crop-h 768 http://nytimes.com /home/phillmv/screenshots/nytimes-`date +%Y%m%d-%H%M`.jpg
+</pre>
+<p data-sourcepos="22:1-22:77"><a href="http://code.google.com/p/wkhtmltopdf/">wkhtmltopdf</a> is a phenomenal utility.</p>
+<h2>
+<a id="how-long-did-it-take-you-to-make" class="anchor" href="howto-timelapse-nytimes.html#how-long-did-it-take-you-to-make" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How long did it take you to make?</h2>
+<p data-sourcepos="26:1-26:299">It took about two or three evenings and most of a weekend to put together, which I colloquially refer to as “about four days”. The vast majority of the time was spent downloading, uploading, carefully editing out the full page ads, rendering, reordering files, and slowing down the interesting bits.</p>
+<h2>
+<a id="okay-i-have-a-folder-full-of-jpegs-what-now" class="anchor" href="howto-timelapse-nytimes.html#okay-i-have-a-folder-full-of-jpegs-what-now" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Okay, I have a folder full of jpegs. What now?</h2>
+<p data-sourcepos="30:1-30:463">Install <a href="http://en.wikipedia.org/wiki/FFmpeg">ffmpeg</a>. It’s a tool for manipulating video and audio data. Make sure you enable  <a href="http://en.wikipedia.org/wiki/X264">x264</a> and <a href="http://lame.sourceforge.net/">liblame</a> support. Ubuntu users feeling frisky should check <a href="http://ubuntuforums.org/showthread.php?t=786095">this guide out</a>, tho compiling it from source is probably unnecessary. OSX users can install it through <a href="http://mxcl.github.com/homebrew/">homebrew</a>.</p>
+<p data-sourcepos="32:1-32:154">Go into your screenshot folder, rename every file so that its filename is a number that increases sequentially starting from 0, and type the following in:</p>
+<pre>ffmpeg -r 30 -i %d.jpg -vcodec libx264 -bf 0 -crf 12 -threads 2 -an -r 30 filenamehere.mp4</pre>
+<p data-sourcepos="36:1-36:76">If you want to add an mp3 to it, after the above command completes, type in:</p>
+<pre>ffmpeg -i filenamehere.mp4 -i song.mp3 -map 0:0 -map 1:0 -r 30 -acodec copy -vcodec copy -threads 2 filenamehere_with_sound.mkv</pre>
+<h2>
+<a id="say-what" class="anchor" href="howto-timelapse-nytimes.html#say-what" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Say what?</h2>
+<p data-sourcepos="42:1-42:282">Don’t get me started. ffmpeg is a crazy complex tool. It was written <a href="http://en.wikipedia.org/wiki/Fabrice_Bellard">by a guy</a> who is just <a href="http://bellard.org/jslinux/">frighteningly smart</a>. It’s hard to use, and most of the flags are configuration options for the codec being used.</p>
+<p data-sourcepos="44:1-44:267">No one really knows how to use it. I’ve spent a lot of time getting it to work. People trade magic incantations for it over forum posts. If you care about quality, you should be using a <a href="http://juliensimon.blogspot.com/2009/01/howto-ffmpeg-x264-presets.html">preset</a>.</p>
+<p data-sourcepos="46:1-46:24">The key things to know:</p>
+<p data-sourcepos="48:1-50:86"><code>-i</code> defines an input file.<br><br>
+<code>%d.jpg</code> is a pattern matcher for digits.<br><br>
+The first <code>-r</code> defines input frame rate, the second <code>-r</code> defines an output framerate.</p>
+<p data-sourcepos="52:1-52:109">The defaults work well enough (for screenshots). It’s hard for me to spend any more time thinking about this.</p>
+<h2>
+<a id="im-going-to-take-your-word-on-that" class="anchor" href="howto-timelapse-nytimes.html#im-going-to-take-your-word-on-that" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>I'm going to take your word on that</h2>
+<p data-sourcepos="56:1-56:63">You should. They’re excellent words. Prime verbiage right here.</p>
+<h2>
+<a id="wait-how-the-hell-am-i-supposed-to-rename-12000-files" class="anchor" href="howto-timelapse-nytimes.html#wait-how-the-hell-am-i-supposed-to-rename-12000-files" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wait, how the hell am I supposed to rename 12,000 files?</h2>
+<p data-sourcepos="60:1-60:89">I wrote a <a href="https://gist.github.com/1089931">script</a>. It’s easy, when you’re a programmer.</p>
+<h2>
+<a id="so-how-did-you-edit-this" class="anchor" href="howto-timelapse-nytimes.html#so-how-did-you-edit-this" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>So... how did you edit this?</h2>
+<p data-sourcepos="64:1-64:139">Like I said, I wrote a script. It made looking up specific images and repeating certain frame sections easy. It was okay. It was tolerable.</p>
+<p data-sourcepos="66:1-66:69">I timed the number of frames to match up with the length of the song.</p>
+<h2>
+<a id="should-i-use-youtube-or-vimeo" class="anchor" href="howto-timelapse-nytimes.html#should-i-use-youtube-or-vimeo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Should I use Youtube or Vimeo?</h2>
+<p data-sourcepos="70:1-70:202">My heart says Vimeo, but they reject weirdly sized videos like mine. Youtube accepts a wide variety of formats, but I kept having issues where the first 5 seconds were corrupted and full of grey frames.</p>
+<p data-sourcepos="72:1-72:446">I eventually discovered that <a href="http://forums.creativecow.net/thread/291/423">youtube has a problem</a> with the mpeg4 container and that storing it in <a href="http://en.wikipedia.org/wiki/Matroska">Matroska</a> instead made all my pain go away. Read the following [excellent guide to video encoding by Mark Pilgrim](<a href="http://diveintomark.org/archives/2008/12/1">http://diveintomark.org/archives/2008/12/1</a> 8/give-part-1-container-formats) if you don’t intuitively grasp the meaning of the previous sentence.</p>
+<p data-sourcepos="74:1-74:141">Unfortunately, it seems like I haven’t <a href="https://twitter.com/#!/chrisarchitect/status/93418084479668224">ironed out the kinks</a>. Caveat emptor.</p>
+<h2>
+<a id="that-was-a-really-cool-video" class="anchor" href="howto-timelapse-nytimes.html#that-was-a-really-cool-video" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>That was a really cool video!</h2>
+<p data-sourcepos="78:1-78:228">Thanks! I’m conflicted over how I should feel about this. On the one hand all of the attention was exhilarating and intoxicating, yet on the other I could feel the raging rampant narcissism I engaged in slowly poisoning my soul.</p>
+      <p class="date"><a href="howto-timelapse-nytimes.html"># 2011-07-21</a></p>
+    </div>
+  </div>
+</section>
+
+
+  </body>
+</html>
