@@ -2,8 +2,8 @@
 layout: post
 subject: Arroz Doce and the Kindest Place on Youtube
 published: false
+occurred_at: 2017-01-10
 hide: true
-
 ---
 
 <!--<h3>Saying goodbye to my grandmother; rice pudding and the kindest place on youtube</h3>-->

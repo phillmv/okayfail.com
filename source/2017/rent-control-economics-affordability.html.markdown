@@ -1,6 +1,7 @@
 ---
 layout: post
 subject: "Actually, Rent Control is Great, Part 2: The Economic Case for Controls"
+occurred_at: 2017-11-14
 hide: true
 ---
 

@@ -1,0 +1,9 @@
+<section>
+  <div class="post-wrapper">
+    <div class="post">
+      <%= @renderer.to_html %>
+
+      <p class="date"><%= link_to "# #{@entry.occurred_at.strftime("%Y-%m-%d")}", entry_path(@entry) %></p>
+    </div>
+  </div>
+</section>

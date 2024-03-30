@@ -1,6 +1,7 @@
 ---
 layout: post
 subject: Financialization Is A Fire That Burns Cities
+occurred_at: 2018-04-28
 hide: true
 ---
 

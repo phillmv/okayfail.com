@@ -1,6 +1,7 @@
 ---
 layout: post
 subject: "Housing Markets are Highly Hetereogenous"
+occurred_at: 2019-01-24
 hide: true
 ---
 

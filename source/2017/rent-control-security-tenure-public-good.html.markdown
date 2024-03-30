@@ -1,6 +1,7 @@
 ---
 layout: post
 subject: "Actually, Rent Control is Great, Part 3: Security of Tenure is Good For Everybody (But We Only Subsidize Homeowners')"
+occurred_at: 2017-11-14
 hide: true
 ---
 

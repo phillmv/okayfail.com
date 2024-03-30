@@ -1,6 +1,7 @@
 ---
 layout: post
 hide: true
+occurred_at: 2019-02-28
 subject: The Three Crises in Toronto Housing
 ---
 
