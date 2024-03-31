@@ -7,7 +7,7 @@ tags: housing
 highlight: true
 ---
 
-_A version of this article was published in the [Toronto Star](https://www.thestar.com/opinion/contributors/2017/11/18/rent-controls-promote-stability-mendona-vieira.html)_.
+_A version of this article was published in the [Toronto Star](https://www.thestar.com/opinion/contributors/2017/11/18/rent-controls-promote-stability-mendona-vieira.html). Interested in learning more? You can [read the full paper here](/2018/rent-control-great-security-of-tenure.html)._
 
 I've been renting in Toronto for almost a decade now, and I've watched rents in my neighbourhood(s) climb substantially. In that period I have moved eight times, and whenever I have looked for housing the uncertainty of living in an uncontrolled apartment weighed heavily on my mind. That's why I got excited when, back in April of this year, the government of Ontario announced that it was extending rent control to every dwelling in the province, as opposed to just buildings constructed before 1991.
 
@@ -39,6 +39,3 @@ A more likely explanation for the squeezing of our primary rental housing supply
 
 Commentators do us a disservice when they pretend rent controls are about affordability or redistribution and ignore tenant concerns over security of tenure. From what I've learned it's way more complicated than that. Today, low- and middle-income people have been priced out of ownership in our city. Why should we be subjected to a tenancy regime that significantly disadvantages us socially, economically and politically compared to the subsidized homeowning population?
 
----
-
-This essay is actually a condensed version of a longer paper I wrote on the topic. If you're interested, [click here to read in more detail](/2018/rent-control-great-security-of-tenure.html).

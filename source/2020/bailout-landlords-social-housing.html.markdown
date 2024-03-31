@@ -4,7 +4,6 @@ summary: If scores of landlords become insolvent due to the global pandemic, we 
 occurred_at: 2020-04-09
 layout: post
 tags: housing
-highlight: true
 ---
 
 _A version of this article was published in [Passage](https://readpassage.com/protect-tenants-from-covid-19-by-nationalizing-landlords-assets/)._

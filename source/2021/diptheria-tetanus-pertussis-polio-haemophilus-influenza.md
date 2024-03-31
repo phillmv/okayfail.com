@@ -3,6 +3,7 @@ layout: post
 subject: Diphtheria, tetanus, pertussis, polio, and Haemophilus influenza
 article_image: "2021/diptheria-tetanus-pertussis-polio-haemophilus-influenza/files/diptheria-tetanus-pertussis-polio-haemophilus-influenza.png"
 occurred_at: 2021-10-30
+highlight: true
 summary: The moment had arrived, the needle was ready.
 ---
 
