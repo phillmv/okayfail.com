@@ -27,7 +27,7 @@
 <% when "post" %>
 <%= render "post" -%>
 <% else -%>
-<% if @entry.identifier.index("garden") == 0 %>
+<% if @entry.identifier.index("garden/") == 0 %>
 <%= render "garden" -%>
 <% else %>
 <section>

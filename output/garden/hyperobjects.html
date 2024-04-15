@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../stylesheets/application.css" rel="stylesheet">
+
+        <title>hyperobjects – Phill MV</title>
+  <meta property="og:title"  content="hyperobjects" />
+
+
+
+    <link rel="alternate" type="application/atom+xml" title="ATOM" href="http://okayfail.com/atom.xml" />
+  </head>
+  <body>
+
+    
+
+<header>
+  <div class="shortbio">
+    <h1><a href="../index.html">Phillip Mendonça-Vieira</a></h1>
+    <h3>See <a href="../archive.html">more of my writing</a> or <a href="../atom.xml">subscribe via rss</a>.</h3>
+    <hr></hr>
+  </div>
+</header>
+
+<section>
+  <div class="post-wrapper">
+    <div class="post">
+      <h1 data-sourcepos="1:1-1:14">
+<a id="hyperobjects" class="anchor" href="hyperobjects.html#hyperobjects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>hyperobjects</h1>
+<p data-sourcepos="3:1-3:251">i recently had to grapple with how my work’s APIs handled authorization. our team wanted to do something slightly weird, and given my talents and knowledge of where the bodies are buried it fell to me to figure out how to do it safely &amp; securely, etc.</p>
+<p data-sourcepos="5:1-5:447">now, the beating heart of GitHub is a sprawling, sixteen-year-old ruby on rails app so that is easier said than done. not, mind you, because it’s a rails app; a lot of people struggle with that fact, for some reason, but i’m not one of them. and, in theory, who is allowed to read or write to this particular resource? ought to be a straightforward question. the system gets asked this question, oh i don’t know, literally millions of times a day.</p>
+<p data-sourcepos="7:1-7:392">so, i sat down and started reading. patiently reading code and docs has historically served me quite well. there was a lot of code and docs, though, so it took me quite a while. finally, after spending weeks, and weeks, <em>and weeks</em> on this question, i thought i had resolved it to my satisfaction, and wrote it up in a narrative i presented to my team. and everyone agreed that it made sense.</p>
+<p data-sourcepos="9:1-9:34">but then a curious thing happened.</p>
+<p data-sourcepos="11:1-11:285">i asked a former teammate of mine, an expert in this system, for a sanity check, and she pointed out that i had missed an important detail. the approach i had outlined in my doc was <em>almost</em> correct, which is another way of saying that it could never work. so, i went back to the code.</p>
+<p data-sourcepos="13:1-13:426">and now every time i looked at some corner case, i seemed to find new quirks. someone would ask a perfectly sensible question that iluminated a corner of my ignorance. i struggled to explain what some of our automated tests <em>should</em> be doing, and i kept finding new unexpected behaviour, lurking in a different part of the codebase i had either not read – or had read many times before, but had yet been able to internalize.</p>
+<p data-sourcepos="15:1-15:410">i eventually realized, far too late, that the full set of behaviour that describes how the app handles authorization – every nook and cranny, in its majestic entirety – was simply too large to fit in my head all at once. or more likely, <em>anyone’s</em> head. after over a decade of effort, rearchitecting for scale, handling new-use cases,<sup class="footnote-ref"><a href="hyperobjects.html#fn-invariants" id="fnref-invariants" data-footnote-ref>1</a></sup> etc, etc, the system had simply accreted too many details.</p>
+<p data-sourcepos="17:1-17:109">it has become a <strong><a href="https://www.wired.com/story/timothy-morton-hyperobjects-all-the-way-down/">hyperobject</a></strong>.</p>
+<blockquote data-sourcepos="19:1-19:689">
+<p data-sourcepos="19:2-19:689">Examples of hyperobjects include: black holes, oil spills, all plastic ever manufactured, capitalism, tectonic plates, and the solar system. Hyperobjects are often ancient or destined to be, like the sum total of Styrofoam and plutonium we have littered across the Earth over the past century, which will remain for millennia. A human being may see <em>evidence</em> of hyperobjects—pollution here, a hurricane there—but try gazing off into the distance to see the <em>totality</em> of them, or to the very <em>end</em> of them, and they disappear into a vanishing point. Hyperobjects, as Morton says, emerge only in fragments and patches that do not always seem to connect up from our view on the ground.</p>
+</blockquote>
+<h2 data-sourcepos="21:1-21:13">
+<a id="well-duh" class="anchor" href="hyperobjects.html#well-duh" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>well, duh?</h2>
+<p data-sourcepos="23:1-23:42">in one sense, this observation is trivial.</p>
+<p data-sourcepos="25:1-25:300">our ruby on rails monolith alone, nevermind the dozens of services that connect to it, has seen hundreds and hundreds of engineers pour a lot of code into it. it is immediately apparent to all who clone the repository that the app as a whole is too vast and enormous for any one person to comprehend.</p>
+<p data-sourcepos="27:1-27:106">however, i had yet to grasp that even <strong>important subsets</strong> of the app could also be beyond comprehension.</p>
+<hr data-sourcepos="29:1-30:0">
+<p data-sourcepos="31:1-31:221">around the same time, i came across <a href="https://backofmind.substack.com/p/songs-my-portfolio-manager-taught-4fe">this entry in Dan Davies’ newsletter</a>, and here i will just quote the relevant passage in full (emphasis mine):</p>
+<blockquote data-sourcepos="33:1-33:101">
+<p data-sourcepos="33:2-33:101">Once upon a time, in the early to mid stages of the Global Financial Crisis, a client said to me …</p>
+</blockquote>
+<blockquote data-sourcepos="35:1-35:614">
+<blockquote data-sourcepos="35:2-35:614">
+<p data-sourcepos="35:7-35:614">“Danny, since this thing began, there have been two types of analysts. Some people, like yourself, have been trying to develop their understanding of an incredibly complicated system, under huge pressure, absorbing vast amounts of technical detail in a short time, and doing a fairly good job of it. Others have just been mindless bomb-throwers, trying to attract attention to themselves with ill-informed displays of competitive panic. I decided early in this crisis that I was going to listen to the second type of analyst – and they have turned out, systematically, to be much closer to being right”</p>
+</blockquote>
+</blockquote>
+<blockquote data-sourcepos="37:1-37:475">
+<p data-sourcepos="37:2-37:475">He was correct; I changed my approach as a result and consequently, I think, did a much better job of understanding the Eurocrisis. <strong>There’s a very great danger in believing that either a) the whole problem is of a size that you can fit in your head, so understanding it is just a matter of working hard enough, or that b) the relationship between the amount of detail you know and your understanding of the system is positive and monotonic.</strong> This is often not the case.</p>
+</blockquote>
+<p data-sourcepos="39:1-39:175">i’m still meditating on the meaning of this quote. i experienced it as a bit of a profound insight. i’ve been meaning to track down Dan’s email so i can ask him more about it.</p>
+<h2 data-sourcepos="41:1-41:12">
+<a id="now-what" class="anchor" href="hyperobjects.html#now-what" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>now what?</h2>
+<p data-sourcepos="43:1-43:288">at any rate, my work (my life) is filled with hyperobjects. i have to grapple with them all the time. not coincidentally, Dan is <a href="https://profilebooks.com/work/the-unaccountability-machine/">working on a book on cybernetics</a>, and it makes me think a lot about the ol’ Stafford Beer quote,</p>
+<blockquote data-sourcepos="45:1-45:56">
+<p data-sourcepos="45:3-45:56"><strong>The purpose of a system is what it does.</strong><sup class="footnote-ref"><a href="hyperobjects.html#fn-posiwid" id="fnref-posiwid" data-footnote-ref>2</a></sup></p>
+</blockquote>
+<p data-sourcepos="47:1-47:254">we can’t understand the whole system. nobody can take in every part and absorb every detail. and the intentions of any individual contributor are irrelevant. the only thing we can do is try to step outside and observe the actions it takes upon the world.</p>
+<p data-sourcepos="49:1-49:113">i’m probably mixing metaphors. but! with the benefit of hindsight, how should i have tackled my research problem?</p>
+<p data-sourcepos="51:1-51:265">i should’ve ignored all of the code &amp; first attacked the test suite. work backwards from those weird tests i struggled with. those tests describe the behaviour we actually see, at a high enough level to be useful. how it works under the hood kind of doesn’t matter.</p>
+<p data-sourcepos="53:1-53:50">when wrestling a hyperobject, you kind of have to:</p>
+<ul data-sourcepos="54:1-58:0">
+<li data-sourcepos="54:1-54:9">squint,</li>
+<li data-sourcepos="55:1-55:21">suss out the vibes,</li>
+<li data-sourcepos="56:1-56:49">don’t try to take it all in, because you can’t.</li>
+<li data-sourcepos="57:1-58:0">instead, measure the end result you can see; observe the outcomes, and use your intuition. what is the system trying to <em>do</em>?</li>
+</ul>
+<section class="footnotes" data-footnotes>
+<ol>
+<li id="fn-invariants">
+<p data-sourcepos="59:16-59:263">the other day i came across Lorin’s post “<a href="https://surfingcomplexity.blog/2024/03/26/the-problem-with-invariants-is-that-they-change-over-time/">the problem with invariants is that they change over time</a>” and its simple truth still makes me giggle. <a href="hyperobjects.html#fnref-invariants" class="footnote-backref" data-footnote-backref aria-label="Back to content">↩</a></p>
+</li>
+<li id="fn-posiwid">
+<p data-sourcepos="61:13-61:97">cf <a href="https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does">wikipedia</a> <a href="hyperobjects.html#fnref-posiwid" class="footnote-backref" data-footnote-backref aria-label="Back to content">↩</a></p>
+</li>
+</ol>
+</section>
+
+      <p class="date"><a href="http://localhost:3000/garden/hyperobjects.html"># 2024-03-25</a></p>
+    </div>
+  </div>
+</section>
+
+
+  </body>
+</html>

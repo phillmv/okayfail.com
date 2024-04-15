@@ -2,16 +2,8 @@
 
 set -e
 
-if [ -f /usr/local/share/chruby/chruby.sh ]; then
-  source /usr/local/share/chruby/chruby.sh
-  source /usr/local/share/chruby/auto.sh
-fi
 
-cd "$(dirname "$0")/.."
-
-export STATIC_PLS=true
-export notebook_name="source"
-export NOTEBOOK_PATH="$(pwd)/$notebook_name"
-
-cd .arquivo
-bundle exec rails static:generate
+mkdir -p /tmp/okfail-data
+rm -rf /tmp/okfail-data/*
+rm -rf ~/code/okayfail.com/output/*
+DATA_FOLDER=/tmp/okfail-data ARQUIVO_PORT=13457 ~/code/arquivo/bin/start-arquivo mawl `realpath ~/code/okayfail.com/source/` `realpath ~/code/okayfail.com/output/`

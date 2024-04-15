@@ -4,10 +4,94 @@
   <link rel="alternate" type="text/html" href="http://okayfail.com/"/>
   <link rel="self" type="application/atom+xml" href="http://okayfail.com/atom.xml"/>
   <title>This is a default title.</title>
-  <updated>2021-11-22T00:00:00Z</updated>
+  <updated>2024-03-25T00:00:00Z</updated>
   <author>
     <name>Phillip Mendonça-Vieira</name>
   </author>
+  <entry>
+    <id>http://okayfail.com/garden/hyperobjects.html</id>
+    <published>2024-03-25T00:00:00Z</published>
+    <updated>2024-04-15T01:19:38Z</updated>
+    <link rel="alternate" type="text/html" href="http://okayfail.com/garden/hyperobjects.html"/>
+    <title>hyperobjects</title>
+    <content type="html">&lt;h1 data-sourcepos="1:1-1:14"&gt;
+&lt;a id="hyperobjects" class="anchor" href="#hyperobjects" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;hyperobjects&lt;/h1&gt;
+&lt;p data-sourcepos="3:1-3:251"&gt;i recently had to grapple with how my work’s APIs handled authorization. our team wanted to do something slightly weird, and given my talents and knowledge of where the bodies are buried it fell to me to figure out how to do it safely &amp;amp; securely, etc.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:447"&gt;now, the beating heart of GitHub is a sprawling, sixteen-year-old ruby on rails app so that is easier said than done. not, mind you, because it’s a rails app; a lot of people struggle with that fact, for some reason, but i’m not one of them. and, in theory, who is allowed to read or write to this particular resource? ought to be a straightforward question. the system gets asked this question, oh i don’t know, literally millions of times a day.&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:392"&gt;so, i sat down and started reading. patiently reading code and docs has historically served me quite well. there was a lot of code and docs, though, so it took me quite a while. finally, after spending weeks, and weeks, &lt;em&gt;and weeks&lt;/em&gt; on this question, i thought i had resolved it to my satisfaction, and wrote it up in a narrative i presented to my team. and everyone agreed that it made sense.&lt;/p&gt;
+&lt;p data-sourcepos="9:1-9:34"&gt;but then a curious thing happened.&lt;/p&gt;
+&lt;p data-sourcepos="11:1-11:285"&gt;i asked a former teammate of mine, an expert in this system, for a sanity check, and she pointed out that i had missed an important detail. the approach i had outlined in my doc was &lt;em&gt;almost&lt;/em&gt; correct, which is another way of saying that it could never work. so, i went back to the code.&lt;/p&gt;
+&lt;p data-sourcepos="13:1-13:426"&gt;and now every time i looked at some corner case, i seemed to find new quirks. someone would ask a perfectly sensible question that iluminated a corner of my ignorance. i struggled to explain what some of our automated tests &lt;em&gt;should&lt;/em&gt; be doing, and i kept finding new unexpected behaviour, lurking in a different part of the codebase i had either not read – or had read many times before, but had yet been able to internalize.&lt;/p&gt;
+&lt;p data-sourcepos="15:1-15:410"&gt;i eventually realized, far too late, that the full set of behaviour that describes how the app handles authorization – every nook and cranny, in its majestic entirety – was simply too large to fit in my head all at once. or more likely, &lt;em&gt;anyone’s&lt;/em&gt; head. after over a decade of effort, rearchitecting for scale, handling new-use cases,&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-invariants" id="fnref-invariants" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt; etc, etc, the system had simply accreted too many details.&lt;/p&gt;
+&lt;p data-sourcepos="17:1-17:109"&gt;it has become a &lt;strong&gt;&lt;a href="https://www.wired.com/story/timothy-morton-hyperobjects-all-the-way-down/"&gt;hyperobject&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote data-sourcepos="19:1-19:689"&gt;
+&lt;p data-sourcepos="19:2-19:689"&gt;Examples of hyperobjects include: black holes, oil spills, all plastic ever manufactured, capitalism, tectonic plates, and the solar system. Hyperobjects are often ancient or destined to be, like the sum total of Styrofoam and plutonium we have littered across the Earth over the past century, which will remain for millennia. A human being may see &lt;em&gt;evidence&lt;/em&gt; of hyperobjects—pollution here, a hurricane there—but try gazing off into the distance to see the &lt;em&gt;totality&lt;/em&gt; of them, or to the very &lt;em&gt;end&lt;/em&gt; of them, and they disappear into a vanishing point. Hyperobjects, as Morton says, emerge only in fragments and patches that do not always seem to connect up from our view on the ground.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 data-sourcepos="21:1-21:13"&gt;
+&lt;a id="well-duh" class="anchor" href="#well-duh" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;well, duh?&lt;/h2&gt;
+&lt;p data-sourcepos="23:1-23:42"&gt;in one sense, this observation is trivial.&lt;/p&gt;
+&lt;p data-sourcepos="25:1-25:300"&gt;our ruby on rails monolith alone, nevermind the dozens of services that connect to it, has seen hundreds and hundreds of engineers pour a lot of code into it. it is immediately apparent to all who clone the repository that the app as a whole is too vast and enormous for any one person to comprehend.&lt;/p&gt;
+&lt;p data-sourcepos="27:1-27:106"&gt;however, i had yet to grasp that even &lt;strong&gt;important subsets&lt;/strong&gt; of the app could also be beyond comprehension.&lt;/p&gt;
+&lt;hr data-sourcepos="29:1-30:0"&gt;
+&lt;p data-sourcepos="31:1-31:221"&gt;around the same time, i came across &lt;a href="https://backofmind.substack.com/p/songs-my-portfolio-manager-taught-4fe"&gt;this entry in Dan Davies’ newsletter&lt;/a&gt;, and here i will just quote the relevant passage in full (emphasis mine):&lt;/p&gt;
+&lt;blockquote data-sourcepos="33:1-33:101"&gt;
+&lt;p data-sourcepos="33:2-33:101"&gt;Once upon a time, in the early to mid stages of the Global Financial Crisis, a client said to me …&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="35:1-35:614"&gt;
+&lt;blockquote data-sourcepos="35:2-35:614"&gt;
+&lt;p data-sourcepos="35:7-35:614"&gt;“Danny, since this thing began, there have been two types of analysts. Some people, like yourself, have been trying to develop their understanding of an incredibly complicated system, under huge pressure, absorbing vast amounts of technical detail in a short time, and doing a fairly good job of it. Others have just been mindless bomb-throwers, trying to attract attention to themselves with ill-informed displays of competitive panic. I decided early in this crisis that I was going to listen to the second type of analyst – and they have turned out, systematically, to be much closer to being right”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="37:1-37:475"&gt;
+&lt;p data-sourcepos="37:2-37:475"&gt;He was correct; I changed my approach as a result and consequently, I think, did a much better job of understanding the Eurocrisis. &lt;strong&gt;There’s a very great danger in believing that either a) the whole problem is of a size that you can fit in your head, so understanding it is just a matter of working hard enough, or that b) the relationship between the amount of detail you know and your understanding of the system is positive and monotonic.&lt;/strong&gt; This is often not the case.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-sourcepos="39:1-39:175"&gt;i’m still meditating on the meaning of this quote. i experienced it as a bit of a profound insight. i’ve been meaning to track down Dan’s email so i can ask him more about it.&lt;/p&gt;
+&lt;h2 data-sourcepos="41:1-41:12"&gt;
+&lt;a id="now-what" class="anchor" href="#now-what" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;now what?&lt;/h2&gt;
+&lt;p data-sourcepos="43:1-43:288"&gt;at any rate, my work (my life) is filled with hyperobjects. i have to grapple with them all the time. not coincidentally, Dan is &lt;a href="https://profilebooks.com/work/the-unaccountability-machine/"&gt;working on a book on cybernetics&lt;/a&gt;, and it makes me think a lot about the ol’ Stafford Beer quote,&lt;/p&gt;
+&lt;blockquote data-sourcepos="45:1-45:56"&gt;
+&lt;p data-sourcepos="45:3-45:56"&gt;&lt;strong&gt;The purpose of a system is what it does.&lt;/strong&gt;&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-posiwid" id="fnref-posiwid" data-footnote-ref&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-sourcepos="47:1-47:254"&gt;we can’t understand the whole system. nobody can take in every part and absorb every detail. and the intentions of any individual contributor are irrelevant. the only thing we can do is try to step outside and observe the actions it takes upon the world.&lt;/p&gt;
+&lt;p data-sourcepos="49:1-49:113"&gt;i’m probably mixing metaphors. but! with the benefit of hindsight, how should i have tackled my research problem?&lt;/p&gt;
+&lt;p data-sourcepos="51:1-51:265"&gt;i should’ve ignored all of the code &amp;amp; first attacked the test suite. work backwards from those weird tests i struggled with. those tests describe the behaviour we actually see, at a high enough level to be useful. how it works under the hood kind of doesn’t matter.&lt;/p&gt;
+&lt;p data-sourcepos="53:1-53:50"&gt;when wrestling a hyperobject, you kind of have to:&lt;/p&gt;
+&lt;ul data-sourcepos="54:1-58:0"&gt;
+&lt;li data-sourcepos="54:1-54:9"&gt;squint,&lt;/li&gt;
+&lt;li data-sourcepos="55:1-55:21"&gt;suss out the vibes,&lt;/li&gt;
+&lt;li data-sourcepos="56:1-56:49"&gt;don’t try to take it all in, because you can’t.&lt;/li&gt;
+&lt;li data-sourcepos="57:1-58:0"&gt;instead, measure the end result you can see; observe the outcomes, and use your intuition. what is the system trying to &lt;em&gt;do&lt;/em&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;section class="footnotes" data-footnotes&gt;
+&lt;ol&gt;
+&lt;li id="fn-invariants"&gt;
+&lt;p data-sourcepos="59:16-59:263"&gt;the other day i came across Lorin’s post “&lt;a href="https://surfingcomplexity.blog/2024/03/26/the-problem-with-invariants-is-that-they-change-over-time/"&gt;the problem with invariants is that they change over time&lt;/a&gt;” and its simple truth still makes me giggle. &lt;a href="#fnref-invariants" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-posiwid"&gt;
+&lt;p data-sourcepos="61:13-61:97"&gt;cf &lt;a href="https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does"&gt;wikipedia&lt;/a&gt; &lt;a href="#fnref-posiwid" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</content>
+  </entry>
+  <entry>
+    <id>http://okayfail.com/2024/planted-garden.html</id>
+    <published>2024-03-24T00:00:00Z</published>
+    <updated>2024-04-15T01:24:32Z</updated>
+    <link rel="alternate" type="text/html" href="http://okayfail.com/2024/planted-garden.html"/>
+    <title>I've planted a garden 👩‍🌾🪴🪻</title>
+    <content type="html">&lt;p data-sourcepos="1:1-1:133"&gt;I’m adding a &lt;a href="/garden.html"&gt;garden section&lt;/a&gt; to this website,&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-garden" id="fnref-garden" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt; in the hope that I am able to make something interesting bloom.&lt;/p&gt;
+&lt;p data-sourcepos="3:1-3:176"&gt;I’ve been enjoying Lu’s &lt;a href="https://www.todepond.com/wikiblogarden/"&gt;wikiblogarden&lt;/a&gt;, and been feeling inspired by the idea of &lt;a href="https://www.tadiweb.com/"&gt;keeping a slippy mindset&lt;/a&gt;.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:576"&gt;For a long time I have been consumed with &lt;em&gt;hot takes&lt;/em&gt; and ideas that are too long to fit in a social media post, but not fleshed out enough to be a Full Thought Bearing The Full Weight of my Endorsement. That might sound like a weirdly high bar for my own rinky dink little personal website – but once I started publishing &lt;a href="/2021/british-columbia-more-yimby-california.html"&gt;semi-novel housing research&lt;/a&gt;, and &lt;a href="/2018/rent-control-great-security-of-tenure.html"&gt;exhaustively footnoted treatises on rent control&lt;/a&gt;, it felt awkward to put out half-baked ideas in the same “area”.&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:56"&gt;And so those ideas languished, with nowhere to put them.&lt;/p&gt;
+&lt;p data-sourcepos="9:1-9:227"&gt;A separate section is an attempt to break that feeling of awkwardness. I’d like to experiment with writing &lt;em&gt;more&lt;/em&gt; silly and semi-serious ideas, in the hopes that those ideas either grow or, together, form an interesting corpus.&lt;/p&gt;
+&lt;section class="footnotes" data-footnotes&gt;
+&lt;ol&gt;
+&lt;li id="fn-garden"&gt;
+&lt;p data-sourcepos="11:12-11:121"&gt;cf &lt;em&gt;&lt;a href="https://maggieappleton.com/garden-history"&gt;A Brief History &amp;amp; Ethos of the Digital Garden&lt;/a&gt;&lt;/em&gt;, Appleton 2020 &lt;a href="#fnref-garden" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</content>
+  </entry>
   <entry>
     <id>http://okayfail.com/2021/good-news-we-can-fix-traffic-safety.html</id>
     <published>2021-11-22T00:00:00Z</published>
@@ -1233,297 +1317,5 @@
     &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <id>http://okayfail.com/2017/vba-word-excel-hyperlinks.html</id>
-    <published>2017-05-01T00:00:00Z</published>
-    <updated>2023-12-21T19:14:24Z</updated>
-    <link rel="alternate" type="text/html" href="http://okayfail.com/2017/vba-word-excel-hyperlinks.html"/>
-    <title>How to create relative links in MS Word via MS Excel using Visual Basic</title>
-    <content type="html">&lt;p data-sourcepos="1:1-1:202"&gt;I recently had to do a bunch of work in Visual Basic for Applications and wire together a Word document with an Excel spreadsheet. This blog post documents all the things I wish I’d found via googling.&lt;/p&gt;
-&lt;p data-sourcepos="3:1-3:136"&gt;I assume you’re reading this because it came up via a search engine, so I put all the snippets first and my motivating story at the end.&lt;/p&gt;
-&lt;p data-sourcepos="5:1-5:238"&gt;All of the following snippets of code are executed within the context of a Word document. I lightly edited the code and changed some variable and function names, so I make no guarantees that the code will copy and paste in without errors.&lt;/p&gt;
-&lt;h3 data-sourcepos="7:1-7:71"&gt;
-&lt;a id="how-to-open-an-excel-document-with-user-input-from-a-word-document" class="anchor" href="#how-to-open-an-excel-document-with-user-input-from-a-word-document" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;How to open an Excel document with user input, from a Word document&lt;/h3&gt;
-&lt;p data-sourcepos="9:1-9:83"&gt;First, make sure you add a reference to Microsoft Excel Objects via the Tools menu.&lt;/p&gt;
-&lt;pre&gt;
-Dim xl As Excel.Application
-Dim wkbk As Excel.Workbook
-Dim ex_sheet As Excel.Worksheet
-Dim t_sheet As Excel.Worksheet
-Dim j_sheet As Excel.Worksheet
-
-Set xl = Excel.Application
-
-fileToOpen = xl.GetOpenFilename
-
-If fileToOpen = "False" Then
-    MsgBox "Sorry, gotta pick a file!"
-    End
-End If
-
-Set wkbk = xl.Workbooks.Open(fileToOpen)
-Set ex_sheet = wkbk.Sheets(1)
-Set t_sheet = wkbk.Sheets(2)
-Set j_sheet = wkbk.Sheets(3)
-
-' do work here
-
-wkbk.Close SaveChanges:=False
-&lt;/pre&gt;
-&lt;h3 data-sourcepos="38:1-38:81"&gt;
-&lt;a id="how-to-search-through-every-part-of-a-word-document-given-a-wildcard-pattern" class="anchor" href="#how-to-search-through-every-part-of-a-word-document-given-a-wildcard-pattern" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;How to search through every part of a Word document, given a wildcard pattern&lt;/h3&gt;
-&lt;p data-sourcepos="40:1-40:366"&gt;One of the workhorses in Microsoft Office is the concept of a ‘Range’, which represents a subset of the document you’re editing. You execute searches on a Range, which will then ‘select’ the sub-subset of the document you’re interested in. A Word document, as far as I can tell, consists of many ‘Stories’, which stand in for the different sections of the document.&lt;/p&gt;
-&lt;p data-sourcepos="42:1-42:259"&gt;In order to search through an &lt;em&gt;entire&lt;/em&gt; document (i.e. main body, headers, footnotes, etc), we must iterate through the Range that represents each ‘Story’. Also, a Story may contain subranges. I found the original source of this code through VBA documentation.&lt;/p&gt;
-&lt;pre&gt;
-' provide this function with a Word document, and an Excel Worksheet
-' you can pass down to your 'DoTheWorkWeWant' sub function.
-' in our case this will be the 'AddHyperlinkToARange' function from the next
-' code block
-
-Function SearchDocument(curdoc As Document, ex_sheet As Excel.Worksheet)
-  Dim count As Integer
-  Dim mypattern As String
-  Dim sRange As Range
-
-  count = 0
-  mypattern = "YOUR WILDCARD PATTERN HERE"
-
-  ' by default, i.e. the Selection.Find range, Word won't
-  ' search thru every single part of the document. So, we
-  ' instead have to iterate over every 'story'/doc section
-  ' and search those ranges individually.
-
-  For Each sRange In curdoc.StoryRanges
-
-      ExecuteSearch sRange, mypattern
-      While sRange.Find.Found
-
-          ' having found a search hit, we dispatch
-          ' this to a sub function; pick a better name
-          DoTheWorkWeWant sRange, count, ex_sheet
-
-          ' necessary for moving the range forward
-          ' or else when we reexecute the search
-          ' it'll just start at the beginning again
-          ' see superuser.com/questions/1009085
-          sRange.Collapse Direction:=wdCollapseEnd
-          count = count + 1
-
-          sRange.Find.Execute
-      Wend
-
-      ' but, apparently, each StoryRange is also
-      ' composed of many sub-ranges, so you have to 
-      ' also iterate over the StoryRange substories?
-      ' This was copied from Msft documentation.
-
-      While Not (sRange.NextStoryRange Is Nothing)
-          Set sRange = sRange.NextStoryRange
-
-          ExecuteSearch sRange, mypattern
-          While sRange.Find.Found
-
-              DoTheWorkWeWant sRange, count, ex_sheet
-              sRange.Collapse Direction:=wdCollapseEnd
-              count = count + 1
-
-              sRange.Find.Execute
-          Wend
-
-
-      Wend
-  Next
-End Function
-
-Function ExecuteSearch(sRange As Range, mypattern As String)
-    With sRange.Find
-        .ClearFormatting
-        .Text = mypattern
-        .Forward = True
-        .Wrap = wdFindStop
-        .Format = False
-        .MatchCase = False
-        .MatchWholeWord = False
-        .MatchAllWordForms = False
-        .MatchSoundsLike = False
-        .MatchWildcards = True
-        .Execute
-    End With
-End Function
-&lt;/pre&gt;
-&lt;h3 data-sourcepos="122:1-122:59"&gt;
-&lt;a id="how-to-insert-a-relative-hyperlink-into-a-word-document" class="anchor" href="#how-to-insert-a-relative-hyperlink-into-a-word-document" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;How to insert a relative hyperlink into a Word document&lt;/h3&gt;
-&lt;pre&gt;
-' DoTheWorkWeWant from the function provided above
-' Assumes ActiveDocument is the word doc you want to edit,
-' and that you're provided with an Excel file to edit
-
-Function AddHyperlinkToARange(sr As Range, count As Integer, wsheet As Worksheet)
-    ' sanity check to prevent infinite loops
-    ' if you make a mistake in your code that
-    ' iterates thru Word document searches,
-    ' this can end up in an infinite loop
-    If count &amp;gt; 2000 Then
-        End
-    End If
-
-
-    ' in the problem I had to solve,
-    ' I had to extract two numbers from the
-    ' provided substring
-    Dim info() As String
-    info = ExtractSearchInformation(sr.Text)
-
-
-    If info(0) &amp;lt;&amp;gt; "" Then
-        hyperlink = FetchHyperlinkFromExcel(wsheet, info(0), info(1))
-
-        If hyperlink &amp;lt;&amp;gt; "" Then
-        ' note the "..\" string
-        ' in our case, the files we were referencing were one file path down
-            ActiveDocument.Hyperlinks.Add Anchor:=sr, Address:="..\" &amp;amp; hyperlink
-        End If
-    End If
-End Function
-&lt;/pre&gt;
-&lt;h3 data-sourcepos="158:1-158:70"&gt;
-&lt;a id="how-to-search-through-two-excel-worksheet-columns-at-the-same-time" class="anchor" href="#how-to-search-through-two-excel-worksheet-columns-at-the-same-time" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;How to search through two Excel Worksheet columns at the same time&lt;/h3&gt;
-&lt;pre&gt;
-Function FetchHyperlinkFromExcel(wsheet As Excel.Worksheet, colAValue As String, colBValue As String)
-    Dim cRange As Excel.Range
-    Dim cFound As Excel.Range
-
-    ' we set a range on the full A columns
-    ' so we only search within there
-
-    Set cRange = wsheet.Columns("A:A")
-    Dim hyperlink As String
-
-    ' xl's Range.Find works a bit differently.
-    ' gotta be careful to specify LookAt:=xlWhole, or else it'll
-    ' match substrings, which is NOT what we want
-
-    Set cFound = cRange.Find(colAValue, LookIn:=xlValues, LookAt:=xlWhole)
-    
-    If Not cFound Is Nothing Then
-        ' the only way to avoid infinite loops, apparently, is to keep
-        ' track of the first found address and loop until we see it again
-        cFirstAddress = cFound.Address
-
-        ' the format we're looking for depends on two columns (A,B)
-        ' so once we find the first column, we refine our search
-        ' by iterating over every found row and peeking inside the B col
-
-        ' Debug.Print "addr: " &amp;amp; cFound.Row &amp;amp; "x" &amp;amp; cFound.Column
-        foundColB = wsheet.Cells(cFound.Row, 2).Value
-
-
-        ' if the foundColB is empty AND our colBValue is empty, we
-        ' found what we're looking for
-        If (IsEmpty(foundColB) And colBValue = "") Or foundColB = colBValue Then
-            ' in this case, we were looking for the value of 4th column
-            hyperlink = wsheet.Cells(cFound.Row, 4).Value
-        Else
-            Do
-                Set cFound = cRange.FindNext(cFound)
-                foundColB = wsheet.Cells(cFound.Row, 2).Value
-                If foundColB = colBValue Then
-                    hyperlink = wsheet.Cells(cFound.Row, 4).Value
-                End If
-            Loop Until (foundColB = colBValue) Or (cFound.Address = cFirstAddress)
-        End If
-
-    End If
-    FetchHyperlinkFromExcel = hyperlink
-End Function
-&lt;/pre&gt;
-&lt;h3 data-sourcepos="210:1-210:64"&gt;
-&lt;a id="how-to-create-a-new-word-file-and-write-any-given-text-to-it" class="anchor" href="#how-to-create-a-new-word-file-and-write-any-given-text-to-it" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;How to create a new Word file and write any given text to it&lt;/h3&gt;
-&lt;pre&gt;
-' note that this will shift your ActiveDocument
-Set logger = Word.Application.Documents.Add
-logger.Content.InsertAfter Text:="This is the dumbest, easiest way" &amp;amp; vbNewLine
-&lt;/pre&gt;
-&lt;hr data-sourcepos="218:1-219:0"&gt;
-&lt;h2 data-sourcepos="220:1-220:23"&gt;
-&lt;a id="why-did-you-do-this" class="anchor" href="#why-did-you-do-this" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Why did you do this?&lt;/h2&gt;
-&lt;p data-sourcepos="222:1-222:92"&gt;Recently, as a favour, I was asked to step in and perform some Microsoft Office automation.&lt;/p&gt;
-&lt;p data-sourcepos="224:1-224:386"&gt;A legal firm was producing a lengthy court submission with thousands of citations. These citations all referenced existing files. This submission would be delivered on a USB key along side the files it cited.  The trick was, they wanted their submitted document to link directly to these files, as they came up in footnotes. Like any website, except only referencing a local filesystem.&lt;/p&gt;
-&lt;p data-sourcepos="226:1-226:270"&gt;They were &lt;em&gt;extremely&lt;/em&gt; short for time, the intern that normally handled this was away on exams, and every other computer person they knew turned them down. All I had to do was parse a spreadsheet, search through a Word file and insert a relative link in the right place.&lt;/p&gt;
-&lt;p data-sourcepos="228:1-228:103"&gt;I said sure, how hard could it be? and promptly wildly underestimated how long this task would take me.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a href="/img/vb-stackoverflow.png" target="_blank"&gt;&lt;img src="/img/vb-stackoverflow.png" alt="A graph representing the number of visits I usually make to StackOverflow" style="max-width:100%;"&gt;&lt;/a&gt;
-&lt;figcaption&gt;A graph representing the number of visits I usually make to StackOverflow&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p data-sourcepos="235:1-235:193"&gt;I’ve spent enough time in my career parsing OpenOffice documents to know that, while I &lt;em&gt;could probably&lt;/em&gt; crack open MS Word files using some half-baked library, down that path also lies madness.&lt;/p&gt;
-&lt;p data-sourcepos="237:1-237:440"&gt;I rolled up my sleeves and dug into Visual Basic for Applications.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-officeautomation" id="fnref-officeautomation" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt; This proved to be challenging,&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-lolvba" id="fnref-lolvba" data-footnote-ref&gt;2&lt;/a&gt;&lt;/sup&gt; mostly because of the runtime: it obviously hasn’t been updated in ten or fifteen years, and the version I was dealing with couldn’t be bothered to give me line numbers when errors occurred. I lost hours and hours fighting cryptic syntax and runtime errors and runtime errors reported as syntax errors.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-vbagripes" id="fnref-vbagripes" data-footnote-ref&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;section class="footnotes" data-footnotes&gt;
-&lt;ol&gt;
-&lt;li id="fn-officeautomation"&gt;
-&lt;p data-sourcepos="242:22-242:267"&gt;As far as I can tell this is still the Best Way to automate things in MS Office. I probably could’ve done this in .NET, but that would involve installing .NET runtimes on aggressively locked down Windows laptops, and that felt like a non-starter. &lt;a href="#fnref-officeautomation" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn-lolvba"&gt;
-&lt;p data-sourcepos="240:12-240:278"&gt;A few years ago, &lt;a href="/2014/only-correct-way-think-brendan-eich.html"&gt;in a post about Brendan Eich&lt;/a&gt;, I’d joked about Microsoft VisualBasicScript winning the browser scripting wars; this experience gave me a new appreciation for how reasonable Javascript is in comparison. &lt;a href="#fnref-lolvba" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn-vbagripes"&gt;
-&lt;p data-sourcepos="244:15-244:293"&gt;VBA at a glance seems loosely typed, but is in fact strongly, statically typed. It’s not smart enough to infer types returned from methods. It distinguishes between primitives and objects with different syntax. It ships with poor support for even basic data structures. Etc, etc. &lt;a href="#fnref-vbagripes" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;</content>
-  </entry>
-  <entry>
-    <id>http://okayfail.com/2017/canada-keep-the-queen.html</id>
-    <published>2017-03-18T00:00:00Z</published>
-    <updated>2023-12-21T19:14:24Z</updated>
-    <link rel="alternate" type="text/html" href="http://okayfail.com/2017/canada-keep-the-queen.html"/>
-    <title>Canada, Keep the Queen!</title>
-    <content type="html">&lt;figure&gt;
-&lt;a href="/img/keepthequeen.png" target="_blank"&gt;&lt;img src="/img/keepthequeen.png" alt="A $20 Canadian bank note with a brown-skinned Queen against a backdrop of the Rockies" style="max-width:100%;"&gt;&lt;/a&gt;
-&lt;figcaption&gt;&lt;a href="http://www.kaleymckean.com/"&gt;Kaley McKean&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p data-sourcepos="7:1-7:196"&gt;Let’s talk about the Queen, shall we? Elizabeth Alexandra Mary has been the Queen of Canada and fourteen other countries since 1952. She is now ninety years old, and she’s not getting any younger.&lt;/p&gt;
-&lt;p data-sourcepos="9:1-9:150"&gt;Those of you not in the Commonwealth may have only a dim and fuzzy idea of the Queen’s role. As a loyal subject, the picture’s only slightly clearer.&lt;/p&gt;
-&lt;p data-sourcepos="11:1-11:444"&gt;The Queen decorates our money, she provides royal assent to our laws, and is the literal personification of the Canadian government. To swear loyalty and to love Canada is to be loyal to and love the Queen. Except, Her Majesty Queen Elizabeth II the physical old lady is technically a &lt;a href="http://policyoptions.irpp.org/2015/03/02/citizenship-and-the-hollowed-canadian-crown/"&gt;distinct and separate legal entity&lt;/a&gt; from the Crown, the Canadian state.&lt;/p&gt;
-&lt;p data-sourcepos="13:1-13:28"&gt;It’s complicated&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-catholic" id="fnref-catholic" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p data-sourcepos="15:1-15:488"&gt;A recent article in the &lt;em&gt;Guardian&lt;/em&gt; explained &lt;a href="https://www.theguardian.com/uk-news/2017/mar/16/what-happens-when-queen-elizabeth-dies-london-bridge"&gt;what’ll happen when the Queen kicks it&lt;/a&gt;. There is a vast machinery in place for the English, proud, vain and fond of their symbols and rituals, to exercise their mass grief. Every news channel will pause and emit the same message, the streets will be clogged with mourners and into the ground she will go, wrapped in a lead coffin&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-coffin" id="fnref-coffin" data-footnote-ref&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p data-sourcepos="17:1-17:55"&gt;What comes next will be even sadder, and more terrible.&lt;/p&gt;
-&lt;p data-sourcepos="19:1-19:208"&gt;It is at this point that Charles will receive the Mandate of Heaven and ascend to the throne. He will become King, assume her responsibilities as sovereign of the Commonwealth realms, and appear on our money.&lt;/p&gt;
-&lt;p data-sourcepos="21:1-21:72"&gt;It’s not his fault he will be disappointing. He’s just… unexceptional.&lt;/p&gt;
-&lt;p data-sourcepos="23:1-23:253"&gt;After sixty five years on the job, it’s difficult to imagine anyone else inhabiting the role. Popes come and go; POTUS’ and prime-ministers rotate on the regular, but the Queen kept on keeping on throughout the twentieth century and well into this one.&lt;/p&gt;
-&lt;p data-sourcepos="25:1-25:212"&gt;On VE Day, 1945 prim in her uniform, she stood waving to the crowd from the balcony of Buckingham Palace. She is the last living link to the founding myth of the Western world system as we know it today&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-quoted" id="fnref-quoted" data-footnote-ref&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;h3&gt;
-&lt;a id="its-time-for-canada-to-brexit" class="anchor" href="#its-time-for-canada-to-brexit" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;It's time for Canada to Brexit&lt;/h3&gt;
-&lt;p data-sourcepos="29:1-29:356"&gt;I don’t have to tell you it’s insulting that a country as vibrant, diverse and democratic as ours is represented by some old white failson who inherited the job. That it’s time for us to move beyond our shameful colonial past and present into our &lt;a href="http://www.vox.com/2016/6/8/11879482/ramadan-justin-trudeau-canada"&gt;confident, multicultural future&lt;/a&gt;.&lt;/p&gt;
-&lt;p data-sourcepos="31:1-31:258"&gt;I’ve come to believe that it is the duty of all loyal and patriotic Canadians everywhere to prevent this event from ever coming to pass. We are overdue for reconsidering our relationship with the United Kingdom. Our Crown should Brexit, and be done with it.&lt;/p&gt;
-&lt;p data-sourcepos="33:1-33:309"&gt;But what of the legal and political implications of such a break? The very idea of &lt;a href="https://thewalrus.ca/what-constitutes-our-constitution/"&gt;revisiting our constitutional agreements&lt;/a&gt; is enough to bore most people to tears. Surely, this will provoke years of pointless debates and fights between the provinces.&lt;/p&gt;
-&lt;p data-sourcepos="35:1-35:23"&gt;To you I say, fear not.&lt;/p&gt;
-&lt;p data-sourcepos="37:1-37:125"&gt;I have devised the ultimate, &lt;em&gt;most Canadian&lt;/em&gt; solution to our conundrum. When the time comes, we should simply &lt;strong&gt;do nothing&lt;/strong&gt;.&lt;/p&gt;
-&lt;p data-sourcepos="39:1-39:446"&gt;That’s right. When our beloved Queen passes away, we should simply &lt;em&gt;preserve the status quo&lt;/em&gt;. Keep her as the Queen in perpetuity. Canada will remain being a constitutional monarchy, we’ll pay obeisance to some shared heritage by attending the Commonwealth Games or whatever, and the Queen of Canada will soldier on as a literal symbolic figurehead that has no actual bearing on the functioning of our country, i.e. nothing changes&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-seriously" id="fnref-seriously" data-footnote-ref&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p data-sourcepos="41:1-41:196"&gt;We keep Charles off our money, we avoid any stupid fights with either Québec or Alberta, and we get to keep referring to the Crown using female pronouns, which I’ve always found to be pleasant.&lt;/p&gt;
-&lt;h3&gt;
-&lt;a id="a-queen-for-everyone" class="anchor" href="#a-queen-for-everyone" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;A Queen for everyone&lt;/h3&gt;
-&lt;p data-sourcepos="45:1-45:370"&gt;Better yet, once people get used to having a &lt;em&gt;wholly&lt;/em&gt; symbolic Queen, she can become representative of us all. We can hold contests so that any female-identifying person in Canada may embody the Queen, for a day. We can appropriate the symbols of the Crown to fashion a self image that doesn’t rely on Anglo colonial settlers and their multicoloured wool blankets&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-hbc" id="fnref-hbc" data-footnote-ref&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p data-sourcepos="47:1-47:309"&gt;I can picture it now. Young women across the land competing to &lt;em&gt;become the Queen&lt;/em&gt;, and in exchange for having to sit there next to the prime-minister during the speech to the throne, and signing lots of laws, they’ll be crowned and tour the country and get a scholarship. The ratings alone could save the CBC.&lt;/p&gt;
-&lt;p data-sourcepos="49:1-49:141"&gt;Instead of a mere mortal vessel of flesh, the representation of our state can change with us, as we no doubt will keep changing, in due time.&lt;/p&gt;
-&lt;section class="footnotes" data-footnotes&gt;
-&lt;ol&gt;
-&lt;li id="fn-catholic"&gt;
-&lt;p data-sourcepos="51:14-51:121"&gt;Though, I mean, growing up Catholic, it has a &lt;a href="https://en.wikipedia.org/wiki/Trinity"&gt;familliar ring&lt;/a&gt; to it. &lt;a href="#fnref-catholic" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn-coffin"&gt;
-&lt;p data-sourcepos="52:12-52:191"&gt;“British royals are buried in lead-lined coffins. Diana’s weighed a quarter of a ton.” One presumes, in order to keep them from escaping or contaminating the environment further. &lt;a href="#fnref-coffin" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn-quoted"&gt;
-&lt;p data-sourcepos="53:12-53:249"&gt;Exquisite framing courtesy of &lt;a href="http://www.nybooks.com/articles/2017/03/23/the-crown-great-family-business/"&gt;Jonathan Freedland&lt;/a&gt; by way of &lt;a href="https://articlemag.ca/brexit-britains-existential-reckoning-b194b6e99e97#.uq628tst6"&gt;Colin Horgan&lt;/a&gt;. &lt;a href="#fnref-quoted" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn-seriously"&gt;
-&lt;p data-sourcepos="54:15-54:308"&gt;The great trick of the Westminster system is most of its gears and cogs are made of unwritten norms and traditions. The Queen may sign off on parliament’s laws but it’d actually be inconceivable for her to quibble about it. Anything short of automatic assent would trigger a vast crisis, right? &lt;a href="#fnref-seriously" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn-hbc"&gt;
-&lt;p data-sourcepos="55:9-55:266"&gt;I recently &lt;a href="https://twitter.com/phillmv/status/838485129832062976"&gt;got woke&lt;/a&gt; and now find Hudson’s Bay blankets to be inappropriate objects to own. Now, I’m not saying you should destroy your $300 blanket, but you should at least hide it from polite company. &lt;a href="#fnref-hbc" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;</content>
   </entry>
 </feed>

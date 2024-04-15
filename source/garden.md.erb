@@ -1,0 +1,17 @@
+---
+layout: bare
+occurred_at: 2024-03-24
+hide: true
+---
+# Welcome to my garden 👩‍🌾🪴🪻
+
+This is [my "digital garden"](/2024/planted-garden). This is a section for drafts, hot takes, or otherwise not fully fledged ideas. Entries in this section may change without notice, quietly receive updates, or get "re-planted" elsewhere.
+
+<ul class="article-list">
+<% @entry.parent_notebook.entries.where("identifier LIKE ?", "garden/%").each do |article|%>
+  <li class="article">
+  <%= link_to article.subject, article %> – <%= article.occurred_at.strftime('%B %-d, %Y') %>
+  </li>
+<% end %>
+</ol>
+
