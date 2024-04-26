@@ -1,7 +1,7 @@
 ---
 layout: post
 subject: Actually, Rent Control Is Great
-summary: 'An op-ed summary of <a href="/2018/rent-control-great-security-of-tenure.html">my paper on why rent control is good</a>, which was published in the <i>Toronto Star</i>.'
+summary: 'An op-ed summary of <a href="/2018/rent-control-great-security-of-tenure.html">my paper on why rent control is good</a>, which was published in the <i>Toronto Star</i>. TL;DR: rent control gives tenants security of tenure &mdash; which should be seen as a right of tenants as well as homeowners.'
 occurred_at: 2017-11-13
 tags: housing
 highlight: true

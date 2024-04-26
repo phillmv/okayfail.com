@@ -3,7 +3,7 @@
   <id>http://okayfail.com/tags/toronto/atom.xml</id>
   <link rel="alternate" type="text/html" href="http://okayfail.com/tags/toronto.html"/>
   <link rel="self" type="application/atom+xml" href="http://okayfail.com/tags/toronto/atom.xml"/>
-  <title>This is a default title. (feed for #toronto)</title>
+  <title>okayfail.com (feed for #toronto)</title>
   <updated>2017-07-19T00:00:00Z</updated>
   <author>
     <name>Phillip Mendonça-Vieira</name>

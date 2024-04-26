@@ -6,13 +6,15 @@ occurred_at: 2024-03-25
 
 i recently had to grapple with how my work's APIs handled authorization. our team wanted to do something slightly weird, and given my talents and knowledge of where the bodies are buried it fell to me to figure out how to do it safely & securely, etc.
 
-now, the beating heart of GitHub is a sprawling, sixteen-year-old ruby on rails app so that is easier said than done. not, mind you, because it's a rails app; a lot of people struggle with that fact, for some reason, but i'm not one of them. and, in theory, who is allowed to read or write to this particular resource? ought to be a straightforward question. the system gets asked this question, oh i don't know, literally millions of times a day.
+now, the beating heart of GitHub is a sprawling, sixteen-year-old ruby on rails app so that is easier said than done,[^rails] but in theory who is allowed to read or write to this particular resource? ought to be a straight forward question. the system answers this literally millions of times a day.
 
-so, i sat down and started reading. patiently reading code and docs has historically served me quite well. there was a lot of code and docs, though, so it took me quite a while. finally, after spending weeks, and weeks, _and weeks_ on this question, i thought i had resolved it to my satisfaction, and wrote it up in a narrative i presented to my team. and everyone agreed that it made sense.
+patiently reading code and docs has historically served me quite well, so i sat down and started reading. there was a lot of code and docs, though, and i spent weeks, and weeks, _and weeks_ on this question. eventually, i thought i had resolved it to my satisfaction, and wrote it up in a narrative i presented to my team. and everyone agreed that it made sense.
 
 but then a curious thing happened.
 
-i asked a former teammate of mine, an expert in this system, for a sanity check, and she pointed out that i had missed an important detail. the approach i had outlined in my doc was _almost_ correct, which is another way of saying that it could never work. so, i went back to the code.
+i asked a former teammate of mine, an expert in this system, for a sanity check, and she pointed out that i had missed an important detail. the approach i had outlined in my doc was _almost_ correct, which is another way of saying that it could never work.
+
+i went back to the code.
 
 and now every time i looked at some corner case, i seemed to find new quirks. someone would ask a perfectly sensible question that iluminated a corner of my ignorance. i struggled to explain what some of our automated tests _should_ be doing, and i kept finding new unexpected behaviour, lurking in a different part of the codebase i had either not read – or had read many times before, but had yet been able to internalize.
 
@@ -63,3 +65,5 @@ when wrestling a hyperobject, you kind of have to:
 [^invariants]: the other day i came across Lorin's post "[the problem with invariants is that they change over time](https://surfingcomplexity.blog/2024/03/26/the-problem-with-invariants-is-that-they-change-over-time/)" and its simple truth still makes me giggle.
 
 [^posiwid]: cf [wikipedia](https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does)
+
+[^rails]: not, mind you, because it's a rails app; a lot of people struggle with that fact, for some reason, but i'm not one of them.

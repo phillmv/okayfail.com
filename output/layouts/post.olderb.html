@@ -1,0 +1,31 @@
+<% content_for :page_title do %>
+  <title><%= current_page.data.title %></title>
+  <meta name="twitter:creator" content="@phillmv">
+  <% if current_page.data.article_image %>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="<%= config.site_url + current_page.data.article_image %>" />
+    <meta property="og:image"  content="<%= config.site_url + current_page.data.article_image %>" />
+    <meta property="og:title"  content="<%= current_page.data.title %>" />
+    <% if current_page.data.description %>
+      <meta property="og:description"  content="<%= current_page.data.description %>" />
+      <meta name="Description" CONTENT="<%= current_page.data.description %>" />
+    <% end %>
+  <% end %>
+<% end %>
+
+<% wrap_layout :layout do %>
+  <% content_for :shortbio_menu do %>
+    <h3>See <a href="../archive.html">more of my writing</a> or <a href="../atom.xml">subscribe via rss</a>.</h3>
+  <% end %>
+  <%= partial "shared/shortbio" %>
+  <section>
+    <div class="post-wrapper">
+      <div class="post">
+        <h1 class="title"><a href="http://localhost:3000/layouts/&lt;%=&#32;current_page.data.url&#32;%&gt;"><%= current_page.data.title %></a></h1>
+        <h5 class="date"><%= current_page.date.strftime('%B %-d, %Y')%></h5>
+        <%= yield %>
+        <p class="date"><%= link_to "# #{current_page.date.strftime("%Y-%m-%d")}", current_page.data.url %></p>
+      </div>
+    </div>
+  </section>
+<% end %>

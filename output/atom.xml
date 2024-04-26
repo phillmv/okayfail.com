@@ -3,72 +3,134 @@
   <id>http://okayfail.com/atom.xml</id>
   <link rel="alternate" type="text/html" href="http://okayfail.com/"/>
   <link rel="self" type="application/atom+xml" href="http://okayfail.com/atom.xml"/>
-  <title>This is a default title.</title>
-  <updated>2024-03-25T00:00:00Z</updated>
+  <title>okayfail.com</title>
+  <updated>2024-04-22T00:00:00Z</updated>
   <author>
     <name>Phillip Mendonça-Vieira</name>
   </author>
   <entry>
+    <id>http://okayfail.com/garden/youre-not-facebook-why-use-their-tools.html</id>
+    <published>2024-04-22T00:00:00Z</published>
+    <updated>2024-04-25T15:03:59Z</updated>
+    <link rel="alternate" type="text/html" href="http://okayfail.com/garden/youre-not-facebook-why-use-their-tools.html"/>
+    <title>You're not Facebook. Why use their tools?</title>
+    <content type="html">&lt;h1 data-sourcepos="1:1-1:43"&gt;
+&lt;a id="youre-not-facebook-why-use-their-tools" class="anchor" href="#youre-not-facebook-why-use-their-tools" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;You’re not Facebook. Why use their tools?&lt;/h1&gt;
+&lt;p data-sourcepos="3:1-3:215"&gt;I’ve seen folks expend remarkable amounts of effort to adopt Facebook tooling, for example GraphQL and React. Typically, the reasoning is that they’re Industry Best Practice™ for Solving These Particular Problems.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:242"&gt;I don’t have well-formed or particularly nuanced views on the One True And Right Way To Make Rich Client Web Applications. But as I approach middle age I think I’ve just enough experience to know when something is messier than it ought to be.&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:200"&gt;I want to push back on this “Industry Best Practice” view. I fear that the honest reasoning is more like “Facebook has high prestige; if I try to be more like Facebook, my own prestige will increase”.&lt;/p&gt;
+&lt;h3 data-sourcepos="9:1-9:31"&gt;
+&lt;a id="facebook-is-an-anti-pattern" class="anchor" href="#facebook-is-an-anti-pattern" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Facebook is an anti-pattern&lt;/h3&gt;
+&lt;p data-sourcepos="11:1-11:207"&gt;Instead of thinking “well, Facebook does this, and Facebook is a rich and successful company – so it must be a good idea”, we should be more like “Facebook does this? – ah, &lt;strong&gt;it’s probably a bad idea&lt;/strong&gt;”.&lt;/p&gt;
+&lt;p data-sourcepos="13:1-13:104"&gt;I have come to believe that “whatever Facebook does is an anti-pattern” is a much more useful heuristic.&lt;/p&gt;
+&lt;p data-sourcepos="15:1-15:52"&gt;My reasoning goes like this: &lt;em&gt;you&lt;/em&gt; are not Facebook.&lt;/p&gt;
+&lt;p data-sourcepos="17:1-17:283"&gt;Very few companies are shaped like Facebook, and therefore decisions that make sense for Facebook probably don’t make sense for you. It’s ironic, tragic even, that so many people think that tools that make sense for Facebook will automatically make sense for their own organizations.&lt;/p&gt;
+&lt;p data-sourcepos="19:1-19:79"&gt;There are two ways in the vast majority of organizations are not like Facebook:&lt;/p&gt;
+&lt;ol data-sourcepos="20:1-22:0"&gt;
+&lt;li data-sourcepos="20:1-20:112"&gt;Facebook is a very high traffic, very high margin advertising business with a quasi monopoly on its audience.&lt;/li&gt;
+&lt;li data-sourcepos="21:1-22:0"&gt;Nothing important happens on Facebook.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 data-sourcepos="23:1-23:42"&gt;
+&lt;a id="1-facebook-is-big-and-flush-with-cash" class="anchor" href="#1-facebook-is-big-and-flush-with-cash" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;1. Facebook is big, and flush with cash&lt;/h2&gt;
+&lt;p data-sourcepos="25:1-25:378"&gt;Fact 1 means that &lt;strong&gt;Facebook has an unusual amount of resources at its disposal&lt;/strong&gt;. They can afford to pay developers obscene salaries to compensate for the moral injury of working at Facebook. And those developers can toil away at problems that are either irrelevant or out-of-scope for the vast majority of organizations that lack either their scale or their access to capital.&lt;/p&gt;
+&lt;p data-sourcepos="27:1-27:389"&gt;Consider GraphQL. As a domain specific language for querying graph shaped data, it has an admirable goal. I’m sure it really is a remarkable tool for rich client developers to iterate on new designs without having to negotiate new APIs with their backend counterparts. As a single, common interface for querying data, data which is often stored in different silos, it sure seems promising.&lt;/p&gt;
+&lt;p data-sourcepos="29:1-29:367"&gt;But in practice… well, those silos are real, they exist for (good and bad) reasons. If your data access spans several teams’ areas of responsibility, then it’s fiendishly easy to end up with &lt;em&gt;stupendously slow &amp;amp; expensive queries&lt;/em&gt;. If ownership is diffuse, then no one’s worrying about the performance of this one retrieval pattern and you get weird scaling issues.&lt;/p&gt;
+&lt;p data-sourcepos="31:1-31:75"&gt;If you’re joining data across mysql clusters, someone has to pay the piper.&lt;/p&gt;
+&lt;p data-sourcepos="33:1-33:384"&gt;Put another way: a GraphQL only makes sense if you have &lt;em&gt;a whole team dedicated&lt;/em&gt; to making it not suck. To have a GraphQL API at scale is to have a GraphQL API platform team whose sole job is to fuss over it and keep it ticking. The vast majority of organizations aren’t big enough, nor high margin enough, to justify spending millions of dollars a year optimizing their API platform.&lt;/p&gt;
+&lt;p data-sourcepos="35:1-35:130"&gt;In most organizations, it probably really is easier to just ask the team responsible to open up an endpoint – or do it yourself.&lt;/p&gt;
+&lt;p data-sourcepos="37:1-37:233"&gt;(In this sense, GraphQL to me smells almost like an attempt to deal with Facebook’s org chart: the dedicated GraphQL platform team bears the coordination costs, instead of having dozens of teams duking it out with each other ad hoc).&lt;/p&gt;
+&lt;h2 data-sourcepos="40:1-40:30"&gt;
+&lt;a id="2-facebok-is-not-important" class="anchor" href="#2-facebok-is-not-important" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;2. Facebok is not important&lt;/h2&gt;
+&lt;p data-sourcepos="42:1-42:158"&gt;Which leads us into Fact 2: &lt;strong&gt;nobody cares if Facebook has downtime&lt;/strong&gt;. Nobody’s day is ruined because Facebook had ten or thirty or sixty minutes of downtime.&lt;/p&gt;
+&lt;p data-sourcepos="44:1-44:373"&gt;Time spent on Facebook competes with other leisure activities. If the hate speech and cat pictures website doesn’t work right now, you’ll just try again later, whatever. You can just watch tv, read a book, or go for a walk instead. When Facebook goes down, it’s really not a big deal in the grand scheme of things. Most people will never notice that it happened.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-downtime" id="fnref-downtime" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p data-sourcepos="46:1-46:361"&gt;By contrast, if my current employer has an availability incident, the entire internet explodes into paroxysms of rage because they can’t get their work done. It’s not an exageration to say that deliveries might not get made, factories might sit idle, etc, because GitHub is a &lt;em&gt;productive tool&lt;/em&gt;. There are things you can only accomplish because this tool exists.&lt;/p&gt;
+&lt;h3 data-sourcepos="48:1-48:33"&gt;
+&lt;a id="your-tools-make-what-you-ship" class="anchor" href="#your-tools-make-what-you-ship" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Your tools make what you ship&lt;/h3&gt;
+&lt;p data-sourcepos="50:1-50:136"&gt;This distinction matters because these incentives towards availability percolate throughout your entire stack &amp;amp; architectural decisions.&lt;/p&gt;
+&lt;p data-sourcepos="52:1-52:328"&gt;If your React stack makes deployment more brittle, and you’ve added multiple round trips of latency, and a widget fails to load for whatever reason, and the whole thing contrives to swallow errors – Facebook has teams of people slaving away optimizing all of these steps, &lt;em&gt;and&lt;/em&gt; they have a way higher tolerance for messing up.&lt;/p&gt;
+&lt;p data-sourcepos="54:1-54:74"&gt;Move fast and break things!, is easy when &lt;em&gt;nobody cares that it’s broken&lt;/em&gt;.&lt;/p&gt;
+&lt;p data-sourcepos="57:1-57:294"&gt;My employer promises its users three nines of uptime. I giggled at the idea of Facebook offering a service level agreement, and when I googled it in fact they explicitly say “lol what SLA? sometimes when we deploy the API will go down for 5 minutes”.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-whatsapp-sla" id="fnref-whatsapp-sla" data-footnote-ref&gt;2&lt;/a&gt;&lt;/sup&gt; 5 minutes of downtime! Lmao.&lt;/p&gt;
+&lt;p data-sourcepos="59:1-59:115"&gt;I live in a different world. Where I work, I work on real things that matter. And so do most programmers out there.&lt;/p&gt;
+&lt;h2 data-sourcepos="61:1-61:17"&gt;
+&lt;a id="in-conclusion" class="anchor" href="#in-conclusion" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;In conclusion,&lt;/h2&gt;
+&lt;p data-sourcepos="63:1-63:139"&gt;Facebook should be considered harmful. Facebook’s devrel marketing is designed to ease their hiring pipeline and destroy their competitors.&lt;/p&gt;
+&lt;p data-sourcepos="65:1-65:29"&gt;Govern yourself accordingly.&lt;/p&gt;
+&lt;section class="footnotes" data-footnotes&gt;
+&lt;ol&gt;
+&lt;li id="fn-downtime"&gt;
+&lt;p data-sourcepos="70:14-70:331"&gt;Of course if Facebook goes down… &lt;em&gt;Facebook&lt;/em&gt; will be sad, cos Facebook will lose money. I suppose their customers (the advertisers) will be sad because their future sales trajectory will be impacted, but I bet even they don’t get that worked up about it. Ads that didn’t get displayed today can be displayed tomorrow. &lt;a href="#fnref-downtime" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-whatsapp-sla"&gt;
+&lt;p data-sourcepos="68:18-68:309"&gt;“When we update the API, you may experience up to 5 minutes of downtime.” / “We do not currently offer commercially available product service level agreements for uptime and/or latency.” &lt;a href="https://developers.facebook.com/docs/whatsapp/cloud-api/support/#faq_775539867197306"&gt;https://developers.facebook.com/docs/whatsapp/cloud-api/support/#faq_775539867197306&lt;/a&gt;, accessed 2024-04-22 &lt;a href="#fnref-whatsapp-sla" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</content>
+  </entry>
+  <entry>
     <id>http://okayfail.com/garden/hyperobjects.html</id>
     <published>2024-03-25T00:00:00Z</published>
-    <updated>2024-04-15T01:19:38Z</updated>
+    <updated>2024-04-25T14:52:25Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/garden/hyperobjects.html"/>
     <title>hyperobjects</title>
     <content type="html">&lt;h1 data-sourcepos="1:1-1:14"&gt;
 &lt;a id="hyperobjects" class="anchor" href="#hyperobjects" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;hyperobjects&lt;/h1&gt;
 &lt;p data-sourcepos="3:1-3:251"&gt;i recently had to grapple with how my work’s APIs handled authorization. our team wanted to do something slightly weird, and given my talents and knowledge of where the bodies are buried it fell to me to figure out how to do it safely &amp;amp; securely, etc.&lt;/p&gt;
-&lt;p data-sourcepos="5:1-5:447"&gt;now, the beating heart of GitHub is a sprawling, sixteen-year-old ruby on rails app so that is easier said than done. not, mind you, because it’s a rails app; a lot of people struggle with that fact, for some reason, but i’m not one of them. and, in theory, who is allowed to read or write to this particular resource? ought to be a straightforward question. the system gets asked this question, oh i don’t know, literally millions of times a day.&lt;/p&gt;
-&lt;p data-sourcepos="7:1-7:392"&gt;so, i sat down and started reading. patiently reading code and docs has historically served me quite well. there was a lot of code and docs, though, so it took me quite a while. finally, after spending weeks, and weeks, &lt;em&gt;and weeks&lt;/em&gt; on this question, i thought i had resolved it to my satisfaction, and wrote it up in a narrative i presented to my team. and everyone agreed that it made sense.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:300"&gt;now, the beating heart of GitHub is a sprawling, sixteen-year-old ruby on rails app so that is easier said than done,&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-rails" id="fnref-rails" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt; but in theory who is allowed to read or write to this particular resource? ought to be a straight forward question. the system answers this literally millions of times a day.&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:362"&gt;patiently reading code and docs has historically served me quite well, so i sat down and started reading. there was a lot of code and docs, though, and i spent weeks, and weeks, &lt;em&gt;and weeks&lt;/em&gt; on this question. eventually, i thought i had resolved it to my satisfaction, and wrote it up in a narrative i presented to my team. and everyone agreed that it made sense.&lt;/p&gt;
 &lt;p data-sourcepos="9:1-9:34"&gt;but then a curious thing happened.&lt;/p&gt;
-&lt;p data-sourcepos="11:1-11:285"&gt;i asked a former teammate of mine, an expert in this system, for a sanity check, and she pointed out that i had missed an important detail. the approach i had outlined in my doc was &lt;em&gt;almost&lt;/em&gt; correct, which is another way of saying that it could never work. so, i went back to the code.&lt;/p&gt;
-&lt;p data-sourcepos="13:1-13:426"&gt;and now every time i looked at some corner case, i seemed to find new quirks. someone would ask a perfectly sensible question that iluminated a corner of my ignorance. i struggled to explain what some of our automated tests &lt;em&gt;should&lt;/em&gt; be doing, and i kept finding new unexpected behaviour, lurking in a different part of the codebase i had either not read – or had read many times before, but had yet been able to internalize.&lt;/p&gt;
-&lt;p data-sourcepos="15:1-15:410"&gt;i eventually realized, far too late, that the full set of behaviour that describes how the app handles authorization – every nook and cranny, in its majestic entirety – was simply too large to fit in my head all at once. or more likely, &lt;em&gt;anyone’s&lt;/em&gt; head. after over a decade of effort, rearchitecting for scale, handling new-use cases,&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-invariants" id="fnref-invariants" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt; etc, etc, the system had simply accreted too many details.&lt;/p&gt;
-&lt;p data-sourcepos="17:1-17:109"&gt;it has become a &lt;strong&gt;&lt;a href="https://www.wired.com/story/timothy-morton-hyperobjects-all-the-way-down/"&gt;hyperobject&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;blockquote data-sourcepos="19:1-19:689"&gt;
-&lt;p data-sourcepos="19:2-19:689"&gt;Examples of hyperobjects include: black holes, oil spills, all plastic ever manufactured, capitalism, tectonic plates, and the solar system. Hyperobjects are often ancient or destined to be, like the sum total of Styrofoam and plutonium we have littered across the Earth over the past century, which will remain for millennia. A human being may see &lt;em&gt;evidence&lt;/em&gt; of hyperobjects—pollution here, a hurricane there—but try gazing off into the distance to see the &lt;em&gt;totality&lt;/em&gt; of them, or to the very &lt;em&gt;end&lt;/em&gt; of them, and they disappear into a vanishing point. Hyperobjects, as Morton says, emerge only in fragments and patches that do not always seem to connect up from our view on the ground.&lt;/p&gt;
+&lt;p data-sourcepos="11:1-11:256"&gt;i asked a former teammate of mine, an expert in this system, for a sanity check, and she pointed out that i had missed an important detail. the approach i had outlined in my doc was &lt;em&gt;almost&lt;/em&gt; correct, which is another way of saying that it could never work.&lt;/p&gt;
+&lt;p data-sourcepos="13:1-13:24"&gt;i went back to the code.&lt;/p&gt;
+&lt;p data-sourcepos="15:1-15:426"&gt;and now every time i looked at some corner case, i seemed to find new quirks. someone would ask a perfectly sensible question that iluminated a corner of my ignorance. i struggled to explain what some of our automated tests &lt;em&gt;should&lt;/em&gt; be doing, and i kept finding new unexpected behaviour, lurking in a different part of the codebase i had either not read – or had read many times before, but had yet been able to internalize.&lt;/p&gt;
+&lt;p data-sourcepos="17:1-17:410"&gt;i eventually realized, far too late, that the full set of behaviour that describes how the app handles authorization – every nook and cranny, in its majestic entirety – was simply too large to fit in my head all at once. or more likely, &lt;em&gt;anyone’s&lt;/em&gt; head. after over a decade of effort, rearchitecting for scale, handling new-use cases,&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-invariants" id="fnref-invariants" data-footnote-ref&gt;2&lt;/a&gt;&lt;/sup&gt; etc, etc, the system had simply accreted too many details.&lt;/p&gt;
+&lt;p data-sourcepos="19:1-19:109"&gt;it has become a &lt;strong&gt;&lt;a href="https://www.wired.com/story/timothy-morton-hyperobjects-all-the-way-down/"&gt;hyperobject&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote data-sourcepos="21:1-21:689"&gt;
+&lt;p data-sourcepos="21:2-21:689"&gt;Examples of hyperobjects include: black holes, oil spills, all plastic ever manufactured, capitalism, tectonic plates, and the solar system. Hyperobjects are often ancient or destined to be, like the sum total of Styrofoam and plutonium we have littered across the Earth over the past century, which will remain for millennia. A human being may see &lt;em&gt;evidence&lt;/em&gt; of hyperobjects—pollution here, a hurricane there—but try gazing off into the distance to see the &lt;em&gt;totality&lt;/em&gt; of them, or to the very &lt;em&gt;end&lt;/em&gt; of them, and they disappear into a vanishing point. Hyperobjects, as Morton says, emerge only in fragments and patches that do not always seem to connect up from our view on the ground.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 data-sourcepos="21:1-21:13"&gt;
+&lt;h2 data-sourcepos="23:1-23:13"&gt;
 &lt;a id="well-duh" class="anchor" href="#well-duh" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;well, duh?&lt;/h2&gt;
-&lt;p data-sourcepos="23:1-23:42"&gt;in one sense, this observation is trivial.&lt;/p&gt;
-&lt;p data-sourcepos="25:1-25:300"&gt;our ruby on rails monolith alone, nevermind the dozens of services that connect to it, has seen hundreds and hundreds of engineers pour a lot of code into it. it is immediately apparent to all who clone the repository that the app as a whole is too vast and enormous for any one person to comprehend.&lt;/p&gt;
-&lt;p data-sourcepos="27:1-27:106"&gt;however, i had yet to grasp that even &lt;strong&gt;important subsets&lt;/strong&gt; of the app could also be beyond comprehension.&lt;/p&gt;
-&lt;hr data-sourcepos="29:1-30:0"&gt;
-&lt;p data-sourcepos="31:1-31:221"&gt;around the same time, i came across &lt;a href="https://backofmind.substack.com/p/songs-my-portfolio-manager-taught-4fe"&gt;this entry in Dan Davies’ newsletter&lt;/a&gt;, and here i will just quote the relevant passage in full (emphasis mine):&lt;/p&gt;
-&lt;blockquote data-sourcepos="33:1-33:101"&gt;
-&lt;p data-sourcepos="33:2-33:101"&gt;Once upon a time, in the early to mid stages of the Global Financial Crisis, a client said to me …&lt;/p&gt;
+&lt;p data-sourcepos="25:1-25:42"&gt;in one sense, this observation is trivial.&lt;/p&gt;
+&lt;p data-sourcepos="27:1-27:300"&gt;our ruby on rails monolith alone, nevermind the dozens of services that connect to it, has seen hundreds and hundreds of engineers pour a lot of code into it. it is immediately apparent to all who clone the repository that the app as a whole is too vast and enormous for any one person to comprehend.&lt;/p&gt;
+&lt;p data-sourcepos="29:1-29:106"&gt;however, i had yet to grasp that even &lt;strong&gt;important subsets&lt;/strong&gt; of the app could also be beyond comprehension.&lt;/p&gt;
+&lt;hr data-sourcepos="31:1-32:0"&gt;
+&lt;p data-sourcepos="33:1-33:221"&gt;around the same time, i came across &lt;a href="https://backofmind.substack.com/p/songs-my-portfolio-manager-taught-4fe"&gt;this entry in Dan Davies’ newsletter&lt;/a&gt;, and here i will just quote the relevant passage in full (emphasis mine):&lt;/p&gt;
+&lt;blockquote data-sourcepos="35:1-35:101"&gt;
+&lt;p data-sourcepos="35:2-35:101"&gt;Once upon a time, in the early to mid stages of the Global Financial Crisis, a client said to me …&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;blockquote data-sourcepos="35:1-35:614"&gt;
-&lt;blockquote data-sourcepos="35:2-35:614"&gt;
-&lt;p data-sourcepos="35:7-35:614"&gt;“Danny, since this thing began, there have been two types of analysts. Some people, like yourself, have been trying to develop their understanding of an incredibly complicated system, under huge pressure, absorbing vast amounts of technical detail in a short time, and doing a fairly good job of it. Others have just been mindless bomb-throwers, trying to attract attention to themselves with ill-informed displays of competitive panic. I decided early in this crisis that I was going to listen to the second type of analyst – and they have turned out, systematically, to be much closer to being right”&lt;/p&gt;
+&lt;blockquote data-sourcepos="37:1-37:614"&gt;
+&lt;blockquote data-sourcepos="37:2-37:614"&gt;
+&lt;p data-sourcepos="37:7-37:614"&gt;“Danny, since this thing began, there have been two types of analysts. Some people, like yourself, have been trying to develop their understanding of an incredibly complicated system, under huge pressure, absorbing vast amounts of technical detail in a short time, and doing a fairly good job of it. Others have just been mindless bomb-throwers, trying to attract attention to themselves with ill-informed displays of competitive panic. I decided early in this crisis that I was going to listen to the second type of analyst – and they have turned out, systematically, to be much closer to being right”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
-&lt;blockquote data-sourcepos="37:1-37:475"&gt;
-&lt;p data-sourcepos="37:2-37:475"&gt;He was correct; I changed my approach as a result and consequently, I think, did a much better job of understanding the Eurocrisis. &lt;strong&gt;There’s a very great danger in believing that either a) the whole problem is of a size that you can fit in your head, so understanding it is just a matter of working hard enough, or that b) the relationship between the amount of detail you know and your understanding of the system is positive and monotonic.&lt;/strong&gt; This is often not the case.&lt;/p&gt;
+&lt;blockquote data-sourcepos="39:1-39:475"&gt;
+&lt;p data-sourcepos="39:2-39:475"&gt;He was correct; I changed my approach as a result and consequently, I think, did a much better job of understanding the Eurocrisis. &lt;strong&gt;There’s a very great danger in believing that either a) the whole problem is of a size that you can fit in your head, so understanding it is just a matter of working hard enough, or that b) the relationship between the amount of detail you know and your understanding of the system is positive and monotonic.&lt;/strong&gt; This is often not the case.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p data-sourcepos="39:1-39:175"&gt;i’m still meditating on the meaning of this quote. i experienced it as a bit of a profound insight. i’ve been meaning to track down Dan’s email so i can ask him more about it.&lt;/p&gt;
-&lt;h2 data-sourcepos="41:1-41:12"&gt;
+&lt;p data-sourcepos="41:1-41:175"&gt;i’m still meditating on the meaning of this quote. i experienced it as a bit of a profound insight. i’ve been meaning to track down Dan’s email so i can ask him more about it.&lt;/p&gt;
+&lt;h2 data-sourcepos="43:1-43:12"&gt;
 &lt;a id="now-what" class="anchor" href="#now-what" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;now what?&lt;/h2&gt;
-&lt;p data-sourcepos="43:1-43:288"&gt;at any rate, my work (my life) is filled with hyperobjects. i have to grapple with them all the time. not coincidentally, Dan is &lt;a href="https://profilebooks.com/work/the-unaccountability-machine/"&gt;working on a book on cybernetics&lt;/a&gt;, and it makes me think a lot about the ol’ Stafford Beer quote,&lt;/p&gt;
-&lt;blockquote data-sourcepos="45:1-45:56"&gt;
-&lt;p data-sourcepos="45:3-45:56"&gt;&lt;strong&gt;The purpose of a system is what it does.&lt;/strong&gt;&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-posiwid" id="fnref-posiwid" data-footnote-ref&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p data-sourcepos="45:1-45:288"&gt;at any rate, my work (my life) is filled with hyperobjects. i have to grapple with them all the time. not coincidentally, Dan is &lt;a href="https://profilebooks.com/work/the-unaccountability-machine/"&gt;working on a book on cybernetics&lt;/a&gt;, and it makes me think a lot about the ol’ Stafford Beer quote,&lt;/p&gt;
+&lt;blockquote data-sourcepos="47:1-47:56"&gt;
+&lt;p data-sourcepos="47:3-47:56"&gt;&lt;strong&gt;The purpose of a system is what it does.&lt;/strong&gt;&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-posiwid" id="fnref-posiwid" data-footnote-ref&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p data-sourcepos="47:1-47:254"&gt;we can’t understand the whole system. nobody can take in every part and absorb every detail. and the intentions of any individual contributor are irrelevant. the only thing we can do is try to step outside and observe the actions it takes upon the world.&lt;/p&gt;
-&lt;p data-sourcepos="49:1-49:113"&gt;i’m probably mixing metaphors. but! with the benefit of hindsight, how should i have tackled my research problem?&lt;/p&gt;
-&lt;p data-sourcepos="51:1-51:265"&gt;i should’ve ignored all of the code &amp;amp; first attacked the test suite. work backwards from those weird tests i struggled with. those tests describe the behaviour we actually see, at a high enough level to be useful. how it works under the hood kind of doesn’t matter.&lt;/p&gt;
-&lt;p data-sourcepos="53:1-53:50"&gt;when wrestling a hyperobject, you kind of have to:&lt;/p&gt;
-&lt;ul data-sourcepos="54:1-58:0"&gt;
-&lt;li data-sourcepos="54:1-54:9"&gt;squint,&lt;/li&gt;
-&lt;li data-sourcepos="55:1-55:21"&gt;suss out the vibes,&lt;/li&gt;
-&lt;li data-sourcepos="56:1-56:49"&gt;don’t try to take it all in, because you can’t.&lt;/li&gt;
-&lt;li data-sourcepos="57:1-58:0"&gt;instead, measure the end result you can see; observe the outcomes, and use your intuition. what is the system trying to &lt;em&gt;do&lt;/em&gt;?&lt;/li&gt;
+&lt;p data-sourcepos="49:1-49:254"&gt;we can’t understand the whole system. nobody can take in every part and absorb every detail. and the intentions of any individual contributor are irrelevant. the only thing we can do is try to step outside and observe the actions it takes upon the world.&lt;/p&gt;
+&lt;p data-sourcepos="51:1-51:113"&gt;i’m probably mixing metaphors. but! with the benefit of hindsight, how should i have tackled my research problem?&lt;/p&gt;
+&lt;p data-sourcepos="53:1-53:265"&gt;i should’ve ignored all of the code &amp;amp; first attacked the test suite. work backwards from those weird tests i struggled with. those tests describe the behaviour we actually see, at a high enough level to be useful. how it works under the hood kind of doesn’t matter.&lt;/p&gt;
+&lt;p data-sourcepos="55:1-55:50"&gt;when wrestling a hyperobject, you kind of have to:&lt;/p&gt;
+&lt;ul data-sourcepos="56:1-60:0"&gt;
+&lt;li data-sourcepos="56:1-56:9"&gt;squint,&lt;/li&gt;
+&lt;li data-sourcepos="57:1-57:21"&gt;suss out the vibes,&lt;/li&gt;
+&lt;li data-sourcepos="58:1-58:49"&gt;don’t try to take it all in, because you can’t.&lt;/li&gt;
+&lt;li data-sourcepos="59:1-60:0"&gt;instead, measure the end result you can see; observe the outcomes, and use your intuition. what is the system trying to &lt;em&gt;do&lt;/em&gt;?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;section class="footnotes" data-footnotes&gt;
 &lt;ol&gt;
+&lt;li id="fn-rails"&gt;
+&lt;p data-sourcepos="65:11-65:133"&gt;not, mind you, because it’s a rails app; a lot of people struggle with that fact, for some reason, but i’m not one of them. &lt;a href="#fnref-rails" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;li id="fn-invariants"&gt;
-&lt;p data-sourcepos="59:16-59:263"&gt;the other day i came across Lorin’s post “&lt;a href="https://surfingcomplexity.blog/2024/03/26/the-problem-with-invariants-is-that-they-change-over-time/"&gt;the problem with invariants is that they change over time&lt;/a&gt;” and its simple truth still makes me giggle. &lt;a href="#fnref-invariants" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;p data-sourcepos="61:16-61:263"&gt;the other day i came across Lorin’s post “&lt;a href="https://surfingcomplexity.blog/2024/03/26/the-problem-with-invariants-is-that-they-change-over-time/"&gt;the problem with invariants is that they change over time&lt;/a&gt;” and its simple truth still makes me giggle. &lt;a href="#fnref-invariants" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn-posiwid"&gt;
-&lt;p data-sourcepos="61:13-61:97"&gt;cf &lt;a href="https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does"&gt;wikipedia&lt;/a&gt; &lt;a href="#fnref-posiwid" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;p data-sourcepos="63:13-63:97"&gt;cf &lt;a href="https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does"&gt;wikipedia&lt;/a&gt; &lt;a href="#fnref-posiwid" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</content>
@@ -295,7 +357,7 @@
   <entry>
     <id>http://okayfail.com/2018/rent-control-great-security-of-tenure.html</id>
     <published>2018-09-26T00:00:00Z</published>
-    <updated>2023-12-21T19:14:24Z</updated>
+    <updated>2024-04-22T18:02:38Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/2018/rent-control-great-security-of-tenure.html"/>
     <title>Actually, Rent Control is Great: Revisiting Ontario’s Experience, the Supply of Housing, and Security of Tenure</title>
     <content type="html">&lt;p data-sourcepos="1:1-1:80"&gt;This paper is also &lt;a href="/assets/rent-control-great-2018.pdf"&gt;available in pdf form&lt;/a&gt;.&lt;/p&gt;
@@ -958,7 +1020,7 @@
   <entry>
     <id>http://okayfail.com/2017/rent-control-great.html</id>
     <published>2017-11-13T00:00:00Z</published>
-    <updated>2024-03-31T17:52:22Z</updated>
+    <updated>2024-04-23T02:21:33Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/2017/rent-control-great.html"/>
     <title>Actually, Rent Control Is Great</title>
     <content type="html">&lt;p data-sourcepos="1:1-1:288"&gt;&lt;em&gt;A version of this article was published in the &lt;a href="https://www.thestar.com/opinion/contributors/2017/11/18/rent-controls-promote-stability-mendona-vieira.html"&gt;Toronto Star&lt;/a&gt;. Interested in learning more? You can &lt;a href="/2018/rent-control-great-security-of-tenure.html"&gt;read the full paper here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -981,341 +1043,5 @@
 &lt;b&gt;Figure 2.&lt;/b&gt; City of Toronto housing completions by intended market 1981-2016.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p data-sourcepos="31:1-31:473"&gt;Commentators do us a disservice when they pretend rent controls are about affordability or redistribution and ignore tenant concerns over security of tenure. From what I’ve learned it’s way more complicated than that. Today, low- and middle-income people have been priced out of ownership in our city. Why should we be subjected to a tenancy regime that significantly disadvantages us socially, economically and politically compared to the subsidized homeowning population?&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <id>http://okayfail.com/2017/saints-of-little-portugal.html</id>
-    <published>2017-07-19T00:00:00Z</published>
-    <updated>2023-12-21T19:14:24Z</updated>
-    <link rel="alternate" type="text/html" href="http://okayfail.com/2017/saints-of-little-portugal.html"/>
-    <title>The Saints of Little Portugal</title>
-    <content type="html">&lt;p&gt;
-  When you next walk through the residential streets of Toronto's west end, take a look at the houses around you. Before long, you'll see the azulejos.
-&lt;/p&gt; 
-&lt;p&gt;
-  Carefully glued by a house's front entrance, azulejos are small sets of ceramic tiles, usually six or twelve per panel. Though each panel typically depicts generic-looking Catholic iconography - various iterations of the Virgin, miscellaneous saints - they're effectively ethnic markers:
-&lt;/p&gt;
-&lt;p&gt;
-  To see one is to know that the owners are Portuguese immigrants.
-&lt;/p&gt;
-&lt;p&gt;
-  In May 2015, I canvassed my neighbourhood, from Ossington to Dufferin and from Queen to Dundas, and catalogued every azulejo I found: sixty six of them in total.
-&lt;/p&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-argyle-IMG_9087.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-argyle-IMG_9087.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-dovercourt-IMG_9103.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-dovercourt-IMG_9103.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-brookfield-IMG_9066.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-brookfield-IMG_9066.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-cross-IMG_9163.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-cross-IMG_9163.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-argyle-IMG_9071.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-argyle-IMG_9071.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-argyle-IMG_9074.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-argyle-IMG_9074.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-argyle-IMG_9078.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-argyle-IMG_9078.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-argyle-IMG_9084.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-argyle-IMG_9084.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-argyle-IMG_9085.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-argyle-IMG_9085.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-beaconsfield-IMG_9198.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-beaconsfield-IMG_9198.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-beaconsfield-IMG_9207.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-beaconsfield-IMG_9207.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-beaconsfield-IMG_9209.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-beaconsfield-IMG_9209.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-brookfield-IMG_9064.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-brookfield-IMG_9064.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-collahie-IMG_9158.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-collahie-IMG_9158.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-dovercourt-IMG_9104.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-dovercourt-IMG_9104.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-dovercourt-IMG_9110.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-dovercourt-IMG_9110.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-dovercourt-IMG_9118.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-dovercourt-IMG_9118.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-dovercourt-IMG_9121.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-dovercourt-IMG_9121.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-dufferin-IMG_9279.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-dufferin-IMG_9279.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-dufferin-IMG_9283.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-dufferin-IMG_9283.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-dufferin-IMG_9286.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-dufferin-IMG_9286.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-fennings-IMG_9052.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-fennings-IMG_9052.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-fennings-IMG_9053.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-fennings-IMG_9053.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-fennings-IMG_9055.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-fennings-IMG_9055.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-fennings-IMG_9060.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-fennings-IMG_9060.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-foxley-IMG_9125.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-foxley-IMG_9125.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-foxley-IMG_9131.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-foxley-IMG_9131.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-foxley-IMG_9132.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-foxley-IMG_9132.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-gladstone-IMG_9215.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-gladstone-IMG_9215.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-gladstone-IMG_9227.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-gladstone-IMG_9227.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-gladstone-IMG_9230.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-gladstone-IMG_9230.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-gladstone-IMG_9238.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-gladstone-IMG_9238.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;h2&gt;
-&lt;a id="slightly-more-than-what-meets-the-eye" class="anchor" href="#slightly-more-than-what-meets-the-eye" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Slightly more than what meets the eye&lt;/h2&gt;
-&lt;p&gt;
-  You can be certain the owners are Portuguese for two reasons.
-&lt;/p&gt;
-&lt;p&gt;First, the azulejo is a distinctively Portuguese art form, though they're also common in Spain and in the former colonies.&lt;/p&gt;
-&lt;p&gt;Both the word 'azulejo' (which refers to any ceramic tile) and its artistic tradition were introduced by &lt;a href="https://en.wikipedia.org/wiki/Reconquista"&gt;the Moorish invaders&lt;/a&gt;, who brought with them their Arabesque decorative ceramics and an obsession with filling empty space.&lt;/p&gt;
-&lt;p&gt;Adopted first in Spain, in the 1500s they were imported to Portugal. In the 1600s their manufacturing was &lt;a href="https://en.wikipedia.org/wiki/Delftware"&gt;improved by the Dutch&lt;/a&gt;, and they became widely used by the 1700s. Many houses in Portugal today are still covered top to bottom, inside and out, in azulejos: they're cheap, they last forever, they're easy to clean, and they keep things cool in the summer.
-&lt;/p&gt;
-&lt;p&gt;Secondly, these azulejos feature Portuguese saints.&lt;/p&gt;
-&lt;p&gt;If to glance at an azulejo is to have a suspicion, then to see the tortured face of Senhor Santo Cristo dos Milagres (Lord Holy Christ of The Miracles) is to know that the owners are, specifically, from the Açores.&lt;/p&gt;
-&lt;figure&gt;
-  &lt;a href="/img/azulejos/azulejo-dufferin-IMG_9290.jpg"&gt;&lt;img src="/img/azulejos/azulejo-dufferin-IMG_9290-medium.jpg" style="max-width:100%;"&gt;&lt;/a&gt;
-  &lt;figcaption&gt;The cult of Senhor Santo Cristo dos Milagres is over three hundred years old.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;I don't quite recall all the theological quirks,&lt;sup id="fnref:az-irreligious"&gt;&lt;a href="#fn:az-irreligious" class="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; but, in a nutshell, Catholics love their minor cults. 
-&lt;/p&gt;
-&lt;p&gt;You may only worship the Holy Trinity, of course.&lt;/p&gt;
-&lt;p&gt;But if you're in a jam and need a favour, it's common to pray directly to a holy-adjacent figure that specializes in your troubles. Cults form around specific divine interventions and become embodied by a stable iconography laden with symbolism. Choosing a saint or figure in particular often reflects traditions from your family or region.&lt;/p&gt;
-&lt;p&gt;Take Nossa Senhora de Fátima.&lt;/p&gt;
-&lt;p&gt;In 1917, Our Lady the Virgin Mary appeared&lt;sup id="fnref:az-appeared"&gt;&lt;a href="#fn:az-appeared" class="footnote"&gt;2&lt;/a&gt;&lt;/sup&gt; to, and hung out with, three little shepherds&lt;sup id="fnref:az-childlabour"&gt;&lt;a href="#fn:az-childlabour" class="footnote"&gt;3&lt;/a&gt;&lt;/sup&gt; in the village of Fátima. She did this six times over the course of several months and, before she left for good, she gave the shepherds three secrets and performed some miracles. People were so impressed, they built an immense sanctuary right on the spot.&lt;/p&gt;
-&lt;p&gt;Today, it receives millions of tourists every year. People in need will make pilgrimages and, in penance, crawl on their knees the whole way there.&lt;/p&gt;
-&lt;p data-sourcepos="168:1-168:150"&gt;&lt;a href="/img/azulejos/azulejo-dovercourt-IMG_9107.jpg"&gt;&lt;img src="/img/azulejos/azulejo-dovercourt-IMG_9107-medium.jpg" style="margin-bottom: 2%"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I grew up about a ten minute drive from Fátima. I went to school there. I've attended mass both in the cathedral, and outside, during high season, when tens of thousands of pilgrims congregate in the sanctuary grounds. For me personally, it's all extremely normal, a kind of background cosmic religious radiation.&lt;sup id="fnref:az-religiousradiation"&gt;&lt;a href="#fn:az-religiousradiation" class="footnote"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;
-  Most Portuguese immigrants to Toronto, though, are not from the mainland — let alone from my region.&lt;/p&gt;
-&lt;p&gt;Last fall, while en route to work, I noticed that the church down on Argyle and Dovercourt was unusually crowded for a Thursday morning. I stopped an old man and asked him, is this a funeral, a wedding or what? With emotion in his voice, he replied: they brought Our Lady over! and beckoned me to check it out. 
-&lt;/p&gt;
-&lt;p&gt;
-  I parked my bike, and stepped inside the church. The pews were packed with worshippers, and a priest was wrapping up a mass. I spotted her, in the distance: there stood the &lt;a href="https://commons.wikimedia.org/wiki/File:Virgen_de_F%C3%A1tima.JPG"&gt;pilgrim image&lt;/a&gt; of Our Lady of Fátima. I chatted with an old lady who told me she never thought she'd get to see it in the flesh; she seemed very pleased. I later found out that the statue was making a week-long tour of the Greater Toronto Area Portuguese churches.&lt;/p&gt; 
-&lt;p&gt;While Fátima is the most famous... &lt;i&gt;visit&lt;/i&gt; by Our Lady,&lt;sup id="fnref:az-visit"&gt;&lt;a href="#fn:az-visit" class="footnote"&gt;5&lt;/a&gt;&lt;/sup&gt; the Lord works in mysterious ways. Over the centuries every other town has had a holy appearance or become associated with a given saint. Saint Anthony represents both Portugal and Lisbon, and helps with marriages, the poor, and finding things that are lost. Saint Joseph, in turn, is the patron saint of fathers, families and Canada.&lt;/p&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-gladstone-IMG_9243.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-gladstone-IMG_9243.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-gladstone-IMG_9247.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-gladstone-IMG_9247.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-gladstone-IMG_9268.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-gladstone-IMG_9268.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-gladstone-IMG_9270.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-gladstone-IMG_9270.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-grove-IMG_9153.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-grove-IMG_9153.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_8941.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8941.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_8945.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8945.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_8947.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8947.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_8990.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8990.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_8993.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8993.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_8995.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8995.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_8997.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8997.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_8999.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8999.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_9002.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_9002.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_9004.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_9004.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_9006.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_9006.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_9008.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_9008.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_9010.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_9010.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_9012.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_9012.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-lisgar-IMG_9016.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_9016.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-mackenzie-IMG_9018.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-mackenzie-IMG_9018.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-mackenzie-IMG_9024.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-mackenzie-IMG_9024.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-northcote-IMG_9033.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-northcote-IMG_9033.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-northcote-IMG_9034.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-northcote-IMG_9034.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-northcote-IMG_9037.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-northcote-IMG_9037.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-northcote-IMG_9041.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-northcote-IMG_9041.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-northcote-IMG_9045.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-northcote-IMG_9045.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-rolyat-IMG_9139.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-rolyat-IMG_9139.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-rolyat-IMG_9143.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-rolyat-IMG_9143.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-rolyat-IMG_9147.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-rolyat-IMG_9147.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-stonehouse-IMG_9257.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-stonehouse-IMG_9257.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo"&gt;
-    &lt;a href="/2017/saints-of-little-portugal/azulejo-stonehouse-IMG_9261.html"&gt;&lt;img src="/img/azulejos/thumb/azulejo-stonehouse-IMG_9261.jpg" style="display: inline"&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;h2&gt;
-&lt;a id="stocks-and-flows" class="anchor" href="#stocks-and-flows" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Stocks and flows&lt;/h2&gt;
-&lt;p&gt;Most Portuguese came to Canada in the 1960s and 1970s,&lt;sup id="fnref:az-trickle"&gt;&lt;a href="#fn:az-trickle" class="footnote"&gt;6&lt;/a&gt;&lt;/sup&gt; and largely settled in Montreal and Toronto. By the time I was born, my ethnic group consisted of up to one third of the population in Toronto's west-end neighbourhoods.&lt;sup id="fnref:az-hood"&gt;&lt;a href="#fn:az-hood" class="footnote"&gt;7&lt;/a&gt;&lt;/sup&gt; People fled the subsistence farming, crushing poverty and fascist political repression that at the time was a constant in the home country.&lt;/p&gt;
-&lt;p&gt;Most first-generation immigrants are from my parents' and grandparents' generation, though, and what used to be a bustling ethnic enclave has since petered out. Between the reduced rate of migration and the unsustainable housing inflation that is fuelling our housing crisis,&lt;sup id="fnref:az-housing"&gt;&lt;a href="#fn:az-housing" class="footnote"&gt;8&lt;/a&gt;&lt;/sup&gt; the old people who remain are dying or selling out and are being replaced, as far as I can tell, by wealthier "ingleses".&lt;/p&gt;
-&lt;p&gt;When I first began this project, I was engaging in a kind of proactive nostalgia: I was moving to California for a few months, and I felt sad about missing summer in Toronto. I didn't realize at the time that I was also creating a record of gentrification.&lt;/p&gt;
-&lt;section class="azulejo-row"&gt;
-  &lt;div class="azulejo-half"&gt;
-    &lt;figure&gt;
-      &lt;a href="/img/azulejos/thumb/azulejo-lisgar-IMG_8945.jpg" target="_blank"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_8945.jpg" style="max-width:100%;"&gt;&lt;/a&gt;
-      &lt;figcaption&gt;May 2015&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-  &lt;div class="azulejo-half"&gt;
-    &lt;figure&gt;
-      &lt;a href="/img/azulejos/thumb/azulejo-lisgar-IMG_6669.2.jpg" target="_blank"&gt;&lt;img src="/img/azulejos/thumb/azulejo-lisgar-IMG_6669.2.jpg" style="max-width:100%;"&gt;&lt;/a&gt;
-      &lt;figcaption&gt;May 2017&lt;/figcaption&gt;
-    &lt;/figure&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;p&gt;
-  Cities change, it's how it goes.
-&lt;/p&gt;
-&lt;p&gt;
-  As I write this, I am being evicted myself from the neighbourhood: my landlords cashed in and sold the house I live in — which is now being converted into luxury rentals. I'm currently looking for housing, but odds are good I won't be able to stick around.
-&lt;/p&gt;
-&lt;p&gt;I've lived in or adjacent to Little Portugal for about seven years now, and for a long time I got to have it both ways: I was both gentrified and gentrifier. On the one hand, I frequented the bakeries, the bbq shops and rather enjoyed doing all of my shopping without speaking English.&lt;sup id="fnref:az-noenglish"&gt;&lt;a href="#fn:az-noenglish" class="footnote"&gt;9&lt;/a&gt;&lt;/sup&gt; On the other hand, I also got to live in what was hipster-central and hang out at all the nice new bars and restaurants.&lt;/p&gt;
-&lt;p&gt;I'm not sure that I have a special right, per se, to stay in this specific neighbourhood. But there's something to be said about all the different amenities&lt;sup id="fnref:az-amenity"&gt;&lt;a href="#fn:az-amenity" class="footnote"&gt;10&lt;/a&gt;&lt;/sup&gt; and quirks that mostly only people like me can enjoy, and that will vanish without enough people like me to support it.&lt;/p&gt;
-&lt;p&gt;Put another way: enjoy it while it lasts!&lt;/p&gt;
-&lt;div class="footnotes"&gt;
-  &lt;ol&gt;
-    &lt;li id="fn:az-irreligious"&gt;
-      &lt;p&gt;At the end of every year, the priest would come down from the castle (i.e. the parish headquarters) and quiz the kids on their bible lessons. What are the seven deadly sins? What were the three temptations of Christ? When I was thirteen I skipped out on the oral examination to go on summer vacation early, and upon my return I was informed I had &lt;i&gt;flunked Sunday school&lt;/i&gt;. My faith was already unsteady, but I decided right then and there that organized religion wasn't my thing. &lt;a href="#fnref:az-irreligious" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id="fn:az-appeared"&gt;
-      &lt;p&gt;Think less "showed up" and more "&lt;a href="https://www.merriam-webster.com/dictionary/apparition"&gt;apparation&lt;/a&gt;". &lt;a href="#fnref:az-appeared" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id="fn:az-childlabour"&gt;
-      &lt;p&gt;Think less "picturesque" and more "child labour". The oldest was ten, and this being deep rural Portugal, they were very likely done school forever, if they had any schooling at all. It's hard to overstate how little education people received. By the time I finished highschool, I had more years of formal education than all four of my grandparents put together. &lt;a href="#fnref:az-childlabour" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id="fn:az-religiousradiation"&gt;
-      &lt;p&gt;I worked on this essay for several days before I realized that I'm not immune: I own a tiny, glow in the dark Our Lady of Fátima figurine. It was too tacky not to purchase. &lt;a href="#fnref:az-religiousradiation" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-     &lt;li id="fn:az-visit"&gt;
-       &lt;p&gt;You may have heard of many other Our Ladies, including but not limited to: Hope, Mercy, Lourdes, Guadalupe, etc. &lt;i&gt;These all refer to the one and only Virgin Mary&lt;/i&gt;, and are either specific titles attributed to her, or are specific locations where she has appeared. I added this footnote because this was apparently not obvious, which is very amusing to me. &lt;a href="#fnref:az-visit" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id="fn:az-trickle"&gt;
-      &lt;p&gt;Before the 1950s, like many other ethnicities and nationalities, the Portuguese were considered to be "undesirable", incapable of adapting to Canadian farming conditions. After 1974, between the end of the dictatorship (which ended the colonial wars and eased material deprivation) and the new Canadian points-based immigration system (which deprioritized unskilled labour) the flow of Portuguese slowed to a trickle. &lt;a href="#fnref:az-trickle" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id="fn:az-hood"&gt;
-      &lt;p&gt;There is a great, illustrative audiotour guide you can &lt;a href="https://izi.travel/en/browse/0cc257b0-7984-4ba7-b9bf-4b9eec52fa65"&gt;follow along here&lt;/a&gt;.&lt;a href="#fnref:az-hood" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id="fn:az-housing"&gt;
-      &lt;p&gt;I have lots of feelings about this, as you may guess. I've started a group named BetterToronto &lt;a href="http://betterto.ca"&gt;and you should check it out&lt;/a&gt;. &lt;a href="#fnref:az-housing" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-     &lt;li id="fn:az-noenglish"&gt;
-       &lt;p&gt;I've had the following weekend routine for many years now: walk on over to the laundromat, cross the street for lunch at the churrasqueira, fetch bread and a &lt;a href="https://en.wikipedia.org/wiki/Pastel_de_nata"&gt;pastel de nata&lt;/a&gt; at the bakery, circle around to obtain chouriço and queijo fresco from the butcher. There's only one or two other areas in this city where you can replicate this experience. &lt;a href="#fnref:az-noenglish" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-     &lt;li id="fn:az-amenity"&gt;
-       &lt;p&gt;"Amenity" I think is a bit loaded; imagine calling it "infrastructure". Immigrant enclaves are actually very important for recent newcomers: when you're fresh off the boat, you depend heavily on the community for jobs, for housing, for social interaction, for learning how to navigate society around you. We don't just lose "quaintness" when an enclave gets eroded away. &lt;a href="#fnref:az-amenity" class="reversefootnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
