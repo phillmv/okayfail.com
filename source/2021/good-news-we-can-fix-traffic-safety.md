@@ -8,7 +8,7 @@ tags: deathbytraffic
 ---
 
 <figure id="fref:fig1">
-<a href="/2021/good-news-we-can-fix-traffic-safety/files/conversion-st-paul.png"><img src="/2021/good-news-we-can-fix-traffic-safety/files/conversion-st-paul.png" title="Ontario Housing Starts by Intended Market 1969-1986"></a>
+<a href="/2021/good-news-we-can-fix-traffic-safety/files/conversion-st-paul.png"><img src="/2021/good-news-we-can-fix-traffic-safety/files/conversion-st-paul.png" title="The Conversion of Saint Paul by Palma il Giovane, 1595."></a>
 <figcaption>
 <i>The Conversion of Saint Paul</i> by Palma il Giovane, 1595.
 </figcaption>
