@@ -6,7 +6,6 @@
 @import "neat/neat";
 @import "global_tweaks";
 
-
 $post-width: 39rem;
 
 section {
@@ -15,6 +14,138 @@ section {
     padding: 0% 5% 0% 5%;
   }
 
+}
+
+
+
+// NEW STUFF
+// how does this work again? you define
+//how you want it to always work
+// and then the smaller sizes?
+// or is it vice versa?
+container {
+  // @ 16px, 80rem is ~1280px wide
+  @include outer-container(80rem);
+  // display block so the padding & max-width apply properly
+  display: block;
+  // when the display is very tiny it looks nice to have a bit of padding
+  // but once we're past width-md we don't rly need it
+  @media (max-width: $width-md) {
+    padding: 0% 5% 0% 5%;
+  }
+}
+
+// one-column nested inside <container> is meant to provide a single, centred,
+// column layout for shoving content inside of.
+// i've experimentally decided that 39rem (to 16px) is the width i like best,
+// which given an outer-container of 80rem is how it'll get set at width-xl
+// but from md-to-xl the width will vary quite a bit. for this reason, in
+// .entry i've set the max width to be $post-width
+.one-column {
+  @include breakpoint(md) {
+    @include span-columns(10 of 12);
+    @include shift(1);
+  }
+
+  @include breakpoint(lg) {
+    @include span-columns(8 of 12);
+    @include shift(2);
+  }
+
+  @include breakpoint(xl) {
+    @include span-columns(6 of 12);
+    @include shift(3);
+  }
+}
+
+.entry-header {
+  h1 {
+    line-height: 1;
+  }
+
+  h2 {
+    margin-top: 0.2em;
+  }
+
+  h3 {
+    margin-top: 0.5em;
+    // font-size overriden in global_tweaks
+    font-size: 1.2em;
+  }
+
+  hr {
+    margin: 0;
+  }
+}
+
+.entry {
+  max-width: $post-width;
+  h1.title a {
+    color: black;
+  }
+
+  h5.date a {
+    color: black;
+  }
+
+  h5.date {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+
+  figure {
+    margin: 0;
+    margin-bottom: 1em;
+    figcaption {
+      font-size: 0.8em;
+    }
+  }
+
+  ul {
+    padding-left: 3rem;
+  }
+
+  ol ol, ul ul,
+  ul ol, ol ul {
+    margin: 0 0 0.4em 0;
+    padding-left: 2em;
+  }
+
+  li {
+    margin: 0.4em 0;
+  }
+
+  li li {
+    margin: 0;
+  }
+
+
+  ol {
+    list-style-type: decimal;
+    // style-pos inside so it'll line up
+    // with the parent-div, instead of having
+    // numerals stick out.
+    list-style-position: inside;
+    li {
+      // ps must display inline
+      // cos w/style-pos inside, the li char forces
+      // a line break with <p>s. this is bad.
+      p {
+        display: inline;
+      }
+      // give lis same spacing as
+      // paragraphs, since display inline
+      // causes it to not break lines? i think.
+      margin: 0 0 $medium-spacing;
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+    ul {
+      list-style-type: circle;
+    }
+  }
 }
 
 // top level types
@@ -174,27 +305,31 @@ section {
 header {
   @include outer-container;
 
-  @include desktop-all {
-    margin-top: 1.5em;
-
+    // fresh start begin {
+  // @include desktop-all {
+  //   margin-top: 1.5em;
+  //
     // header emphasis different from normal
     // headings; but new default too large for mobile
     // (see mobile-all h1)
-    .bio h1 {
-      font-size: 2.618em;
-    }
+  //   .bio h1 {
+  //     font-size: 2.618em;
+  //   }
+  //
+  //   .bio h2 {
+  //     font-size: 1.942em;
+  //   }
+  //
+  // }
+  //
+  // @include mobile-all {
+  //   .bio h1 {
+  //     font-size: 2.1em;
+  //   }
+  // }
+  // }
+  // end fresh start }
 
-    .bio h2 {
-      font-size: 1.942em;
-    }
-
-  }
-
-  @include mobile-all {
-    .bio h1 {
-      font-size: 2.1em;
-    }
-  }
 
 
   .avatar {
@@ -222,36 +357,52 @@ header {
     }
   }
 
-  .bio {
-    @include desktop-all {
-      @include span-columns(6 of 12);
-      @include shift(3);
-    }
-
-    @include mobile-all {
-      @include span-columns(12);
-      padding: 5% 5% 0% 5%;
-    }
-
-    h1 {
-      margin-top: 0;
-      line-height: 1;
-    }
-
-    ol.default-ol {
-      // don't let the hr line after the header ol have too much whitespace
-      margin-bottom: 0;
-    }
-
-    .rlb {
-      @include desktop-all {
-        display: inline;
-      }
-      @include mobile-all {
-        display: block;
-      }
-    }
-  }
+  // fresh start { 
+  // .bio {
+  //   @include breakpoint(md) {
+  //     @include span-columns(10 of 12);
+  //     @include shift(1);
+  //   }
+  //
+  //   @include breakpoint(lg) {
+  //     @include span-columns(9 of 12);
+  //     @include shift(1);
+  //   }
+  //
+  //
+  //   @include span-columns(10 of 12);
+  //   @include shift(1);
+  //   // @include mobile-all {
+  //   //   @include span-columns(12 of 12);
+  //   //   padding: 5% 5% 0% 5%;
+  //   // }
+  //   // @include desktop-all {
+  //   //   @include span-columns(6 of 12);
+  //   //   @include shift(3);
+  //   // }
+  //
+  //
+  //
+  //   h1 {
+  //     margin-top: 0;
+  //     line-height: 1;
+  //   }
+  //
+  //   ol.default-ol {
+  //     // don't let the hr line after the header ol have too much whitespace
+  //     margin-bottom: 0;
+  //   }
+  //
+  //   .rlb {
+  //     // @include desktop-all {
+  //     //   display: inline;
+  //     // }
+  //     // @include mobile-all {
+  //     //   display: block;
+  //     // }
+  //   }
+  // }
+  // } end fresh
 
   .shortbio {
     h1 {
@@ -273,18 +424,18 @@ header {
       margin: 0;
     }
 
-    @include desktop-all {
-      @include span-columns(6 of 12);
-      @include shift(3);
-    }
+    // @include desktop-all {
+    //   @include span-columns(6 of 12);
+    //   @include shift(3);
+    // }
 
-    @include mobile-all {
-      @include span-columns(12);
-      padding: 5% 5% 0% 5%;
-      h1 {
-        margin: 0;
-      }
-    }
+    // @include mobile-all {
+    //   @include span-columns(12);
+    //   padding: 5% 5% 0% 5%;
+    //   h1 {
+    //     margin: 0;
+    //   }
+    // }
   }
 }
 

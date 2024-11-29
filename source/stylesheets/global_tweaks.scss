@@ -16,6 +16,61 @@
   }
 }
 
+// copying from primer {
+// from https://github.com/primer/css/blob/6c31e4f4cdfa15329486d2dc92a3e283d231438a/src/support/variables/layout.scss#L122
+// Breakpoint widths
+$width-xs: 0 !default;
+// Small screen / phone
+$width-sm: 544px !default;
+// Medium screen / tablet
+$width-md: 768px !default;
+// Large screen / desktop (980 + (16 * 2)) <= container + gutters
+$width-lg: 1012px !default;
+// Extra large screen / wide desktop
+$width-xl: 1280px !default;
+
+// Breakpoints in the form (name: length)
+$breakpoints: (
+  xs: $width-xs,
+  sm: $width-sm,
+  md: $width-md,
+  lg: $width-lg,
+  xl: $width-xl) !default;
+
+// Viewport ranges
+// Soon to be provided by Primer Primitives directly
+// https://github.com/primer/primitives/blob/main/tokens/functional/size/viewport.json
+$viewport-narrow: 'max-width: #{$width-md - 0.02px}' !default;
+$viewport-regular: 'min-width: #{$width-md}' !default;
+$viewport-wide: 'min-width: 1400px' !default;
+
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint == '' {
+    @content;
+  }
+
+  @else {
+    // Retrieves the value from the key
+    $value: map-get($breakpoints, $breakpoint);
+
+    // If the key exists in the map
+    @if $value != null {
+      // Prints a media query based on the value
+      @media (min-width: $value) {
+        @content;
+      }
+    }
+
+    // If the key doesn't exist in the map
+    @else {
+      @warn 'Unfortunately, no value could be retrieved from `#{$breakpoint}`. '
+        + 'Please make sure it is defined in `$breakpoints` map.';
+    }
+  }
+}
+
+// } end copy
+
 html {
   padding-bottom: 2em;
 }
