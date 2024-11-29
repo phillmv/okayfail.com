@@ -1,23 +1,27 @@
 <container>
-  <div class="one-column">
+<div class="one-column">
+  <div class="entry-header">
     <h1><a href="/">Phill Mendonça-Vieira</a></h1>
     <h2>Archive</h2>
 
-      <ol class="article-list">
-        <p>Follow along using <a href="/atom.xml">the rss feed</a>.</p>
-        <hr/>
-        <% @all_entries.each do |article| %>
-          <li class="article">
-            <h3><%= link_to article.subject, article %></h3>
-            <h5><%= article.occurred_at.strftime('%B %-d, %Y') %></h5>
-          </li>
-        <% end %>
-      </ol>
+    <p>Follow along using <a href="/atom.xml">the rss feed</a>.</p>
 
-      <% pagination =  will_paginate @all_entries, class: "pagination"%>
-      <% if pagination %>
-        <hr>
-        <%= pagination %>
-      <% end %>
+    <hr/>
   </div>
+  <ol class="article-list">
+    <% @all_entries.each do |article| %>
+      <li class="article">
+        <h3><%= link_to article.subject, article %></h3>
+        <h5><%= article.occurred_at.strftime('%B %-d, %Y') %></h5>
+      </li>
+    <% end %>
+  </ol>
+
+
+  <% pagination =  will_paginate @all_entries, class: "pagination"%>
+  <% if pagination %>
+    <hr>
+    <%= pagination %>
+  <% end %>
+</div>
 </container>

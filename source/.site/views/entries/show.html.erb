@@ -31,13 +31,11 @@
 <% if @entry.identifier.index("garden/") == 0 %>
 <%= render "garden" -%>
 <% else %>
-<section>
-  <div class="post-wrapper">
-    <div class="post">
+  <div class="one-column">
+    <div class="entry">
       <%= @renderer.to_html %>
     </div>
   </div>
-</section>
 <% end # end if %>
 <% end # end case %>
 
