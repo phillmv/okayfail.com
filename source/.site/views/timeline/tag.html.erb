@@ -1,27 +1,26 @@
-<header>
-  <div class="shortbio">
-    <h1><a href="/">Phillip Mendonça-Vieira</a></h1>
+<container>
+<div class="one-column">
+  <div class="entry-header">
+    <h1><a href="/">Phill Mendonça-Vieira</a></h1>
     <h2>Archive of entries tagged <%= @search_query %></h2>
+
+    <p>Follow along using <a href="<%= tag_feed_path(params[:query]) %>">this tag's rss feed</a>.</p>
+    <hr/>
   </div>
-</header>
 
-<section>
-  <div class="archive">
-    <ol class="article-list">
-      <p>Follow along using <a href="<%= tag_feed_path(params[:query]) %>">this tag's rss feed</a>.</p>
-      <hr/>
-      <% @all_entries.each do |article| %>
-        <li class="article">
-          <h3><%= link_to article.subject, article %></h3>
-          <h5><%= article.occurred_at.strftime('%B %-d, %Y') %></h5>
-        </li>
-      <% end %>
-    </ol>
-
-    <% pagination =  will_paginate @all_entries, class: "pagination"%>
-    <% if pagination %>
-      <hr>
-      <%= pagination %>
+  <ol class="article-list">
+    <% @all_entries.each do |article| %>
+      <li class="article">
+        <h3><%= link_to article.subject, article %></h3>
+        <h5><%= article.occurred_at.strftime('%B %-d, %Y') %></h5>
+      </li>
     <% end %>
-  </div>
-</section>
+  </ol>
+
+  <% pagination =  will_paginate @all_entries, class: "pagination"%>
+  <% if pagination %>
+    <hr>
+    <%= pagination %>
+  <% end %>
+</div>
+</container>
