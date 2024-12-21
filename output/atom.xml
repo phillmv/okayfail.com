@@ -4,14 +4,61 @@
   <link rel="alternate" type="text/html" href="http://okayfail.com/"/>
   <link rel="self" type="application/atom+xml" href="http://okayfail.com/atom.xml"/>
   <title>okayfail.com</title>
-  <updated>2024-11-19T00:00:00Z</updated>
+  <updated>2024-12-21T00:00:00Z</updated>
   <author>
-    <name>Phillip Mendonça-Vieira</name>
+    <name>Phill Mendonça-Vieira</name>
   </author>
+  <entry>
+    <id>http://okayfail.com/garden/uis-should-be-versioned-just-like-we-version-apis.html</id>
+    <published>2024-12-21T00:00:00Z</published>
+    <updated>2024-12-21T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://okayfail.com/garden/uis-should-be-versioned-just-like-we-version-apis.html"/>
+    <title>UIs Should Be Versioned, Just Like We Version APIs</title>
+    <content type="html">&lt;h1 data-sourcepos="1:1-1:52"&gt;
+&lt;a id="uis-should-be-versioned-just-like-we-version-apis" class="anchor" href="#uis-should-be-versioned-just-like-we-version-apis" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;UIs Should Be Versioned, Just Like We Version APIs&lt;/h1&gt;
+&lt;p data-sourcepos="3:1-3:389"&gt;Every organization that offers an application programming interface almost immediately starts to version it. APIs are essentially contracts between us, service providers, and our users. The bargain is you build your app using our service in some presumably mutually beneficial arrangement, and in exchange we promise to give you a stable platform atop which you will construct your dreams.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:522"&gt;Everyone agrees that it is extremely rude to break an API. Changing APIs unexpectedly makes our users sad because their robots will break, and they will be forced to waste time and energy figuring out whatever broke. To prevent this, we version our APIs. Versions are clauses in this contract: we say, this is &lt;code&gt;v1&lt;/code&gt; or &lt;code&gt;v2&lt;/code&gt; or &lt;code&gt;20241231&lt;/code&gt; or whatever, and we hereby promise to not change it. Should you want to use latest and greatest features, you are free to upgrade at your leisure. Or not don’t upgrade, that’s fine too.&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:41"&gt;Why don’t we do this for user interfaces?&lt;/p&gt;
+&lt;p data-sourcepos="9:1-9:230"&gt;We &lt;em&gt;could&lt;/em&gt; version UIs, but we don’t.  We change UIs constantly, remorselessly. Every reason for providing stable interfaces applies just as well for &lt;em&gt;human beings&lt;/em&gt; as they do for robots – but somehow we only respect the robots.&lt;/p&gt;
+&lt;p data-sourcepos="11:1-11:137"&gt;Why is that? Pure vibes but I feel like the reason ultimately is that we, the computer industry, hate people and wish for them to suffer.&lt;/p&gt;
+&lt;p data-sourcepos="13:1-13:135"&gt;👉 There’s absolutely &lt;strong&gt;no reason&lt;/strong&gt; why we can’t show the same care and attention to how changes impact our UIs as we do to our APIs.&lt;/p&gt;
+&lt;p data-sourcepos="15:1-15:348"&gt;We have zero respect for the effort humans have to put into learning interfaces, and we actively destroy any skills they may have painfully acquired for using the tools we gave them. You can spend a lifetime learning how to use a paint brush, a knife or a needle more skillfully, and be rewarded for it with efficiency and expertise.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-not-original" id="fnref-not-original" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p data-sourcepos="17:1-17:214"&gt;Yet once a computer is involved a programmer somewhere will unthinkingly destroy all of that built up skill every 24-36 months just because &lt;em&gt;&lt;a href="https://en.wikipedia.org/wiki/Flat_design"&gt;it’s no longer fashionable&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p data-sourcepos="19:1-19:172"&gt;Anyways, I was reminded of this while &lt;a href="https://www.wheresyoured.at/never-forgive-them/"&gt;reading this depressing and correct essay by Ed Zitron about our dystopian present&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote data-sourcepos="21:1-21:488"&gt;
+&lt;p data-sourcepos="21:2-21:488"&gt;The tools we use in our daily lives outside of our devices have mostly stayed the same. While buttons on our cars might have moved around […] we generally have a brake, an accelerator, a wheel, and a turn signal. Boarding an airplane has worked mostly the same way since I started flying, other than moving from physical tickets to digital ones. We’re not expected to work out “the new way to use a toilet” every few months because somebody decided we were finishing too quickly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="23:1-23:333"&gt;
+&lt;p data-sourcepos="23:2-23:333"&gt;Yet our apps and the platforms we use every day operate by a totally different moral and intellectual compass. While the idea of an update is fairly noble… many tech platforms see it as a means to further extract and exploit, to push users into doing things that either keep them on the app longer or take more-profitable actions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="25:1-25:594"&gt;
+&lt;p data-sourcepos="25:2-25:594"&gt;We as a society need to reckon with how this twists us up, makes us more paranoid, more judgmental, more aggressive, more reactionary, because when everything is subtly annoying, we all simmer and suffer in manifold ways. There is no digital world and physical world — they are, and have been, the same for quite some time, and reporting on tech as if this isn’t the case fails the user. It may seem a little dramatic, but take a second and really think about how many little digital irritations you deal with in a day. It’s time to wake up to the fact that our digital lives are rotten.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="27:1-27:218"&gt;
+&lt;p data-sourcepos="27:2-27:218"&gt;I’m not talking about one single product or company, but most digital experiences. The interference is everywhere, and we’ve all learned to accept conditions that are, when written out plainly, are kind of insane.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="29:1-29:4"&gt;
+&lt;p data-sourcepos="29:2-29:4"&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="31:1-31:374"&gt;
+&lt;p data-sourcepos="31:3-31:374"&gt;Earlier in the year, smart speaker company Sonos released a redesign of its app that removed accessibility features and the ability to edit song queues or play music from your phone in an attempt to “modernize” the interface, with WIRED suggesting that the changes could potentially open the door to adding a subscription of some sort to help Sonos’ ailing growth…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="33:1-33:579"&gt;
+&lt;p data-sourcepos="33:2-33:579"&gt;Now, what’s important to accept here is that absolutely none of this is done with any real consideration of the wider effects on the customer, as long as the customer continues doing the things that the company needs them to. We, as people, have been trained to accept a kind of digital transience — an inherent knowledge that things will change at random, that the changes may suck, and that we will just have to accept them because that’s how the computer works, and these companies work hard to suppress competition as a means of making sure they can do what they want.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-sourcepos="35:1-35:61"&gt;the end that’s the tweet full stop &lt;a href="/tags/antihumanism"&gt;#antihumanism&lt;/a&gt; &lt;a href="/tags/programming"&gt;#programming&lt;/a&gt;&lt;/p&gt;
+&lt;section class="footnotes" data-footnotes&gt;
+&lt;ol&gt;
+&lt;li id="fn-not-original"&gt;
+&lt;p data-sourcepos="37:18-37:141"&gt;This is not an original idea; I read something like this on someone’s blog, or on Mastodon, but darned if I can find it now. &lt;a href="#fnref-not-original" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</content>
+  </entry>
   <entry>
     <id>http://okayfail.com/garden/theyre-going-to-build-camps.html</id>
     <published>2024-11-19T00:00:00Z</published>
-    <updated>2024-11-19T14:49:09Z</updated>
+    <updated>2024-11-19T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/garden/theyre-going-to-build-camps.html"/>
     <title>they’re going to build camps</title>
     <content type="html">&lt;h1 data-sourcepos="1:1-1:32"&gt;
@@ -41,7 +88,7 @@
   <entry>
     <id>http://okayfail.com/garden/tcaf-2024-review-chromatic-fantasy.html</id>
     <published>2024-05-16T00:00:00Z</published>
-    <updated>2024-05-17T15:05:00Z</updated>
+    <updated>2024-05-16T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/garden/tcaf-2024-review-chromatic-fantasy.html"/>
     <title>TCAF 2024 and "The Chromatic Fantasy"</title>
     <content type="html">&lt;h1 data-sourcepos="1:1-1:39"&gt;
@@ -118,7 +165,7 @@ The art has to “pop”. Half-tone manga leaves me cold. I like that photocopie
   <entry>
     <id>http://okayfail.com/garden/youre-not-facebook-why-use-their-tools.html</id>
     <published>2024-04-22T00:00:00Z</published>
-    <updated>2024-04-25T15:03:59Z</updated>
+    <updated>2024-04-22T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/garden/youre-not-facebook-why-use-their-tools.html"/>
     <title>You're not Facebook. Why use their tools?</title>
     <content type="html">&lt;h1 data-sourcepos="1:1-1:43"&gt;
@@ -176,7 +223,7 @@ The art has to “pop”. Half-tone manga leaves me cold. I like that photocopie
   <entry>
     <id>http://okayfail.com/garden/hyperobjects.html</id>
     <published>2024-03-25T00:00:00Z</published>
-    <updated>2024-04-25T14:52:25Z</updated>
+    <updated>2024-03-25T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/garden/hyperobjects.html"/>
     <title>hyperobjects</title>
     <content type="html">&lt;h1 data-sourcepos="1:1-1:14"&gt;
@@ -245,7 +292,7 @@ The art has to “pop”. Half-tone manga leaves me cold. I like that photocopie
   <entry>
     <id>http://okayfail.com/2024/planted-garden.html</id>
     <published>2024-03-24T00:00:00Z</published>
-    <updated>2024-04-15T01:24:32Z</updated>
+    <updated>2024-03-24T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/2024/planted-garden.html"/>
     <title>I've planted a garden 👩‍🌾🪴🪻</title>
     <content type="html">&lt;p data-sourcepos="1:1-1:133"&gt;I’m adding a &lt;a href="/garden.html"&gt;garden section&lt;/a&gt; to this website,&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-garden" id="fnref-garden" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt; in the hope that I am able to make something interesting bloom.&lt;/p&gt;
@@ -264,7 +311,7 @@ The art has to “pop”. Half-tone manga leaves me cold. I like that photocopie
   <entry>
     <id>http://okayfail.com/2021/good-news-we-can-fix-traffic-safety.html</id>
     <published>2021-11-22T00:00:00Z</published>
-    <updated>2024-05-14T14:05:19Z</updated>
+    <updated>2021-11-22T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/2021/good-news-we-can-fix-traffic-safety.html"/>
     <title>Good News: We Can Fix Traffic Safety!</title>
     <content type="html">&lt;figure id="fref:fig1"&gt;
@@ -302,7 +349,7 @@ The art has to “pop”. Half-tone manga leaves me cold. I like that photocopie
   <entry>
     <id>http://okayfail.com/2021/british-columbia-more-yimby-california.html</id>
     <published>2021-11-17T00:00:00Z</published>
-    <updated>2023-12-21T19:14:24Z</updated>
+    <updated>2021-11-17T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/2021/british-columbia-more-yimby-california.html"/>
     <title>British Columbia is YIMBYer than California</title>
     <content type="html">&lt;h3 data-sourcepos="1:1-1:120"&gt;
@@ -369,7 +416,7 @@ The art has to “pop”. Half-tone manga leaves me cold. I like that photocopie
   <entry>
     <id>http://okayfail.com/2021/diptheria-tetanus-pertussis-polio-haemophilus-influenza.html</id>
     <published>2021-10-30T00:00:00Z</published>
-    <updated>2024-03-31T17:36:51Z</updated>
+    <updated>2021-10-30T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/2021/diptheria-tetanus-pertussis-polio-haemophilus-influenza.html"/>
     <title>Diphtheria, tetanus, pertussis, polio, and Haemophilus influenza</title>
     <content type="html">&lt;p data-sourcepos="1:1-1:45"&gt;The moment had arrived, the needle was ready.&lt;/p&gt;
@@ -386,7 +433,7 @@ The art has to “pop”. Half-tone manga leaves me cold. I like that photocopie
   <entry>
     <id>http://okayfail.com/2020/remote-work-gentrification.html</id>
     <published>2020-10-26T00:00:00Z</published>
-    <updated>2024-03-31T17:36:24Z</updated>
+    <updated>2020-10-26T00:00:00Z</updated>
     <link rel="alternate" type="text/html" href="http://okayfail.com/2020/remote-work-gentrification.html"/>
     <title>Remote Work Isn't Gentrification</title>
     <content type="html">&lt;p data-sourcepos="1:1-1:316"&gt;Before the pandemic, fully remote work was rare. Now, many large tech companies are embracing remote work — and in tandem announcing that &lt;a href="https://arstechnica.com/tech-policy/2020/05/facebook-workers-get-remote-work-option-but-it-could-come-with-a-pay-cut/"&gt;compensation will be scaled by geographic location&lt;/a&gt;.&lt;/p&gt;
@@ -437,28 +484,5 @@ The art has to “pop”. Half-tone manga leaves me cold. I like that photocopie
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</content>
-  </entry>
-  <entry>
-    <id>http://okayfail.com/2020/bailout-landlords-social-housing.html</id>
-    <published>2020-04-09T00:00:00Z</published>
-    <updated>2024-03-31T17:49:12Z</updated>
-    <link rel="alternate" type="text/html" href="http://okayfail.com/2020/bailout-landlords-social-housing.html"/>
-    <title>Bailout Landlords, Get Social Housing</title>
-    <content type="html">&lt;p data-sourcepos="1:1-1:145"&gt;&lt;em&gt;A version of this article was published in &lt;a href="https://readpassage.com/protect-tenants-from-covid-19-by-nationalizing-landlords-assets/"&gt;Passage&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;p data-sourcepos="3:1-3:229"&gt;With the economy grinding to a halt due to the social distancing measures and emergency lockdowns imposed in order to fight COVID-19, more than a million of Canadians have lost their jobs and are filing for employment insurance.&lt;/p&gt;
-&lt;p data-sourcepos="5:1-5:294"&gt;This poses a unique danger to tenants. A half century of housing and tax policies that discriminate against tenants has highly stratified who rents and who owns their accommodations by income — as of 2016, the average household income of Canadian homeowners was nearly double that of renters.&lt;/p&gt;
-&lt;p data-sourcepos="7:1-7:372"&gt;Many tenants are now, or soon will be, having to choose between buying groceries and paying rent, as the government’s support programs exclude a great deal of people. Moreover, while many homeowners are being allowed to defer their mortgage payments, tenants have yet to receive any targeted support, other than formal evictions being put on hold in much of the country.&lt;/p&gt;
-&lt;p data-sourcepos="9:1-9:413"&gt;A pause on formal evictions, however, isn’t good enough. Many evictions happen informally, through harassment, intimidation or a simple desire on the tenant’s part to move on and not get into a protracted fight. Landlords as a class aren’t renowned for their charity, and we’ve already begun to hear about tenants being threatened and locked out, including a nurse working 15-hour days to fight COVID-19.&lt;/p&gt;
-&lt;p data-sourcepos="11:1-11:450"&gt;Many people are at real risk of finding themselves homeless during this crisis. This matters even more than usual because, due to decades of inaction, our homeless population is in greater danger due to COVID-19. Our homeless shelters are chronically overcrowded, and it’s impossible to effectively maintain social distancing. As more homeless people test positive for COVID-19, it’s even crueler than usual to be pushing people onto the streets.&lt;/p&gt;
-&lt;p data-sourcepos="13:1-13:834"&gt;This brings us back to landlords. As the rent strike spreads from the residential to the commercial and retail sector, and as the Airbnb short-term rental market has effectively been destroyed by travel restrictions, many landlords are also seeing their income evaporate overnight. Given that in the past few years real estate investors were strongly incentivized to load up on debt and hold over-leveraged bets, many landlords will soon find themselves insolvent and unable to make good on their mortgage payments. Before long, a sufficiently drawn-out rent strike will cascade through the economy and turn into a widespread consumer and commercial debt default. In other words, if things get bad enough for enough people, a short time from now we’ll have a real estate market crash and a financial crisis to compound our trouble.&lt;/p&gt;
-&lt;p data-sourcepos="15:1-15:662"&gt;Those of us watching the overheated real estate markets in Vancouver or Toronto may feel a twinge of schadenfreude. Short-term rental platforms have removed thousands of units from our rental markets, and we’re better off without them. There’s not a lot of sympathy to go around for the Airbnb speculator. Regardless, these are real problems that will prompt the government to act: Eventually, someone is going to end up getting a bailout. The issue for those of us on the left is who, exactly, will be on the receiving end, as modern real estate financing depends on a long chain that stretches from a tenant all the way down to mortgage securities markets.&lt;/p&gt;
-&lt;p data-sourcepos="17:1-17:495"&gt;This crisis presents a unique opportunity. If and when the time to bailout the real estate market comes, we will be presented with a choice in how to use public funding. The default choice is to prop up the mortgage securities market  — as we’ve already begun to do — let smaller landlords hang out to dry, and sit back and watch as large, well-capitalized, corporations buy up their properties on the cheap. We’ll indirectly bailout the financial system and allow inequality to worsen.&lt;/p&gt;
-&lt;p data-sourcepos="19:1-19:59"&gt;Instead, we should nationalize landlords’ housing units.&lt;/p&gt;
-&lt;p data-sourcepos="21:1-21:683"&gt;The bailout could work like this: any residential property owner can sell their units in exchange for their accumulated equity plus inflation. The provincial or federal government would assume their debts, and continue housing their tenants, if any. Existing tenants would avoid being evicted during this crisis, and units that are currently empty can be provided to tenants on social housing waiting lists. This would also guarantee the financial system, and allow scores of landlords to avoid fire-sales of their assets. More importantly, this could add thousands of sorely needed affordable social housing units to our housing mix, and begin to correct decades of policy mistakes.&lt;/p&gt;
-&lt;p data-sourcepos="23:1-23:310"&gt;Social housing is an essential part of our social welfare system. Being homeless causes so much instability that it effectively locks you out of both the formal economy and many government services, as well as the labour market income needed to access  the vast majority of housing in Canada, which is private.&lt;/p&gt;
-&lt;p data-sourcepos="25:1-25:247"&gt;The government used to understand this conundrum, and in the post-war era we began to significantly invest in the construction of social housing: From the mid-1960s to the mid-90s, social housing accounted for about 10 per cent of all new housing.&lt;/p&gt;
-&lt;p data-sourcepos="27:1-27:314"&gt;That changed in the early-to-mid 1990s with governments at the federal and provincial levels, which rapidly divested and ceased building and supporting social housing. For the last 25 years we’ve been starving the social housing sector, and watched as waiting lists lengthened and rates of homelessness exploded.&lt;/p&gt;
-&lt;p data-sourcepos="29:1-29:590"&gt;Tenants need to be protected from eviction, and to prevent them from going bankrupt by extension we must also help their landlords. But public money ought not go to private profit. By nationalizing the assets of soon-to-be insolvent landlords and Airbnb real estate speculators, we can ameliorate a costly market crash, prevent economic inequality from rapidly worsening, prevent more tenants from becoming homeless, take currently homeless people off the streets by housing them in now-empty short-term rental properties, and restore a crucially needed sector of our social welfare system.&lt;/p&gt;
-&lt;p data-sourcepos="31:1-31:72"&gt;The time to act might come sooner than you think. We should be prepared.&lt;/p&gt;</content>
   </entry>
 </feed>

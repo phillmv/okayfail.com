@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://okayfail.com/tags/programming/atom.xml</id>
+  <link rel="alternate" type="text/html" href="http://okayfail.com/tags/programming.html"/>
+  <link rel="self" type="application/atom+xml" href="http://okayfail.com/tags/programming/atom.xml"/>
+  <title>okayfail.com (feed for #programming)</title>
+  <updated>2024-12-21T00:00:00Z</updated>
+  <author>
+    <name>Phill Mendonça-Vieira</name>
+  </author>
+  <entry>
+    <id>http://okayfail.com/garden/uis-should-be-versioned-just-like-we-version-apis.html</id>
+    <published>2024-12-21T00:00:00Z</published>
+    <updated>2024-12-21T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://okayfail.com/garden/uis-should-be-versioned-just-like-we-version-apis.html"/>
+    <title>UIs Should Be Versioned, Just Like We Version APIs</title>
+    <content type="html">&lt;h1 data-sourcepos="1:1-1:52"&gt;
+&lt;a id="uis-should-be-versioned-just-like-we-version-apis" class="anchor" href="#uis-should-be-versioned-just-like-we-version-apis" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;UIs Should Be Versioned, Just Like We Version APIs&lt;/h1&gt;
+&lt;p data-sourcepos="3:1-3:389"&gt;Every organization that offers an application programming interface almost immediately starts to version it. APIs are essentially contracts between us, service providers, and our users. The bargain is you build your app using our service in some presumably mutually beneficial arrangement, and in exchange we promise to give you a stable platform atop which you will construct your dreams.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:522"&gt;Everyone agrees that it is extremely rude to break an API. Changing APIs unexpectedly makes our users sad because their robots will break, and they will be forced to waste time and energy figuring out whatever broke. To prevent this, we version our APIs. Versions are clauses in this contract: we say, this is &lt;code&gt;v1&lt;/code&gt; or &lt;code&gt;v2&lt;/code&gt; or &lt;code&gt;20241231&lt;/code&gt; or whatever, and we hereby promise to not change it. Should you want to use latest and greatest features, you are free to upgrade at your leisure. Or not don’t upgrade, that’s fine too.&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:41"&gt;Why don’t we do this for user interfaces?&lt;/p&gt;
+&lt;p data-sourcepos="9:1-9:230"&gt;We &lt;em&gt;could&lt;/em&gt; version UIs, but we don’t.  We change UIs constantly, remorselessly. Every reason for providing stable interfaces applies just as well for &lt;em&gt;human beings&lt;/em&gt; as they do for robots – but somehow we only respect the robots.&lt;/p&gt;
+&lt;p data-sourcepos="11:1-11:137"&gt;Why is that? Pure vibes but I feel like the reason ultimately is that we, the computer industry, hate people and wish for them to suffer.&lt;/p&gt;
+&lt;p data-sourcepos="13:1-13:135"&gt;👉 There’s absolutely &lt;strong&gt;no reason&lt;/strong&gt; why we can’t show the same care and attention to how changes impact our UIs as we do to our APIs.&lt;/p&gt;
+&lt;p data-sourcepos="15:1-15:348"&gt;We have zero respect for the effort humans have to put into learning interfaces, and we actively destroy any skills they may have painfully acquired for using the tools we gave them. You can spend a lifetime learning how to use a paint brush, a knife or a needle more skillfully, and be rewarded for it with efficiency and expertise.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-not-original" id="fnref-not-original" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p data-sourcepos="17:1-17:214"&gt;Yet once a computer is involved a programmer somewhere will unthinkingly destroy all of that built up skill every 24-36 months just because &lt;em&gt;&lt;a href="https://en.wikipedia.org/wiki/Flat_design"&gt;it’s no longer fashionable&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p data-sourcepos="19:1-19:172"&gt;Anyways, I was reminded of this while &lt;a href="https://www.wheresyoured.at/never-forgive-them/"&gt;reading this depressing and correct essay by Ed Zitron about our dystopian present&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote data-sourcepos="21:1-21:488"&gt;
+&lt;p data-sourcepos="21:2-21:488"&gt;The tools we use in our daily lives outside of our devices have mostly stayed the same. While buttons on our cars might have moved around […] we generally have a brake, an accelerator, a wheel, and a turn signal. Boarding an airplane has worked mostly the same way since I started flying, other than moving from physical tickets to digital ones. We’re not expected to work out “the new way to use a toilet” every few months because somebody decided we were finishing too quickly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="23:1-23:333"&gt;
+&lt;p data-sourcepos="23:2-23:333"&gt;Yet our apps and the platforms we use every day operate by a totally different moral and intellectual compass. While the idea of an update is fairly noble… many tech platforms see it as a means to further extract and exploit, to push users into doing things that either keep them on the app longer or take more-profitable actions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="25:1-25:594"&gt;
+&lt;p data-sourcepos="25:2-25:594"&gt;We as a society need to reckon with how this twists us up, makes us more paranoid, more judgmental, more aggressive, more reactionary, because when everything is subtly annoying, we all simmer and suffer in manifold ways. There is no digital world and physical world — they are, and have been, the same for quite some time, and reporting on tech as if this isn’t the case fails the user. It may seem a little dramatic, but take a second and really think about how many little digital irritations you deal with in a day. It’s time to wake up to the fact that our digital lives are rotten.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="27:1-27:218"&gt;
+&lt;p data-sourcepos="27:2-27:218"&gt;I’m not talking about one single product or company, but most digital experiences. The interference is everywhere, and we’ve all learned to accept conditions that are, when written out plainly, are kind of insane.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="29:1-29:4"&gt;
+&lt;p data-sourcepos="29:2-29:4"&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="31:1-31:374"&gt;
+&lt;p data-sourcepos="31:3-31:374"&gt;Earlier in the year, smart speaker company Sonos released a redesign of its app that removed accessibility features and the ability to edit song queues or play music from your phone in an attempt to “modernize” the interface, with WIRED suggesting that the changes could potentially open the door to adding a subscription of some sort to help Sonos’ ailing growth…&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote data-sourcepos="33:1-33:579"&gt;
+&lt;p data-sourcepos="33:2-33:579"&gt;Now, what’s important to accept here is that absolutely none of this is done with any real consideration of the wider effects on the customer, as long as the customer continues doing the things that the company needs them to. We, as people, have been trained to accept a kind of digital transience — an inherent knowledge that things will change at random, that the changes may suck, and that we will just have to accept them because that’s how the computer works, and these companies work hard to suppress competition as a means of making sure they can do what they want.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p data-sourcepos="35:1-35:61"&gt;the end that’s the tweet full stop &lt;a href="/tags/antihumanism"&gt;#antihumanism&lt;/a&gt; &lt;a href="/tags/programming"&gt;#programming&lt;/a&gt;&lt;/p&gt;
+&lt;section class="footnotes" data-footnotes&gt;
+&lt;ol&gt;
+&lt;li id="fn-not-original"&gt;
+&lt;p data-sourcepos="37:18-37:141"&gt;This is not an original idea; I read something like this on someone’s blog, or on Mastodon, but darned if I can find it now. &lt;a href="#fnref-not-original" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</content>
+  </entry>
+</feed>
