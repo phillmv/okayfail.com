@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://okayfail.com/tags/gender/atom.xml</id>
+  <link rel="alternate" type="text/html" href="http://okayfail.com/tags/gender.html"/>
+  <link rel="self" type="application/atom+xml" href="http://okayfail.com/tags/gender/atom.xml"/>
+  <title>okayfail.com (feed for #gender)</title>
+  <updated>2025-02-03T00:00:00Z</updated>
+  <author>
+    <name>Phill Mendonça-Vieira</name>
+  </author>
+  <entry>
+    <id>http://okayfail.com/garden/everyone-transitions.html</id>
+    <published>2025-02-03T00:00:00Z</published>
+    <updated>2025-02-03T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://okayfail.com/garden/everyone-transitions.html"/>
+    <title>Everyone Transitions</title>
+    <content type="html">&lt;h1 data-sourcepos="1:1-1:22"&gt;
+&lt;a id="everyone-transitions" class="anchor" href="#everyone-transitions" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Everyone Transitions&lt;/h1&gt;
+&lt;p data-sourcepos="3:1-3:132"&gt;People make a big deal out of transitioning &lt;a href="https://www.todepond.com/wikiblogarden/health/transition/in-slow-motion/"&gt;your gender&lt;/a&gt;.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:230"&gt;Some people will call you brave, and others will threaten you with violence. Your friends and family might throw you a party, while your romantic partner might experience full on grief, and sit shiva for the person you used to be.&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:68"&gt;It’s like a whole thing, but it doesn’t have to be. Here’s the deal:&lt;/p&gt;
+&lt;p data-sourcepos="9:1-9:118"&gt;Everyone transitions. Let’s say that again. &lt;strong&gt;Everyone&lt;/strong&gt; &lt;em&gt;transitions&lt;/em&gt;. Everyone is transitioning, present continuous.&lt;/p&gt;
+&lt;p data-sourcepos="11:1-11:186"&gt;The only constant is change, and all of us are always changing all of the time. To live is to change, for only death is immutable – and even then you spend a lot of time rotting first.&lt;/p&gt;
+&lt;p data-sourcepos="13:1-13:211"&gt;You are not the man your wife married all those years ago (that guy had more hair). Your closet is full of dresses you don’t feel like wearing anymore. You used to be really into nu metal, but… now you’re not.&lt;/p&gt;
+&lt;p data-sourcepos="15:1-15:63"&gt;Yesterday, you were a baby and tomorrow you will be a babushka.&lt;/p&gt;
+&lt;p data-sourcepos="17:1-17:53"&gt;That’s life! You only live once, make the best of it.&lt;/p&gt;
+&lt;p data-sourcepos="19:1-19:7"&gt; &lt;a href="/tags/gender"&gt;#gender&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+</feed>
