@@ -1,5 +1,6 @@
 ---
 occurred_at: 2024-11-19
+tags: politics travel
 ---
 
 # they’re going to build camps

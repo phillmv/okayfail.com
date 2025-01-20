@@ -1,3 +1,7 @@
+<% content_for :page_title do %>
+  <title>Archive – Phill MV</title>
+<% end %>
+
 <container>
 <div class="one-column">
   <div class="entry-header">
@@ -12,7 +16,10 @@
     <% @all_entries.each do |article| %>
       <li class="article">
         <h3><%= link_to article.subject, article %></h3>
-        <h5><%= article.occurred_at.strftime('%B %-d, %Y') %></h5>
+        <% if article.summary.present? %>
+          <p><%= article.summary.html_safe %></p>
+        <% end %>
+        <h5 class="date"><%= article.occurred_at.strftime('%B %-d, %Y') %> <% if article.tags.any? %>| <%= article.tags.pluck(:name).map { |s| link_to(s, tag_path(query: s.gsub("#", ""))).html_safe }.join(", ").html_safe %><% end %></h5>
       </li>
     <% end %>
   </ol>

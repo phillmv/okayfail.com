@@ -188,9 +188,19 @@ container {
     margin-bottom: 0.4em;
   }
 
+  p {
+    font-size: 18px;
+    margin-bottom: 0.4em;
+  }
+
   h5 {
     margin-top: 0em;
   }
+
+  h5.date a {
+    color: black;
+  }
+
 }
 // } end timeline/index.html.erb
 

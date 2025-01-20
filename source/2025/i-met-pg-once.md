@@ -2,8 +2,8 @@
 layout: post
 subject: "I Met Paul Graham Once"
 occurred_at: 2025-01-16
-summary: Are tech industry leaders going to discriminate against me?
-tags: tech queer
+summary: In their rush to conform, to obey, are tech industry leaders planning to discriminate against me?
+tags: tech queer politics
 ---
 
 _Nota bene: I've had a rough 2025 so far. I'm worried that people who used to support, or at least tolerate me, will turn against me out of a desire to conform, to show their obeisance, to the current prevailing winds. I found myself writing this essay to explain why I've been feeling so miserable. I sent it to Paul before I published it here._

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>http://okayfail.com/tags/politics/atom.xml</id>
+  <link rel="alternate" type="text/html" href="http://okayfail.com/tags/politics.html"/>
+  <link rel="self" type="application/atom+xml" href="http://okayfail.com/tags/politics/atom.xml"/>
+  <title>okayfail.com (feed for #politics)</title>
+  <updated>2025-01-16T00:00:00Z</updated>
+  <author>
+    <name>Phill Mendonça-Vieira</name>
+  </author>
+  <entry>
+    <id>http://okayfail.com/2025/i-met-pg-once.html</id>
+    <published>2025-01-16T00:00:00Z</published>
+    <updated>2025-01-16T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://okayfail.com/2025/i-met-pg-once.html"/>
+    <title>I Met Paul Graham Once</title>
+    <content type="html">&lt;p data-sourcepos="1:1-1:346"&gt;&lt;em&gt;Nota bene: I’ve had a rough 2025 so far. I’m worried that people who used to support, or at least tolerate me, will turn against me out of a desire to conform, to show their obeisance, to the current prevailing winds. I found myself writing this essay to explain why I’ve been feeling so miserable. I sent it to Paul before I published it here.&lt;/em&gt;&lt;/p&gt;
+&lt;p data-sourcepos="3:1-3:23"&gt;I met Paul Graham once.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:217"&gt;It was the summer of 2015, and we were attending Y Combinator, the premier finishing school for startup founders. It was a long and stressful summer, holed up in our apartment in Mountain View, and a great experience.&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:44"&gt;We benefitted immensely from our time there.&lt;/p&gt;
+&lt;p data-sourcepos="9:1-9:322"&gt;At Y Combinator, there was sort of a curriculum, but they didn’t teach you anything per se. You’re assigned mentors, who you meet weekly, and you are free to book office hours – thirty minutes at a time – with a rotating cast of partners, each and every one of them formidable people, near or at the top of the field.&lt;/p&gt;
+&lt;p data-sourcepos="11:1-11:74"&gt;The mentors applied a neat and very effective trick: they believed in you.&lt;/p&gt;
+&lt;p data-sourcepos="13:1-13:250"&gt;Out of thousands of applicants, you had been chosen, plucked from obscurity, and flown out, and now you were here, in the centre of the (software) universe. They had invested in you, you personally, above and beyond your specific idea for a business.&lt;/p&gt;
+&lt;p data-sourcepos="15:1-15:182"&gt;Now every week you spoke with them, and presented your metrics, and discussed your problems, and, well, you could be doing better, couldn’t you? These results, they were kind of mid.&lt;/p&gt;
+&lt;p data-sourcepos="17:1-17:299"&gt;They didn’t boss us around, or tell us what to do, but we didn’t want to disappoint teacher. Their approval meant a lot. Doors would open. Success was at our fingertips: the summer culminated in Demo Day, a cattle call where we would be presented to investors, and our future might change forever.&lt;/p&gt;
+&lt;p data-sourcepos="19:1-19:214"&gt;We worked harder. We learned how to hustle. We swallowed rejection. We doubled our efforts, bent over our desks, working until we could barely see straight, trying to figure out how to &lt;em&gt;make something people want&lt;/em&gt;.&lt;/p&gt;
+&lt;hr data-sourcepos="21:1-22:0"&gt;
+&lt;p data-sourcepos="23:1-23:255"&gt;One day, we booked a meeting with pg (Paul Graham). He had just retired from the day to day running of the show, handed the reigns over to sama (Sam Altman), and now roamed the halls as an elder statesmen, a congenial and affable uncle, dispensing advice.&lt;/p&gt;
+&lt;p data-sourcepos="25:1-25:443"&gt;We were excited. I don’t think he was ever a &lt;em&gt;hero&lt;/em&gt; of mine, but he certainly had influence, made a big impression on me. I had read his essays eight or nine years earlier, during my undergraduate, hunched over a screen in my university’s computer lab, nodding along. I spent way too much time on hackernews. Lisp was cool, I was special for just taking an interest in startups and software, we could do anything if we worked hard enough.&lt;/p&gt;
+&lt;p data-sourcepos="27:1-27:142"&gt;We explained our pitch to him: Appcanary monitors your apps and servers, and lets you know when you’re affected by a security vulnerability.&lt;/p&gt;
+&lt;p data-sourcepos="29:1-29:278"&gt;He thought it was a decent enough idea, but the name, Appcanary, he wasn’t crazy about the name. He was very good at naming companies. He thought about it and told us that, really, we ought to be named Oracle, that would be a great name for us. Descriptive, simple, memorable.&lt;/p&gt;
+&lt;p data-sourcepos="31:1-31:27"&gt;Shame it was taken, though.&lt;/p&gt;
+&lt;p data-sourcepos="33:1-33:78"&gt;We nodded and thanked him, and laughed about it later. No one bats a thousand.&lt;/p&gt;
+&lt;hr data-sourcepos="35:1-36:0"&gt;
+&lt;p data-sourcepos="37:1-37:41"&gt;YC had a huge positive impact on my life.&lt;/p&gt;
+&lt;p data-sourcepos="39:1-39:174"&gt;People took us more seriously now. Before we were randos, misfits even, but now we were Princes of the Universe. We had rubbed shoulders with royalty, or at least sovereigns.&lt;/p&gt;
+&lt;p data-sourcepos="41:1-41:87"&gt;Someone had believed in us, and pushed us until we understood how to make our own luck.&lt;/p&gt;
+&lt;p data-sourcepos="43:1-43:360"&gt;We grew a lot that summer, but we didn’t raise that much money. A bit, enough to keep us going. I loved California, I liked San Francisco, but I didn’t feel comfortable trying to live there. I felt gross being part of a monied class in a city rapidly hollowing out. I’d had a precarious childhood and early adulthood, and I craved some kind of stability.&lt;/p&gt;
+&lt;p data-sourcepos="45:1-45:276"&gt;Back home, we lived in the Best Neighbourhood in the Last Affordable Apartment In West Toronto. We knew it would reduce our chances for success, but it would double our runway. In the winter, I had started dating this most amazing girl, and I wanted to see where it would go.&lt;/p&gt;
+&lt;p data-sourcepos="47:1-47:423"&gt;Two years later, we realized that everyone thought our product was useful but not &lt;em&gt;that&lt;/em&gt; useful. We could get people to pay us hundreds of dollars per month, but not thousands. That’s the death knell of a vc-backed b2b saas sales model. High-touch sales to large companies is not worth it unless you can score thousands of dollars per month. We were too burnt out to pivot to another business idea, and we quietly folded.&lt;/p&gt;
+&lt;p data-sourcepos="49:1-49:490"&gt;It was good timing: almost immediately after, GitHub announced they were going to provide our startup’s features &lt;strong&gt;for free&lt;/strong&gt;. We gave them a call, we got them excited. They “acquihired” us as subject matter experts, and paid us a small fee for the intellectual property. We returned something like 40 or 45 cents on the dollar to our investors. Not a great result, but about par for the course. Most startups fail. Some of our Summer 2015 cohort flamed out faster, or more spectacularly.&lt;/p&gt;
+&lt;p data-sourcepos="51:1-51:95"&gt;One of our investors commended us for our ethical behaviour – not everyone returns the money.&lt;/p&gt;
+&lt;hr data-sourcepos="53:1-54:0"&gt;
+&lt;p data-sourcepos="55:1-55:137"&gt;It’s been almost ten years. After we got hired, Microsoft bought GitHub. I’m still with that amazing girl. We have two kids, a house.&lt;/p&gt;
+&lt;p data-sourcepos="57:1-57:22"&gt;I’m transgender now.&lt;/p&gt;
+&lt;p data-sourcepos="59:1-59:423"&gt;It turns out that I like women so much I’d like to be one of them. Or as close as I can get. I’m happier now, more joyful. I feel in touch with my body, and how I move through the world, in ways I didn’t before. Up until very recently, very few people would confuse me for a woman. It took me a while to remove my facial hair, I still haven’t trained my voice. That’s OK. What is a woman, exactly? I don’t know.&lt;/p&gt;
+&lt;p data-sourcepos="61:1-61:258"&gt;I don’t want to make anyone uncomfortable. For that reason, I like to say that I am “non-binary trans femme”. It’s a mouthful, I know. But asking to be called “they” feels less burdensome, less of a polite fiction, than to ask to be called “she”.&lt;/p&gt;
+&lt;p data-sourcepos="63:1-63:92"&gt;I just want to be treated with respect, and kindness. I don’t think I’m asking for much.&lt;/p&gt;
+&lt;p data-sourcepos="65:1-65:77"&gt;Why is it wrong for me to have more joy in my life? I’m not hurting anyone.&lt;/p&gt;
+&lt;hr data-sourcepos="67:1-68:0"&gt;
+&lt;p data-sourcepos="69:1-69:65"&gt;A few days ago, Paul Graham published an essay on “Wokeness”.&lt;/p&gt;
+&lt;p data-sourcepos="71:1-71:436"&gt;I skimmed it. I couldn’t finish reading it, it made me too upset. It came a few days after Mark Zuckerberg announced he was going to increase the hate speech people like me receive. It’s not OK to imply someone has a mental disability – unless it’s because they’re queer. He also quietly removed some trivial accomodations he had made for his transgender employees.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-accomodations" id="fnref-accomodations" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt;  &lt;em&gt;That&lt;/em&gt; stung. That felt personal, targeted.&lt;/p&gt;
+&lt;p data-sourcepos="75:1-75:93"&gt;I’ve been feeling quite anxious ever since. It feels like the world is crumbling around me.&lt;/p&gt;
+&lt;p data-sourcepos="77:1-77:352"&gt;I’m still not sure what pg thinks “Wokeness” means.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-performative" id="fnref-performative" data-footnote-ref&gt;2&lt;/a&gt;&lt;/sup&gt; I know for a fact, that for most people – including many of the people he hangs out with – it just means “left-wing thing I dislike”. I got the impression that he thinks it’s bad, and that companies should purge people who are too woke. Maybe I’m being unfair to him.&lt;/p&gt;
+&lt;p data-sourcepos="81:1-81:255"&gt;The irony is I too dislike nagging, hollow, corporate DEI exercises. In the abstract I was glad they existed&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-dei" id="fnref-dei" data-footnote-ref&gt;3&lt;/a&gt;&lt;/sup&gt; but the insincerity was palpable. Are “identity politics” just a status game that economically advantaged elites play? I could be convinced.&lt;/p&gt;
+&lt;hr data-sourcepos="85:1-86:0"&gt;
+&lt;p data-sourcepos="87:1-87:161"&gt;In the 2021 novel “Detransition Baby” the author shares a joke. Transgender women only have one of three jobs: computer programmer, aesthetician, prostitute.&lt;/p&gt;
+&lt;p data-sourcepos="89:1-89:518"&gt;It’s an old joke. More of an observation, really. The director of “Vestidas de Azul”, &lt;a href="https://thefilmstage.com/dressed-in-blue-review-a-long-lost-essential-document-of-spanish-and-lgbtqi-cinema-history-gets-new-life/"&gt;a 1983 documentary about trans women in Madrid&lt;/a&gt;, had hoped to make a movie about trans women who were lawyers or held important roles in society. Instead he discovered that most trans women were &lt;strong&gt;forced&lt;/strong&gt; to be artists, hair dressers, or sex workers – so that’s who he made his movie about.&lt;/p&gt;
+&lt;p data-sourcepos="91:1-91:79"&gt;I’m glad I can be a computer programmer; no one gets to be an artist anymore.&lt;/p&gt;
+&lt;p data-sourcepos="93:1-93:223"&gt;If you haven’t met many trans women, that might sound over-the-top, hyperbolic. But for so long, people like me were strongly discriminated against. Until very recently, we were treated as bywords for freaks, or psycopaths.&lt;/p&gt;
+&lt;p data-sourcepos="95:1-95:239"&gt;In this vein, the other day I saw a scorching, sizzling hot take on Mastodon that read something like: the reason why conservative women are so mad about trans women is because they don’t want to share washrooms with the sex slave caste.&lt;/p&gt;
+&lt;hr data-sourcepos="97:1-98:0"&gt;
+&lt;p data-sourcepos="99:1-99:255"&gt;The reason why pg’s essay made me so upset, made me feel so dispirited, is because I benefitted directly from his largesse, from a system he set up. His “school” took a chance on me, taught me how to hustle, how to become a Princess of the Universe.&lt;/p&gt;
+&lt;p data-sourcepos="101:1-101:73"&gt;I’m immensely glad for the opportunity. Would I receive it again today?&lt;/p&gt;
+&lt;p data-sourcepos="103:1-103:262"&gt;In many people’s imagination, the word “woke” invokes someone exactly like me. I’m the person who is annoying about their pronouns. I’m the person who feels more comfortable using gender neutral bathrooms.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-bathrooms" id="fnref-bathrooms" data-footnote-ref&gt;4&lt;/a&gt;&lt;/sup&gt; I have a passing interest in social justice.&lt;/p&gt;
+&lt;p data-sourcepos="107:1-107:476"&gt;I’m concerned he, or rather, the people who succeeded him, would take one look at me, and decide that I am “too woke”, whatever that means. I worry that my existence, that my living in joy, in a state of grace, is “too woke” to be worth employing. I’m certain he wouldn’t be rude to my face, but he might quietly discriminate against me, say no thanks. He might not even think of it as discrimination, only that I don’t have what it takes. Whatever that means.&lt;/p&gt;
+&lt;p data-sourcepos="109:1-109:70"&gt;I think this is why the current turn in the industry is so unsettling.&lt;/p&gt;
+&lt;p data-sourcepos="111:1-111:635"&gt;It’s mean, and unkind. It’s malicious. Moves like Mark’s, and essays like pg’s, create the permission structure for people to discriminate against me. I’ve already been pushed out of Twitter; the &lt;a href="https://www.theguardian.com/technology/article/2024/sep/05/racism-misogyny-lies-how-did-x-become-so-full-of-hatred-and-is-it-ethical-to-keep-using-it"&gt;hate speech&lt;/a&gt; and &lt;a href="https://www.salon.com/2024/05/24/twitter-considers-cisgender-a-slur-and-moderates-it-over-actual-slurs/"&gt;censorship&lt;/a&gt; was too much to deal with. A lot of people feel that treating someone like me with respect is just a trendy moral fashion.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-conventionally-minded" id="fnref-conventionally-minded" data-footnote-ref&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p data-sourcepos="115:1-115:164"&gt;Will my next promotion be silently denied? Will a coworker try to disrespect me out of spite? Will I be shut out of big tech? Will anyone invest in my next startup?&lt;/p&gt;
+&lt;p data-sourcepos="117:1-117:117"&gt;I’m better at my job than most. I’d be a better startup founder today than I was in 2015. None of that will matter.&lt;/p&gt;
+&lt;p data-sourcepos="119:1-119:206"&gt;It feels as if people like pg, or at least people he hangs out with, who once upon a time believed in me, who lifted me up, recognized my talent, would now prefer that I be relegated to the sex slave caste.&lt;/p&gt;
+&lt;p data-sourcepos="121:1-121:9"&gt;It hurts.&lt;/p&gt;
+&lt;section class="footnotes" data-footnotes&gt;
+&lt;ol&gt;
+&lt;li id="fn-accomodations"&gt;
+&lt;p data-sourcepos="73:19-73:538"&gt;As reported by the &lt;a href="https://www.nytimes.com/2025/01/10/technology/meta-mark-zuckerberg-trump.html"&gt;nytimes&lt;/a&gt;, &lt;/p&gt;
+&lt;blockquote&gt;That same day at Meta’s offices in Silicon Valley, Texas and New York, facilities managers were instructed to remove tampons from men’s bathrooms, which the company had provided for nonbinary and transgender employees who use the men’s room and who may have required sanitary pads, two employees said.&lt;/blockquote&gt; Why go out of your way to remove them? Do tampons drain your masculine energy? &lt;a href="#fnref-accomodations" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;
+&lt;/li&gt;
+&lt;li id="fn-performative"&gt;
+&lt;p data-sourcepos="79:18-79:404"&gt;He does provide a definition: an aggressively performative focus on social justice. Who decides what is a “performative” focus? That seems to be the question. All sorts of things are a “performance”, cf Judith Butler. Artifacts – our art, our technology, our material culture – express politics, cf Langdon Winner. Racism is bad, but you musn’t be annoying about it? It’s incoherent. &lt;a href="#fnref-performative" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-dei"&gt;
+&lt;p data-sourcepos="83:9-83:78"&gt;A small minority of people really do need to be taught how to be kind. &lt;a href="#fnref-dei" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-bathrooms"&gt;
+&lt;p data-sourcepos="105:15-105:213"&gt;In bathrooms, sometimes men flinch when they see me, afraid that they walked in through the wrong door. In an airport, it can be charming, affirming even. In a bar with drunk people, it can be scary. &lt;a href="#fnref-bathrooms" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-conventionally-minded"&gt;
+&lt;p data-sourcepos="113:27-113:215"&gt;Some frame this as the “aggressively conventional-minded” shutting down free inquiry. I ask you, is there &lt;em&gt;anything&lt;/em&gt; more “aggressively independent-minded” than being gender-non-conforming? &lt;a href="#fnref-conventionally-minded" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</content>
+  </entry>
+  <entry>
+    <id>http://okayfail.com/garden/theyre-going-to-build-camps.html</id>
+    <published>2024-11-19T00:00:00Z</published>
+    <updated>2024-11-19T00:00:00Z</updated>
+    <link rel="alternate" type="text/html" href="http://okayfail.com/garden/theyre-going-to-build-camps.html"/>
+    <title>they’re going to build camps</title>
+    <content type="html">&lt;h1 data-sourcepos="1:1-1:32"&gt;
+&lt;a id="theyre-going-to-build-camps" class="anchor" href="#theyre-going-to-build-camps" aria-hidden="true"&gt;&lt;span aria-hidden="true" class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;they’re going to build camps&lt;/h1&gt;
+&lt;p data-sourcepos="3:1-3:308"&gt;the day after The 2024 Election, i happened to be in berlin. the night before i’d assiduously avoided the news and yet somehow i didn’t fall asleep until late into the morning. it was as if i was channeling the world’s cumulative anxiety. i came to, feeling exhausted, and checked the news, and felt worse.&lt;/p&gt;
+&lt;p data-sourcepos="5:1-5:373"&gt;it was an appropriately somber day: cold, foggy, near freezing. after we gathered our wits, we planned on visiting the brandenburg gate and the nearby memorials. on arrival, we saw a half dozen geriatric protestors holding a banner against russian war sanctions, and for “peace”, and a lone counter protestor with a ukrainian flag churned an organ grinder.&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-euro-discourse" id="fnref-euro-discourse" data-footnote-ref&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p data-sourcepos="7:1-7:341"&gt;we wandered towards the holocaust memorials. it felt sobering, which of course is their purpose, though it’s not like i learned anything i didn’t know before. i had a ww2 phase&lt;sup class="footnote-ref"&gt;&lt;a href="#fn-ww2-phase" id="fnref-ww2-phase" data-footnote-ref&gt;2&lt;/a&gt;&lt;/sup&gt; in university, i’d visited these same monuments long ago. but this time on this day i was struck by the timelines presented in the memorial plaques.&lt;/p&gt;
+&lt;p data-sourcepos="9:1-9:432"&gt;it’s not like people got shipped to a camp from one day to the next, as soon as the reichstag burned down. there was a whole decade of ratcheting humiliation and persecution. prevented from leaving, forced to divest of your heritage and your life savings, separated from your family, and finally worked to death. at an industrial scale they squeezed every ounce of vitality and hope from you before extinguishing your flame forever.&lt;/p&gt;
+&lt;p data-sourcepos="11:1-11:332"&gt;the last time i was here i didn’t have a family. the last time i was here i wasn’t queer yet, or at least i didn’t know it at the time. now i had an extra weight on my mind: is there anything worse than being separated from your children? people just like me were sent to these camps, too, a pink triangle pinned to their chest.&lt;/p&gt;
+&lt;p data-sourcepos="13:1-13:565"&gt;and i thought: they’re going to build new camps. first, they’ll come for the undocumented immigrants; people who are not quite like me, but whose spanish last names are similar to mine. then, they’ll come for the most annoying, the rowdiest leftists, the people willing to punch back and put their bodies on the line; people who have less to lose than i do, but whose politics are very similar to mine. and then, then they’ll come for people exactly like me, folks who live and love in freedom. and after that, the deluge, the free-for-all, the grab what you can.&lt;/p&gt;
+&lt;p data-sourcepos="15:1-15:268"&gt;at the next memorial, i wandered along the concrete stelae, feeling their smooth surface. as i walked along the uneven ground they rose above me, towering, grey columns against a grey sky. they obviously resemble giant tombstones: who could you have been?, i wondered.&lt;/p&gt;
+&lt;p data-sourcepos="17:1-17:219"&gt;and i thought: you can be ground to dust, and the echoes of your ghost will be used by your grandchildren to justify new atrocities. the death of your babies will be used to explain why someone else’s babies must die.&lt;/p&gt;
+&lt;p data-sourcepos="19:1-19:327"&gt;silence equals death, but as i type this i feel weary of talking too much or too plainly about &lt;em&gt;that&lt;/em&gt; genocide, the genocide that’s currently happening, for fear of retribution. in some quarters talking about it critically has been nearly criminalized. i’ve seen people get punished and blacklisted for speaking plain truths.&lt;/p&gt;
+&lt;p data-sourcepos="21:1-21:391"&gt;i’ve seen people i respected spew vile, reprehensible things, whether openly racist or just knowingly obfuscated. it’s sobering to know who – how many more – will see my humanity as conditional, too. is this something i’d be willing to lose a job over? it’s not my people, it’s not my fight, it’s far away, there’s hardly anything we can do anyways, i don’t need the attention.&lt;/p&gt;
+&lt;p data-sourcepos="23:1-23:23"&gt;am i on a list already?&lt;/p&gt;
+&lt;section class="footnotes" data-footnotes&gt;
+&lt;ol&gt;
+&lt;li id="fn-euro-discourse"&gt;
+&lt;p data-sourcepos="25:20-25:235"&gt;i squinted and tried to replay my understanding of european political discourse. i think they’re pro the evil dictator mainly because they are anti-north atlantic alliance? the geezers had an “anti-imperialist” vibe. &lt;a href="#fnref-euro-discourse" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn-ww2-phase"&gt;
+&lt;p data-sourcepos="26:15-26:455"&gt;i took a course on international relations leading up to ww1, which was mostly 19th century history. i took a course on ww2, and read the textbook, and then i read the rise and fall of the third reich (shirer), and then i read a world at arms (weinberg). i had a vague memory of newscasts playing footage from the fall of the berlin wall, but i did not apprehend its meaning until i took a course on the cold war. then i read postwar (judt). &lt;a href="#fnref-ww2-phase" class="footnote-backref" data-footnote-backref aria-label="Back to content"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</content>
+  </entry>
+</feed>
